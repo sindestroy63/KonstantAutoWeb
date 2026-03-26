@@ -1,0 +1,2 @@
+# Добавьте сюда изображения автомобилей: slug.jpg (например toyota_camry.jpg)
+# и укажите в data/cars.json поле "image": "/cars/toyota_camry.jpg"
