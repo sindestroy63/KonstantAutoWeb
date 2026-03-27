@@ -1,8 +1,10 @@
 export type LeadMode = "selection" | "consultation";
+export type ContactMethod = "MAX" | "WhatsApp" | "Telegram";
 
 export type SelectionPayload = {
   name: string;
-  contact: string;
+  phone: string;
+  contactMethod: ContactMethod | "";
   telegram: string;
   budget: string;
   budgetCustom: string;
@@ -17,7 +19,8 @@ export type SelectionPayload = {
 
 export type ConsultationPayload = {
   name: string;
-  contact: string;
+  phone: string;
+  contactMethod: ContactMethod | "";
   telegram: string;
   topic: string;
   question: string;
@@ -29,6 +32,8 @@ export type LeadPrefill = {
 };
 
 export type FieldErrors<T> = Partial<Record<keyof T, string>>;
+
+export const contactMethodOptions: ContactMethod[] = ["MAX", "WhatsApp", "Telegram"];
 
 export const selectionBudgetOptions = [
   "до 2 млн ₽",
@@ -87,7 +92,8 @@ export const consultationTopicOptions = [
 export function createEmptySelectionPayload(): SelectionPayload {
   return {
     name: "",
-    contact: "",
+    phone: "",
+    contactMethod: "",
     telegram: "",
     budget: "",
     budgetCustom: "",
@@ -104,7 +110,8 @@ export function createEmptySelectionPayload(): SelectionPayload {
 export function createEmptyConsultationPayload(): ConsultationPayload {
   return {
     name: "",
-    contact: "",
+    phone: "",
+    contactMethod: "",
     telegram: "",
     topic: "",
     question: "",
@@ -150,6 +157,7 @@ export function getBudgetLabel(data: Pick<SelectionPayload, "budget" | "budgetCu
   if (data.budget === "Свой вариант") {
     return getLeadValue(data.budgetCustom);
   }
+
   return getLeadValue(data.budget);
 }
 
@@ -160,8 +168,12 @@ export function validateSelectionPayload(data: SelectionPayload): FieldErrors<Se
     errors.name = "Укажите имя";
   }
 
-  if (normalizeText(data.contact).length < 5) {
-    errors.contact = "Укажите телефон или Telegram";
+  if (normalizeText(data.phone).length < 6) {
+    errors.phone = "Укажите номер телефона";
+  }
+
+  if (!normalizeText(data.contactMethod)) {
+    errors.contactMethod = "Выберите удобный способ связи";
   }
 
   if (!normalizeText(data.budget)) {
@@ -192,8 +204,12 @@ export function validateConsultationPayload(
     errors.name = "Укажите имя";
   }
 
-  if (normalizeText(data.contact).length < 5) {
-    errors.contact = "Укажите телефон или Telegram";
+  if (normalizeText(data.phone).length < 6) {
+    errors.phone = "Укажите номер телефона";
+  }
+
+  if (!normalizeText(data.contactMethod)) {
+    errors.contactMethod = "Выберите удобный способ связи";
   }
 
   if (!normalizeText(data.topic)) {
@@ -212,8 +228,9 @@ export function formatSelectionLeadMessage(data: SelectionPayload): string {
     "🚗 Заявка на подбор",
     "",
     `👤 Имя: ${getLeadValue(data.name)}`,
-    `📞 Контакт: ${getLeadValue(data.contact)}`,
-    `💬 Telegram: ${getTelegramDisplay(data.telegram)}`,
+    `📞 Телефон: ${getLeadValue(data.phone)}`,
+    `💬 Предпочтительный способ связи: ${getLeadValue(data.contactMethod)}`,
+    `🔗 Telegram username: ${getTelegramDisplay(data.telegram)}`,
     "",
     `💰 Бюджет: ${getBudgetLabel(data)}`,
     `🚘 Тип авто: ${getLeadValue(data.carType)}`,
@@ -235,8 +252,9 @@ export function formatConsultationLeadMessage(data: ConsultationPayload): string
     "📞 Консультация",
     "",
     `👤 Имя: ${getLeadValue(data.name)}`,
-    `📞 Контакт: ${getLeadValue(data.contact)}`,
-    `💬 Telegram: ${getTelegramDisplay(data.telegram)}`,
+    `📞 Телефон: ${getLeadValue(data.phone)}`,
+    `💬 Предпочтительный способ связи: ${getLeadValue(data.contactMethod)}`,
+    `🔗 Telegram username: ${getTelegramDisplay(data.telegram)}`,
     "",
     `🧩 Тематика: ${getLeadValue(data.topic)}`,
     "",

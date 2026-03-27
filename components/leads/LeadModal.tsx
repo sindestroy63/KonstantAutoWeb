@@ -1,8 +1,9 @@
 "use client";
 
-import { useEffect, useMemo, useState } from "react";
+import { useEffect, useMemo, useState, type ReactNode } from "react";
 import { ArrowLeft, ArrowRight, CheckCircle2, Loader2, MessageCircle, X } from "lucide-react";
 import { BOT_START } from "@/lib/constants";
+import { ContactFields } from "@/components/leads/ContactFields";
 import {
   consultationTopicOptions,
   createEmptyConsultationPayload,
@@ -31,16 +32,16 @@ type LeadModalProps = {
   onClose: () => void;
 };
 
+type SubmitState = "idle" | "loading" | "success" | "error";
+
 const selectionSteps = [
-  { title: "Контакт", caption: "Как к вам обратиться и где ответить" },
+  { title: "Контакты", caption: "Как быстро и удобно с вами связаться" },
   { title: "Бюджет", caption: "Чтобы сразу держать подбор в рамках ожиданий" },
   { title: "Тип авто", caption: "Поможем сфокусировать подбор" },
   { title: "Предпочтения", caption: "Марка, состояние, коробка и привод" },
   { title: "Срок", caption: "Понимаем срочность и сценарий сделки" },
   { title: "Комментарий", caption: "Любые детали, которые важны вам" },
 ] as const;
-
-type SubmitState = "idle" | "loading" | "success" | "error";
 
 function StepBadge({ active, done, index }: { active: boolean; done: boolean; index: number }) {
   return (
@@ -87,7 +88,7 @@ function Field({
 }: {
   label: string;
   error?: string;
-  children: React.ReactNode;
+  children: ReactNode;
 }) {
   return (
     <label className="block">
@@ -140,9 +141,7 @@ export function LeadModal({ isOpen, mode, prefill, onClose }: LeadModalProps) {
     document.body.style.overflow = "hidden";
 
     const onKeyDown = (event: KeyboardEvent) => {
-      if (event.key === "Escape") {
-        onClose();
-      }
+      if (event.key === "Escape") onClose();
     };
 
     window.addEventListener("keydown", onKeyDown);
@@ -153,84 +152,53 @@ export function LeadModal({ isOpen, mode, prefill, onClose }: LeadModalProps) {
     };
   }, [isOpen, onClose]);
 
+  const isSelection = activeMode === "selection";
   const completion = useMemo(
     () => Math.round(((selectionStep + 1) / selectionSteps.length) * 100),
     [selectionStep]
   );
 
-  if (!isOpen) {
-    return null;
-  }
+  if (!isOpen) return null;
 
-  const isSelection = activeMode === "selection";
-  const successBotLink = isSelection ? BOT_START.quiz : BOT_START.consult;
-
-  function updateSelection<K extends keyof SelectionPayload>(key: K, value: SelectionPayload[K]) {
+  function updateSelection(key: keyof SelectionPayload, value: string) {
     setSelectionData((prev) => ({ ...prev, [key]: value }));
     setSelectionErrors((prev) => ({ ...prev, [key]: undefined }));
   }
 
-  function updateConsultation<K extends keyof ConsultationPayload>(
-    key: K,
-    value: ConsultationPayload[K]
-  ) {
+  function updateConsultation(key: keyof ConsultationPayload, value: string) {
     setConsultationData((prev) => ({ ...prev, [key]: value }));
     setConsultationErrors((prev) => ({ ...prev, [key]: undefined }));
   }
 
   function validateSelectionStep(step: number) {
     const errors = validateSelectionPayload(selectionData);
-    let partial: FieldErrors<SelectionPayload> = {};
+    const groups: Array<Array<keyof SelectionPayload>> = [
+      ["name", "phone", "contactMethod", "telegram"],
+      ["budget", "budgetCustom"],
+      ["carType"],
+      [],
+      ["timeline"],
+      [],
+    ];
 
-    if (step === 0) {
-      partial = { name: errors.name, contact: errors.contact };
-    } else if (step === 1) {
-      partial = { budget: errors.budget, budgetCustom: errors.budgetCustom };
-    } else if (step === 2) {
-      partial = { carType: errors.carType };
-    } else if (step === 4) {
-      partial = { timeline: errors.timeline };
-    }
+    const partial = groups[step].reduce<FieldErrors<SelectionPayload>>((acc, field) => {
+      if (errors[field]) acc[field] = errors[field];
+      return acc;
+    }, {});
 
-    const hasErrors = Object.values(partial).some(Boolean);
     setSelectionErrors((prev) => ({ ...prev, ...partial }));
-    return !hasErrors;
+    return Object.keys(partial).length === 0;
   }
 
-  async function handleSelectionSubmit() {
-    const errors = validateSelectionPayload(selectionData);
-    setSelectionErrors(errors);
-
-    if (Object.keys(errors).length > 0) {
-      const firstErrorStep = [
-        ["name", "contact"],
-        ["budget", "budgetCustom"],
-        ["carType"],
-        [],
-        ["timeline"],
-        [],
-      ].findIndex((fields) => fields.some((field) => errors[field as keyof SelectionPayload]));
-
-      if (firstErrorStep >= 0) {
-        setSelectionStep(firstErrorStep);
-      }
-
-      return;
-    }
+  async function submitLead(kind: LeadMode, data: SelectionPayload | ConsultationPayload) {
+    setSubmitState("loading");
+    setSubmitMessage("");
 
     try {
-      setSubmitState("loading");
-      setSubmitMessage("");
-
       const response = await fetch("/api/leads", {
         method: "POST",
-        headers: {
-          "Content-Type": "application/json",
-        },
-        body: JSON.stringify({
-          kind: "selection",
-          data: selectionData,
-        }),
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ kind, data }),
       });
 
       const payload = (await response.json().catch(() => null)) as { error?: string } | null;
@@ -249,43 +217,32 @@ export function LeadModal({ isOpen, mode, prefill, onClose }: LeadModalProps) {
     }
   }
 
-  async function handleConsultationSubmit() {
-    const errors = validateConsultationPayload(consultationData);
-    setConsultationErrors(errors);
+  async function handleSelectionSubmit() {
+    const errors = validateSelectionPayload(selectionData);
+    setSelectionErrors(errors);
 
     if (Object.keys(errors).length > 0) {
+      const groups: Array<Array<keyof SelectionPayload>> = [
+        ["name", "phone", "contactMethod", "telegram"],
+        ["budget", "budgetCustom"],
+        ["carType"],
+        [],
+        ["timeline"],
+        [],
+      ];
+      const index = groups.findIndex((group) => group.some((field) => errors[field]));
+      if (index >= 0) setSelectionStep(index);
       return;
     }
 
-    try {
-      setSubmitState("loading");
-      setSubmitMessage("");
+    await submitLead("selection", selectionData);
+  }
 
-      const response = await fetch("/api/leads", {
-        method: "POST",
-        headers: {
-          "Content-Type": "application/json",
-        },
-        body: JSON.stringify({
-          kind: "consultation",
-          data: consultationData,
-        }),
-      });
-
-      const payload = (await response.json().catch(() => null)) as { error?: string } | null;
-
-      if (!response.ok) {
-        throw new Error(payload?.error || "Не удалось отправить консультацию");
-      }
-
-      setSubmitState("success");
-      setSubmitMessage("Заявка отправлена. Менеджер свяжется с вами в ближайшее время.");
-    } catch (error) {
-      setSubmitState("error");
-      setSubmitMessage(
-        error instanceof Error ? error.message : "Не удалось отправить заявку. Попробуйте ещё раз."
-      );
-    }
+  async function handleConsultationSubmit() {
+    const errors = validateConsultationPayload(consultationData);
+    setConsultationErrors(errors);
+    if (Object.keys(errors).length > 0) return;
+    await submitLead("consultation", consultationData);
   }
 
   return (
@@ -293,17 +250,12 @@ export function LeadModal({ isOpen, mode, prefill, onClose }: LeadModalProps) {
       <button
         type="button"
         className="absolute inset-0 bg-slate-950/60 backdrop-blur-sm"
-        aria-label="Закрыть окно"
         onClick={onClose}
+        aria-label="Закрыть окно"
       />
 
-      <div
-        role="dialog"
-        aria-modal="true"
-        aria-label={isSelection ? "Заявка на подбор авто" : "Консультация специалиста"}
-        className="relative z-10 w-full max-w-5xl overflow-hidden rounded-[32px] border border-white/70 bg-[linear-gradient(180deg,rgba(255,255,255,0.98),rgba(247,249,252,0.96))] shadow-[0_40px_120px_rgba(15,23,42,0.24)]"
-      >
-        <div className="grid lg:grid-cols-[0.92fr_1.08fr]">
+      <div className="relative z-10 flex max-h-[92vh] w-full max-w-5xl flex-col overflow-hidden rounded-[32px] border border-white/70 bg-[linear-gradient(180deg,rgba(255,255,255,0.98),rgba(247,249,252,0.96))] shadow-[0_40px_120px_rgba(15,23,42,0.24)]">
+        <div className="grid min-h-0 lg:grid-cols-[0.92fr_1.08fr] lg:[height:min(820px,calc(92vh-2px))]">
           <div className="relative overflow-hidden border-b border-slate-200 bg-[linear-gradient(180deg,#101722_0%,#181f2d_100%)] p-6 text-white sm:p-8 lg:border-b-0 lg:border-r">
             <div className="absolute inset-0 bg-[radial-gradient(circle_at_top_left,rgba(255,86,86,0.22),transparent_30%),radial-gradient(circle_at_80%_20%,rgba(255,255,255,0.08),transparent_24%)]" />
             <div className="relative">
@@ -316,8 +268,8 @@ export function LeadModal({ isOpen, mode, prefill, onClose }: LeadModalProps) {
               </h2>
               <p className="mt-4 max-w-md text-sm leading-relaxed text-slate-300 sm:text-base">
                 {isSelection
-                  ? "Соберём короткий бриф, чтобы менеджер сразу написал по делу: с ориентиром по бюджету, типу автомобиля и срокам."
-                  : "Короткий формат для вопросов по подбору, срокам, логистике, документам и расчёту выгоды."}
+                  ? "Короткий пошаговый бриф: контакты, бюджет, тип автомобиля и ключевые пожелания."
+                  : "Компактный сценарий для вопросов по подбору, срокам, логистике, документам и расчёту выгоды."}
               </p>
 
               <div className="mt-8 rounded-[28px] border border-white/10 bg-white/[0.05] p-5 backdrop-blur-xl">
@@ -328,8 +280,8 @@ export function LeadModal({ isOpen, mode, prefill, onClose }: LeadModalProps) {
                     </p>
                     <p className="mt-1 text-sm text-slate-400">
                       {isSelection
-                        ? "Без длинной анкеты: только то, что нужно для первого расчёта."
-                        : "Оставьте вопрос, и мы вернёмся с понятным ответом."}
+                        ? "Телефон обязателен, а способ связи вы выбираете сами."
+                        : "Оставьте вопрос и удобный мессенджер — менеджер вернётся с ответом."}
                     </p>
                   </div>
                   <span className="flex h-11 w-11 items-center justify-center rounded-2xl border border-white/10 bg-white/[0.06] text-red-200">
@@ -354,9 +306,7 @@ export function LeadModal({ isOpen, mode, prefill, onClose }: LeadModalProps) {
                           <div
                             key={step.title}
                             className={`flex items-start gap-3 rounded-[22px] border px-4 py-3 transition-all ${
-                              active
-                                ? "border-red-400/30 bg-white/[0.08]"
-                                : "border-white/8 bg-white/[0.03]"
+                              active ? "border-red-400/30 bg-white/[0.08]" : "border-white/8 bg-white/[0.03]"
                             }`}
                           >
                             <StepBadge active={active} done={done} index={index} />
@@ -374,7 +324,7 @@ export function LeadModal({ isOpen, mode, prefill, onClose }: LeadModalProps) {
                 ) : (
                   <div className="mt-6 space-y-3 text-sm text-slate-300">
                     <div className="rounded-[22px] border border-white/8 bg-white/[0.04] px-4 py-3">
-                      Имя и удобный контакт
+                      Телефон и удобный мессенджер
                     </div>
                     <div className="rounded-[22px] border border-white/8 bg-white/[0.04] px-4 py-3">
                       Тематика обращения
@@ -388,7 +338,7 @@ export function LeadModal({ isOpen, mode, prefill, onClose }: LeadModalProps) {
             </div>
           </div>
 
-          <div className="relative bg-white p-6 sm:p-8">
+          <div className="relative flex min-h-0 flex-col bg-white p-6 sm:p-8">
             <div className="flex items-start justify-between gap-4">
               <div>
                 <div className="inline-flex rounded-full border border-slate-200 bg-slate-50 p-1">
@@ -400,9 +350,7 @@ export function LeadModal({ isOpen, mode, prefill, onClose }: LeadModalProps) {
                       setSubmitMessage("");
                     }}
                     className={`rounded-full px-4 py-2 text-sm font-medium transition-all ${
-                      isSelection
-                        ? "bg-white text-slate-950 shadow-sm"
-                        : "text-slate-500 hover:text-slate-900"
+                      isSelection ? "bg-white text-slate-950 shadow-sm" : "text-slate-500 hover:text-slate-900"
                     }`}
                   >
                     Подбор авто
@@ -415,18 +363,14 @@ export function LeadModal({ isOpen, mode, prefill, onClose }: LeadModalProps) {
                       setSubmitMessage("");
                     }}
                     className={`rounded-full px-4 py-2 text-sm font-medium transition-all ${
-                      !isSelection
-                        ? "bg-white text-slate-950 shadow-sm"
-                        : "text-slate-500 hover:text-slate-900"
+                      !isSelection ? "bg-white text-slate-950 shadow-sm" : "text-slate-500 hover:text-slate-900"
                     }`}
                   >
                     Консультация
                   </button>
                 </div>
                 <p className="mt-4 text-sm text-slate-500">
-                  {isSelection
-                    ? `Шаг ${selectionStep + 1} из ${selectionSteps.length}`
-                    : "Ответим по подбору, выгоде и процессу привоза"}
+                  {isSelection ? `Шаг ${selectionStep + 1} из ${selectionSteps.length}` : "Быстрый сценарий связи"}
                 </p>
               </div>
 
@@ -440,8 +384,9 @@ export function LeadModal({ isOpen, mode, prefill, onClose }: LeadModalProps) {
               </button>
             </div>
 
-            {submitState === "success" ? (
-              <div className="mt-8 rounded-[28px] border border-emerald-100 bg-emerald-50/80 p-6 sm:p-8">
+            <div className="mt-8 min-h-0 flex-1 overflow-y-auto pr-1">
+              {submitState === "success" ? (
+                <div className="rounded-[28px] border border-emerald-100 bg-emerald-50/80 p-6 sm:p-8">
                 <span className="flex h-14 w-14 items-center justify-center rounded-2xl bg-white text-emerald-500 shadow-[0_18px_34px_rgba(16,185,129,0.18)]">
                   <CheckCircle2 className="h-7 w-7" />
                 </span>
@@ -454,7 +399,7 @@ export function LeadModal({ isOpen, mode, prefill, onClose }: LeadModalProps) {
                     Закрыть окно
                   </button>
                   <a
-                    href={successBotLink}
+                    href={isSelection ? BOT_START.quiz : BOT_START.consult}
                     target="_blank"
                     rel="noopener noreferrer"
                     className="cta-primary text-sm"
@@ -462,38 +407,17 @@ export function LeadModal({ isOpen, mode, prefill, onClose }: LeadModalProps) {
                     Перейти в Telegram
                   </a>
                 </div>
-              </div>
-            ) : (
-              <div className="mt-8">
-                {isSelection ? (
+                </div>
+              ) : (
+                <div>
+                  {isSelection ? (
                   <>
                     {selectionStep === 0 ? (
-                      <div className="grid gap-4 md:grid-cols-2">
-                        <Field label="Имя" error={selectionErrors.name}>
-                          <input
-                            value={selectionData.name}
-                            onChange={(event) => updateSelection("name", event.target.value)}
-                            className={inputClass(Boolean(selectionErrors.name))}
-                            placeholder="Как к вам обращаться"
-                          />
-                        </Field>
-                        <Field label="Телефон или Telegram" error={selectionErrors.contact}>
-                          <input
-                            value={selectionData.contact}
-                            onChange={(event) => updateSelection("contact", event.target.value)}
-                            className={inputClass(Boolean(selectionErrors.contact))}
-                            placeholder="+7 999 000 00 00 или @username"
-                          />
-                        </Field>
-                        <Field label="Telegram username">
-                          <input
-                            value={selectionData.telegram}
-                            onChange={(event) => updateSelection("telegram", event.target.value)}
-                            className={inputClass()}
-                            placeholder="@username"
-                          />
-                        </Field>
-                      </div>
+                      <ContactFields
+                        values={selectionData}
+                        errors={selectionErrors}
+                        onChange={updateSelection}
+                      />
                     ) : null}
 
                     {selectionStep === 1 ? (
@@ -632,68 +556,58 @@ export function LeadModal({ isOpen, mode, prefill, onClose }: LeadModalProps) {
                     ) : null}
                   </>
                 ) : (
-                  <div className="space-y-5">
-                    <div className="grid gap-4 md:grid-cols-2">
-                      <Field label="Имя" error={consultationErrors.name}>
-                        <input
-                          value={consultationData.name}
-                          onChange={(event) => updateConsultation("name", event.target.value)}
-                          className={inputClass(Boolean(consultationErrors.name))}
-                          placeholder="Как к вам обращаться"
-                        />
-                      </Field>
-                      <Field label="Телефон или Telegram" error={consultationErrors.contact}>
-                        <input
-                          value={consultationData.contact}
-                          onChange={(event) => updateConsultation("contact", event.target.value)}
-                          className={inputClass(Boolean(consultationErrors.contact))}
-                          placeholder="+7 999 000 00 00 или @username"
-                        />
-                      </Field>
-                    </div>
-                    <Field label="Telegram username">
-                      <input
-                        value={consultationData.telegram}
-                        onChange={(event) => updateConsultation("telegram", event.target.value)}
-                        className={inputClass()}
-                        placeholder="@username"
-                      />
-                    </Field>
-                    <div className="space-y-3">
-                      <p className="text-sm font-medium text-slate-700">Тематика</p>
-                      <div className="grid gap-3 sm:grid-cols-2">
-                        {consultationTopicOptions.map((option) => (
-                          <OptionButton
-                            key={option}
-                            active={consultationData.topic === option}
-                            onClick={() => updateConsultation("topic", option)}
-                          >
-                            {option}
-                          </OptionButton>
-                        ))}
+                  <div className="space-y-4">
+                    <ContactFields
+                      values={consultationData}
+                      errors={consultationErrors}
+                      onChange={updateConsultation}
+                    />
+
+                    <div className="rounded-[28px] border border-slate-200 bg-[linear-gradient(180deg,#ffffff_0%,#f8fafc_100%)] p-5 shadow-[0_16px_40px_rgba(15,23,42,0.05)] sm:p-6">
+                      <div className="space-y-3">
+                        <p className="text-sm font-medium text-slate-700">Тематика</p>
+                        <div className="grid gap-3 sm:grid-cols-2">
+                          {consultationTopicOptions.map((option) => (
+                            <OptionButton
+                              key={option}
+                              active={consultationData.topic === option}
+                              onClick={() => updateConsultation("topic", option)}
+                            >
+                              {option}
+                            </OptionButton>
+                          ))}
+                        </div>
+                        {consultationErrors.topic ? (
+                          <p className="text-xs font-medium text-red-600">{consultationErrors.topic}</p>
+                        ) : null}
                       </div>
-                      {consultationErrors.topic ? (
-                        <p className="text-xs font-medium text-red-600">{consultationErrors.topic}</p>
-                      ) : null}
+
+                      <div className="mt-5">
+                        <Field label="Ваш вопрос" error={consultationErrors.question}>
+                          <textarea
+                            value={consultationData.question}
+                            onChange={(event) => updateConsultation("question", event.target.value)}
+                            className={`${inputClass(Boolean(consultationErrors.question))} min-h-[150px] resize-none`}
+                            placeholder="Например: Ищу BMW 3 из Китая, бюджет до 3 млн. Реально ли найти живой вариант?"
+                          />
+                        </Field>
+                      </div>
                     </div>
-                    <Field label="Ваш вопрос" error={consultationErrors.question}>
-                      <textarea
-                        value={consultationData.question}
-                        onChange={(event) => updateConsultation("question", event.target.value)}
-                        className={`${inputClass(Boolean(consultationErrors.question))} min-h-[180px] resize-none`}
-                        placeholder="Например: Ищу BMW 3 из Китая, бюджет до 3 млн. Реально ли найти живой вариант?"
-                      />
-                    </Field>
                   </div>
                 )}
 
-                {submitState === "error" ? (
-                  <div className="mt-5 rounded-2xl border border-red-200 bg-red-50 px-4 py-3 text-sm text-red-700">
-                    {submitMessage}
-                  </div>
-                ) : null}
+                  {submitState === "error" ? (
+                    <div className="mt-5 rounded-2xl border border-red-200 bg-red-50 px-4 py-3 text-sm text-red-700">
+                      {submitMessage}
+                    </div>
+                  ) : null}
+                </div>
+              )}
+            </div>
 
-                <div className="mt-8 flex flex-col gap-3 border-t border-slate-200 pt-6 sm:flex-row sm:items-center sm:justify-between">
+            {submitState !== "success" ? (
+              <div className="mt-6 border-t border-slate-200 pt-6">
+                <div className="flex flex-col gap-3 sm:flex-row sm:items-center sm:justify-between">
                   {isSelection ? (
                     <div className="flex gap-3">
                       <button
@@ -756,11 +670,11 @@ export function LeadModal({ isOpen, mode, prefill, onClose }: LeadModalProps) {
                   )}
 
                   <p className="max-w-sm text-sm leading-relaxed text-slate-500">
-                    Отправка идёт напрямую в рабочий Telegram-чат. Менеджер видит детали заявки сразу после отправки.
+                    Отправка идёт напрямую в рабочий Telegram-чат. Менеджер получает телефон и удобный мессенджер сразу после отправки.
                   </p>
                 </div>
               </div>
-            )}
+            ) : null}
           </div>
         </div>
       </div>
