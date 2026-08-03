@@ -1,0 +1,44 @@
+{
+  "id": "bmw-x5",
+  "catalogSlug": "bmw_x5",
+  "manufacturer": "BMW",
+  "model": "X5",
+  "generation": "G05 LCI current facelift",
+  "chassisCode": "G05 LCI",
+  "years": "2025-2026",
+  "facelift": "current LCI production front",
+  "market": "Europe / North America",
+  "body": "five-door midsize luxury SAV",
+  "trim": "xDrive40i M Sport",
+  "paint": "Manhattan Green metallic",
+  "identityCues": [
+    "post-2023 G05 LCI headlamp housings as extremely thin low horizontal slits, with top and bottom housing edges close together and roughly half the height of the 2019-2022 lamps",
+    "exactly two minimal outward-pointing arrow LED daytime-running-light marks per headlamp, the authentic current LCI signature",
+    "current G05 LCI kidney grille",
+    "LCI M Sport bumper with current angular lower intakes"
+  ],
+  "modelExclusions": [
+    "pre-LCI G05",
+    "F15",
+    "XM",
+    "X3",
+    "thick rectangular old headlamps",
+    "three or more chevrons inside either headlamp",
+    "invented zigzag lighting graphics",
+    "classic double-U daytime-running-light graphics",
+    "tall headlamp housing touching deep into the bumper",
+    "invented next generation"
+  ],
+  "referenceUrls": [
+    "https://www.press.bmwgroup.com/usa/article/detail/T0453219EN_US/bmw-of-north-america-returns-for-the-2025-rebelle-rally-in-the-bmw-x5"
+  ],
+  "outputFilename": "bmw-x5-g05-lci.webp",
+  "status": "production",
+  "approved": true,
+  "production": {
+    "batchId": "pilot-v3-2026-07-28T12-20-46-652",
+    "file": "public\\images\\catalog\\bmw-x5.webp",
+    "sha256": "d8e5f4f92a39761fea3a13e3a266e98fb57addf3a5a5f21963b6c0663be4eafa",
+    "promotedAt": "2026-07-28T12:25:59.184Z"
+  }
+}

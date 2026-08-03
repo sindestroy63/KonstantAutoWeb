@@ -1,0 +1,40 @@
+{
+  "generatedAt": "2026-07-30T06:40:10.280Z",
+  "modelId": "bmw-x3",
+  "manufacturer": "BMW",
+  "model": "X3",
+  "apiRequestCount": 1,
+  "infrastructureRetries": 0,
+  "infrastructureDiagnostics": [
+    {
+      "requestIndex": 0,
+      "httpStatus": 200,
+      "responseFormat": "json"
+    }
+  ],
+  "requestedYears": "2025-2026",
+  "requestedGeneration": "fourth generation G45",
+  "requestedChassisCode": "G45",
+  "modelUsed": "gpt-image-2",
+  "generationMode": "text-generation",
+  "endpoint": "https://vibecode.moe/v1/images/generations",
+  "referenceUrl": "https://www.press.bmwgroup.com/global/article/detail/T0442377EN/the-new-bmw-x3",
+  "referenceImageUrl": null,
+  "apiStatus": 200,
+  "downloadStatus": 200,
+  "contentType": "image/png",
+  "sourceUrl": "https://file6.aitohumanize.com/file/6efef95134ad49f989dd4bce7cdf31f5.png",
+  "rawFile": "catalog-generator\\outputs\\raw\\batch-01-bmw-x3-g45.png",
+  "generatedFile": "catalog-generator\\outputs\\batch-01-bmw-x3-g45.webp",
+  "rawMetadata": {
+    "format": "png",
+    "width": 1536,
+    "height": 1024
+  },
+  "outputMetadata": {
+    "format": "webp",
+    "width": 1600,
+    "height": 1000
+  },
+  "promptFile": "catalog-generator\\prompts\\bmw-x3.txt"
+}

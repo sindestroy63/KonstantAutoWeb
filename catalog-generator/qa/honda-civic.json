@@ -1,0 +1,83 @@
+{
+  "checkedAt": "2026-07-30T09:59:45.894Z",
+  "modelId": "honda-civic",
+  "file": "catalog-generator\\outputs\\honda-civic.webp",
+  "deterministicPass": true,
+  "analysis": {
+    "width": 1600,
+    "height": 1000,
+    "backgroundCornerRgb": [
+      202.4,
+      201.9,
+      204
+    ],
+    "backgroundCornerLuminance": 202.8,
+    "backgroundCornerNeutralityDelta": 2.1,
+    "foregroundBounds": {
+      "minX": 134,
+      "maxX": 1458,
+      "minY": 250,
+      "maxY": 822
+    },
+    "foregroundWidthPercent": 82.8,
+    "horizonPercent": 82.3
+  },
+  "checks": {
+    "dimensions": {
+      "status": "pass",
+      "actual": "1600x1000"
+    },
+    "format": {
+      "status": "pass",
+      "actual": "webp"
+    },
+    "aspectRatio": {
+      "status": "pass",
+      "actual": 1.6
+    },
+    "background": {
+      "status": "pass",
+      "actualRgb": [
+        202.4,
+        201.9,
+        204
+      ],
+      "luminance": 202.8,
+      "neutralityDelta": 2.1
+    },
+    "scale": {
+      "status": "pass",
+      "actualPercent": 82.8,
+      "targetPercent": "78-84",
+      "tolerancePercent": "74-88"
+    },
+    "horizon": {
+      "status": "pass",
+      "actualPercent": 82.3,
+      "tolerancePercent": "72-93"
+    },
+    "exactlyOneVehicle": {
+      "status": "pass",
+      "method": "agent-visual-review"
+    },
+    "noPeople": {
+      "status": "pass",
+      "method": "agent-visual-review"
+    },
+    "noText": {
+      "status": "pass",
+      "method": "agent-visual-review"
+    },
+    "noWatermark": {
+      "status": "pass",
+      "method": "agent-visual-review"
+    },
+    "generationIdentity": {
+      "status": "approved",
+      "method": "agent-visual-review"
+    }
+  },
+  "semanticQa": "approved",
+  "generationQa": "approved",
+  "finalStatus": "production-approved"
+}

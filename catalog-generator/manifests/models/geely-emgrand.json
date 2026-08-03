@@ -1,0 +1,41 @@
+{
+  "id": "geely-emgrand",
+  "catalogSlug": "geely_emgrand",
+  "manufacturer": "Geely",
+  "model": "Emgrand",
+  "generation": "fourth generation SS11",
+  "chassisCode": "SS11 / BMA",
+  "years": "2022-2026",
+  "facelift": "current fourth-generation production specification",
+  "market": "China / CIS",
+  "body": "four-door compact sedan",
+  "trim": "Flagship",
+  "paint": "Ocean Blue metallic",
+  "identityCues": [
+    "fourth-generation SS11 sedan body",
+    "wide vertical-slat energy-burst grille",
+    "slim rectangular LED headlamps",
+    "clean horizontal bumper and current Geely shield badge"
+  ],
+  "modelExclusions": [
+    "third-generation Emgrand GL",
+    "older EC7 body",
+    "Geely Preface",
+    "Geely Galaxy sedan",
+    "concept lighting",
+    "fastback body"
+  ],
+  "referenceUrls": [
+    "https://www.geely-motors.com/model/emgrand/"
+  ],
+  "fallbackReferenceUrls": [
+    "https://global.geely.com/en/models/emgrand",
+    "https://en.wikipedia.org/wiki/Geely_Emgrand"
+  ],
+  "referenceQuality": "secondary-confirmed",
+  "confidenceLevel": "high",
+  "outputFilename": "geely-emgrand.webp",
+  "status": "production",
+  "approved": true,
+  "approvalStatus": "production-approved"
+}

@@ -1,0 +1,40 @@
+{
+  "generatedAt": "2026-07-30T09:28:10.994Z",
+  "modelId": "mercedes-benz-c-class",
+  "manufacturer": "Mercedes-Benz",
+  "model": "C-Class",
+  "apiRequestCount": 1,
+  "infrastructureRetries": 0,
+  "infrastructureDiagnostics": [
+    {
+      "requestIndex": 0,
+      "httpStatus": 200,
+      "responseFormat": "json"
+    }
+  ],
+  "requestedYears": "2022-2026",
+  "requestedGeneration": "fifth generation W206 current production specification",
+  "requestedChassisCode": "W206",
+  "modelUsed": "gpt-image-2",
+  "generationMode": "text-generation",
+  "endpoint": "https://vibecode.moe/v1/images/generations",
+  "referenceUrl": "https://www.mercedes-benz.com/en/vehicles/passenger-cars/c-class/",
+  "referenceImageUrl": null,
+  "apiStatus": 200,
+  "downloadStatus": 200,
+  "contentType": "image/png",
+  "sourceUrl": "https://file5.aitohumanize.com/file/49a8be39c58b41ef9771dcd73eed6c23.png",
+  "rawFile": "catalog-generator\\outputs\\raw\\mercedes-c-class.png",
+  "generatedFile": "catalog-generator\\outputs\\mercedes-c-class.webp",
+  "rawMetadata": {
+    "format": "png",
+    "width": 1536,
+    "height": 1024
+  },
+  "outputMetadata": {
+    "format": "webp",
+    "width": 1600,
+    "height": 1000
+  },
+  "promptFile": "catalog-generator\\prompts\\mercedes-benz-c-class.txt"
+}

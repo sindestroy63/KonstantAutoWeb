@@ -1,0 +1,41 @@
+{
+  "id": "kia-optima",
+  "catalogSlug": "kia_optima",
+  "manufacturer": "Kia",
+  "model": "Optima",
+  "generation": "fourth generation JF facelift",
+  "chassisCode": "JF",
+  "years": "2019-2020",
+  "facelift": "2018 facelift, final Optima-branded production specification",
+  "market": "North America / Korea",
+  "body": "four-door midsize sedan",
+  "trim": "EX",
+  "paint": "Horizon Blue metallic",
+  "identityCues": [
+    "fourth-generation JF sedan body",
+    "facelift slim tiger-nose grille",
+    "swept headlamps with four-point lower LED detail",
+    "final Optima production bumper and period-correct oval Kia badge"
+  ],
+  "modelExclusions": [
+    "Kia K5 DL3",
+    "third-generation TF Optima",
+    "pre-facelift JF",
+    "Kia Forte",
+    "Kia Stinger",
+    "current Kia wordmark",
+    "fictional new Optima generation"
+  ],
+  "referenceUrls": [
+    "https://www.kiamedia.com/us/en/models/optima/2020"
+  ],
+  "fallbackReferenceUrls": [
+    "https://en.wikipedia.org/wiki/Kia_K5",
+    "https://www.caranddriver.com/kia/optima-2020"
+  ],
+  "referenceQuality": "secondary-confirmed",
+  "confidenceLevel": "high",
+  "outputFilename": "kia-optima.webp",
+  "status": "qa",
+  "approved": false
+}

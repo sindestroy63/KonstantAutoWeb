@@ -1,0 +1,41 @@
+{
+  "id": "bmw-1-series",
+  "catalogSlug": "bmw_1_series",
+  "manufacturer": "BMW",
+  "model": "1 Series",
+  "generation": "fourth generation F70",
+  "chassisCode": "F70",
+  "years": "2025-2026",
+  "facelift": "first current F70 production specification, not F40 facelift",
+  "market": "Europe / UK",
+  "body": "five-door hatchback",
+  "trim": "BMW 120 Sport standard production trim",
+  "paint": "Skyscraper Grey metallic",
+  "identityCues": [
+    "CRITICAL F70 check: the exact 2025 BMW 120 F70 production front end shown on the official BMW UK reference, not an interpreted transition from F40",
+    "CRITICAL F70 check: two vertical LED elements inside each slim headlamp; no separate vertical daytime-running lamps in the bumper",
+    "current F70 five-door hatchback body",
+    "slim swept-back LED headlamps with current vertical daytime-running-light elements",
+    "compact production kidney grille",
+    "current F70 standard production front bumper with no separate vertical bumper lamps",
+    "OEM five-door proportions and BMW roundel"
+  ],
+  "modelExclusions": [
+    "the rejected attempt with F40-like grille and invented separate vertical light strips in the bumper",
+    "F40",
+    "F20",
+    "E87",
+    "BMW 2 Series",
+    "BMW M2",
+    "sedan or three-door body",
+    "rear-wheel-drive-era proportions",
+    "oversized kidneys or fictional performance parts"
+  ],
+  "referenceUrls": [
+    "https://www.bmw.co.uk/en/all-models/1-series/1-series-5doors/bmw-1-series.html"
+  ],
+  "outputFilename": "batch-01-bmw-1-series-f70.webp",
+  "status": "production",
+  "approved": true,
+  "approvalStatus": "production-approved"
+}

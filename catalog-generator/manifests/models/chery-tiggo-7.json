@@ -1,0 +1,24 @@
+{
+  "id": "chery-tiggo-7",
+  "catalogSlug": "chery_tiggo_7",
+  "manufacturer": "Chery",
+  "model": "Tiggo 7",
+  "generation": "TODO: official current generation",
+  "chassisCode": "TODO",
+  "years": "TODO",
+  "facelift": "TODO",
+  "market": "TODO",
+  "body": "Кроссовер",
+  "trim": "TODO",
+  "paint": "factory production color",
+  "identityCues": [],
+  "modelExclusions": [
+    "previous generation",
+    "concept",
+    "fantasy design"
+  ],
+  "referenceUrls": [],
+  "outputFilename": "chery-tiggo-7.webp",
+  "status": "draft",
+  "approved": false
+}

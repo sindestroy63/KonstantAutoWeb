@@ -1,0 +1,40 @@
+{
+  "generatedAt": "2026-07-30T09:26:34.300Z",
+  "modelId": "haval-f7x",
+  "manufacturer": "Haval",
+  "model": "F7x",
+  "apiRequestCount": 1,
+  "infrastructureRetries": 0,
+  "infrastructureDiagnostics": [
+    {
+      "requestIndex": 0,
+      "httpStatus": 200,
+      "responseFormat": "json"
+    }
+  ],
+  "requestedYears": "2022-2024",
+  "requestedGeneration": "first generation B02 coupe current facelift",
+  "requestedChassisCode": "B02",
+  "modelUsed": "gpt-image-2",
+  "generationMode": "text-generation",
+  "endpoint": "https://vibecode.moe/v1/images/generations",
+  "referenceUrl": "https://haval.ru/models/haval-f7x/",
+  "referenceImageUrl": null,
+  "apiStatus": 200,
+  "downloadStatus": 200,
+  "contentType": "image/png",
+  "sourceUrl": "https://file8.aitohumanize.com/file/4e20822777fa496b8d637767e5764eb5.png",
+  "rawFile": "catalog-generator\\outputs\\raw\\haval-f7x.png",
+  "generatedFile": "catalog-generator\\outputs\\haval-f7x.webp",
+  "rawMetadata": {
+    "format": "png",
+    "width": 1536,
+    "height": 1024
+  },
+  "outputMetadata": {
+    "format": "webp",
+    "width": 1600,
+    "height": 1000
+  },
+  "promptFile": "catalog-generator\\prompts\\haval-f7x.txt"
+}

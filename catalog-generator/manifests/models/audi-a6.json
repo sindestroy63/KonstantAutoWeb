@@ -1,0 +1,42 @@
+{
+  "id": "audi-a6",
+  "catalogSlug": "audi_a6",
+  "manufacturer": "Audi",
+  "model": "A6",
+  "generation": "sixth generation C9",
+  "chassisCode": "C9",
+  "years": "2026",
+  "facelift": "all-new sixth generation",
+  "market": "Europe",
+  "body": "four-door executive sedan",
+  "trim": "S line TFSI quattro",
+  "paint": "Midnight Green Metallic",
+  "identityCues": [
+    "all-new C9 A6 sedan body",
+    "very slim segmented LED headlamps",
+    "wide low singleframe grille",
+    "new flush door handles and sculpted S line bumper"
+  ],
+  "modelExclusions": [
+    "fifth-generation C8 A6",
+    "Audi A7",
+    "A6 Avant",
+    "A6 e-tron",
+    "Audi A5",
+    "concept",
+    "fantasy design"
+  ],
+  "referenceUrls": [
+    "https://www.audi-mediacenter.com/en/the-new-audi-a6-sedan-16621"
+  ],
+  "fallbackReferenceUrls": [
+    "https://en.wikipedia.org/wiki/Audi_A6",
+    "https://www.autoevolution.com/cars/audi-a6.html"
+  ],
+  "referenceQuality": "secondary-confirmed",
+  "confidenceLevel": "high",
+  "outputFilename": "audi-a6.webp",
+  "status": "production",
+  "approved": true,
+  "approvalStatus": "production-approved"
+}

@@ -1,0 +1,42 @@
+{
+  "id": "mercedes-benz-gle",
+  "catalogSlug": "mercedes_gle",
+  "manufacturer": "Mercedes-Benz",
+  "model": "GLE",
+  "generation": "second generation V167 facelift",
+  "chassisCode": "V167",
+  "years": "2024-2026",
+  "facelift": "2023 facelift current production model",
+  "market": "Europe / North America",
+  "body": "five-door midsize luxury SUV",
+  "trim": "GLE 450 4MATIC AMG Line",
+  "paint": "Sodalite Blue metallic",
+  "identityCues": [
+    "V167 standard SUV body",
+    "facelift LED headlamps with current daytime-running-light graphic",
+    "facelift star-pattern grille and AMG Line bumper",
+    "correct broad C-pillar and current Mercedes star"
+  ],
+  "modelExclusions": [
+    "pre-facelift V167",
+    "GLE Coupe C167",
+    "first-generation W166",
+    "GLS",
+    "GLC",
+    "Mercedes EQE SUV",
+    "fictional next generation"
+  ],
+  "referenceUrls": [
+    "https://www.mercedes-benz.com/en/vehicles/passenger-cars/gle/"
+  ],
+  "fallbackReferenceUrls": [
+    "https://en.wikipedia.org/wiki/Mercedes-Benz_GLE",
+    "https://www.caranddriver.com/mercedes-benz/gle-class"
+  ],
+  "referenceQuality": "secondary-confirmed",
+  "confidenceLevel": "high",
+  "outputFilename": "mercedes-gle.webp",
+  "status": "production",
+  "approved": true,
+  "approvalStatus": "production-approved"
+}

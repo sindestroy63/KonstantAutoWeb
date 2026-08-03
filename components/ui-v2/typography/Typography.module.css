@@ -1,0 +1,38 @@
+.heading {
+  margin: 0;
+  color: inherit;
+  font-weight: var(--ka-v2-weight-semibold);
+  letter-spacing: var(--ka-v2-letter-normal);
+}
+
+.display { font-size: var(--ka-v2-font-display); line-height: var(--ka-v2-line-display); }
+.h1 { font-size: var(--ka-v2-font-h1); line-height: var(--ka-v2-line-heading); }
+.h2 { font-size: var(--ka-v2-font-h2); line-height: var(--ka-v2-line-heading); }
+.h3 { font-size: var(--ka-v2-font-h3); line-height: var(--ka-v2-line-heading); }
+.h4 { font-size: var(--ka-v2-font-h4); line-height: var(--ka-v2-line-compact); }
+
+.text {
+  margin: 0;
+  color: inherit;
+  font-weight: var(--ka-v2-weight-regular);
+}
+
+.large { font-size: var(--ka-v2-font-body-lg); line-height: var(--ka-v2-line-body); }
+.body { font-size: var(--ka-v2-font-body); line-height: var(--ka-v2-line-body); }
+.small { font-size: var(--ka-v2-font-body-sm); line-height: var(--ka-v2-line-body); }
+.label { font-size: var(--ka-v2-font-label); line-height: var(--ka-v2-line-compact); }
+.muted { color: var(--ka-v2-color-text-muted); }
+.accent { color: var(--ka-v2-color-accent); }
+.inherit { color: inherit; }
+.medium { font-weight: var(--ka-v2-weight-medium); }
+.semibold { font-weight: var(--ka-v2-weight-semibold); }
+
+.eyebrow {
+  margin: 0;
+  color: var(--ka-v2-color-accent);
+  font-size: var(--ka-v2-font-label);
+  font-weight: var(--ka-v2-weight-semibold);
+  line-height: var(--ka-v2-line-compact);
+  letter-spacing: var(--ka-v2-letter-label);
+  text-transform: uppercase;
+}

@@ -1,0 +1,41 @@
+{
+  "id": "bmw-3-series",
+  "catalogSlug": "bmw_3_series",
+  "manufacturer": "BMW",
+  "model": "3 Series",
+  "generation": "G20 LCI current second-update specification",
+  "chassisCode": "G20 LCI",
+  "years": "2025-2026",
+  "facelift": "current LCI production front, not pre-LCI",
+  "market": "Europe",
+  "body": "four-door sports sedan",
+  "trim": "330i M Sport",
+  "paint": "Arctic Race Blue metallic",
+  "identityCues": [
+    "current 2025-2026 LCI headlights with a smooth uninterrupted lower outer contour and no notch",
+    "two inverted-L arrow LED daytime-running-light elements in each lamp",
+    "compact horizontal kidney grilles",
+    "current M Sport lower bumper with angular side intakes"
+  ],
+  "modelExclusions": [
+    "pre-LCI G20",
+    "F30",
+    "M3 G80",
+    "5 Series",
+    "G80 vertical grille",
+    "early G20 headlamps with U-shaped internal graphics",
+    "headlamp housing with a downward notch in its lower edge"
+  ],
+  "referenceUrls": [
+    "https://www.press.bmwgroup.com/usa/article/detail/T0453931EN_US/the-2026-bmw-m340i-xdrive-50-jahre-edition"
+  ],
+  "outputFilename": "bmw-3-series-g20-lci.webp",
+  "status": "production",
+  "approved": true,
+  "production": {
+    "batchId": "pilot-v3-2026-07-28T12-20-46-652",
+    "file": "public\\images\\catalog\\bmw-3-series.webp",
+    "sha256": "f47489ef83def0e75227230dee839c9bd02c2bc12a64bde816a7d00a6179505a",
+    "promotedAt": "2026-07-28T12:25:59.184Z"
+  }
+}

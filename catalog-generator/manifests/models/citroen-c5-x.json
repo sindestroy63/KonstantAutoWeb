@@ -1,0 +1,24 @@
+{
+  "id": "citroen-c5-x",
+  "catalogSlug": "citroen_c5_x",
+  "manufacturer": "Citroen",
+  "model": "C5 X",
+  "generation": "TODO: official current generation",
+  "chassisCode": "TODO",
+  "years": "TODO",
+  "facelift": "TODO",
+  "market": "TODO",
+  "body": "Седан",
+  "trim": "TODO",
+  "paint": "factory production color",
+  "identityCues": [],
+  "modelExclusions": [
+    "previous generation",
+    "concept",
+    "fantasy design"
+  ],
+  "referenceUrls": [],
+  "outputFilename": "citroen-c5-x.webp",
+  "status": "draft",
+  "approved": false
+}

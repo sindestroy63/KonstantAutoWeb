@@ -1,0 +1,139 @@
+.root {
+  /* Neutral palette */
+  --ka-v2-color-canvas: #f5f4f1;
+  --ka-v2-color-surface: #ffffff;
+  --ka-v2-color-surface-muted: #ecebe7;
+  --ka-v2-color-inverse: #141719;
+  --ka-v2-color-text: #15191c;
+  --ka-v2-color-text-muted: #5d6367;
+  --ka-v2-color-text-on-inverse: #ffffff;
+  --ka-v2-color-border: #d7d6d1;
+  --ka-v2-color-border-strong: #a9acae;
+  --ka-v2-color-accent: #c91b22;
+  --ka-v2-color-accent-hover: #a91319;
+  --ka-v2-color-accent-soft: #f9e8e9;
+  --ka-v2-color-success: #237a4b;
+  --ka-v2-color-success-soft: #e5f3eb;
+  --ka-v2-color-warning: #8a5a00;
+  --ka-v2-color-warning-soft: #fbf0d6;
+  --ka-v2-color-danger: #b4232b;
+  --ka-v2-color-danger-soft: #fae7e9;
+  --ka-v2-color-focus: #126bd6;
+  --ka-v2-color-overlay: rgb(15 18 20 / 72%);
+
+  /* Four-pixel spacing scale */
+  --ka-v2-space-0: 0;
+  --ka-v2-space-1: 0.25rem;
+  --ka-v2-space-2: 0.5rem;
+  --ka-v2-space-3: 0.75rem;
+  --ka-v2-space-4: 1rem;
+  --ka-v2-space-5: 1.25rem;
+  --ka-v2-space-6: 1.5rem;
+  --ka-v2-space-8: 2rem;
+  --ka-v2-space-10: 2.5rem;
+  --ka-v2-space-12: 3rem;
+  --ka-v2-space-16: 4rem;
+  --ka-v2-space-20: 5rem;
+  --ka-v2-space-24: 6rem;
+
+  /* Shape and elevation */
+  --ka-v2-radius-none: 0;
+  --ka-v2-radius-sm: 0.25rem;
+  --ka-v2-radius-md: 0.5rem;
+  --ka-v2-radius-lg: 0.75rem;
+  --ka-v2-radius-pill: 999rem;
+  --ka-v2-shadow-none: none;
+  --ka-v2-shadow-soft: 0 0.25rem 1rem rgb(20 23 25 / 8%);
+  --ka-v2-shadow-raised: 0 0.75rem 2rem rgb(20 23 25 / 12%);
+  --ka-v2-shadow-overlay: 0 1.5rem 4rem rgb(20 23 25 / 24%);
+
+  /* Type scale */
+  --ka-v2-font-family: var(--font-manrope), Manrope, system-ui, sans-serif;
+  --ka-v2-font-display: clamp(2.75rem, 7vw, 5.5rem);
+  --ka-v2-font-h1: clamp(2.25rem, 5vw, 4.5rem);
+  --ka-v2-font-h2: clamp(1.875rem, 3.5vw, 3.25rem);
+  --ka-v2-font-h3: clamp(1.5rem, 2.5vw, 2rem);
+  --ka-v2-font-h4: 1.25rem;
+  --ka-v2-font-body-lg: 1.125rem;
+  --ka-v2-font-body: 1rem;
+  --ka-v2-font-body-sm: 0.875rem;
+  --ka-v2-font-label: 0.8125rem;
+  --ka-v2-line-display: 0.98;
+  --ka-v2-line-heading: 1.12;
+  --ka-v2-line-body: 1.6;
+  --ka-v2-line-compact: 1.35;
+  --ka-v2-weight-regular: 400;
+  --ka-v2-weight-medium: 550;
+  --ka-v2-weight-semibold: 650;
+  --ka-v2-letter-normal: 0;
+  --ka-v2-letter-label: 0.08em;
+
+  /* Layout and controls */
+  --ka-v2-layout-content: 90rem;
+  --ka-v2-layout-reading: 46rem;
+  --ka-v2-layout-gutter: clamp(1rem, 4vw, 3rem);
+  --ka-v2-layout-section: clamp(3.5rem, 8vw, 7rem);
+  --ka-v2-control-height: 2.75rem;
+  --ka-v2-control-height-lg: 3.25rem;
+  --ka-v2-target-size: 2.75rem;
+  --ka-v2-field-border-width: 0.0625rem;
+  --ka-v2-focus-width: 0.1875rem;
+  --ka-v2-focus-offset: 0.125rem;
+  --ka-v2-icon-sm: 1rem;
+  --ka-v2-icon-md: 1.25rem;
+  --ka-v2-icon-lg: 1.5rem;
+  --ka-v2-dialog-width: 44rem;
+  --ka-v2-drawer-width: 30rem;
+  --ka-v2-layer-overlay: 100;
+  --ka-v2-disabled-opacity: 0.52;
+  --ka-v2-placeholder-opacity: 0.72;
+  --ka-v2-focus-soft: rgb(18 107 214 / 18%);
+  --ka-v2-button-active-offset: 0.0625rem;
+  --ka-v2-checkbox-size: 1.25rem;
+  --ka-v2-checkbox-offset: 0.125rem;
+  --ka-v2-status-height: 1.75rem;
+  --ka-v2-alert-icon-offset: 0.125rem;
+  --ka-v2-grid-compact: 12rem;
+  --ka-v2-grid-standard: 18rem;
+  --ka-v2-grid-wide: 24rem;
+  --ka-v2-image-landscape: 8 / 5;
+  --ka-v2-image-editorial: 3 / 2;
+  --ka-v2-image-square: 1 / 1;
+  --ka-v2-overlay-padding: clamp(1rem, 4vw, 2rem);
+  --ka-v2-overlay-max-height: calc(100dvh - (var(--ka-v2-overlay-padding) * 2));
+  --ka-v2-backdrop-blur: 0.375rem;
+  --ka-v2-header-height: 4rem;
+  --ka-v2-header-height-desktop: 4rem;
+  --ka-v2-header-logo-width: 10.5rem;
+  --ka-v2-header-logo-width-desktop: 10.75rem;
+  --ka-v2-header-layer: 60;
+  --ka-v2-header-blur: 1rem;
+  --ka-v2-card-image-padding: clamp(0.5rem, 2vw, 1rem);
+  --ka-v2-card-hover-offset: -0.25rem;
+  --ka-v2-card-image-scale: 0.94;
+  --ka-v2-card-image-hover-scale: 0.97;
+  --ka-v2-catalog-card-max-width: 22.5rem;
+  --ka-v2-catalog-title-block-height: 3.375rem;
+  --ka-v2-footer-logo-width: 11.875rem;
+  --ka-v2-filter-sheet-height: 92dvh;
+  --ka-v2-pagination-size: 2.75rem;
+  --ka-v2-skeleton-filter-height: 8rem;
+
+  /* Motion */
+  --ka-v2-motion-fast: 120ms;
+  --ka-v2-motion-standard: 200ms;
+  --ka-v2-motion-slow: 320ms;
+  --ka-v2-motion-easing: cubic-bezier(0.2, 0, 0, 1);
+
+  color: var(--ka-v2-color-text);
+  font-family: var(--ka-v2-font-family);
+  letter-spacing: var(--ka-v2-letter-normal);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .root {
+    --ka-v2-motion-fast: 0ms;
+    --ka-v2-motion-standard: 0ms;
+    --ka-v2-motion-slow: 0ms;
+  }
+}

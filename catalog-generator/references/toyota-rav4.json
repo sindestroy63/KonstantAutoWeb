@@ -1,0 +1,27 @@
+{
+  "checkedAt": "2026-07-28T11:59:52.356Z",
+  "manufacturer": "Toyota",
+  "model": "RAV4",
+  "requestedYear": "2026",
+  "generation": "sixth generation",
+  "chassisCode": "2026 sixth-generation production body",
+  "market": "North America",
+  "referenceUrl": "https://pressroom.toyota.com/vehicle/2026-toyota-rav4/",
+  "finalUrl": "https://pressroom.toyota.com/vehicle/2026-toyota-rav4/",
+  "httpStatus": 200,
+  "officialDomain": "pressroom.toyota.com",
+  "confirmedBodyCues": [
+    "C-shaped hammerhead-inspired front lighting",
+    "slim upper lamps",
+    "angular sixth-generation face",
+    "squared Woodland bumper"
+  ],
+  "attempts": [
+    {
+      "url": "https://pressroom.toyota.com/vehicle/2026-toyota-rav4/",
+      "finalUrl": "https://pressroom.toyota.com/vehicle/2026-toyota-rav4/",
+      "httpStatus": 200,
+      "status": "confirmed"
+    }
+  ]
+}

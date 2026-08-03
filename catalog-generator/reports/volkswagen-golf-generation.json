@@ -1,0 +1,40 @@
+{
+  "generatedAt": "2026-07-30T10:31:33.363Z",
+  "modelId": "volkswagen-golf",
+  "manufacturer": "Volkswagen",
+  "model": "Golf",
+  "apiRequestCount": 1,
+  "infrastructureRetries": 0,
+  "infrastructureDiagnostics": [
+    {
+      "requestIndex": 0,
+      "httpStatus": 200,
+      "responseFormat": "json"
+    }
+  ],
+  "requestedYears": "2025-2026",
+  "requestedGeneration": "eighth generation Mk8.5 facelift",
+  "requestedChassisCode": "CD1",
+  "modelUsed": "gpt-image-2",
+  "generationMode": "text-generation",
+  "endpoint": "https://vibecode.moe/v1/images/generations",
+  "referenceUrl": "https://www.volkswagen-newsroom.com/en/the-new-golf-2024-18136",
+  "referenceImageUrl": null,
+  "apiStatus": 200,
+  "downloadStatus": 200,
+  "contentType": "image/png",
+  "sourceUrl": "https://file8.aitohumanize.com/file/d8c15874fa0a4fa1a86d4ffa6ed737b3.png",
+  "rawFile": "catalog-generator\\outputs\\raw\\volkswagen-golf.png",
+  "generatedFile": "catalog-generator\\outputs\\volkswagen-golf.webp",
+  "rawMetadata": {
+    "format": "png",
+    "width": 1536,
+    "height": 1024
+  },
+  "outputMetadata": {
+    "format": "webp",
+    "width": 1600,
+    "height": 1000
+  },
+  "promptFile": "catalog-generator\\prompts\\volkswagen-golf.txt"
+}

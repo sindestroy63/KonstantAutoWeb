@@ -1,0 +1,24 @@
+{
+  "id": "toyota-prado",
+  "catalogSlug": "toyota_prado",
+  "manufacturer": "Toyota",
+  "model": "Prado",
+  "generation": "TODO: official current generation",
+  "chassisCode": "TODO",
+  "years": "TODO",
+  "facelift": "TODO",
+  "market": "TODO",
+  "body": "Внедорожник",
+  "trim": "TODO",
+  "paint": "factory production color",
+  "identityCues": [],
+  "modelExclusions": [
+    "previous generation",
+    "concept",
+    "fantasy design"
+  ],
+  "referenceUrls": [],
+  "outputFilename": "toyota-prado.webp",
+  "status": "draft",
+  "approved": false
+}

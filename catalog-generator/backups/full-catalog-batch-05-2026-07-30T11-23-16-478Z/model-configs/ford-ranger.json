@@ -1,0 +1,41 @@
+{
+  "id": "ford-ranger",
+  "catalogSlug": "ford_ranger",
+  "manufacturer": "Ford",
+  "model": "Ranger",
+  "generation": "fifth generation P703",
+  "chassisCode": "P703",
+  "years": "2023-2026",
+  "facelift": "current all-new generation",
+  "market": "Europe / Australia",
+  "body": "four-door double-cab midsize pickup",
+  "trim": "Wildtrak",
+  "paint": "Blue Lightning Metallic",
+  "identityCues": [
+    "P703 double-cab pickup body",
+    "signature C-clamp LED headlamps",
+    "wide rectangular grille with central Ford oval",
+    "separate cargo bed and four full doors"
+  ],
+  "modelExclusions": [
+    "previous-generation T6/P375 Ranger",
+    "Ford F-150",
+    "Ford Maverick",
+    "Ranger Raptor body kit",
+    "single cab",
+    "concept",
+    "fantasy design"
+  ],
+  "referenceUrls": [
+    "https://www.ford.co.uk/vans-and-pickups/ranger"
+  ],
+  "fallbackReferenceUrls": [
+    "https://en.wikipedia.org/wiki/Ford_Ranger_(T6)#Second_generation_(P703;_2022)",
+    "https://www.autoevolution.com/cars/ford-ranger.html"
+  ],
+  "referenceQuality": "secondary-confirmed",
+  "confidenceLevel": "high",
+  "outputFilename": "ford-ranger.webp",
+  "status": "qa",
+  "approved": false
+}

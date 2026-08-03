@@ -1,0 +1,41 @@
+{
+  "id": "geely-monjaro",
+  "catalogSlug": "geely_monjaro",
+  "manufacturer": "Geely",
+  "model": "Monjaro",
+  "generation": "first generation KX11 current production specification",
+  "chassisCode": "KX11 / CMA",
+  "years": "2022-2026",
+  "facelift": "current production update",
+  "market": "China / CIS",
+  "body": "five-door midsize crossover",
+  "trim": "Flagship",
+  "paint": "Emerald Green metallic",
+  "identityCues": [
+    "KX11 Monjaro body with long hood and upright premium crossover proportions",
+    "large concave vertical-slat grille",
+    "slim rectangular LED headlamps",
+    "current Geely shield badge and restrained production bumper"
+  ],
+  "modelExclusions": [
+    "Geely Atlas or Boyue L",
+    "Geely Tugella",
+    "Volvo XC60",
+    "pre-production Xingyue L concept",
+    "fictional full-width front lighting",
+    "aftermarket body kit"
+  ],
+  "referenceUrls": [
+    "https://www.geely-motors.com/model/monjaro/"
+  ],
+  "fallbackReferenceUrls": [
+    "https://global.geely.com/en/models/monjaro",
+    "https://en.wikipedia.org/wiki/Geely_Xingyue_L"
+  ],
+  "referenceQuality": "secondary-confirmed",
+  "confidenceLevel": "high",
+  "outputFilename": "geely-monjaro.webp",
+  "status": "production",
+  "approved": true,
+  "approvalStatus": "production-approved"
+}

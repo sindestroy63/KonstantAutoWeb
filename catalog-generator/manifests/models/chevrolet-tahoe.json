@@ -1,0 +1,41 @@
+{
+  "id": "chevrolet-tahoe",
+  "catalogSlug": "chevrolet_tahoe",
+  "manufacturer": "Chevrolet",
+  "model": "Tahoe",
+  "generation": "fifth generation GMT1YC facelift",
+  "chassisCode": "GMT1YC",
+  "years": "2025-2026",
+  "facelift": "2025 model-year facelift",
+  "market": "North America",
+  "body": "five-door full-size three-row SUV",
+  "trim": "High Country",
+  "paint": "Sterling Gray Metallic",
+  "identityCues": [
+    "facelift fifth-generation full-size Tahoe body",
+    "new split lighting with thin upper DRLs",
+    "large revised High Country grille",
+    "long three-row body and upright rear quarter"
+  ],
+  "modelExclusions": [
+    "pre-facelift 2021-2024 Tahoe",
+    "fourth-generation K2UC Tahoe",
+    "Chevrolet Suburban",
+    "GMC Yukon",
+    "Chevrolet Traverse",
+    "concept",
+    "fantasy design"
+  ],
+  "referenceUrls": [
+    "https://www.chevrolet.com/suvs/tahoe"
+  ],
+  "fallbackReferenceUrls": [
+    "https://en.wikipedia.org/wiki/Chevrolet_Tahoe",
+    "https://www.autoevolution.com/cars/chevrolet-tahoe.html"
+  ],
+  "referenceQuality": "secondary-confirmed",
+  "confidenceLevel": "high",
+  "outputFilename": "chevrolet-tahoe.webp",
+  "status": "qa",
+  "approved": false
+}

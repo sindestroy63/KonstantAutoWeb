@@ -1,0 +1,27 @@
+{
+  "checkedAt": "2026-07-30T09:52:14.810Z",
+  "manufacturer": "Nissan",
+  "model": "Leaf",
+  "requestedYear": "2023-2025",
+  "generation": "second generation ZE1 final production facelift",
+  "chassisCode": "ZE1",
+  "market": "Europe / Japan",
+  "referenceUrl": "https://www.nissan.co.uk/vehicles/new-vehicles/leaf.html",
+  "finalUrl": "https://www.nissan.co.uk/vehicles/new-vehicles/leaf/version-explorer.html",
+  "httpStatus": 200,
+  "officialDomain": "www.nissan.co.uk",
+  "confirmedBodyCues": [
+    "second-generation ZE1 five-door hatchback body",
+    "facelift dark closed V-motion grille panel",
+    "angular LED headlamps",
+    "short hood, floating roof detail and current Nissan badge"
+  ],
+  "attempts": [
+    {
+      "url": "https://www.nissan.co.uk/vehicles/new-vehicles/leaf.html",
+      "finalUrl": "https://www.nissan.co.uk/vehicles/new-vehicles/leaf/version-explorer.html",
+      "httpStatus": 200,
+      "status": "confirmed"
+    }
+  ]
+}

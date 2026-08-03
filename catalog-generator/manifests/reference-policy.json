@@ -1,0 +1,21 @@
+{
+  "blockedHosts": ["mobile.de", "avito.ru", "auto.ru", "cars.com"],
+  "manufacturers": {
+    "Toyota": ["toyota.com", "pressroom.toyota.com", "toyota.ae", "toyota.co.uk"],
+    "BMW": ["bmw.com", "bmw.co.uk", "bmwgroup.com", "press.bmwgroup.com"],
+    "Hyundai": ["hyundai.com", "hyundaiusa.com"],
+    "Kia": ["kia.com", "kiamedia.com"],
+    "Lexus": ["lexus.com", "global.toyota"],
+    "Geely": ["geely.com", "global.geely.com", "geely-motors.com"],
+    "Haval": ["haval.ru", "haval-global.com"],
+    "Mercedes-Benz": ["mercedes-benz.com", "media.mercedes-benz.com"],
+    "Honda": ["honda.com", "automobiles.honda.com", "honda.co.jp"],
+    "Nissan": ["nissan.co.uk", "nissan-dubai.com", "nissan-global.com"],
+    "Mazda": ["mazda.com", "mazdausa.com", "mazda.co.jp", "mazda.com.au"],
+    "Volkswagen": ["volkswagen.com", "volkswagen-newsroom.com", "vw.co.za"],
+    "Audi": ["audi.com", "audi-mediacenter.com", "audi.co.uk", "audiusa.com"],
+    "Ford": ["ford.com", "ford.co.uk", "media.ford.com"],
+    "Chevrolet": ["chevrolet.com", "media.chevrolet.com", "news.chevrolet.com"],
+    "Chery": ["cheryinternational.com", "cheryglobal.com"]
+  }
+}

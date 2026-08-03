@@ -1,0 +1,27 @@
+{
+  "checkedAt": "2026-07-30T11:09:44.883Z",
+  "manufacturer": "Ford",
+  "model": "Escape",
+  "requestedYear": "2023-2025 final production specification",
+  "generation": "fourth generation CX482 facelift",
+  "chassisCode": "CX482",
+  "market": "North America",
+  "referenceUrl": "https://www.ford.com/suvs-crossovers/escape/",
+  "finalUrl": "https://www.ford.com/suvs-crossovers/escape/",
+  "httpStatus": 200,
+  "officialDomain": "www.ford.com",
+  "confirmedBodyCues": [
+    "facelift CX482 compact crossover body",
+    "full-width upper LED light bar",
+    "revised trapezoidal grille with Ford badge",
+    "slim headlamps and accurate Escape proportions"
+  ],
+  "attempts": [
+    {
+      "url": "https://www.ford.com/suvs-crossovers/escape/",
+      "finalUrl": "https://www.ford.com/suvs-crossovers/escape/",
+      "httpStatus": 200,
+      "status": "confirmed"
+    }
+  ]
+}

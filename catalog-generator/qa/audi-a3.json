@@ -1,0 +1,83 @@
+{
+  "checkedAt": "2026-07-30T11:22:05.138Z",
+  "modelId": "audi-a3",
+  "file": "catalog-generator\\outputs\\audi-a3.webp",
+  "deterministicPass": true,
+  "analysis": {
+    "width": 1600,
+    "height": 1000,
+    "backgroundCornerRgb": [
+      194.6,
+      194.5,
+      193.7
+    ],
+    "backgroundCornerLuminance": 194.3,
+    "backgroundCornerNeutralityDelta": 0.9,
+    "foregroundBounds": {
+      "minX": 154,
+      "maxX": 1414,
+      "minY": 272,
+      "maxY": 826
+    },
+    "foregroundWidthPercent": 78.8,
+    "horizonPercent": 82.7
+  },
+  "checks": {
+    "dimensions": {
+      "status": "pass",
+      "actual": "1600x1000"
+    },
+    "format": {
+      "status": "pass",
+      "actual": "webp"
+    },
+    "aspectRatio": {
+      "status": "pass",
+      "actual": 1.6
+    },
+    "background": {
+      "status": "pass",
+      "actualRgb": [
+        194.6,
+        194.5,
+        193.7
+      ],
+      "luminance": 194.3,
+      "neutralityDelta": 0.9
+    },
+    "scale": {
+      "status": "pass",
+      "actualPercent": 78.8,
+      "targetPercent": "78-84",
+      "tolerancePercent": "74-88"
+    },
+    "horizon": {
+      "status": "pass",
+      "actualPercent": 82.7,
+      "tolerancePercent": "72-93"
+    },
+    "exactlyOneVehicle": {
+      "status": "pass",
+      "method": "agent-visual-review"
+    },
+    "noPeople": {
+      "status": "pass",
+      "method": "agent-visual-review"
+    },
+    "noText": {
+      "status": "pass",
+      "method": "agent-visual-review"
+    },
+    "noWatermark": {
+      "status": "pass",
+      "method": "agent-visual-review"
+    },
+    "generationIdentity": {
+      "status": "approved",
+      "method": "agent-visual-review"
+    }
+  },
+  "semanticQa": "approved",
+  "generationQa": "approved",
+  "finalStatus": "production-approved"
+}

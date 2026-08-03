@@ -1,0 +1,40 @@
+{
+  "id": "ford-escape",
+  "catalogSlug": "ford_escape",
+  "manufacturer": "Ford",
+  "model": "Escape",
+  "generation": "fourth generation CX482 facelift",
+  "chassisCode": "CX482",
+  "years": "2023-2025 final production specification",
+  "facelift": "2023 model-year facelift",
+  "market": "North America",
+  "body": "five-door compact crossover SUV",
+  "trim": "ST-Line Select",
+  "paint": "Cinnabar Red Metallic",
+  "identityCues": [
+    "facelift CX482 compact crossover body",
+    "full-width upper LED light bar",
+    "revised trapezoidal grille with Ford badge",
+    "slim headlamps and accurate Escape proportions"
+  ],
+  "modelExclusions": [
+    "pre-facelift 2020-2022 Escape",
+    "third-generation Escape",
+    "Ford Kuga pre-facelift",
+    "Ford Explorer",
+    "concept",
+    "fantasy design"
+  ],
+  "referenceUrls": [
+    "https://www.ford.com/suvs-crossovers/escape/"
+  ],
+  "fallbackReferenceUrls": [
+    "https://en.wikipedia.org/wiki/Ford_Escape#Fourth_generation_(2020)",
+    "https://www.autoevolution.com/cars/ford-escape.html"
+  ],
+  "referenceQuality": "secondary-confirmed",
+  "confidenceLevel": "high",
+  "outputFilename": "ford-escape.webp",
+  "status": "qa",
+  "approved": false
+}

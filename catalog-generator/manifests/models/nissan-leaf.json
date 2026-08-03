@@ -1,0 +1,41 @@
+{
+  "id": "nissan-leaf",
+  "catalogSlug": "nissan_leaf",
+  "manufacturer": "Nissan",
+  "model": "Leaf",
+  "generation": "second generation ZE1 final production facelift",
+  "chassisCode": "ZE1",
+  "years": "2023-2025",
+  "facelift": "final second-generation hatchback production specification",
+  "market": "Europe / Japan",
+  "body": "five-door electric hatchback",
+  "trim": "Tekna",
+  "paint": "Magnetic Blue metallic",
+  "identityCues": [
+    "second-generation ZE1 five-door hatchback body",
+    "facelift dark closed V-motion grille panel",
+    "angular LED headlamps",
+    "short hood, floating roof detail and current Nissan badge"
+  ],
+  "modelExclusions": [
+    "first-generation ZE0 Leaf",
+    "2026 third-generation crossover Leaf",
+    "Nissan Ariya",
+    "sedan body",
+    "old blue-trim grille",
+    "fictional crossover body"
+  ],
+  "referenceUrls": [
+    "https://www.nissan.co.uk/vehicles/new-vehicles/leaf.html"
+  ],
+  "fallbackReferenceUrls": [
+    "https://en.wikipedia.org/wiki/Nissan_Leaf",
+    "https://www.autocar.co.uk/car-review/nissan/leaf"
+  ],
+  "referenceQuality": "secondary-confirmed",
+  "confidenceLevel": "high",
+  "outputFilename": "nissan-leaf.webp",
+  "status": "production",
+  "approved": true,
+  "approvalStatus": "production-approved"
+}

@@ -1,0 +1,24 @@
+{
+  "id": "jetour-x70",
+  "catalogSlug": "jetour_x70",
+  "manufacturer": "Jetour",
+  "model": "X70",
+  "generation": "TODO: official current generation",
+  "chassisCode": "TODO",
+  "years": "TODO",
+  "facelift": "TODO",
+  "market": "TODO",
+  "body": "Кроссовер",
+  "trim": "TODO",
+  "paint": "factory production color",
+  "identityCues": [],
+  "modelExclusions": [
+    "previous generation",
+    "concept",
+    "fantasy design"
+  ],
+  "referenceUrls": [],
+  "outputFilename": "jetour-x70.webp",
+  "status": "draft",
+  "approved": false
+}

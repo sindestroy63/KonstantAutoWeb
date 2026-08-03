@@ -1,0 +1,24 @@
+{
+  "id": "bmw-5-series",
+  "catalogSlug": "bmw_5_series",
+  "manufacturer": "BMW",
+  "model": "5 Series",
+  "generation": "TODO: official current generation",
+  "chassisCode": "TODO",
+  "years": "TODO",
+  "facelift": "TODO",
+  "market": "TODO",
+  "body": "Седан",
+  "trim": "TODO",
+  "paint": "factory production color",
+  "identityCues": [],
+  "modelExclusions": [
+    "previous generation",
+    "concept",
+    "fantasy design"
+  ],
+  "referenceUrls": [],
+  "outputFilename": "bmw-5-series.webp",
+  "status": "draft",
+  "approved": false
+}

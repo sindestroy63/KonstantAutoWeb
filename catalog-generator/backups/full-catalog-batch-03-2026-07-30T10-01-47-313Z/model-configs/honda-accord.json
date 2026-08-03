@@ -1,0 +1,40 @@
+{
+  "id": "honda-accord",
+  "catalogSlug": "honda_accord",
+  "manufacturer": "Honda",
+  "model": "Accord",
+  "generation": "eleventh generation CY",
+  "chassisCode": "CY1/CY2",
+  "years": "2023-2026",
+  "facelift": "current eleventh-generation production specification",
+  "market": "North America",
+  "body": "four-door midsize sedan",
+  "trim": "Touring Hybrid",
+  "paint": "Radiant Red metallic",
+  "identityCues": [
+    "eleventh-generation CY fastback-like sedan body",
+    "thin full-width black upper grille",
+    "slim rectangular LED headlamps",
+    "clean horizontal bumper and accurate Honda H badge"
+  ],
+  "modelExclusions": [
+    "tenth-generation CV Accord",
+    "Honda Civic",
+    "China-market Inspire",
+    "hatchback body",
+    "previous chrome-wing grille",
+    "fictional performance bumper"
+  ],
+  "referenceUrls": [
+    "https://automobiles.honda.com/accord-sedan"
+  ],
+  "fallbackReferenceUrls": [
+    "https://en.wikipedia.org/wiki/Honda_Accord_(North_America_eleventh_generation)",
+    "https://www.caranddriver.com/honda/accord"
+  ],
+  "referenceQuality": "secondary-confirmed",
+  "confidenceLevel": "high",
+  "outputFilename": "honda-accord.webp",
+  "status": "qa",
+  "approved": false
+}

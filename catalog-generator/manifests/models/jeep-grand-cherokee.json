@@ -1,0 +1,24 @@
+{
+  "id": "jeep-grand-cherokee",
+  "catalogSlug": "jeep_grand_cherokee",
+  "manufacturer": "Jeep",
+  "model": "Grand Cherokee",
+  "generation": "TODO: official current generation",
+  "chassisCode": "TODO",
+  "years": "TODO",
+  "facelift": "TODO",
+  "market": "TODO",
+  "body": "Внедорожник",
+  "trim": "TODO",
+  "paint": "factory production color",
+  "identityCues": [],
+  "modelExclusions": [
+    "previous generation",
+    "concept",
+    "fantasy design"
+  ],
+  "referenceUrls": [],
+  "outputFilename": "jeep-grand-cherokee.webp",
+  "status": "draft",
+  "approved": false
+}

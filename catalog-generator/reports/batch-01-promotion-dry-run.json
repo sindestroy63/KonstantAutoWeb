@@ -1,0 +1,222 @@
+{
+  "generatedAt": "2026-07-29T09:56:01.823Z",
+  "batchId": "batch-01",
+  "dryRun": true,
+  "productionWritesPerformed": false,
+  "gitCommitCreated": false,
+  "approvedModels": 5,
+  "excludedModels": [
+    {
+      "modelId": "bmw-x3",
+      "manufacturer": "BMW",
+      "model": "X3",
+      "reason": "Second attempt still combines G45 grille cues with G01-like body surfacing and conventional protruding door handles."
+    },
+    {
+      "modelId": "bmw-1-series",
+      "manufacturer": "BMW",
+      "model": "1 Series",
+      "reason": "Provider returned HTTP 504 with a non-JSON body; no image URL or decodable staging file was returned. Retry was not made because there was no generated image to fail QA."
+    }
+  ],
+  "promotions": [
+    {
+      "modelId": "hyundai-creta",
+      "manufacturer": "Hyundai",
+      "model": "Creta",
+      "generation": "second generation SU2i",
+      "stagingFile": "catalog-generator\\outputs\\batch-01-hyundai-creta-su2i-facelift.webp",
+      "stagingSha256": "9c025bae4deb732d263bd324e9292d06b7b6793be3706035332ff6debac209eb",
+      "targetProductionPath": "public\\images\\catalog\\hyundai-creta.webp",
+      "existingFile": {
+        "exists": true,
+        "sha256": "0a2f817d69ac46c420433264b0fc693f5017143a18db1dfe417413e7488532d2",
+        "bytes": 126224
+      },
+      "backupPath": "catalog-generator\\backups\\batch-01-2026-07-29T09-56-01-823\\hyundai-creta.webp",
+      "carsJsonChange": {
+        "slug": "hyundai_creta",
+        "before": "/images/catalog/hyundai-creta.webp",
+        "after": "/images/catalog/hyundai-creta.webp",
+        "changed": false
+      },
+      "manifestChange": {
+        "key": "hyundai_creta",
+        "before": null,
+        "after": {
+          "file": "hyundai-creta.webp",
+          "generation": "second generation SU2i",
+          "chassisCode": "SU2i",
+          "sourceSha256": "9c025bae4deb732d263bd324e9292d06b7b6793be3706035332ff6debac209eb",
+          "status": "production"
+        }
+      }
+    },
+    {
+      "modelId": "hyundai-tucson",
+      "manufacturer": "Hyundai",
+      "model": "Tucson",
+      "generation": "fourth generation NX4",
+      "stagingFile": "catalog-generator\\outputs\\batch-01-hyundai-tucson-nx4-facelift.webp",
+      "stagingSha256": "28b122078636489446e5498082098ba53eb2fd1f3cfc48f4da628f9fbf162fe6",
+      "targetProductionPath": "public\\images\\catalog\\hyundai-tucson.webp",
+      "existingFile": {
+        "exists": true,
+        "sha256": "86d335b2dcf14b463a306687c31f768dba446686ca61dd0128251eb6e84bbbbd",
+        "bytes": 126672
+      },
+      "backupPath": "catalog-generator\\backups\\batch-01-2026-07-29T09-56-01-823\\hyundai-tucson.webp",
+      "carsJsonChange": {
+        "slug": "hyundai_tucson",
+        "before": "/images/catalog/hyundai-tucson.webp",
+        "after": "/images/catalog/hyundai-tucson.webp",
+        "changed": false
+      },
+      "manifestChange": {
+        "key": "hyundai_tucson",
+        "before": null,
+        "after": {
+          "file": "hyundai-tucson.webp",
+          "generation": "fourth generation NX4",
+          "chassisCode": "NX4",
+          "sourceSha256": "28b122078636489446e5498082098ba53eb2fd1f3cfc48f4da628f9fbf162fe6",
+          "status": "production"
+        }
+      }
+    },
+    {
+      "modelId": "hyundai-santa-fe",
+      "manufacturer": "Hyundai",
+      "model": "Santa Fe",
+      "generation": "fifth generation MX5",
+      "stagingFile": "catalog-generator\\outputs\\batch-01-hyundai-santa-fe-mx5.webp",
+      "stagingSha256": "3d8c93bb6185869c09e6410b182610df41cec727a738cd53c535a0ee3d02b7d3",
+      "targetProductionPath": "public\\images\\catalog\\hyundai-santa-fe.webp",
+      "existingFile": {
+        "exists": true,
+        "sha256": "d60d4a3589798ef2b7387f5cbccdb00e0f0dcb2519136f45fbaeb5bfec692d2d",
+        "bytes": 137162
+      },
+      "backupPath": "catalog-generator\\backups\\batch-01-2026-07-29T09-56-01-823\\hyundai-santa-fe.webp",
+      "carsJsonChange": {
+        "slug": "hyundai_santa_fe",
+        "before": "/images/catalog/hyundai-santa-fe.webp",
+        "after": "/images/catalog/hyundai-santa-fe.webp",
+        "changed": false
+      },
+      "manifestChange": {
+        "key": "hyundai_santa_fe",
+        "before": null,
+        "after": {
+          "file": "hyundai-santa-fe.webp",
+          "generation": "fifth generation MX5",
+          "chassisCode": "MX5",
+          "sourceSha256": "3d8c93bb6185869c09e6410b182610df41cec727a738cd53c535a0ee3d02b7d3",
+          "status": "production"
+        }
+      }
+    },
+    {
+      "modelId": "hyundai-i30",
+      "manufacturer": "Hyundai",
+      "model": "i30",
+      "generation": "third generation PD",
+      "stagingFile": "catalog-generator\\outputs\\batch-01-hyundai-i30-pd-second-facelift.webp",
+      "stagingSha256": "50e28c5037b747daf66c3aa6acb617f5a0f392e4fc467f290330ff4485f21325",
+      "targetProductionPath": "public\\images\\catalog\\hyundai-i30.webp",
+      "existingFile": {
+        "exists": true,
+        "sha256": "d8fba60b1950ae314ae07c5d29c65041cdae4963190458b38797d6a2949b06c4",
+        "bytes": 102636
+      },
+      "backupPath": "catalog-generator\\backups\\batch-01-2026-07-29T09-56-01-823\\hyundai-i30.webp",
+      "carsJsonChange": {
+        "slug": "hyundai_i30",
+        "before": "/images/catalog/hyundai-i30.webp",
+        "after": "/images/catalog/hyundai-i30.webp",
+        "changed": false
+      },
+      "manifestChange": {
+        "key": "hyundai_i30",
+        "before": null,
+        "after": {
+          "file": "hyundai-i30.webp",
+          "generation": "third generation PD",
+          "chassisCode": "PD",
+          "sourceSha256": "50e28c5037b747daf66c3aa6acb617f5a0f392e4fc467f290330ff4485f21325",
+          "status": "production"
+        }
+      }
+    },
+    {
+      "modelId": "kia-sportage",
+      "manufacturer": "Kia",
+      "model": "Sportage",
+      "generation": "fifth generation NQ5",
+      "stagingFile": "catalog-generator\\outputs\\batch-01-kia-sportage-nq5-facelift.webp",
+      "stagingSha256": "5ef3f1129f388691be4f309be6e173ac1609786b96548480429872705f3e1c44",
+      "targetProductionPath": "public\\images\\catalog\\kia-sportage.webp",
+      "existingFile": {
+        "exists": true,
+        "sha256": "2af73c33dbfa37c36684174d896b5b373ef953c5d4597e833dd4b1239ec8ba9a",
+        "bytes": 182618
+      },
+      "backupPath": "catalog-generator\\backups\\batch-01-2026-07-29T09-56-01-823\\kia-sportage.webp",
+      "carsJsonChange": {
+        "slug": "kia_sportage",
+        "before": "/images/catalog/kia-sportage.webp",
+        "after": "/images/catalog/kia-sportage.webp",
+        "changed": false
+      },
+      "manifestChange": {
+        "key": "kia_sportage",
+        "before": null,
+        "after": {
+          "file": "kia-sportage.webp",
+          "generation": "fifth generation NQ5",
+          "chassisCode": "NQ5",
+          "sourceSha256": "5ef3f1129f388691be4f309be6e173ac1609786b96548480429872705f3e1c44",
+          "status": "production"
+        }
+      }
+    }
+  ],
+  "affectedFiles": {
+    "wouldRead": [
+      "data/cars.json",
+      "public/images/catalog/manifest.json",
+      "catalog-generator\\outputs\\batch-01-hyundai-creta-su2i-facelift.webp",
+      "public\\images\\catalog\\hyundai-creta.webp",
+      "catalog-generator\\outputs\\batch-01-hyundai-tucson-nx4-facelift.webp",
+      "public\\images\\catalog\\hyundai-tucson.webp",
+      "catalog-generator\\outputs\\batch-01-hyundai-santa-fe-mx5.webp",
+      "public\\images\\catalog\\hyundai-santa-fe.webp",
+      "catalog-generator\\outputs\\batch-01-hyundai-i30-pd-second-facelift.webp",
+      "public\\images\\catalog\\hyundai-i30.webp",
+      "catalog-generator\\outputs\\batch-01-kia-sportage-nq5-facelift.webp",
+      "public\\images\\catalog\\kia-sportage.webp"
+    ],
+    "wouldReplace": [
+      "public\\images\\catalog\\hyundai-creta.webp",
+      "public\\images\\catalog\\hyundai-tucson.webp",
+      "public\\images\\catalog\\hyundai-santa-fe.webp",
+      "public\\images\\catalog\\hyundai-i30.webp",
+      "public\\images\\catalog\\kia-sportage.webp"
+    ],
+    "wouldCreateBackups": [
+      "catalog-generator\\backups\\batch-01-2026-07-29T09-56-01-823\\hyundai-creta.webp",
+      "catalog-generator\\backups\\batch-01-2026-07-29T09-56-01-823\\hyundai-tucson.webp",
+      "catalog-generator\\backups\\batch-01-2026-07-29T09-56-01-823\\hyundai-santa-fe.webp",
+      "catalog-generator\\backups\\batch-01-2026-07-29T09-56-01-823\\hyundai-i30.webp",
+      "catalog-generator\\backups\\batch-01-2026-07-29T09-56-01-823\\kia-sportage.webp"
+    ],
+    "wouldModify": [
+      "public/images/catalog/manifest.json"
+    ],
+    "explicitlyNotTouched": [
+      "data/cars.json",
+      "Hero media",
+      ".git"
+    ]
+  }
+}

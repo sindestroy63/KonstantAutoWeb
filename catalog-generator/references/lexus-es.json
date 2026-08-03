@@ -1,0 +1,29 @@
+{
+  "checkedAt": "2026-07-30T11:53:52.941Z",
+  "manufacturer": "Lexus",
+  "model": "ES",
+  "requestedYear": "2026",
+  "generation": "eighth generation 2026",
+  "chassisCode": "not publicly confirmed",
+  "market": "Global / China",
+  "referenceUrl": "https://global.toyota/en/newsroom/lexus/42637790.html",
+  "fallbackReferenceUrls": [
+    "https://en.wikipedia.org/wiki/Lexus_ES",
+    "https://www.autoevolution.com/cars/lexus-es.html"
+  ],
+  "referenceQuality": "secondary-confirmed",
+  "confirmedBodyCues": [
+    "all-new eighth-generation 2026 ES sedan body",
+    "very slim L-signature LED headlamps",
+    "new spindle-body front without the old large framed spindle grille",
+    "long modern fastback-like sedan roofline"
+  ],
+  "attempts": [
+    {
+      "url": "https://global.toyota/en/newsroom/lexus/42637790.html",
+      "finalUrl": "https://global.toyota/en/newsroom/lexus/42637790.html",
+      "httpStatus": 404,
+      "status": "http-error"
+    }
+  ]
+}

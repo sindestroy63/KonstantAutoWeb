@@ -1,0 +1,29 @@
+{
+  "checkedAt": "2026-07-30T11:56:33.841Z",
+  "manufacturer": "Lexus",
+  "model": "CT",
+  "requestedYear": "2018-2022 final production specification",
+  "generation": "first generation ZWA10 final facelift",
+  "chassisCode": "ZWA10",
+  "market": "Europe / Japan",
+  "referenceUrl": "https://global.toyota/en/newsroom/lexus/24066854.html",
+  "fallbackReferenceUrls": [
+    "https://en.wikipedia.org/wiki/Lexus_CT",
+    "https://www.autoevolution.com/cars/lexus-ct.html"
+  ],
+  "referenceQuality": "secondary-confirmed",
+  "confirmedBodyCues": [
+    "ZWA10 five-door compact hatchback body",
+    "second-facelift spindle grille",
+    "revised arrowhead LED headlamps",
+    "short hatchback rear and low compact stance"
+  ],
+  "attempts": [
+    {
+      "url": "https://global.toyota/en/newsroom/lexus/24066854.html",
+      "finalUrl": "https://global.toyota/en/newsroom/lexus/24066854.html",
+      "httpStatus": 404,
+      "status": "http-error"
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "id": "haval-f7x",
+  "catalogSlug": "haval_f7x",
+  "manufacturer": "Haval",
+  "model": "F7x",
+  "generation": "first generation B02 coupe current facelift",
+  "chassisCode": "B02",
+  "years": "2022-2024",
+  "facelift": "final first-generation facelift production specification",
+  "market": "Russia / CIS",
+  "body": "five-door coupe crossover",
+  "trim": "Premium Tech Plus",
+  "paint": "Magma Red metallic",
+  "identityCues": [
+    "first-generation F7x coupe-SUV roofline",
+    "facelift dark mesh grille",
+    "facelift LED headlamps and sporty lower bumper",
+    "correct F7x rear-quarter silhouette and HAVAL wordmark"
+  ],
+  "modelExclusions": [
+    "standard-roof Haval F7",
+    "second-generation F7",
+    "Haval H6 GT",
+    "Haval Monster",
+    "BMW X4",
+    "fictional second-generation F7x"
+  ],
+  "referenceUrls": [
+    "https://haval.ru/models/haval-f7x/"
+  ],
+  "fallbackReferenceUrls": [
+    "https://en.wikipedia.org/wiki/Haval_F7",
+    "https://www.autoevolution.com/cars/haval-f7x.html"
+  ],
+  "referenceQuality": "secondary-confirmed",
+  "confidenceLevel": "medium-high",
+  "outputFilename": "haval-f7x.webp",
+  "status": "production",
+  "approved": true,
+  "approvalStatus": "production-approved"
+}

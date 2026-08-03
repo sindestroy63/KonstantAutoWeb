@@ -1,0 +1,29 @@
+{
+  "checkedAt": "2026-07-30T09:29:41.608Z",
+  "manufacturer": "Mercedes-Benz",
+  "model": "A-Class",
+  "requestedYear": "2023-2026",
+  "generation": "fourth generation W177 facelift",
+  "chassisCode": "W177",
+  "market": "Europe",
+  "referenceUrl": "https://www.mercedes-benz.com/en/vehicles/passenger-cars/a-class/",
+  "fallbackReferenceUrls": [
+    "https://en.wikipedia.org/wiki/Mercedes-Benz_A-Class_(W177)",
+    "https://www.autocar.co.uk/car-review/mercedes-benz/a-class"
+  ],
+  "referenceQuality": "secondary-confirmed",
+  "confirmedBodyCues": [
+    "W177 five-door hatchback body",
+    "facelift slim LED headlamps",
+    "facelift star-pattern grille with central Mercedes star",
+    "current AMG Line bumper and compact cab-rearward proportions"
+  ],
+  "attempts": [
+    {
+      "url": "https://www.mercedes-benz.com/en/vehicles/passenger-cars/a-class/",
+      "finalUrl": "https://www.mercedes-benz.com/en/vehicles/passenger-cars/a-class/",
+      "httpStatus": 404,
+      "status": "http-error"
+    }
+  ]
+}

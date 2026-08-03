@@ -1,0 +1,83 @@
+{
+  "checkedAt": "2026-07-30T10:36:09.977Z",
+  "modelId": "mazda-cx-5",
+  "file": "catalog-generator\\outputs\\mazda-cx-5.webp",
+  "deterministicPass": true,
+  "analysis": {
+    "width": 1600,
+    "height": 1000,
+    "backgroundCornerRgb": [
+      203.9,
+      203.9,
+      203.1
+    ],
+    "backgroundCornerLuminance": 203.6,
+    "backgroundCornerNeutralityDelta": 0.9,
+    "foregroundBounds": {
+      "minX": 176,
+      "maxX": 1428,
+      "minY": 208,
+      "maxY": 854
+    },
+    "foregroundWidthPercent": 78.3,
+    "horizonPercent": 85.5
+  },
+  "checks": {
+    "dimensions": {
+      "status": "pass",
+      "actual": "1600x1000"
+    },
+    "format": {
+      "status": "pass",
+      "actual": "webp"
+    },
+    "aspectRatio": {
+      "status": "pass",
+      "actual": 1.6
+    },
+    "background": {
+      "status": "pass",
+      "actualRgb": [
+        203.9,
+        203.9,
+        203.1
+      ],
+      "luminance": 203.6,
+      "neutralityDelta": 0.9
+    },
+    "scale": {
+      "status": "pass",
+      "actualPercent": 78.3,
+      "targetPercent": "78-84",
+      "tolerancePercent": "74-88"
+    },
+    "horizon": {
+      "status": "pass",
+      "actualPercent": 85.5,
+      "tolerancePercent": "72-93"
+    },
+    "exactlyOneVehicle": {
+      "status": "pass",
+      "method": "agent-visual-review"
+    },
+    "noPeople": {
+      "status": "pass",
+      "method": "agent-visual-review"
+    },
+    "noText": {
+      "status": "pass",
+      "method": "agent-visual-review"
+    },
+    "noWatermark": {
+      "status": "pass",
+      "method": "agent-visual-review"
+    },
+    "generationIdentity": {
+      "status": "approved",
+      "method": "agent-visual-review"
+    }
+  },
+  "semanticQa": "approved",
+  "generationQa": "approved",
+  "finalStatus": "production-approved"
+}

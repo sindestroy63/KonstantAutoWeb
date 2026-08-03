@@ -1,0 +1,83 @@
+{
+  "checkedAt": "2026-07-30T09:00:09.420Z",
+  "modelId": "hyundai-solaris",
+  "file": "catalog-generator\\outputs\\hyundai-solaris.webp",
+  "deterministicPass": true,
+  "analysis": {
+    "width": 1600,
+    "height": 1000,
+    "backgroundCornerRgb": [
+      186.7,
+      186.6,
+      186.5
+    ],
+    "backgroundCornerLuminance": 186.6,
+    "backgroundCornerNeutralityDelta": 0.1,
+    "foregroundBounds": {
+      "minX": 128,
+      "maxX": 1450,
+      "minY": 234,
+      "maxY": 898
+    },
+    "foregroundWidthPercent": 82.7,
+    "horizonPercent": 89.9
+  },
+  "checks": {
+    "dimensions": {
+      "status": "pass",
+      "actual": "1600x1000"
+    },
+    "format": {
+      "status": "pass",
+      "actual": "webp"
+    },
+    "aspectRatio": {
+      "status": "pass",
+      "actual": 1.6
+    },
+    "background": {
+      "status": "pass",
+      "actualRgb": [
+        186.7,
+        186.6,
+        186.5
+      ],
+      "luminance": 186.6,
+      "neutralityDelta": 0.1
+    },
+    "scale": {
+      "status": "pass",
+      "actualPercent": 82.7,
+      "targetPercent": "78-84",
+      "tolerancePercent": "74-88"
+    },
+    "horizon": {
+      "status": "pass",
+      "actualPercent": 89.9,
+      "tolerancePercent": "72-93"
+    },
+    "exactlyOneVehicle": {
+      "status": "pass",
+      "method": "agent-visual-review"
+    },
+    "noPeople": {
+      "status": "pass",
+      "method": "agent-visual-review"
+    },
+    "noText": {
+      "status": "pass",
+      "method": "agent-visual-review"
+    },
+    "noWatermark": {
+      "status": "pass",
+      "method": "agent-visual-review"
+    },
+    "generationIdentity": {
+      "status": "approved",
+      "method": "agent-visual-review"
+    }
+  },
+  "semanticQa": "approved",
+  "generationQa": "approved",
+  "finalStatus": "production-approved"
+}

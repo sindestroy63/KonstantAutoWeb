@@ -1,0 +1,24 @@
+{
+  "id": "bmw-x7",
+  "catalogSlug": "bmw_x7",
+  "manufacturer": "BMW",
+  "model": "X7",
+  "generation": "TODO: official current generation",
+  "chassisCode": "TODO",
+  "years": "TODO",
+  "facelift": "TODO",
+  "market": "TODO",
+  "body": "Внедорожник",
+  "trim": "TODO",
+  "paint": "factory production color",
+  "identityCues": [],
+  "modelExclusions": [
+    "previous generation",
+    "concept",
+    "fantasy design"
+  ],
+  "referenceUrls": [],
+  "outputFilename": "bmw-x7.webp",
+  "status": "draft",
+  "approved": false
+}

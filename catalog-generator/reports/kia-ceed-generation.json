@@ -1,0 +1,40 @@
+{
+  "generatedAt": "2026-07-30T09:12:31.197Z",
+  "modelId": "kia-ceed",
+  "manufacturer": "Kia",
+  "model": "Ceed",
+  "apiRequestCount": 1,
+  "infrastructureRetries": 0,
+  "infrastructureDiagnostics": [
+    {
+      "requestIndex": 0,
+      "httpStatus": 200,
+      "responseFormat": "json"
+    }
+  ],
+  "requestedYears": "2022-2025",
+  "requestedGeneration": "third generation CD facelift",
+  "requestedChassisCode": "CD",
+  "modelUsed": "gpt-image-2",
+  "generationMode": "text-generation",
+  "endpoint": "https://vibecode.moe/v1/images/generations",
+  "referenceUrl": "https://www.kia.com/uk/new-cars/ceed/",
+  "referenceImageUrl": null,
+  "apiStatus": 200,
+  "downloadStatus": 200,
+  "contentType": "image/png",
+  "sourceUrl": "https://file7.aitohumanize.com/file/a769276c9cfa4e0da670076e2cc3ca00.png",
+  "rawFile": "catalog-generator\\outputs\\raw\\kia-ceed.png",
+  "generatedFile": "catalog-generator\\outputs\\kia-ceed.webp",
+  "rawMetadata": {
+    "format": "png",
+    "width": 1536,
+    "height": 1024
+  },
+  "outputMetadata": {
+    "format": "webp",
+    "width": 1600,
+    "height": 1000
+  },
+  "promptFile": "catalog-generator\\prompts\\kia-ceed.txt"
+}

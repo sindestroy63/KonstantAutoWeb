@@ -1,0 +1,27 @@
+{
+  "checkedAt": "2026-07-30T14:17:36.375Z",
+  "manufacturer": "Chevrolet",
+  "model": "Silverado",
+  "requestedYear": "2022-2026",
+  "generation": "fourth generation T1XX facelift",
+  "chassisCode": "T1XX",
+  "market": "North America",
+  "referenceUrl": "https://www.chevrolet.com/trucks/silverado/1500",
+  "finalUrl": "https://www.chevrolet.com/trucks/silverado/1500",
+  "httpStatus": 200,
+  "officialDomain": "www.chevrolet.com",
+  "confirmedBodyCues": [
+    "facelift T1XX Crew Cab pickup body",
+    "thin upper LED running lights with lower main lamps",
+    "wide High Country grille with Chevrolet bowtie",
+    "four full doors and separate cargo bed"
+  ],
+  "attempts": [
+    {
+      "url": "https://www.chevrolet.com/trucks/silverado/1500",
+      "finalUrl": "https://www.chevrolet.com/trucks/silverado/1500",
+      "httpStatus": 200,
+      "status": "confirmed"
+    }
+  ]
+}

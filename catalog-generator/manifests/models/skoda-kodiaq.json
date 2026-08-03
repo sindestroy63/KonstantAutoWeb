@@ -1,0 +1,24 @@
+{
+  "id": "skoda-kodiaq",
+  "catalogSlug": "skoda_kodiaq",
+  "manufacturer": "Skoda",
+  "model": "Kodiaq",
+  "generation": "TODO: official current generation",
+  "chassisCode": "TODO",
+  "years": "TODO",
+  "facelift": "TODO",
+  "market": "TODO",
+  "body": "Кроссовер",
+  "trim": "TODO",
+  "paint": "factory production color",
+  "identityCues": [],
+  "modelExclusions": [
+    "previous generation",
+    "concept",
+    "fantasy design"
+  ],
+  "referenceUrls": [],
+  "outputFilename": "skoda-kodiaq.webp",
+  "status": "draft",
+  "approved": false
+}

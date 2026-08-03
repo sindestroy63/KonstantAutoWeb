@@ -1,0 +1,17 @@
+{
+  "batch": 5,
+  "reviewedAt": "2026-07-30T11:24:00.000Z",
+  "reviewMethod": "agent visual review against resolved identity cues and manufacturer/secondary references",
+  "entries": [
+    {"modelId":"audi-a4","status":"approved","generationQa":"approved","semanticQa":"approved","attempts":1,"issues":[]},
+    {"modelId":"audi-q5","status":"approved","generationQa":"approved","semanticQa":"approved","attempts":1,"issues":[]},
+    {"modelId":"audi-q7","status":"approved","generationQa":"approved","semanticQa":"approved","attempts":1,"issues":[]},
+    {"modelId":"audi-a3","status":"approved","generationQa":"approved","semanticQa":"approved","attempts":3,"issues":["Attempt 1 rejected as sedan; attempt 2 rejected as wagon/Avant; attempt 3 is the required 8Y Sportback hatchback."]},
+    {"modelId":"audi-a6","status":"approved","generationQa":"approved","semanticQa":"approved","attempts":1,"issues":[]},
+    {"modelId":"ford-focus","status":"approved","generationQa":"approved","semanticQa":"approved","attempts":1,"issues":[]},
+    {"modelId":"ford-explorer","status":"approved","generationQa":"approved","semanticQa":"approved","attempts":1,"issues":[]},
+    {"modelId":"ford-ranger","status":"approved","generationQa":"approved","semanticQa":"approved","attempts":1,"issues":[]},
+    {"modelId":"ford-f-150","status":"approved","generationQa":"approved","semanticQa":"approved","attempts":1,"issues":[]},
+    {"modelId":"ford-escape","status":"approved","generationQa":"approved","semanticQa":"approved","attempts":1,"issues":[]}
+  ]
+}

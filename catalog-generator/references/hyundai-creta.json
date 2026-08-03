@@ -1,0 +1,28 @@
+{
+  "checkedAt": "2026-07-29T09:43:41.992Z",
+  "manufacturer": "Hyundai",
+  "model": "Creta",
+  "requestedYear": "2024-2026",
+  "generation": "second generation SU2i",
+  "chassisCode": "SU2i",
+  "market": "India",
+  "referenceUrl": "https://www.hyundai.com/in/en/find-a-car/creta/highlights",
+  "finalUrl": "https://www.hyundai.com/in/en/find-a-car/creta/highlights",
+  "httpStatus": 200,
+  "officialDomain": "www.hyundai.com",
+  "confirmedBodyCues": [
+    "2024-facelift SU2i body",
+    "wide dark parametric grille",
+    "connected horizontal upper LED daytime-running-light graphic",
+    "vertical stacked main lamps",
+    "current facelift front bumper"
+  ],
+  "attempts": [
+    {
+      "url": "https://www.hyundai.com/in/en/find-a-car/creta/highlights",
+      "finalUrl": "https://www.hyundai.com/in/en/find-a-car/creta/highlights",
+      "httpStatus": 200,
+      "status": "confirmed"
+    }
+  ]
+}

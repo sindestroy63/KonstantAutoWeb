@@ -1,0 +1,40 @@
+{
+  "id": "toyota-corolla",
+  "catalogSlug": "toyota_corolla",
+  "manufacturer": "Toyota",
+  "model": "Corolla",
+  "generation": "E210 facelift",
+  "chassisCode": "E210",
+  "years": "2025-2026",
+  "facelift": "current production facelift",
+  "market": "North America",
+  "body": "four-door compact sedan",
+  "trim": "XSE",
+  "paint": "Celestite gray metallic",
+  "identityCues": [
+    "slim swept LED headlamps",
+    "narrow upper grille",
+    "broad lower trapezoidal grille",
+    "compact E210 sedan proportions"
+  ],
+  "modelExclusions": [
+    "E170",
+    "pre-2019 Corolla",
+    "pre-facelift design",
+    "Camry mixture",
+    "hatchback",
+    "Corolla Cross"
+  ],
+  "referenceUrls": [
+    "https://www.toyota.com/corolla/"
+  ],
+  "outputFilename": "toyota-corolla-e210-facelift.webp",
+  "status": "production",
+  "approved": true,
+  "production": {
+    "batchId": "pilot-v3-2026-07-28T12-20-46-652",
+    "file": "public\\images\\catalog\\toyota-corolla.webp",
+    "sha256": "ca8fe1db543fd78d13ec86c33bf66e7d0e7430afb4aeae8173bd876ec11d4c34",
+    "promotedAt": "2026-07-28T12:25:59.188Z"
+  }
+}

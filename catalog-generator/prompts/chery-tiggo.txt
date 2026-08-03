@@ -1,0 +1,13 @@
+Use case: product-mockup. Asset type: identity-critical automotive catalog photograph.
+Manufacturer: Chery. Model: Tiggo (Tiggo 4 Pro). Model years: 2024-2026.
+Generation: Tiggo 4 Pro facelift. Chassis code: T17. Facelift status: current facelift.
+Regional specification: Global / Russia. Body style: five-door subcompact crossover SUV. Trim: Ultimate. Paint: Steel Gray Metallic.
+Exact production identity cues: current Tiggo 4 Pro compact crossover body; facelift slim LED headlamps; large diamond-pattern grille with centered Chery badge; short upright subcompact SUV proportions.
+Official manufacturer reference confirms: current Tiggo 4 Pro compact crossover body; facelift slim LED headlamps; large diamond-pattern grille with centered Chery badge; short upright subcompact SUV proportions.
+Hard model exclusions: Chery Tiggo 7; Chery Tiggo 8; old Tiggo 3; Chery Omoda; concept; fantasy design.
+Brand exclusions: old generation; concept car; fantasy design; CGI look; tuning; oversized wheels; aftermarket bumper; wrong logo; old headlights; cropped vehicle; watermark; wrong Chery model; Omoda substitution; Exeed substitution.
+Realistic serial-production vehicle, front three-quarter view, nose pointing right. Camera height 1.1-1.3 metres, 70-90 mm full-frame equivalent lens, minimal perspective distortion.
+Entire vehicle fully visible, including both bumpers, roof, doors, wheels and tires. Vehicle occupies 78-84 percent of image width. Wheels straight, matching, and resting on one visual baseline.
+Neutral seamless light-gray studio cyclorama, soft diffused catalog lighting, restrained contact shadow beneath the tires, low reflection intensity, consistent horizon and scale.
+Exactly one car. No environment, people, other vehicles, text, watermark, dealer plate, readable license, concepts, invented lighting, modified badges, extra doors, handles or pillars, malformed wheels or mixed body panels.
+Depict the exact named serial-production model year, generation, chassis and body. Never substitute a previous generation or blend generations. Prioritize production identity over generic attractiveness.

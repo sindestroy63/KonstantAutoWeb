@@ -1,0 +1,40 @@
+{
+  "generatedAt": "2026-07-30T09:51:20.057Z",
+  "modelId": "nissan-patrol",
+  "manufacturer": "Nissan",
+  "model": "Patrol",
+  "apiRequestCount": 1,
+  "infrastructureRetries": 0,
+  "infrastructureDiagnostics": [
+    {
+      "requestIndex": 0,
+      "httpStatus": 200,
+      "responseFormat": "json"
+    }
+  ],
+  "requestedYears": "2025-2026",
+  "requestedGeneration": "seventh generation Y63",
+  "requestedChassisCode": "Y63",
+  "modelUsed": "gpt-image-2",
+  "generationMode": "text-generation",
+  "endpoint": "https://vibecode.moe/v1/images/generations",
+  "referenceUrl": "https://en.nissan-dubai.com/vehicles/new/patrol.html",
+  "referenceImageUrl": null,
+  "apiStatus": 200,
+  "downloadStatus": 200,
+  "contentType": "image/png",
+  "sourceUrl": "https://file7.aitohumanize.com/file/cc3739b4faf54314a2468b6eedb1ab9f.png",
+  "rawFile": "catalog-generator\\outputs\\raw\\nissan-patrol.png",
+  "generatedFile": "catalog-generator\\outputs\\nissan-patrol.webp",
+  "rawMetadata": {
+    "format": "png",
+    "width": 1536,
+    "height": 1024
+  },
+  "outputMetadata": {
+    "format": "webp",
+    "width": 1600,
+    "height": 1000
+  },
+  "promptFile": "catalog-generator\\prompts\\nissan-patrol.txt"
+}

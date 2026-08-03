@@ -1,0 +1,30 @@
+{
+  "generatedAt": "2026-07-29T09:53:26.272Z",
+  "modelId": "kia-sportage",
+  "manufacturer": "Kia",
+  "model": "Sportage",
+  "apiRequestCount": 1,
+  "requestedYears": "2026",
+  "requestedGeneration": "fifth generation NQ5",
+  "requestedChassisCode": "NQ5",
+  "modelUsed": "gpt-image-2",
+  "endpoint": "https://vibecode.moe/v1/images/generations",
+  "referenceUrl": "https://www.kia.com/us/en/sportage",
+  "apiStatus": 200,
+  "downloadStatus": 200,
+  "contentType": "image/png",
+  "sourceUrl": "https://file6.aitohumanize.com/file/dff87f44e0774e1cb3f9b2f74840b195.png",
+  "rawFile": "catalog-generator\\outputs\\raw\\batch-01-kia-sportage-nq5-facelift.png",
+  "generatedFile": "catalog-generator\\outputs\\batch-01-kia-sportage-nq5-facelift.webp",
+  "rawMetadata": {
+    "format": "png",
+    "width": 1536,
+    "height": 1024
+  },
+  "outputMetadata": {
+    "format": "webp",
+    "width": 1600,
+    "height": 1000
+  },
+  "promptFile": "catalog-generator\\prompts\\kia-sportage.txt"
+}

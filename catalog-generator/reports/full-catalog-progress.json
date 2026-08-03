@@ -1,0 +1,426 @@
+{
+  "updatedAt": "2026-07-30T14:17:35.737Z",
+  "totalModels": 148,
+  "productionApproved": 66,
+  "remaining": 82,
+  "currentlyProcessing": "chevrolet-silverado",
+  "retryQueue": [],
+  "exceptionQueue": [],
+  "totalApiRequests": 93,
+  "successfulResponses": 73,
+  "infrastructureErrors": 19,
+  "qaFailures": 13,
+  "promotedCount": 50,
+  "remainingModels": [
+    {
+      "slug": "chevrolet_cruze",
+      "manufacturer": "Chevrolet",
+      "model": "Cruze"
+    },
+    {
+      "slug": "chevrolet_tahoe",
+      "manufacturer": "Chevrolet",
+      "model": "Tahoe"
+    },
+    {
+      "slug": "chevrolet_silverado",
+      "manufacturer": "Chevrolet",
+      "model": "Silverado"
+    },
+    {
+      "slug": "chevrolet_trax",
+      "manufacturer": "Chevrolet",
+      "model": "Trax"
+    },
+    {
+      "slug": "chevrolet_equinox",
+      "manufacturer": "Chevrolet",
+      "model": "Equinox"
+    },
+    {
+      "slug": "lexus_es",
+      "manufacturer": "Lexus",
+      "model": "ES"
+    },
+    {
+      "slug": "lexus_nx",
+      "manufacturer": "Lexus",
+      "model": "NX"
+    },
+    {
+      "slug": "lexus_lx",
+      "manufacturer": "Lexus",
+      "model": "LX"
+    },
+    {
+      "slug": "lexus_ct",
+      "manufacturer": "Lexus",
+      "model": "CT"
+    },
+    {
+      "slug": "chery_tiggo",
+      "manufacturer": "Chery",
+      "model": "Tiggo"
+    },
+    {
+      "slug": "chery_tiggo_7",
+      "manufacturer": "Chery",
+      "model": "Tiggo 7"
+    },
+    {
+      "slug": "chery_tiggo_8",
+      "manufacturer": "Chery",
+      "model": "Tiggo 8"
+    },
+    {
+      "slug": "chery_arrizo",
+      "manufacturer": "Chery",
+      "model": "Arrizo"
+    },
+    {
+      "slug": "chery_omoda",
+      "manufacturer": "Chery",
+      "model": "Omoda"
+    },
+    {
+      "slug": "exeed_lx",
+      "manufacturer": "Exeed",
+      "model": "LX"
+    },
+    {
+      "slug": "exeed_txl",
+      "manufacturer": "Exeed",
+      "model": "TXL"
+    },
+    {
+      "slug": "exeed_vx",
+      "manufacturer": "Exeed",
+      "model": "VX"
+    },
+    {
+      "slug": "jac_s7",
+      "manufacturer": "JAC",
+      "model": "S7"
+    },
+    {
+      "slug": "jac_j7",
+      "manufacturer": "JAC",
+      "model": "J7"
+    },
+    {
+      "slug": "dongfeng_ax7",
+      "manufacturer": "Dongfeng",
+      "model": "AX7"
+    },
+    {
+      "slug": "gac_gs8",
+      "manufacturer": "GAC",
+      "model": "GS8"
+    },
+    {
+      "slug": "jetour_x70",
+      "manufacturer": "Jetour",
+      "model": "X70"
+    },
+    {
+      "slug": "tank_300",
+      "manufacturer": "Tank",
+      "model": "300"
+    },
+    {
+      "slug": "tank_500",
+      "manufacturer": "Tank",
+      "model": "500"
+    },
+    {
+      "slug": "toyota_camry_2",
+      "manufacturer": "Toyota",
+      "model": "Camry Hybrid"
+    },
+    {
+      "slug": "toyota_highlander",
+      "manufacturer": "Toyota",
+      "model": "Highlander"
+    },
+    {
+      "slug": "toyota_prado",
+      "manufacturer": "Toyota",
+      "model": "Prado"
+    },
+    {
+      "slug": "bmw_5_series",
+      "manufacturer": "BMW",
+      "model": "5 Series"
+    },
+    {
+      "slug": "bmw_x1",
+      "manufacturer": "BMW",
+      "model": "X1"
+    },
+    {
+      "slug": "bmw_x7",
+      "manufacturer": "BMW",
+      "model": "X7"
+    },
+    {
+      "slug": "hyundai_sonata",
+      "manufacturer": "Hyundai",
+      "model": "Sonata"
+    },
+    {
+      "slug": "hyundai_palisade",
+      "manufacturer": "Hyundai",
+      "model": "Palisade"
+    },
+    {
+      "slug": "kia_carnival",
+      "manufacturer": "Kia",
+      "model": "Carnival"
+    },
+    {
+      "slug": "kia_stinger",
+      "manufacturer": "Kia",
+      "model": "Stinger"
+    },
+    {
+      "slug": "jeep_wrangler",
+      "manufacturer": "Jeep",
+      "model": "Wrangler"
+    },
+    {
+      "slug": "jeep_grand_cherokee",
+      "manufacturer": "Jeep",
+      "model": "Grand Cherokee"
+    },
+    {
+      "slug": "jeep_compass",
+      "manufacturer": "Jeep",
+      "model": "Compass"
+    },
+    {
+      "slug": "ram_1500",
+      "manufacturer": "RAM",
+      "model": "1500"
+    },
+    {
+      "slug": "gmc_sierra",
+      "manufacturer": "GMC",
+      "model": "Sierra"
+    },
+    {
+      "slug": "gmc_yukon",
+      "manufacturer": "GMC",
+      "model": "Yukon"
+    },
+    {
+      "slug": "cadillac_xt5",
+      "manufacturer": "Cadillac",
+      "model": "XT5"
+    },
+    {
+      "slug": "cadillac_escalade",
+      "manufacturer": "Cadillac",
+      "model": "Escalade"
+    },
+    {
+      "slug": "porsche_cayenne",
+      "manufacturer": "Porsche",
+      "model": "Cayenne"
+    },
+    {
+      "slug": "porsche_macan",
+      "manufacturer": "Porsche",
+      "model": "Macan"
+    },
+    {
+      "slug": "porsche_panamera",
+      "manufacturer": "Porsche",
+      "model": "Panamera"
+    },
+    {
+      "slug": "volvo_xc60",
+      "manufacturer": "Volvo",
+      "model": "XC60"
+    },
+    {
+      "slug": "volvo_xc90",
+      "manufacturer": "Volvo",
+      "model": "XC90"
+    },
+    {
+      "slug": "volvo_s60",
+      "manufacturer": "Volvo",
+      "model": "S60"
+    },
+    {
+      "slug": "skoda_octavia",
+      "manufacturer": "Skoda",
+      "model": "Octavia"
+    },
+    {
+      "slug": "skoda_kodiaq",
+      "manufacturer": "Skoda",
+      "model": "Kodiaq"
+    },
+    {
+      "slug": "skoda_karoq",
+      "manufacturer": "Skoda",
+      "model": "Karoq"
+    },
+    {
+      "slug": "skoda_fabia",
+      "manufacturer": "Skoda",
+      "model": "Fabia"
+    },
+    {
+      "slug": "renault_logan",
+      "manufacturer": "Renault",
+      "model": "Logan"
+    },
+    {
+      "slug": "renault_duster",
+      "manufacturer": "Renault",
+      "model": "Duster"
+    },
+    {
+      "slug": "renault_arkana",
+      "manufacturer": "Renault",
+      "model": "Arkana"
+    },
+    {
+      "slug": "renault_kaptur",
+      "manufacturer": "Renault",
+      "model": "Kaptur"
+    },
+    {
+      "slug": "renault_sandero",
+      "manufacturer": "Renault",
+      "model": "Sandero"
+    },
+    {
+      "slug": "peugeot_308",
+      "manufacturer": "Peugeot",
+      "model": "308"
+    },
+    {
+      "slug": "peugeot_3008",
+      "manufacturer": "Peugeot",
+      "model": "3008"
+    },
+    {
+      "slug": "peugeot_5008",
+      "manufacturer": "Peugeot",
+      "model": "5008"
+    },
+    {
+      "slug": "peugeot_408",
+      "manufacturer": "Peugeot",
+      "model": "408"
+    },
+    {
+      "slug": "citroen_c4",
+      "manufacturer": "Citroen",
+      "model": "C4"
+    },
+    {
+      "slug": "citroen_c5_x",
+      "manufacturer": "Citroen",
+      "model": "C5 X"
+    },
+    {
+      "slug": "citroen_c3_aircross",
+      "manufacturer": "Citroen",
+      "model": "C3 Aircross"
+    },
+    {
+      "slug": "dodge_durango",
+      "manufacturer": "Dodge",
+      "model": "Durango"
+    },
+    {
+      "slug": "dodge_rampage",
+      "manufacturer": "Dodge",
+      "model": "Rampage"
+    },
+    {
+      "slug": "infiniti_q50",
+      "manufacturer": "Infiniti",
+      "model": "Q50"
+    },
+    {
+      "slug": "infiniti_qx60",
+      "manufacturer": "Infiniti",
+      "model": "QX60"
+    },
+    {
+      "slug": "infiniti_qx80",
+      "manufacturer": "Infiniti",
+      "model": "QX80"
+    },
+    {
+      "slug": "subaru_outback",
+      "manufacturer": "Subaru",
+      "model": "Outback"
+    },
+    {
+      "slug": "subaru_forester",
+      "manufacturer": "Subaru",
+      "model": "Forester"
+    },
+    {
+      "slug": "subaru_impreza",
+      "manufacturer": "Subaru",
+      "model": "Impreza"
+    },
+    {
+      "slug": "subaru_legacy",
+      "manufacturer": "Subaru",
+      "model": "Legacy"
+    },
+    {
+      "slug": "subaru_wrx",
+      "manufacturer": "Subaru",
+      "model": "WRX"
+    },
+    {
+      "slug": "mg_zs",
+      "manufacturer": "MG",
+      "model": "ZS"
+    },
+    {
+      "slug": "mg_hs",
+      "manufacturer": "MG",
+      "model": "HS"
+    },
+    {
+      "slug": "mg_5",
+      "manufacturer": "MG",
+      "model": "MG5"
+    },
+    {
+      "slug": "omoda_s5",
+      "manufacturer": "Omoda",
+      "model": "S5"
+    },
+    {
+      "slug": "faw_besturn",
+      "manufacturer": "FAW",
+      "model": "Besturn"
+    },
+    {
+      "slug": "gwm_poer",
+      "manufacturer": "GWM",
+      "model": "Poer"
+    },
+    {
+      "slug": "gwm_cannon",
+      "manufacturer": "GWM",
+      "model": "Cannon"
+    },
+    {
+      "slug": "jac_t8",
+      "manufacturer": "JAC",
+      "model": "T8"
+    }
+  ]
+}

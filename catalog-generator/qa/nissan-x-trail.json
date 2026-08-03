@@ -1,0 +1,83 @@
+{
+  "checkedAt": "2026-07-30T09:59:47.190Z",
+  "modelId": "nissan-x-trail",
+  "file": "catalog-generator\\outputs\\nissan-x-trail.webp",
+  "deterministicPass": true,
+  "analysis": {
+    "width": 1600,
+    "height": 1000,
+    "backgroundCornerRgb": [
+      196.4,
+      196.3,
+      195.6
+    ],
+    "backgroundCornerLuminance": 196.1,
+    "backgroundCornerNeutralityDelta": 0.9,
+    "foregroundBounds": {
+      "minX": 168,
+      "maxX": 1426,
+      "minY": 234,
+      "maxY": 886
+    },
+    "foregroundWidthPercent": 78.7,
+    "horizonPercent": 88.7
+  },
+  "checks": {
+    "dimensions": {
+      "status": "pass",
+      "actual": "1600x1000"
+    },
+    "format": {
+      "status": "pass",
+      "actual": "webp"
+    },
+    "aspectRatio": {
+      "status": "pass",
+      "actual": 1.6
+    },
+    "background": {
+      "status": "pass",
+      "actualRgb": [
+        196.4,
+        196.3,
+        195.6
+      ],
+      "luminance": 196.1,
+      "neutralityDelta": 0.9
+    },
+    "scale": {
+      "status": "pass",
+      "actualPercent": 78.7,
+      "targetPercent": "78-84",
+      "tolerancePercent": "74-88"
+    },
+    "horizon": {
+      "status": "pass",
+      "actualPercent": 88.7,
+      "tolerancePercent": "72-93"
+    },
+    "exactlyOneVehicle": {
+      "status": "pass",
+      "method": "agent-visual-review"
+    },
+    "noPeople": {
+      "status": "pass",
+      "method": "agent-visual-review"
+    },
+    "noText": {
+      "status": "pass",
+      "method": "agent-visual-review"
+    },
+    "noWatermark": {
+      "status": "pass",
+      "method": "agent-visual-review"
+    },
+    "generationIdentity": {
+      "status": "approved",
+      "method": "agent-visual-review"
+    }
+  },
+  "semanticQa": "approved",
+  "generationQa": "approved",
+  "finalStatus": "production-approved"
+}

@@ -1,0 +1,30 @@
+{
+  "generatedAt": "2026-07-29T09:44:49.729Z",
+  "modelId": "hyundai-creta",
+  "manufacturer": "Hyundai",
+  "model": "Creta",
+  "apiRequestCount": 1,
+  "requestedYears": "2024-2026",
+  "requestedGeneration": "second generation SU2i",
+  "requestedChassisCode": "SU2i",
+  "modelUsed": "gpt-image-2",
+  "endpoint": "https://vibecode.moe/v1/images/generations",
+  "referenceUrl": "https://www.hyundai.com/in/en/find-a-car/creta/highlights",
+  "apiStatus": 200,
+  "downloadStatus": 200,
+  "contentType": "image/png",
+  "sourceUrl": "https://file1.aitohumanize.com/file/92ff7b53b187433da3cef5dc07363153.png",
+  "rawFile": "catalog-generator\\outputs\\raw\\batch-01-hyundai-creta-su2i-facelift.png",
+  "generatedFile": "catalog-generator\\outputs\\batch-01-hyundai-creta-su2i-facelift.webp",
+  "rawMetadata": {
+    "format": "png",
+    "width": 1536,
+    "height": 1024
+  },
+  "outputMetadata": {
+    "format": "webp",
+    "width": 1600,
+    "height": 1000
+  },
+  "promptFile": "catalog-generator\\prompts\\hyundai-creta.txt"
+}

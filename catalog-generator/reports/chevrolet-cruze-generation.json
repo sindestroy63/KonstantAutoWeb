@@ -1,0 +1,40 @@
+{
+  "generatedAt": "2026-07-30T11:48:33.671Z",
+  "modelId": "chevrolet-cruze",
+  "manufacturer": "Chevrolet",
+  "model": "Cruze",
+  "apiRequestCount": 1,
+  "infrastructureRetries": 0,
+  "infrastructureDiagnostics": [
+    {
+      "requestIndex": 0,
+      "httpStatus": 200,
+      "responseFormat": "json"
+    }
+  ],
+  "requestedYears": "2019-2023 final model years",
+  "requestedGeneration": "second generation D2LC facelift final production specification",
+  "requestedChassisCode": "D2LC",
+  "modelUsed": "gpt-image-2",
+  "generationMode": "text-generation",
+  "endpoint": "https://vibecode.moe/v1/images/generations",
+  "referenceUrl": "https://media.chevrolet.com/media/cn/en/chevrolet/vehicles/cruze.html",
+  "referenceImageUrl": null,
+  "apiStatus": 200,
+  "downloadStatus": 200,
+  "contentType": "image/png",
+  "sourceUrl": "https://file7.aitohumanize.com/file/619d4829887c45d2aad9284cc98b491f.png",
+  "rawFile": "catalog-generator\\outputs\\raw\\chevrolet-cruze.png",
+  "generatedFile": "catalog-generator\\outputs\\chevrolet-cruze.webp",
+  "rawMetadata": {
+    "format": "png",
+    "width": 1536,
+    "height": 1024
+  },
+  "outputMetadata": {
+    "format": "webp",
+    "width": 1600,
+    "height": 1000
+  },
+  "promptFile": "catalog-generator\\prompts\\chevrolet-cruze.txt"
+}

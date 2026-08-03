@@ -1,0 +1,27 @@
+{
+  "checkedAt": "2026-07-30T08:57:27.544Z",
+  "manufacturer": "Geely",
+  "model": "Emgrand",
+  "requestedYear": "2022-2026",
+  "generation": "fourth generation SS11",
+  "chassisCode": "SS11 / BMA",
+  "market": "China / CIS",
+  "referenceUrl": "https://www.geely-motors.com/model/emgrand/",
+  "finalUrl": "https://www.geely-motors.com/model/emgrand/",
+  "httpStatus": 200,
+  "officialDomain": "www.geely-motors.com",
+  "confirmedBodyCues": [
+    "fourth-generation SS11 sedan body",
+    "wide vertical-slat energy-burst grille",
+    "slim rectangular LED headlamps",
+    "clean horizontal bumper and current Geely shield badge"
+  ],
+  "attempts": [
+    {
+      "url": "https://www.geely-motors.com/model/emgrand/",
+      "finalUrl": "https://www.geely-motors.com/model/emgrand/",
+      "httpStatus": 200,
+      "status": "confirmed"
+    }
+  ]
+}

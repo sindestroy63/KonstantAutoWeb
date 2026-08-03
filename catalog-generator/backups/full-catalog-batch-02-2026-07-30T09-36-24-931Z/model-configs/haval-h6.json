@@ -1,0 +1,43 @@
+{
+  "id": "haval-h6",
+  "catalogSlug": "haval_h6",
+  "manufacturer": "Haval",
+  "model": "H6",
+  "generation": "third generation B01 current facelift",
+  "chassisCode": "B01 / L.E.M.O.N. platform",
+  "years": "2024-2026",
+  "facelift": "current third-generation facelift",
+  "market": "China / global",
+  "body": "five-door compact crossover",
+  "trim": "Ultra",
+  "paint": "Sapphire Blue metallic",
+  "identityCues": [
+    "CRITICAL: current 2024-2026 third-generation facelift front with a very large borderless frameless grille occupying most of the nose",
+    "CRITICAL: current vertical outer daytime-running-light elements descending from the slim headlamp area, never the older conventional horizontal grille-only front",
+    "third-generation H6 body",
+    "current large frameless grille with layered horizontal elements",
+    "slim angular LED headlamps",
+    "current facelift bumper and HAVAL wordmark"
+  ],
+  "modelExclusions": [
+    "the rejected attempt with the older pre-facelift conventional horizontal grille and no current vertical lighting elements",
+    "second-generation H6",
+    "pre-facelift third-generation H6",
+    "Haval F7",
+    "Haval M6",
+    "H6 GT coupe",
+    "Great Wall pickup"
+  ],
+  "referenceUrls": [
+    "https://www.haval-global.com/haval-h6/"
+  ],
+  "fallbackReferenceUrls": [
+    "https://en.wikipedia.org/wiki/Haval_H6",
+    "https://www.autoevolution.com/cars/haval-h6.html"
+  ],
+  "referenceQuality": "secondary-confirmed",
+  "confidenceLevel": "high",
+  "outputFilename": "haval-h6.webp",
+  "status": "qa",
+  "approved": false
+}

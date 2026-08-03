@@ -1,0 +1,27 @@
+{
+  "checkedAt": "2026-07-28T11:59:40.318Z",
+  "manufacturer": "BMW",
+  "model": "X5",
+  "requestedYear": "2025-2026",
+  "generation": "G05 LCI current facelift",
+  "chassisCode": "G05 LCI",
+  "market": "Europe / North America",
+  "referenceUrl": "https://www.press.bmwgroup.com/usa/article/detail/T0453219EN_US/bmw-of-north-america-returns-for-the-2025-rebelle-rally-in-the-bmw-x5",
+  "finalUrl": "https://www.press.bmwgroup.com/usa/article/detail/T0453219EN_US/bmw-of-north-america-returns-for-the-2025-rebelle-rally-in-the-bmw-x5",
+  "httpStatus": 200,
+  "officialDomain": "www.press.bmwgroup.com",
+  "confirmedBodyCues": [
+    "post-2023 G05 LCI headlamp housings as extremely thin low horizontal slits, with top and bottom housing edges close together and roughly half the height of the 2019-2022 lamps",
+    "exactly two minimal outward-pointing arrow LED daytime-running-light marks per headlamp, the authentic current LCI signature",
+    "current G05 LCI kidney grille",
+    "LCI M Sport bumper with current angular lower intakes"
+  ],
+  "attempts": [
+    {
+      "url": "https://www.press.bmwgroup.com/usa/article/detail/T0453219EN_US/bmw-of-north-america-returns-for-the-2025-rebelle-rally-in-the-bmw-x5",
+      "finalUrl": "https://www.press.bmwgroup.com/usa/article/detail/T0453219EN_US/bmw-of-north-america-returns-for-the-2025-rebelle-rally-in-the-bmw-x5",
+      "httpStatus": 200,
+      "status": "confirmed"
+    }
+  ]
+}

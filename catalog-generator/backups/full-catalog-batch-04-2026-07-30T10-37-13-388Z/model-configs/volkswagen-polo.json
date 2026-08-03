@@ -1,0 +1,39 @@
+{
+  "id": "volkswagen-polo",
+  "catalogSlug": "volkswagen_polo",
+  "manufacturer": "Volkswagen",
+  "model": "Polo",
+  "generation": "current Polo Sedan AW/MQB A0 specification",
+  "chassisCode": "AW / MQB A0",
+  "years": "2024-2026",
+  "facelift": "current production specification",
+  "market": "South Africa",
+  "body": "four-door subcompact sedan",
+  "trim": "Life",
+  "paint": "Ascot Grey",
+  "identityCues": [
+    "current MQB A0 Polo Sedan four-door body",
+    "slim Volkswagen headlamps joined visually to narrow grille",
+    "wide lower bumper intake",
+    "separate sedan trunk and correct Volkswagen roundel"
+  ],
+  "modelExclusions": [
+    "fifth-generation 6R Polo",
+    "European Polo hatchback",
+    "Volkswagen Virtus GT body kit",
+    "concept",
+    "fantasy design"
+  ],
+  "referenceUrls": [
+    "https://www.vw.co.za/en/models/polo-sedan.html"
+  ],
+  "fallbackReferenceUrls": [
+    "https://en.wikipedia.org/wiki/Volkswagen_Virtus",
+    "https://www.autoevolution.com/cars/volkswagen-virtus.html"
+  ],
+  "referenceQuality": "secondary-confirmed",
+  "confidenceLevel": "medium-high",
+  "outputFilename": "volkswagen-polo.webp",
+  "status": "qa",
+  "approved": false
+}

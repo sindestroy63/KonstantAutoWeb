@@ -1,0 +1,2475 @@
+{
+  "version": 1,
+  "generatedAt": "2026-07-29T08:18:21.523Z",
+  "source": "data/cars.json",
+  "targetManifest": "public/images/catalog/manifest.json",
+  "taskCount": 137,
+  "tasks": [
+    {
+      "slug": "bmw_x3",
+      "manufacturer": "BMW",
+      "model": "X3",
+      "country": "Европа",
+      "bodyType": "Кроссовер",
+      "status": "queued",
+      "reason": "missing-production-ai",
+      "pipeline": {
+        "referenceCheck": "required",
+        "promptBuild": "pending",
+        "generation": "pending",
+        "semanticQa": "pending",
+        "generationQa": "pending",
+        "ownerApproval": "pending",
+        "promotion": "blocked-until-approved"
+      }
+    },
+    {
+      "slug": "bmw_1_series",
+      "manufacturer": "BMW",
+      "model": "1 Series",
+      "country": "Европа",
+      "bodyType": "Хэтчбек",
+      "status": "queued",
+      "reason": "missing-production-ai",
+      "pipeline": {
+        "referenceCheck": "required",
+        "promptBuild": "pending",
+        "generation": "pending",
+        "semanticQa": "pending",
+        "generationQa": "pending",
+        "ownerApproval": "pending",
+        "promotion": "blocked-until-approved"
+      }
+    },
+    {
+      "slug": "hyundai_solaris",
+      "manufacturer": "Hyundai",
+      "model": "Solaris",
+      "country": "Корея",
+      "bodyType": "Седан",
+      "status": "queued",
+      "reason": "missing-production-ai",
+      "pipeline": {
+        "referenceCheck": "required",
+        "promptBuild": "pending",
+        "generation": "pending",
+        "semanticQa": "pending",
+        "generationQa": "pending",
+        "ownerApproval": "pending",
+        "promotion": "blocked-until-approved"
+      }
+    },
+    {
+      "slug": "hyundai_creta",
+      "manufacturer": "Hyundai",
+      "model": "Creta",
+      "country": "Корея",
+      "bodyType": "Кроссовер",
+      "status": "queued",
+      "reason": "missing-production-ai",
+      "pipeline": {
+        "referenceCheck": "required",
+        "promptBuild": "pending",
+        "generation": "pending",
+        "semanticQa": "pending",
+        "generationQa": "pending",
+        "ownerApproval": "pending",
+        "promotion": "blocked-until-approved"
+      }
+    },
+    {
+      "slug": "hyundai_tucson",
+      "manufacturer": "Hyundai",
+      "model": "Tucson",
+      "country": "Корея",
+      "bodyType": "Кроссовер",
+      "status": "queued",
+      "reason": "missing-production-ai",
+      "pipeline": {
+        "referenceCheck": "required",
+        "promptBuild": "pending",
+        "generation": "pending",
+        "semanticQa": "pending",
+        "generationQa": "pending",
+        "ownerApproval": "pending",
+        "promotion": "blocked-until-approved"
+      }
+    },
+    {
+      "slug": "hyundai_santa_fe",
+      "manufacturer": "Hyundai",
+      "model": "Santa Fe",
+      "country": "Корея",
+      "bodyType": "Внедорожник",
+      "status": "queued",
+      "reason": "missing-production-ai",
+      "pipeline": {
+        "referenceCheck": "required",
+        "promptBuild": "pending",
+        "generation": "pending",
+        "semanticQa": "pending",
+        "generationQa": "pending",
+        "ownerApproval": "pending",
+        "promotion": "blocked-until-approved"
+      }
+    },
+    {
+      "slug": "hyundai_i30",
+      "manufacturer": "Hyundai",
+      "model": "i30",
+      "country": "Корея",
+      "bodyType": "Хэтчбек",
+      "status": "queued",
+      "reason": "missing-production-ai",
+      "pipeline": {
+        "referenceCheck": "required",
+        "promptBuild": "pending",
+        "generation": "pending",
+        "semanticQa": "pending",
+        "generationQa": "pending",
+        "ownerApproval": "pending",
+        "promotion": "blocked-until-approved"
+      }
+    },
+    {
+      "slug": "kia_rio",
+      "manufacturer": "Kia",
+      "model": "Rio",
+      "country": "Корея",
+      "bodyType": "Седан",
+      "status": "queued",
+      "reason": "missing-production-ai",
+      "pipeline": {
+        "referenceCheck": "required",
+        "promptBuild": "pending",
+        "generation": "pending",
+        "semanticQa": "pending",
+        "generationQa": "pending",
+        "ownerApproval": "pending",
+        "promotion": "blocked-until-approved"
+      }
+    },
+    {
+      "slug": "kia_sportage",
+      "manufacturer": "Kia",
+      "model": "Sportage",
+      "country": "Корея",
+      "bodyType": "Кроссовер",
+      "status": "queued",
+      "reason": "missing-production-ai",
+      "pipeline": {
+        "referenceCheck": "required",
+        "promptBuild": "pending",
+        "generation": "pending",
+        "semanticQa": "pending",
+        "generationQa": "pending",
+        "ownerApproval": "pending",
+        "promotion": "blocked-until-approved"
+      }
+    },
+    {
+      "slug": "kia_ceed",
+      "manufacturer": "Kia",
+      "model": "Ceed",
+      "country": "Корея",
+      "bodyType": "Хэтчбек",
+      "status": "queued",
+      "reason": "missing-production-ai",
+      "pipeline": {
+        "referenceCheck": "required",
+        "promptBuild": "pending",
+        "generation": "pending",
+        "semanticQa": "pending",
+        "generationQa": "pending",
+        "ownerApproval": "pending",
+        "promotion": "blocked-until-approved"
+      }
+    },
+    {
+      "slug": "kia_optima",
+      "manufacturer": "Kia",
+      "model": "Optima",
+      "country": "Корея",
+      "bodyType": "Седан",
+      "status": "queued",
+      "reason": "missing-production-ai",
+      "pipeline": {
+        "referenceCheck": "required",
+        "promptBuild": "pending",
+        "generation": "pending",
+        "semanticQa": "pending",
+        "generationQa": "pending",
+        "ownerApproval": "pending",
+        "promotion": "blocked-until-approved"
+      }
+    },
+    {
+      "slug": "geely_coolray",
+      "manufacturer": "Geely",
+      "model": "Coolray",
+      "country": "Китай",
+      "bodyType": "Кроссовер",
+      "status": "queued",
+      "reason": "missing-production-ai",
+      "pipeline": {
+        "referenceCheck": "required",
+        "promptBuild": "pending",
+        "generation": "pending",
+        "semanticQa": "pending",
+        "generationQa": "pending",
+        "ownerApproval": "pending",
+        "promotion": "blocked-until-approved"
+      }
+    },
+    {
+      "slug": "geely_atlas",
+      "manufacturer": "Geely",
+      "model": "Atlas",
+      "country": "Китай",
+      "bodyType": "Кроссовер",
+      "status": "queued",
+      "reason": "missing-production-ai",
+      "pipeline": {
+        "referenceCheck": "required",
+        "promptBuild": "pending",
+        "generation": "pending",
+        "semanticQa": "pending",
+        "generationQa": "pending",
+        "ownerApproval": "pending",
+        "promotion": "blocked-until-approved"
+      }
+    },
+    {
+      "slug": "geely_emgrand",
+      "manufacturer": "Geely",
+      "model": "Emgrand",
+      "country": "Китай",
+      "bodyType": "Седан",
+      "status": "queued",
+      "reason": "missing-production-ai",
+      "pipeline": {
+        "referenceCheck": "required",
+        "promptBuild": "pending",
+        "generation": "pending",
+        "semanticQa": "pending",
+        "generationQa": "pending",
+        "ownerApproval": "pending",
+        "promotion": "blocked-until-approved"
+      }
+    },
+    {
+      "slug": "geely_tugella",
+      "manufacturer": "Geely",
+      "model": "Tugella",
+      "country": "Китай",
+      "bodyType": "Кроссовер",
+      "status": "queued",
+      "reason": "missing-production-ai",
+      "pipeline": {
+        "referenceCheck": "required",
+        "promptBuild": "pending",
+        "generation": "pending",
+        "semanticQa": "pending",
+        "generationQa": "pending",
+        "ownerApproval": "pending",
+        "promotion": "blocked-until-approved"
+      }
+    },
+    {
+      "slug": "geely_monjaro",
+      "manufacturer": "Geely",
+      "model": "Monjaro",
+      "country": "Китай",
+      "bodyType": "Кроссовер",
+      "status": "queued",
+      "reason": "missing-production-ai",
+      "pipeline": {
+        "referenceCheck": "required",
+        "promptBuild": "pending",
+        "generation": "pending",
+        "semanticQa": "pending",
+        "generationQa": "pending",
+        "ownerApproval": "pending",
+        "promotion": "blocked-until-approved"
+      }
+    },
+    {
+      "slug": "haval_f7",
+      "manufacturer": "Haval",
+      "model": "F7",
+      "country": "Китай",
+      "bodyType": "Кроссовер",
+      "status": "queued",
+      "reason": "missing-production-ai",
+      "pipeline": {
+        "referenceCheck": "required",
+        "promptBuild": "pending",
+        "generation": "pending",
+        "semanticQa": "pending",
+        "generationQa": "pending",
+        "ownerApproval": "pending",
+        "promotion": "blocked-until-approved"
+      }
+    },
+    {
+      "slug": "haval_jolion",
+      "manufacturer": "Haval",
+      "model": "Jolion",
+      "country": "Китай",
+      "bodyType": "Кроссовер",
+      "status": "queued",
+      "reason": "missing-production-ai",
+      "pipeline": {
+        "referenceCheck": "required",
+        "promptBuild": "pending",
+        "generation": "pending",
+        "semanticQa": "pending",
+        "generationQa": "pending",
+        "ownerApproval": "pending",
+        "promotion": "blocked-until-approved"
+      }
+    },
+    {
+      "slug": "haval_h6",
+      "manufacturer": "Haval",
+      "model": "H6",
+      "country": "Китай",
+      "bodyType": "Кроссовер",
+      "status": "queued",
+      "reason": "missing-production-ai",
+      "pipeline": {
+        "referenceCheck": "required",
+        "promptBuild": "pending",
+        "generation": "pending",
+        "semanticQa": "pending",
+        "generationQa": "pending",
+        "ownerApproval": "pending",
+        "promotion": "blocked-until-approved"
+      }
+    },
+    {
+      "slug": "haval_f7x",
+      "manufacturer": "Haval",
+      "model": "F7x",
+      "country": "Китай",
+      "bodyType": "Кроссовер",
+      "status": "queued",
+      "reason": "missing-production-ai",
+      "pipeline": {
+        "referenceCheck": "required",
+        "promptBuild": "pending",
+        "generation": "pending",
+        "semanticQa": "pending",
+        "generationQa": "pending",
+        "ownerApproval": "pending",
+        "promotion": "blocked-until-approved"
+      }
+    },
+    {
+      "slug": "haval_m6",
+      "manufacturer": "Haval",
+      "model": "M6",
+      "country": "Китай",
+      "bodyType": "Кроссовер",
+      "status": "queued",
+      "reason": "missing-production-ai",
+      "pipeline": {
+        "referenceCheck": "required",
+        "promptBuild": "pending",
+        "generation": "pending",
+        "semanticQa": "pending",
+        "generationQa": "pending",
+        "ownerApproval": "pending",
+        "promotion": "blocked-until-approved"
+      }
+    },
+    {
+      "slug": "mercedes_c_class",
+      "manufacturer": "Mercedes-Benz",
+      "model": "C-Class",
+      "country": "Европа",
+      "bodyType": "Седан",
+      "status": "queued",
+      "reason": "missing-production-ai",
+      "pipeline": {
+        "referenceCheck": "required",
+        "promptBuild": "pending",
+        "generation": "pending",
+        "semanticQa": "pending",
+        "generationQa": "pending",
+        "ownerApproval": "pending",
+        "promotion": "blocked-until-approved"
+      }
+    },
+    {
+      "slug": "mercedes_glc",
+      "manufacturer": "Mercedes-Benz",
+      "model": "GLC",
+      "country": "Европа",
+      "bodyType": "Кроссовер",
+      "status": "queued",
+      "reason": "missing-production-ai",
+      "pipeline": {
+        "referenceCheck": "required",
+        "promptBuild": "pending",
+        "generation": "pending",
+        "semanticQa": "pending",
+        "generationQa": "pending",
+        "ownerApproval": "pending",
+        "promotion": "blocked-until-approved"
+      }
+    },
+    {
+      "slug": "mercedes_gle",
+      "manufacturer": "Mercedes-Benz",
+      "model": "GLE",
+      "country": "Европа",
+      "bodyType": "Внедорожник",
+      "status": "queued",
+      "reason": "missing-production-ai",
+      "pipeline": {
+        "referenceCheck": "required",
+        "promptBuild": "pending",
+        "generation": "pending",
+        "semanticQa": "pending",
+        "generationQa": "pending",
+        "ownerApproval": "pending",
+        "promotion": "blocked-until-approved"
+      }
+    },
+    {
+      "slug": "mercedes_a_class",
+      "manufacturer": "Mercedes-Benz",
+      "model": "A-Class",
+      "country": "Европа",
+      "bodyType": "Хэтчбек",
+      "status": "queued",
+      "reason": "missing-production-ai",
+      "pipeline": {
+        "referenceCheck": "required",
+        "promptBuild": "pending",
+        "generation": "pending",
+        "semanticQa": "pending",
+        "generationQa": "pending",
+        "ownerApproval": "pending",
+        "promotion": "blocked-until-approved"
+      }
+    },
+    {
+      "slug": "honda_civic",
+      "manufacturer": "Honda",
+      "model": "Civic",
+      "country": "Япония",
+      "bodyType": "Седан",
+      "status": "queued",
+      "reason": "missing-production-ai",
+      "pipeline": {
+        "referenceCheck": "required",
+        "promptBuild": "pending",
+        "generation": "pending",
+        "semanticQa": "pending",
+        "generationQa": "pending",
+        "ownerApproval": "pending",
+        "promotion": "blocked-until-approved"
+      }
+    },
+    {
+      "slug": "honda_crv",
+      "manufacturer": "Honda",
+      "model": "CR-V",
+      "country": "Япония",
+      "bodyType": "Кроссовер",
+      "status": "queued",
+      "reason": "missing-production-ai",
+      "pipeline": {
+        "referenceCheck": "required",
+        "promptBuild": "pending",
+        "generation": "pending",
+        "semanticQa": "pending",
+        "generationQa": "pending",
+        "ownerApproval": "pending",
+        "promotion": "blocked-until-approved"
+      }
+    },
+    {
+      "slug": "honda_pilot",
+      "manufacturer": "Honda",
+      "model": "Pilot",
+      "country": "Япония",
+      "bodyType": "Внедорожник",
+      "status": "queued",
+      "reason": "missing-production-ai",
+      "pipeline": {
+        "referenceCheck": "required",
+        "promptBuild": "pending",
+        "generation": "pending",
+        "semanticQa": "pending",
+        "generationQa": "pending",
+        "ownerApproval": "pending",
+        "promotion": "blocked-until-approved"
+      }
+    },
+    {
+      "slug": "honda_fit",
+      "manufacturer": "Honda",
+      "model": "Fit",
+      "country": "Япония",
+      "bodyType": "Хэтчбек",
+      "status": "queued",
+      "reason": "missing-production-ai",
+      "pipeline": {
+        "referenceCheck": "required",
+        "promptBuild": "pending",
+        "generation": "pending",
+        "semanticQa": "pending",
+        "generationQa": "pending",
+        "ownerApproval": "pending",
+        "promotion": "blocked-until-approved"
+      }
+    },
+    {
+      "slug": "honda_accord",
+      "manufacturer": "Honda",
+      "model": "Accord",
+      "country": "Япония",
+      "bodyType": "Седан",
+      "status": "queued",
+      "reason": "missing-production-ai",
+      "pipeline": {
+        "referenceCheck": "required",
+        "promptBuild": "pending",
+        "generation": "pending",
+        "semanticQa": "pending",
+        "generationQa": "pending",
+        "ownerApproval": "pending",
+        "promotion": "blocked-until-approved"
+      }
+    },
+    {
+      "slug": "nissan_qashqai",
+      "manufacturer": "Nissan",
+      "model": "Qashqai",
+      "country": "Япония",
+      "bodyType": "Кроссовер",
+      "status": "queued",
+      "reason": "missing-production-ai",
+      "pipeline": {
+        "referenceCheck": "required",
+        "promptBuild": "pending",
+        "generation": "pending",
+        "semanticQa": "pending",
+        "generationQa": "pending",
+        "ownerApproval": "pending",
+        "promotion": "blocked-until-approved"
+      }
+    },
+    {
+      "slug": "nissan_x_trail",
+      "manufacturer": "Nissan",
+      "model": "X-Trail",
+      "country": "Япония",
+      "bodyType": "Кроссовер",
+      "status": "queued",
+      "reason": "missing-production-ai",
+      "pipeline": {
+        "referenceCheck": "required",
+        "promptBuild": "pending",
+        "generation": "pending",
+        "semanticQa": "pending",
+        "generationQa": "pending",
+        "ownerApproval": "pending",
+        "promotion": "blocked-until-approved"
+      }
+    },
+    {
+      "slug": "nissan_patrol",
+      "manufacturer": "Nissan",
+      "model": "Patrol",
+      "country": "Япония",
+      "bodyType": "Внедорожник",
+      "status": "queued",
+      "reason": "missing-production-ai",
+      "pipeline": {
+        "referenceCheck": "required",
+        "promptBuild": "pending",
+        "generation": "pending",
+        "semanticQa": "pending",
+        "generationQa": "pending",
+        "ownerApproval": "pending",
+        "promotion": "blocked-until-approved"
+      }
+    },
+    {
+      "slug": "nissan_navara",
+      "manufacturer": "Nissan",
+      "model": "Navara",
+      "country": "Япония",
+      "bodyType": "Пикап",
+      "status": "queued",
+      "reason": "missing-production-ai",
+      "pipeline": {
+        "referenceCheck": "required",
+        "promptBuild": "pending",
+        "generation": "pending",
+        "semanticQa": "pending",
+        "generationQa": "pending",
+        "ownerApproval": "pending",
+        "promotion": "blocked-until-approved"
+      }
+    },
+    {
+      "slug": "nissan_leaf",
+      "manufacturer": "Nissan",
+      "model": "Leaf",
+      "country": "Япония",
+      "bodyType": "Хэтчбек",
+      "status": "queued",
+      "reason": "missing-production-ai",
+      "pipeline": {
+        "referenceCheck": "required",
+        "promptBuild": "pending",
+        "generation": "pending",
+        "semanticQa": "pending",
+        "generationQa": "pending",
+        "ownerApproval": "pending",
+        "promotion": "blocked-until-approved"
+      }
+    },
+    {
+      "slug": "mazda_3",
+      "manufacturer": "Mazda",
+      "model": "Mazda3",
+      "country": "Япония",
+      "bodyType": "Седан",
+      "status": "queued",
+      "reason": "missing-production-ai",
+      "pipeline": {
+        "referenceCheck": "required",
+        "promptBuild": "pending",
+        "generation": "pending",
+        "semanticQa": "pending",
+        "generationQa": "pending",
+        "ownerApproval": "pending",
+        "promotion": "blocked-until-approved"
+      }
+    },
+    {
+      "slug": "mazda_cx5",
+      "manufacturer": "Mazda",
+      "model": "CX-5",
+      "country": "Япония",
+      "bodyType": "Кроссовер",
+      "status": "queued",
+      "reason": "missing-production-ai",
+      "pipeline": {
+        "referenceCheck": "required",
+        "promptBuild": "pending",
+        "generation": "pending",
+        "semanticQa": "pending",
+        "generationQa": "pending",
+        "ownerApproval": "pending",
+        "promotion": "blocked-until-approved"
+      }
+    },
+    {
+      "slug": "mazda_cx9",
+      "manufacturer": "Mazda",
+      "model": "CX-9",
+      "country": "Япония",
+      "bodyType": "Кроссовер",
+      "status": "queued",
+      "reason": "missing-production-ai",
+      "pipeline": {
+        "referenceCheck": "required",
+        "promptBuild": "pending",
+        "generation": "pending",
+        "semanticQa": "pending",
+        "generationQa": "pending",
+        "ownerApproval": "pending",
+        "promotion": "blocked-until-approved"
+      }
+    },
+    {
+      "slug": "mazda_2",
+      "manufacturer": "Mazda",
+      "model": "Mazda2",
+      "country": "Япония",
+      "bodyType": "Хэтчбек",
+      "status": "queued",
+      "reason": "missing-production-ai",
+      "pipeline": {
+        "referenceCheck": "required",
+        "promptBuild": "pending",
+        "generation": "pending",
+        "semanticQa": "pending",
+        "generationQa": "pending",
+        "ownerApproval": "pending",
+        "promotion": "blocked-until-approved"
+      }
+    },
+    {
+      "slug": "mazda_6",
+      "manufacturer": "Mazda",
+      "model": "Mazda6",
+      "country": "Япония",
+      "bodyType": "Седан",
+      "status": "queued",
+      "reason": "missing-production-ai",
+      "pipeline": {
+        "referenceCheck": "required",
+        "promptBuild": "pending",
+        "generation": "pending",
+        "semanticQa": "pending",
+        "generationQa": "pending",
+        "ownerApproval": "pending",
+        "promotion": "blocked-until-approved"
+      }
+    },
+    {
+      "slug": "volkswagen_polo",
+      "manufacturer": "Volkswagen",
+      "model": "Polo",
+      "country": "Европа",
+      "bodyType": "Седан",
+      "status": "queued",
+      "reason": "missing-production-ai",
+      "pipeline": {
+        "referenceCheck": "required",
+        "promptBuild": "pending",
+        "generation": "pending",
+        "semanticQa": "pending",
+        "generationQa": "pending",
+        "ownerApproval": "pending",
+        "promotion": "blocked-until-approved"
+      }
+    },
+    {
+      "slug": "volkswagen_tiguan",
+      "manufacturer": "Volkswagen",
+      "model": "Tiguan",
+      "country": "Европа",
+      "bodyType": "Кроссовер",
+      "status": "queued",
+      "reason": "missing-production-ai",
+      "pipeline": {
+        "referenceCheck": "required",
+        "promptBuild": "pending",
+        "generation": "pending",
+        "semanticQa": "pending",
+        "generationQa": "pending",
+        "ownerApproval": "pending",
+        "promotion": "blocked-until-approved"
+      }
+    },
+    {
+      "slug": "volkswagen_touareg",
+      "manufacturer": "Volkswagen",
+      "model": "Touareg",
+      "country": "Европа",
+      "bodyType": "Внедорожник",
+      "status": "queued",
+      "reason": "missing-production-ai",
+      "pipeline": {
+        "referenceCheck": "required",
+        "promptBuild": "pending",
+        "generation": "pending",
+        "semanticQa": "pending",
+        "generationQa": "pending",
+        "ownerApproval": "pending",
+        "promotion": "blocked-until-approved"
+      }
+    },
+    {
+      "slug": "volkswagen_golf",
+      "manufacturer": "Volkswagen",
+      "model": "Golf",
+      "country": "Европа",
+      "bodyType": "Хэтчбек",
+      "status": "queued",
+      "reason": "missing-production-ai",
+      "pipeline": {
+        "referenceCheck": "required",
+        "promptBuild": "pending",
+        "generation": "pending",
+        "semanticQa": "pending",
+        "generationQa": "pending",
+        "ownerApproval": "pending",
+        "promotion": "blocked-until-approved"
+      }
+    },
+    {
+      "slug": "volkswagen_passat",
+      "manufacturer": "Volkswagen",
+      "model": "Passat",
+      "country": "Европа",
+      "bodyType": "Седан",
+      "status": "queued",
+      "reason": "missing-production-ai",
+      "pipeline": {
+        "referenceCheck": "required",
+        "promptBuild": "pending",
+        "generation": "pending",
+        "semanticQa": "pending",
+        "generationQa": "pending",
+        "ownerApproval": "pending",
+        "promotion": "blocked-until-approved"
+      }
+    },
+    {
+      "slug": "audi_a4",
+      "manufacturer": "Audi",
+      "model": "A4",
+      "country": "Европа",
+      "bodyType": "Седан",
+      "status": "queued",
+      "reason": "missing-production-ai",
+      "pipeline": {
+        "referenceCheck": "required",
+        "promptBuild": "pending",
+        "generation": "pending",
+        "semanticQa": "pending",
+        "generationQa": "pending",
+        "ownerApproval": "pending",
+        "promotion": "blocked-until-approved"
+      }
+    },
+    {
+      "slug": "audi_q5",
+      "manufacturer": "Audi",
+      "model": "Q5",
+      "country": "Европа",
+      "bodyType": "Кроссовер",
+      "status": "queued",
+      "reason": "missing-production-ai",
+      "pipeline": {
+        "referenceCheck": "required",
+        "promptBuild": "pending",
+        "generation": "pending",
+        "semanticQa": "pending",
+        "generationQa": "pending",
+        "ownerApproval": "pending",
+        "promotion": "blocked-until-approved"
+      }
+    },
+    {
+      "slug": "audi_q7",
+      "manufacturer": "Audi",
+      "model": "Q7",
+      "country": "Европа",
+      "bodyType": "Внедорожник",
+      "status": "queued",
+      "reason": "missing-production-ai",
+      "pipeline": {
+        "referenceCheck": "required",
+        "promptBuild": "pending",
+        "generation": "pending",
+        "semanticQa": "pending",
+        "generationQa": "pending",
+        "ownerApproval": "pending",
+        "promotion": "blocked-until-approved"
+      }
+    },
+    {
+      "slug": "audi_a3",
+      "manufacturer": "Audi",
+      "model": "A3",
+      "country": "Европа",
+      "bodyType": "Хэтчбек",
+      "status": "queued",
+      "reason": "missing-production-ai",
+      "pipeline": {
+        "referenceCheck": "required",
+        "promptBuild": "pending",
+        "generation": "pending",
+        "semanticQa": "pending",
+        "generationQa": "pending",
+        "ownerApproval": "pending",
+        "promotion": "blocked-until-approved"
+      }
+    },
+    {
+      "slug": "audi_a6",
+      "manufacturer": "Audi",
+      "model": "A6",
+      "country": "Европа",
+      "bodyType": "Седан",
+      "status": "queued",
+      "reason": "missing-production-ai",
+      "pipeline": {
+        "referenceCheck": "required",
+        "promptBuild": "pending",
+        "generation": "pending",
+        "semanticQa": "pending",
+        "generationQa": "pending",
+        "ownerApproval": "pending",
+        "promotion": "blocked-until-approved"
+      }
+    },
+    {
+      "slug": "ford_focus",
+      "manufacturer": "Ford",
+      "model": "Focus",
+      "country": "США",
+      "bodyType": "Хэтчбек",
+      "status": "queued",
+      "reason": "missing-production-ai",
+      "pipeline": {
+        "referenceCheck": "required",
+        "promptBuild": "pending",
+        "generation": "pending",
+        "semanticQa": "pending",
+        "generationQa": "pending",
+        "ownerApproval": "pending",
+        "promotion": "blocked-until-approved"
+      }
+    },
+    {
+      "slug": "ford_explorer",
+      "manufacturer": "Ford",
+      "model": "Explorer",
+      "country": "США",
+      "bodyType": "Внедорожник",
+      "status": "queued",
+      "reason": "missing-production-ai",
+      "pipeline": {
+        "referenceCheck": "required",
+        "promptBuild": "pending",
+        "generation": "pending",
+        "semanticQa": "pending",
+        "generationQa": "pending",
+        "ownerApproval": "pending",
+        "promotion": "blocked-until-approved"
+      }
+    },
+    {
+      "slug": "ford_ranger",
+      "manufacturer": "Ford",
+      "model": "Ranger",
+      "country": "США",
+      "bodyType": "Пикап",
+      "status": "queued",
+      "reason": "missing-production-ai",
+      "pipeline": {
+        "referenceCheck": "required",
+        "promptBuild": "pending",
+        "generation": "pending",
+        "semanticQa": "pending",
+        "generationQa": "pending",
+        "ownerApproval": "pending",
+        "promotion": "blocked-until-approved"
+      }
+    },
+    {
+      "slug": "ford_f150",
+      "manufacturer": "Ford",
+      "model": "F-150",
+      "country": "США",
+      "bodyType": "Пикап",
+      "status": "queued",
+      "reason": "missing-production-ai",
+      "pipeline": {
+        "referenceCheck": "required",
+        "promptBuild": "pending",
+        "generation": "pending",
+        "semanticQa": "pending",
+        "generationQa": "pending",
+        "ownerApproval": "pending",
+        "promotion": "blocked-until-approved"
+      }
+    },
+    {
+      "slug": "ford_escape",
+      "manufacturer": "Ford",
+      "model": "Escape",
+      "country": "США",
+      "bodyType": "Кроссовер",
+      "status": "queued",
+      "reason": "missing-production-ai",
+      "pipeline": {
+        "referenceCheck": "required",
+        "promptBuild": "pending",
+        "generation": "pending",
+        "semanticQa": "pending",
+        "generationQa": "pending",
+        "ownerApproval": "pending",
+        "promotion": "blocked-until-approved"
+      }
+    },
+    {
+      "slug": "chevrolet_cruze",
+      "manufacturer": "Chevrolet",
+      "model": "Cruze",
+      "country": "США",
+      "bodyType": "Седан",
+      "status": "queued",
+      "reason": "missing-production-ai",
+      "pipeline": {
+        "referenceCheck": "required",
+        "promptBuild": "pending",
+        "generation": "pending",
+        "semanticQa": "pending",
+        "generationQa": "pending",
+        "ownerApproval": "pending",
+        "promotion": "blocked-until-approved"
+      }
+    },
+    {
+      "slug": "chevrolet_tahoe",
+      "manufacturer": "Chevrolet",
+      "model": "Tahoe",
+      "country": "США",
+      "bodyType": "Внедорожник",
+      "status": "queued",
+      "reason": "missing-production-ai",
+      "pipeline": {
+        "referenceCheck": "required",
+        "promptBuild": "pending",
+        "generation": "pending",
+        "semanticQa": "pending",
+        "generationQa": "pending",
+        "ownerApproval": "pending",
+        "promotion": "blocked-until-approved"
+      }
+    },
+    {
+      "slug": "chevrolet_silverado",
+      "manufacturer": "Chevrolet",
+      "model": "Silverado",
+      "country": "США",
+      "bodyType": "Пикап",
+      "status": "queued",
+      "reason": "missing-production-ai",
+      "pipeline": {
+        "referenceCheck": "required",
+        "promptBuild": "pending",
+        "generation": "pending",
+        "semanticQa": "pending",
+        "generationQa": "pending",
+        "ownerApproval": "pending",
+        "promotion": "blocked-until-approved"
+      }
+    },
+    {
+      "slug": "chevrolet_trax",
+      "manufacturer": "Chevrolet",
+      "model": "Trax",
+      "country": "США",
+      "bodyType": "Кроссовер",
+      "status": "queued",
+      "reason": "missing-production-ai",
+      "pipeline": {
+        "referenceCheck": "required",
+        "promptBuild": "pending",
+        "generation": "pending",
+        "semanticQa": "pending",
+        "generationQa": "pending",
+        "ownerApproval": "pending",
+        "promotion": "blocked-until-approved"
+      }
+    },
+    {
+      "slug": "chevrolet_equinox",
+      "manufacturer": "Chevrolet",
+      "model": "Equinox",
+      "country": "США",
+      "bodyType": "Кроссовер",
+      "status": "queued",
+      "reason": "missing-production-ai",
+      "pipeline": {
+        "referenceCheck": "required",
+        "promptBuild": "pending",
+        "generation": "pending",
+        "semanticQa": "pending",
+        "generationQa": "pending",
+        "ownerApproval": "pending",
+        "promotion": "blocked-until-approved"
+      }
+    },
+    {
+      "slug": "lexus_es",
+      "manufacturer": "Lexus",
+      "model": "ES",
+      "country": "Япония",
+      "bodyType": "Седан",
+      "status": "queued",
+      "reason": "missing-production-ai",
+      "pipeline": {
+        "referenceCheck": "required",
+        "promptBuild": "pending",
+        "generation": "pending",
+        "semanticQa": "pending",
+        "generationQa": "pending",
+        "ownerApproval": "pending",
+        "promotion": "blocked-until-approved"
+      }
+    },
+    {
+      "slug": "lexus_nx",
+      "manufacturer": "Lexus",
+      "model": "NX",
+      "country": "Япония",
+      "bodyType": "Кроссовер",
+      "status": "queued",
+      "reason": "missing-production-ai",
+      "pipeline": {
+        "referenceCheck": "required",
+        "promptBuild": "pending",
+        "generation": "pending",
+        "semanticQa": "pending",
+        "generationQa": "pending",
+        "ownerApproval": "pending",
+        "promotion": "blocked-until-approved"
+      }
+    },
+    {
+      "slug": "lexus_lx",
+      "manufacturer": "Lexus",
+      "model": "LX",
+      "country": "Япония",
+      "bodyType": "Внедорожник",
+      "status": "queued",
+      "reason": "missing-production-ai",
+      "pipeline": {
+        "referenceCheck": "required",
+        "promptBuild": "pending",
+        "generation": "pending",
+        "semanticQa": "pending",
+        "generationQa": "pending",
+        "ownerApproval": "pending",
+        "promotion": "blocked-until-approved"
+      }
+    },
+    {
+      "slug": "lexus_ct",
+      "manufacturer": "Lexus",
+      "model": "CT",
+      "country": "Япония",
+      "bodyType": "Хэтчбек",
+      "status": "queued",
+      "reason": "missing-production-ai",
+      "pipeline": {
+        "referenceCheck": "required",
+        "promptBuild": "pending",
+        "generation": "pending",
+        "semanticQa": "pending",
+        "generationQa": "pending",
+        "ownerApproval": "pending",
+        "promotion": "blocked-until-approved"
+      }
+    },
+    {
+      "slug": "chery_tiggo",
+      "manufacturer": "Chery",
+      "model": "Tiggo",
+      "country": "Китай",
+      "bodyType": "Кроссовер",
+      "status": "queued",
+      "reason": "missing-production-ai",
+      "pipeline": {
+        "referenceCheck": "required",
+        "promptBuild": "pending",
+        "generation": "pending",
+        "semanticQa": "pending",
+        "generationQa": "pending",
+        "ownerApproval": "pending",
+        "promotion": "blocked-until-approved"
+      }
+    },
+    {
+      "slug": "chery_tiggo_7",
+      "manufacturer": "Chery",
+      "model": "Tiggo 7",
+      "country": "Китай",
+      "bodyType": "Кроссовер",
+      "status": "queued",
+      "reason": "missing-production-ai",
+      "pipeline": {
+        "referenceCheck": "required",
+        "promptBuild": "pending",
+        "generation": "pending",
+        "semanticQa": "pending",
+        "generationQa": "pending",
+        "ownerApproval": "pending",
+        "promotion": "blocked-until-approved"
+      }
+    },
+    {
+      "slug": "chery_tiggo_8",
+      "manufacturer": "Chery",
+      "model": "Tiggo 8",
+      "country": "Китай",
+      "bodyType": "Кроссовер",
+      "status": "queued",
+      "reason": "missing-production-ai",
+      "pipeline": {
+        "referenceCheck": "required",
+        "promptBuild": "pending",
+        "generation": "pending",
+        "semanticQa": "pending",
+        "generationQa": "pending",
+        "ownerApproval": "pending",
+        "promotion": "blocked-until-approved"
+      }
+    },
+    {
+      "slug": "chery_arrizo",
+      "manufacturer": "Chery",
+      "model": "Arrizo",
+      "country": "Китай",
+      "bodyType": "Седан",
+      "status": "queued",
+      "reason": "missing-production-ai",
+      "pipeline": {
+        "referenceCheck": "required",
+        "promptBuild": "pending",
+        "generation": "pending",
+        "semanticQa": "pending",
+        "generationQa": "pending",
+        "ownerApproval": "pending",
+        "promotion": "blocked-until-approved"
+      }
+    },
+    {
+      "slug": "chery_omoda",
+      "manufacturer": "Chery",
+      "model": "Omoda",
+      "country": "Китай",
+      "bodyType": "Кроссовер",
+      "status": "queued",
+      "reason": "missing-production-ai",
+      "pipeline": {
+        "referenceCheck": "required",
+        "promptBuild": "pending",
+        "generation": "pending",
+        "semanticQa": "pending",
+        "generationQa": "pending",
+        "ownerApproval": "pending",
+        "promotion": "blocked-until-approved"
+      }
+    },
+    {
+      "slug": "exeed_lx",
+      "manufacturer": "Exeed",
+      "model": "LX",
+      "country": "Китай",
+      "bodyType": "Кроссовер",
+      "status": "queued",
+      "reason": "missing-production-ai",
+      "pipeline": {
+        "referenceCheck": "required",
+        "promptBuild": "pending",
+        "generation": "pending",
+        "semanticQa": "pending",
+        "generationQa": "pending",
+        "ownerApproval": "pending",
+        "promotion": "blocked-until-approved"
+      }
+    },
+    {
+      "slug": "exeed_txl",
+      "manufacturer": "Exeed",
+      "model": "TXL",
+      "country": "Китай",
+      "bodyType": "Кроссовер",
+      "status": "queued",
+      "reason": "missing-production-ai",
+      "pipeline": {
+        "referenceCheck": "required",
+        "promptBuild": "pending",
+        "generation": "pending",
+        "semanticQa": "pending",
+        "generationQa": "pending",
+        "ownerApproval": "pending",
+        "promotion": "blocked-until-approved"
+      }
+    },
+    {
+      "slug": "exeed_vx",
+      "manufacturer": "Exeed",
+      "model": "VX",
+      "country": "Китай",
+      "bodyType": "Внедорожник",
+      "status": "queued",
+      "reason": "missing-production-ai",
+      "pipeline": {
+        "referenceCheck": "required",
+        "promptBuild": "pending",
+        "generation": "pending",
+        "semanticQa": "pending",
+        "generationQa": "pending",
+        "ownerApproval": "pending",
+        "promotion": "blocked-until-approved"
+      }
+    },
+    {
+      "slug": "jac_s7",
+      "manufacturer": "JAC",
+      "model": "S7",
+      "country": "Китай",
+      "bodyType": "Кроссовер",
+      "status": "queued",
+      "reason": "missing-production-ai",
+      "pipeline": {
+        "referenceCheck": "required",
+        "promptBuild": "pending",
+        "generation": "pending",
+        "semanticQa": "pending",
+        "generationQa": "pending",
+        "ownerApproval": "pending",
+        "promotion": "blocked-until-approved"
+      }
+    },
+    {
+      "slug": "jac_j7",
+      "manufacturer": "JAC",
+      "model": "J7",
+      "country": "Китай",
+      "bodyType": "Седан",
+      "status": "queued",
+      "reason": "missing-production-ai",
+      "pipeline": {
+        "referenceCheck": "required",
+        "promptBuild": "pending",
+        "generation": "pending",
+        "semanticQa": "pending",
+        "generationQa": "pending",
+        "ownerApproval": "pending",
+        "promotion": "blocked-until-approved"
+      }
+    },
+    {
+      "slug": "dongfeng_ax7",
+      "manufacturer": "Dongfeng",
+      "model": "AX7",
+      "country": "Китай",
+      "bodyType": "Кроссовер",
+      "status": "queued",
+      "reason": "missing-production-ai",
+      "pipeline": {
+        "referenceCheck": "required",
+        "promptBuild": "pending",
+        "generation": "pending",
+        "semanticQa": "pending",
+        "generationQa": "pending",
+        "ownerApproval": "pending",
+        "promotion": "blocked-until-approved"
+      }
+    },
+    {
+      "slug": "gac_gs8",
+      "manufacturer": "GAC",
+      "model": "GS8",
+      "country": "Китай",
+      "bodyType": "Кроссовер",
+      "status": "queued",
+      "reason": "missing-production-ai",
+      "pipeline": {
+        "referenceCheck": "required",
+        "promptBuild": "pending",
+        "generation": "pending",
+        "semanticQa": "pending",
+        "generationQa": "pending",
+        "ownerApproval": "pending",
+        "promotion": "blocked-until-approved"
+      }
+    },
+    {
+      "slug": "jetour_x70",
+      "manufacturer": "Jetour",
+      "model": "X70",
+      "country": "Китай",
+      "bodyType": "Кроссовер",
+      "status": "queued",
+      "reason": "missing-production-ai",
+      "pipeline": {
+        "referenceCheck": "required",
+        "promptBuild": "pending",
+        "generation": "pending",
+        "semanticQa": "pending",
+        "generationQa": "pending",
+        "ownerApproval": "pending",
+        "promotion": "blocked-until-approved"
+      }
+    },
+    {
+      "slug": "tank_300",
+      "manufacturer": "Tank",
+      "model": "300",
+      "country": "Китай",
+      "bodyType": "Внедорожник",
+      "status": "queued",
+      "reason": "missing-production-ai",
+      "pipeline": {
+        "referenceCheck": "required",
+        "promptBuild": "pending",
+        "generation": "pending",
+        "semanticQa": "pending",
+        "generationQa": "pending",
+        "ownerApproval": "pending",
+        "promotion": "blocked-until-approved"
+      }
+    },
+    {
+      "slug": "tank_500",
+      "manufacturer": "Tank",
+      "model": "500",
+      "country": "Китай",
+      "bodyType": "Внедорожник",
+      "status": "queued",
+      "reason": "missing-production-ai",
+      "pipeline": {
+        "referenceCheck": "required",
+        "promptBuild": "pending",
+        "generation": "pending",
+        "semanticQa": "pending",
+        "generationQa": "pending",
+        "ownerApproval": "pending",
+        "promotion": "blocked-until-approved"
+      }
+    },
+    {
+      "slug": "toyota_camry_2",
+      "manufacturer": "Toyota",
+      "model": "Camry Hybrid",
+      "country": "Япония",
+      "bodyType": "Седан",
+      "status": "queued",
+      "reason": "missing-production-ai",
+      "pipeline": {
+        "referenceCheck": "required",
+        "promptBuild": "pending",
+        "generation": "pending",
+        "semanticQa": "pending",
+        "generationQa": "pending",
+        "ownerApproval": "pending",
+        "promotion": "blocked-until-approved"
+      }
+    },
+    {
+      "slug": "toyota_highlander",
+      "manufacturer": "Toyota",
+      "model": "Highlander",
+      "country": "Япония",
+      "bodyType": "Кроссовер",
+      "status": "queued",
+      "reason": "missing-production-ai",
+      "pipeline": {
+        "referenceCheck": "required",
+        "promptBuild": "pending",
+        "generation": "pending",
+        "semanticQa": "pending",
+        "generationQa": "pending",
+        "ownerApproval": "pending",
+        "promotion": "blocked-until-approved"
+      }
+    },
+    {
+      "slug": "toyota_prado",
+      "manufacturer": "Toyota",
+      "model": "Prado",
+      "country": "Япония",
+      "bodyType": "Внедорожник",
+      "status": "queued",
+      "reason": "missing-production-ai",
+      "pipeline": {
+        "referenceCheck": "required",
+        "promptBuild": "pending",
+        "generation": "pending",
+        "semanticQa": "pending",
+        "generationQa": "pending",
+        "ownerApproval": "pending",
+        "promotion": "blocked-until-approved"
+      }
+    },
+    {
+      "slug": "bmw_5_series",
+      "manufacturer": "BMW",
+      "model": "5 Series",
+      "country": "Европа",
+      "bodyType": "Седан",
+      "status": "queued",
+      "reason": "missing-production-ai",
+      "pipeline": {
+        "referenceCheck": "required",
+        "promptBuild": "pending",
+        "generation": "pending",
+        "semanticQa": "pending",
+        "generationQa": "pending",
+        "ownerApproval": "pending",
+        "promotion": "blocked-until-approved"
+      }
+    },
+    {
+      "slug": "bmw_x1",
+      "manufacturer": "BMW",
+      "model": "X1",
+      "country": "Европа",
+      "bodyType": "Кроссовер",
+      "status": "queued",
+      "reason": "missing-production-ai",
+      "pipeline": {
+        "referenceCheck": "required",
+        "promptBuild": "pending",
+        "generation": "pending",
+        "semanticQa": "pending",
+        "generationQa": "pending",
+        "ownerApproval": "pending",
+        "promotion": "blocked-until-approved"
+      }
+    },
+    {
+      "slug": "bmw_x7",
+      "manufacturer": "BMW",
+      "model": "X7",
+      "country": "Европа",
+      "bodyType": "Внедорожник",
+      "status": "queued",
+      "reason": "missing-production-ai",
+      "pipeline": {
+        "referenceCheck": "required",
+        "promptBuild": "pending",
+        "generation": "pending",
+        "semanticQa": "pending",
+        "generationQa": "pending",
+        "ownerApproval": "pending",
+        "promotion": "blocked-until-approved"
+      }
+    },
+    {
+      "slug": "hyundai_sonata",
+      "manufacturer": "Hyundai",
+      "model": "Sonata",
+      "country": "Корея",
+      "bodyType": "Седан",
+      "status": "queued",
+      "reason": "missing-production-ai",
+      "pipeline": {
+        "referenceCheck": "required",
+        "promptBuild": "pending",
+        "generation": "pending",
+        "semanticQa": "pending",
+        "generationQa": "pending",
+        "ownerApproval": "pending",
+        "promotion": "blocked-until-approved"
+      }
+    },
+    {
+      "slug": "hyundai_palisade",
+      "manufacturer": "Hyundai",
+      "model": "Palisade",
+      "country": "Корея",
+      "bodyType": "Внедорожник",
+      "status": "queued",
+      "reason": "missing-production-ai",
+      "pipeline": {
+        "referenceCheck": "required",
+        "promptBuild": "pending",
+        "generation": "pending",
+        "semanticQa": "pending",
+        "generationQa": "pending",
+        "ownerApproval": "pending",
+        "promotion": "blocked-until-approved"
+      }
+    },
+    {
+      "slug": "kia_carnival",
+      "manufacturer": "Kia",
+      "model": "Carnival",
+      "country": "Корея",
+      "bodyType": "Кроссовер",
+      "status": "queued",
+      "reason": "missing-production-ai",
+      "pipeline": {
+        "referenceCheck": "required",
+        "promptBuild": "pending",
+        "generation": "pending",
+        "semanticQa": "pending",
+        "generationQa": "pending",
+        "ownerApproval": "pending",
+        "promotion": "blocked-until-approved"
+      }
+    },
+    {
+      "slug": "kia_stinger",
+      "manufacturer": "Kia",
+      "model": "Stinger",
+      "country": "Корея",
+      "bodyType": "Седан",
+      "status": "queued",
+      "reason": "missing-production-ai",
+      "pipeline": {
+        "referenceCheck": "required",
+        "promptBuild": "pending",
+        "generation": "pending",
+        "semanticQa": "pending",
+        "generationQa": "pending",
+        "ownerApproval": "pending",
+        "promotion": "blocked-until-approved"
+      }
+    },
+    {
+      "slug": "jeep_wrangler",
+      "manufacturer": "Jeep",
+      "model": "Wrangler",
+      "country": "США",
+      "bodyType": "Внедорожник",
+      "status": "queued",
+      "reason": "missing-production-ai",
+      "pipeline": {
+        "referenceCheck": "required",
+        "promptBuild": "pending",
+        "generation": "pending",
+        "semanticQa": "pending",
+        "generationQa": "pending",
+        "ownerApproval": "pending",
+        "promotion": "blocked-until-approved"
+      }
+    },
+    {
+      "slug": "jeep_grand_cherokee",
+      "manufacturer": "Jeep",
+      "model": "Grand Cherokee",
+      "country": "США",
+      "bodyType": "Внедорожник",
+      "status": "queued",
+      "reason": "missing-production-ai",
+      "pipeline": {
+        "referenceCheck": "required",
+        "promptBuild": "pending",
+        "generation": "pending",
+        "semanticQa": "pending",
+        "generationQa": "pending",
+        "ownerApproval": "pending",
+        "promotion": "blocked-until-approved"
+      }
+    },
+    {
+      "slug": "jeep_compass",
+      "manufacturer": "Jeep",
+      "model": "Compass",
+      "country": "США",
+      "bodyType": "Кроссовер",
+      "status": "queued",
+      "reason": "missing-production-ai",
+      "pipeline": {
+        "referenceCheck": "required",
+        "promptBuild": "pending",
+        "generation": "pending",
+        "semanticQa": "pending",
+        "generationQa": "pending",
+        "ownerApproval": "pending",
+        "promotion": "blocked-until-approved"
+      }
+    },
+    {
+      "slug": "ram_1500",
+      "manufacturer": "RAM",
+      "model": "1500",
+      "country": "США",
+      "bodyType": "Пикап",
+      "status": "queued",
+      "reason": "missing-production-ai",
+      "pipeline": {
+        "referenceCheck": "required",
+        "promptBuild": "pending",
+        "generation": "pending",
+        "semanticQa": "pending",
+        "generationQa": "pending",
+        "ownerApproval": "pending",
+        "promotion": "blocked-until-approved"
+      }
+    },
+    {
+      "slug": "gmc_sierra",
+      "manufacturer": "GMC",
+      "model": "Sierra",
+      "country": "США",
+      "bodyType": "Пикап",
+      "status": "queued",
+      "reason": "missing-production-ai",
+      "pipeline": {
+        "referenceCheck": "required",
+        "promptBuild": "pending",
+        "generation": "pending",
+        "semanticQa": "pending",
+        "generationQa": "pending",
+        "ownerApproval": "pending",
+        "promotion": "blocked-until-approved"
+      }
+    },
+    {
+      "slug": "gmc_yukon",
+      "manufacturer": "GMC",
+      "model": "Yukon",
+      "country": "США",
+      "bodyType": "Внедорожник",
+      "status": "queued",
+      "reason": "missing-production-ai",
+      "pipeline": {
+        "referenceCheck": "required",
+        "promptBuild": "pending",
+        "generation": "pending",
+        "semanticQa": "pending",
+        "generationQa": "pending",
+        "ownerApproval": "pending",
+        "promotion": "blocked-until-approved"
+      }
+    },
+    {
+      "slug": "cadillac_xt5",
+      "manufacturer": "Cadillac",
+      "model": "XT5",
+      "country": "США",
+      "bodyType": "Кроссовер",
+      "status": "queued",
+      "reason": "missing-production-ai",
+      "pipeline": {
+        "referenceCheck": "required",
+        "promptBuild": "pending",
+        "generation": "pending",
+        "semanticQa": "pending",
+        "generationQa": "pending",
+        "ownerApproval": "pending",
+        "promotion": "blocked-until-approved"
+      }
+    },
+    {
+      "slug": "cadillac_escalade",
+      "manufacturer": "Cadillac",
+      "model": "Escalade",
+      "country": "США",
+      "bodyType": "Внедорожник",
+      "status": "queued",
+      "reason": "missing-production-ai",
+      "pipeline": {
+        "referenceCheck": "required",
+        "promptBuild": "pending",
+        "generation": "pending",
+        "semanticQa": "pending",
+        "generationQa": "pending",
+        "ownerApproval": "pending",
+        "promotion": "blocked-until-approved"
+      }
+    },
+    {
+      "slug": "porsche_cayenne",
+      "manufacturer": "Porsche",
+      "model": "Cayenne",
+      "country": "Европа",
+      "bodyType": "Внедорожник",
+      "status": "queued",
+      "reason": "missing-production-ai",
+      "pipeline": {
+        "referenceCheck": "required",
+        "promptBuild": "pending",
+        "generation": "pending",
+        "semanticQa": "pending",
+        "generationQa": "pending",
+        "ownerApproval": "pending",
+        "promotion": "blocked-until-approved"
+      }
+    },
+    {
+      "slug": "porsche_macan",
+      "manufacturer": "Porsche",
+      "model": "Macan",
+      "country": "Европа",
+      "bodyType": "Кроссовер",
+      "status": "queued",
+      "reason": "missing-production-ai",
+      "pipeline": {
+        "referenceCheck": "required",
+        "promptBuild": "pending",
+        "generation": "pending",
+        "semanticQa": "pending",
+        "generationQa": "pending",
+        "ownerApproval": "pending",
+        "promotion": "blocked-until-approved"
+      }
+    },
+    {
+      "slug": "porsche_panamera",
+      "manufacturer": "Porsche",
+      "model": "Panamera",
+      "country": "Европа",
+      "bodyType": "Седан",
+      "status": "queued",
+      "reason": "missing-production-ai",
+      "pipeline": {
+        "referenceCheck": "required",
+        "promptBuild": "pending",
+        "generation": "pending",
+        "semanticQa": "pending",
+        "generationQa": "pending",
+        "ownerApproval": "pending",
+        "promotion": "blocked-until-approved"
+      }
+    },
+    {
+      "slug": "volvo_xc60",
+      "manufacturer": "Volvo",
+      "model": "XC60",
+      "country": "Европа",
+      "bodyType": "Кроссовер",
+      "status": "queued",
+      "reason": "missing-production-ai",
+      "pipeline": {
+        "referenceCheck": "required",
+        "promptBuild": "pending",
+        "generation": "pending",
+        "semanticQa": "pending",
+        "generationQa": "pending",
+        "ownerApproval": "pending",
+        "promotion": "blocked-until-approved"
+      }
+    },
+    {
+      "slug": "volvo_xc90",
+      "manufacturer": "Volvo",
+      "model": "XC90",
+      "country": "Европа",
+      "bodyType": "Внедорожник",
+      "status": "queued",
+      "reason": "missing-production-ai",
+      "pipeline": {
+        "referenceCheck": "required",
+        "promptBuild": "pending",
+        "generation": "pending",
+        "semanticQa": "pending",
+        "generationQa": "pending",
+        "ownerApproval": "pending",
+        "promotion": "blocked-until-approved"
+      }
+    },
+    {
+      "slug": "volvo_s60",
+      "manufacturer": "Volvo",
+      "model": "S60",
+      "country": "Европа",
+      "bodyType": "Седан",
+      "status": "queued",
+      "reason": "missing-production-ai",
+      "pipeline": {
+        "referenceCheck": "required",
+        "promptBuild": "pending",
+        "generation": "pending",
+        "semanticQa": "pending",
+        "generationQa": "pending",
+        "ownerApproval": "pending",
+        "promotion": "blocked-until-approved"
+      }
+    },
+    {
+      "slug": "skoda_octavia",
+      "manufacturer": "Skoda",
+      "model": "Octavia",
+      "country": "Европа",
+      "bodyType": "Седан",
+      "status": "queued",
+      "reason": "missing-production-ai",
+      "pipeline": {
+        "referenceCheck": "required",
+        "promptBuild": "pending",
+        "generation": "pending",
+        "semanticQa": "pending",
+        "generationQa": "pending",
+        "ownerApproval": "pending",
+        "promotion": "blocked-until-approved"
+      }
+    },
+    {
+      "slug": "skoda_kodiaq",
+      "manufacturer": "Skoda",
+      "model": "Kodiaq",
+      "country": "Европа",
+      "bodyType": "Кроссовер",
+      "status": "queued",
+      "reason": "missing-production-ai",
+      "pipeline": {
+        "referenceCheck": "required",
+        "promptBuild": "pending",
+        "generation": "pending",
+        "semanticQa": "pending",
+        "generationQa": "pending",
+        "ownerApproval": "pending",
+        "promotion": "blocked-until-approved"
+      }
+    },
+    {
+      "slug": "skoda_karoq",
+      "manufacturer": "Skoda",
+      "model": "Karoq",
+      "country": "Европа",
+      "bodyType": "Кроссовер",
+      "status": "queued",
+      "reason": "missing-production-ai",
+      "pipeline": {
+        "referenceCheck": "required",
+        "promptBuild": "pending",
+        "generation": "pending",
+        "semanticQa": "pending",
+        "generationQa": "pending",
+        "ownerApproval": "pending",
+        "promotion": "blocked-until-approved"
+      }
+    },
+    {
+      "slug": "skoda_fabia",
+      "manufacturer": "Skoda",
+      "model": "Fabia",
+      "country": "Европа",
+      "bodyType": "Хэтчбек",
+      "status": "queued",
+      "reason": "missing-production-ai",
+      "pipeline": {
+        "referenceCheck": "required",
+        "promptBuild": "pending",
+        "generation": "pending",
+        "semanticQa": "pending",
+        "generationQa": "pending",
+        "ownerApproval": "pending",
+        "promotion": "blocked-until-approved"
+      }
+    },
+    {
+      "slug": "renault_logan",
+      "manufacturer": "Renault",
+      "model": "Logan",
+      "country": "Европа",
+      "bodyType": "Седан",
+      "status": "queued",
+      "reason": "missing-production-ai",
+      "pipeline": {
+        "referenceCheck": "required",
+        "promptBuild": "pending",
+        "generation": "pending",
+        "semanticQa": "pending",
+        "generationQa": "pending",
+        "ownerApproval": "pending",
+        "promotion": "blocked-until-approved"
+      }
+    },
+    {
+      "slug": "renault_duster",
+      "manufacturer": "Renault",
+      "model": "Duster",
+      "country": "Европа",
+      "bodyType": "Кроссовер",
+      "status": "queued",
+      "reason": "missing-production-ai",
+      "pipeline": {
+        "referenceCheck": "required",
+        "promptBuild": "pending",
+        "generation": "pending",
+        "semanticQa": "pending",
+        "generationQa": "pending",
+        "ownerApproval": "pending",
+        "promotion": "blocked-until-approved"
+      }
+    },
+    {
+      "slug": "renault_arkana",
+      "manufacturer": "Renault",
+      "model": "Arkana",
+      "country": "Европа",
+      "bodyType": "Кроссовер",
+      "status": "queued",
+      "reason": "missing-production-ai",
+      "pipeline": {
+        "referenceCheck": "required",
+        "promptBuild": "pending",
+        "generation": "pending",
+        "semanticQa": "pending",
+        "generationQa": "pending",
+        "ownerApproval": "pending",
+        "promotion": "blocked-until-approved"
+      }
+    },
+    {
+      "slug": "renault_kaptur",
+      "manufacturer": "Renault",
+      "model": "Kaptur",
+      "country": "Европа",
+      "bodyType": "Кроссовер",
+      "status": "queued",
+      "reason": "missing-production-ai",
+      "pipeline": {
+        "referenceCheck": "required",
+        "promptBuild": "pending",
+        "generation": "pending",
+        "semanticQa": "pending",
+        "generationQa": "pending",
+        "ownerApproval": "pending",
+        "promotion": "blocked-until-approved"
+      }
+    },
+    {
+      "slug": "renault_sandero",
+      "manufacturer": "Renault",
+      "model": "Sandero",
+      "country": "Европа",
+      "bodyType": "Хэтчбек",
+      "status": "queued",
+      "reason": "missing-production-ai",
+      "pipeline": {
+        "referenceCheck": "required",
+        "promptBuild": "pending",
+        "generation": "pending",
+        "semanticQa": "pending",
+        "generationQa": "pending",
+        "ownerApproval": "pending",
+        "promotion": "blocked-until-approved"
+      }
+    },
+    {
+      "slug": "peugeot_308",
+      "manufacturer": "Peugeot",
+      "model": "308",
+      "country": "Европа",
+      "bodyType": "Хэтчбек",
+      "status": "queued",
+      "reason": "missing-production-ai",
+      "pipeline": {
+        "referenceCheck": "required",
+        "promptBuild": "pending",
+        "generation": "pending",
+        "semanticQa": "pending",
+        "generationQa": "pending",
+        "ownerApproval": "pending",
+        "promotion": "blocked-until-approved"
+      }
+    },
+    {
+      "slug": "peugeot_3008",
+      "manufacturer": "Peugeot",
+      "model": "3008",
+      "country": "Европа",
+      "bodyType": "Кроссовер",
+      "status": "queued",
+      "reason": "missing-production-ai",
+      "pipeline": {
+        "referenceCheck": "required",
+        "promptBuild": "pending",
+        "generation": "pending",
+        "semanticQa": "pending",
+        "generationQa": "pending",
+        "ownerApproval": "pending",
+        "promotion": "blocked-until-approved"
+      }
+    },
+    {
+      "slug": "peugeot_5008",
+      "manufacturer": "Peugeot",
+      "model": "5008",
+      "country": "Европа",
+      "bodyType": "Кроссовер",
+      "status": "queued",
+      "reason": "missing-production-ai",
+      "pipeline": {
+        "referenceCheck": "required",
+        "promptBuild": "pending",
+        "generation": "pending",
+        "semanticQa": "pending",
+        "generationQa": "pending",
+        "ownerApproval": "pending",
+        "promotion": "blocked-until-approved"
+      }
+    },
+    {
+      "slug": "peugeot_408",
+      "manufacturer": "Peugeot",
+      "model": "408",
+      "country": "Европа",
+      "bodyType": "Седан",
+      "status": "queued",
+      "reason": "missing-production-ai",
+      "pipeline": {
+        "referenceCheck": "required",
+        "promptBuild": "pending",
+        "generation": "pending",
+        "semanticQa": "pending",
+        "generationQa": "pending",
+        "ownerApproval": "pending",
+        "promotion": "blocked-until-approved"
+      }
+    },
+    {
+      "slug": "citroen_c4",
+      "manufacturer": "Citroen",
+      "model": "C4",
+      "country": "Европа",
+      "bodyType": "Хэтчбек",
+      "status": "queued",
+      "reason": "missing-production-ai",
+      "pipeline": {
+        "referenceCheck": "required",
+        "promptBuild": "pending",
+        "generation": "pending",
+        "semanticQa": "pending",
+        "generationQa": "pending",
+        "ownerApproval": "pending",
+        "promotion": "blocked-until-approved"
+      }
+    },
+    {
+      "slug": "citroen_c5_x",
+      "manufacturer": "Citroen",
+      "model": "C5 X",
+      "country": "Европа",
+      "bodyType": "Седан",
+      "status": "queued",
+      "reason": "missing-production-ai",
+      "pipeline": {
+        "referenceCheck": "required",
+        "promptBuild": "pending",
+        "generation": "pending",
+        "semanticQa": "pending",
+        "generationQa": "pending",
+        "ownerApproval": "pending",
+        "promotion": "blocked-until-approved"
+      }
+    },
+    {
+      "slug": "citroen_c3_aircross",
+      "manufacturer": "Citroen",
+      "model": "C3 Aircross",
+      "country": "Европа",
+      "bodyType": "Кроссовер",
+      "status": "queued",
+      "reason": "missing-production-ai",
+      "pipeline": {
+        "referenceCheck": "required",
+        "promptBuild": "pending",
+        "generation": "pending",
+        "semanticQa": "pending",
+        "generationQa": "pending",
+        "ownerApproval": "pending",
+        "promotion": "blocked-until-approved"
+      }
+    },
+    {
+      "slug": "dodge_durango",
+      "manufacturer": "Dodge",
+      "model": "Durango",
+      "country": "США",
+      "bodyType": "Внедорожник",
+      "status": "queued",
+      "reason": "missing-production-ai",
+      "pipeline": {
+        "referenceCheck": "required",
+        "promptBuild": "pending",
+        "generation": "pending",
+        "semanticQa": "pending",
+        "generationQa": "pending",
+        "ownerApproval": "pending",
+        "promotion": "blocked-until-approved"
+      }
+    },
+    {
+      "slug": "dodge_rampage",
+      "manufacturer": "Dodge",
+      "model": "Rampage",
+      "country": "США",
+      "bodyType": "Пикап",
+      "status": "queued",
+      "reason": "missing-production-ai",
+      "pipeline": {
+        "referenceCheck": "required",
+        "promptBuild": "pending",
+        "generation": "pending",
+        "semanticQa": "pending",
+        "generationQa": "pending",
+        "ownerApproval": "pending",
+        "promotion": "blocked-until-approved"
+      }
+    },
+    {
+      "slug": "infiniti_q50",
+      "manufacturer": "Infiniti",
+      "model": "Q50",
+      "country": "Япония",
+      "bodyType": "Седан",
+      "status": "queued",
+      "reason": "missing-production-ai",
+      "pipeline": {
+        "referenceCheck": "required",
+        "promptBuild": "pending",
+        "generation": "pending",
+        "semanticQa": "pending",
+        "generationQa": "pending",
+        "ownerApproval": "pending",
+        "promotion": "blocked-until-approved"
+      }
+    },
+    {
+      "slug": "infiniti_qx60",
+      "manufacturer": "Infiniti",
+      "model": "QX60",
+      "country": "Япония",
+      "bodyType": "Кроссовер",
+      "status": "queued",
+      "reason": "missing-production-ai",
+      "pipeline": {
+        "referenceCheck": "required",
+        "promptBuild": "pending",
+        "generation": "pending",
+        "semanticQa": "pending",
+        "generationQa": "pending",
+        "ownerApproval": "pending",
+        "promotion": "blocked-until-approved"
+      }
+    },
+    {
+      "slug": "infiniti_qx80",
+      "manufacturer": "Infiniti",
+      "model": "QX80",
+      "country": "Япония",
+      "bodyType": "Внедорожник",
+      "status": "queued",
+      "reason": "missing-production-ai",
+      "pipeline": {
+        "referenceCheck": "required",
+        "promptBuild": "pending",
+        "generation": "pending",
+        "semanticQa": "pending",
+        "generationQa": "pending",
+        "ownerApproval": "pending",
+        "promotion": "blocked-until-approved"
+      }
+    },
+    {
+      "slug": "subaru_outback",
+      "manufacturer": "Subaru",
+      "model": "Outback",
+      "country": "Япония",
+      "bodyType": "Кроссовер",
+      "status": "queued",
+      "reason": "missing-production-ai",
+      "pipeline": {
+        "referenceCheck": "required",
+        "promptBuild": "pending",
+        "generation": "pending",
+        "semanticQa": "pending",
+        "generationQa": "pending",
+        "ownerApproval": "pending",
+        "promotion": "blocked-until-approved"
+      }
+    },
+    {
+      "slug": "subaru_forester",
+      "manufacturer": "Subaru",
+      "model": "Forester",
+      "country": "Япония",
+      "bodyType": "Кроссовер",
+      "status": "queued",
+      "reason": "missing-production-ai",
+      "pipeline": {
+        "referenceCheck": "required",
+        "promptBuild": "pending",
+        "generation": "pending",
+        "semanticQa": "pending",
+        "generationQa": "pending",
+        "ownerApproval": "pending",
+        "promotion": "blocked-until-approved"
+      }
+    },
+    {
+      "slug": "subaru_impreza",
+      "manufacturer": "Subaru",
+      "model": "Impreza",
+      "country": "Япония",
+      "bodyType": "Хэтчбек",
+      "status": "queued",
+      "reason": "missing-production-ai",
+      "pipeline": {
+        "referenceCheck": "required",
+        "promptBuild": "pending",
+        "generation": "pending",
+        "semanticQa": "pending",
+        "generationQa": "pending",
+        "ownerApproval": "pending",
+        "promotion": "blocked-until-approved"
+      }
+    },
+    {
+      "slug": "subaru_legacy",
+      "manufacturer": "Subaru",
+      "model": "Legacy",
+      "country": "Япония",
+      "bodyType": "Седан",
+      "status": "queued",
+      "reason": "missing-production-ai",
+      "pipeline": {
+        "referenceCheck": "required",
+        "promptBuild": "pending",
+        "generation": "pending",
+        "semanticQa": "pending",
+        "generationQa": "pending",
+        "ownerApproval": "pending",
+        "promotion": "blocked-until-approved"
+      }
+    },
+    {
+      "slug": "subaru_wrx",
+      "manufacturer": "Subaru",
+      "model": "WRX",
+      "country": "Япония",
+      "bodyType": "Седан",
+      "status": "queued",
+      "reason": "missing-production-ai",
+      "pipeline": {
+        "referenceCheck": "required",
+        "promptBuild": "pending",
+        "generation": "pending",
+        "semanticQa": "pending",
+        "generationQa": "pending",
+        "ownerApproval": "pending",
+        "promotion": "blocked-until-approved"
+      }
+    },
+    {
+      "slug": "mg_zs",
+      "manufacturer": "MG",
+      "model": "ZS",
+      "country": "Китай",
+      "bodyType": "Кроссовер",
+      "status": "queued",
+      "reason": "missing-production-ai",
+      "pipeline": {
+        "referenceCheck": "required",
+        "promptBuild": "pending",
+        "generation": "pending",
+        "semanticQa": "pending",
+        "generationQa": "pending",
+        "ownerApproval": "pending",
+        "promotion": "blocked-until-approved"
+      }
+    },
+    {
+      "slug": "mg_hs",
+      "manufacturer": "MG",
+      "model": "HS",
+      "country": "Китай",
+      "bodyType": "Кроссовер",
+      "status": "queued",
+      "reason": "missing-production-ai",
+      "pipeline": {
+        "referenceCheck": "required",
+        "promptBuild": "pending",
+        "generation": "pending",
+        "semanticQa": "pending",
+        "generationQa": "pending",
+        "ownerApproval": "pending",
+        "promotion": "blocked-until-approved"
+      }
+    },
+    {
+      "slug": "mg_5",
+      "manufacturer": "MG",
+      "model": "MG5",
+      "country": "Китай",
+      "bodyType": "Седан",
+      "status": "queued",
+      "reason": "missing-production-ai",
+      "pipeline": {
+        "referenceCheck": "required",
+        "promptBuild": "pending",
+        "generation": "pending",
+        "semanticQa": "pending",
+        "generationQa": "pending",
+        "ownerApproval": "pending",
+        "promotion": "blocked-until-approved"
+      }
+    },
+    {
+      "slug": "omoda_s5",
+      "manufacturer": "Omoda",
+      "model": "S5",
+      "country": "Китай",
+      "bodyType": "Седан",
+      "status": "queued",
+      "reason": "missing-production-ai",
+      "pipeline": {
+        "referenceCheck": "required",
+        "promptBuild": "pending",
+        "generation": "pending",
+        "semanticQa": "pending",
+        "generationQa": "pending",
+        "ownerApproval": "pending",
+        "promotion": "blocked-until-approved"
+      }
+    },
+    {
+      "slug": "faw_besturn",
+      "manufacturer": "FAW",
+      "model": "Besturn",
+      "country": "Китай",
+      "bodyType": "Седан",
+      "status": "queued",
+      "reason": "missing-production-ai",
+      "pipeline": {
+        "referenceCheck": "required",
+        "promptBuild": "pending",
+        "generation": "pending",
+        "semanticQa": "pending",
+        "generationQa": "pending",
+        "ownerApproval": "pending",
+        "promotion": "blocked-until-approved"
+      }
+    },
+    {
+      "slug": "gwm_poer",
+      "manufacturer": "GWM",
+      "model": "Poer",
+      "country": "Китай",
+      "bodyType": "Пикап",
+      "status": "queued",
+      "reason": "missing-production-ai",
+      "pipeline": {
+        "referenceCheck": "required",
+        "promptBuild": "pending",
+        "generation": "pending",
+        "semanticQa": "pending",
+        "generationQa": "pending",
+        "ownerApproval": "pending",
+        "promotion": "blocked-until-approved"
+      }
+    },
+    {
+      "slug": "gwm_cannon",
+      "manufacturer": "GWM",
+      "model": "Cannon",
+      "country": "Китай",
+      "bodyType": "Пикап",
+      "status": "queued",
+      "reason": "missing-production-ai",
+      "pipeline": {
+        "referenceCheck": "required",
+        "promptBuild": "pending",
+        "generation": "pending",
+        "semanticQa": "pending",
+        "generationQa": "pending",
+        "ownerApproval": "pending",
+        "promotion": "blocked-until-approved"
+      }
+    },
+    {
+      "slug": "jac_t8",
+      "manufacturer": "JAC",
+      "model": "T8",
+      "country": "Китай",
+      "bodyType": "Пикап",
+      "status": "queued",
+      "reason": "missing-production-ai",
+      "pipeline": {
+        "referenceCheck": "required",
+        "promptBuild": "pending",
+        "generation": "pending",
+        "semanticQa": "pending",
+        "generationQa": "pending",
+        "ownerApproval": "pending",
+        "promotion": "blocked-until-approved"
+      }
+    }
+  ]
+}

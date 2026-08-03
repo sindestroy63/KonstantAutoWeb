@@ -1,0 +1,24 @@
+{
+  "id": "toyota-highlander",
+  "catalogSlug": "toyota_highlander",
+  "manufacturer": "Toyota",
+  "model": "Highlander",
+  "generation": "TODO: official current generation",
+  "chassisCode": "TODO",
+  "years": "TODO",
+  "facelift": "TODO",
+  "market": "TODO",
+  "body": "Кроссовер",
+  "trim": "TODO",
+  "paint": "factory production color",
+  "identityCues": [],
+  "modelExclusions": [
+    "previous generation",
+    "concept",
+    "fantasy design"
+  ],
+  "referenceUrls": [],
+  "outputFilename": "toyota-highlander.webp",
+  "status": "draft",
+  "approved": false
+}

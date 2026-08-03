@@ -1,0 +1,40 @@
+{
+  "generatedAt": "2026-07-30T10:20:12.014Z",
+  "modelId": "mazda-cx-9",
+  "manufacturer": "Mazda",
+  "model": "CX-9",
+  "apiRequestCount": 1,
+  "infrastructureRetries": 0,
+  "infrastructureDiagnostics": [
+    {
+      "requestIndex": 0,
+      "httpStatus": 200,
+      "responseFormat": "json"
+    }
+  ],
+  "requestedYears": "2023 final model year",
+  "requestedGeneration": "second generation TC final production specification",
+  "requestedChassisCode": "TC",
+  "modelUsed": "gpt-image-2",
+  "generationMode": "text-generation",
+  "endpoint": "https://vibecode.moe/v1/images/generations",
+  "referenceUrl": "https://news.mazdausa.com/2022-08-30-2023-Mazda-CX-9-Pricing-and-Packaging",
+  "referenceImageUrl": null,
+  "apiStatus": 200,
+  "downloadStatus": 200,
+  "contentType": "image/png",
+  "sourceUrl": "https://file7.aitohumanize.com/file/22bf00278c4040229d9a537c35ada007.png",
+  "rawFile": "catalog-generator\\outputs\\raw\\mazda-cx-9.png",
+  "generatedFile": "catalog-generator\\outputs\\mazda-cx-9.webp",
+  "rawMetadata": {
+    "format": "png",
+    "width": 1536,
+    "height": 1024
+  },
+  "outputMetadata": {
+    "format": "webp",
+    "width": 1600,
+    "height": 1000
+  },
+  "promptFile": "catalog-generator\\prompts\\mazda-cx-9.txt"
+}

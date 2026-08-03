@@ -1,0 +1,28 @@
+{
+  "checkedAt": "2026-07-29T09:48:36.290Z",
+  "manufacturer": "Hyundai",
+  "model": "Santa Fe",
+  "requestedYear": "2024-2026",
+  "generation": "fifth generation MX5",
+  "chassisCode": "MX5",
+  "market": "North America",
+  "referenceUrl": "https://www.hyundaiusa.com/us/en/vehicles/santa-fe",
+  "finalUrl": "https://www.hyundaiusa.com/us/en/vehicles/santa-fe",
+  "httpStatus": 200,
+  "officialDomain": "www.hyundaiusa.com",
+  "confirmedBodyCues": [
+    "boxy fifth-generation MX5 body",
+    "H-shaped front daytime-running-light signature",
+    "wide rectangular grille",
+    "low horizontal bumper intake",
+    "upright hood and squared wheel arches"
+  ],
+  "attempts": [
+    {
+      "url": "https://www.hyundaiusa.com/us/en/vehicles/santa-fe",
+      "finalUrl": "https://www.hyundaiusa.com/us/en/vehicles/santa-fe",
+      "httpStatus": 200,
+      "status": "confirmed"
+    }
+  ]
+}

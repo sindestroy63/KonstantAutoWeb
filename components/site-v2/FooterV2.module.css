@@ -1,0 +1,19 @@
+.footer { background: var(--ka-v2-color-inverse); color: var(--ka-v2-color-text-on-inverse); }
+.main { display: grid; gap: var(--ka-v2-space-10); padding-block: var(--ka-v2-space-12); }
+.brand { max-width: var(--ka-v2-layout-reading); }
+.logo { width: var(--ka-v2-footer-logo-width); height: auto; }
+.positioning { margin: var(--ka-v2-space-5) 0 0; color: color-mix(in srgb, var(--ka-v2-color-text-on-inverse) 72%, transparent); font-size: var(--ka-v2-font-body-sm); line-height: var(--ka-v2-line-body); }
+.groups { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, var(--ka-v2-grid-compact)), 1fr)); gap: var(--ka-v2-space-8); }
+.groupTitle { margin: 0 0 var(--ka-v2-space-4); color: var(--ka-v2-color-text-on-inverse); font-size: var(--ka-v2-font-label); font-weight: var(--ka-v2-weight-semibold); letter-spacing: var(--ka-v2-letter-label); text-transform: uppercase; }
+.links { display: grid; gap: var(--ka-v2-space-3); margin: 0; padding: 0; list-style: none; }
+.link { display: inline-flex; align-items: center; gap: var(--ka-v2-space-2); width: fit-content; color: color-mix(in srgb, var(--ka-v2-color-text-on-inverse) 72%, transparent); font-size: var(--ka-v2-font-body-sm); line-height: var(--ka-v2-line-body); text-decoration: none; transition: color var(--ka-v2-motion-standard) var(--ka-v2-motion-easing); }
+.link:hover { color: var(--ka-v2-color-text-on-inverse); }
+.link:focus-visible { outline: var(--ka-v2-focus-width) solid var(--ka-v2-color-focus); outline-offset: var(--ka-v2-focus-offset); }
+.link svg { width: var(--ka-v2-icon-sm); height: var(--ka-v2-icon-sm); }
+.bottom { display: flex; flex-direction: column; gap: var(--ka-v2-space-3); border-top: var(--ka-v2-field-border-width) solid color-mix(in srgb, var(--ka-v2-color-text-on-inverse) 16%, transparent); padding-block: var(--ka-v2-space-5); color: color-mix(in srgb, var(--ka-v2-color-text-on-inverse) 62%, transparent); font-size: var(--ka-v2-font-label); line-height: var(--ka-v2-line-body); }
+.legal { display: flex; flex-wrap: wrap; gap: var(--ka-v2-space-4); }
+
+@media (min-width: 48rem) {
+  .main { grid-template-columns: minmax(0, 1fr) minmax(0, 1.5fr); gap: var(--ka-v2-space-16); }
+  .bottom { flex-direction: row; align-items: center; justify-content: space-between; }
+}

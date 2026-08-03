@@ -1,0 +1,83 @@
+{
+  "checkedAt": "2026-07-30T09:59:47.403Z",
+  "modelId": "nissan-patrol",
+  "file": "catalog-generator\\outputs\\nissan-patrol.webp",
+  "deterministicPass": true,
+  "analysis": {
+    "width": 1600,
+    "height": 1000,
+    "backgroundCornerRgb": [
+      203.9,
+      203.8,
+      204.1
+    ],
+    "backgroundCornerLuminance": 203.9,
+    "backgroundCornerNeutralityDelta": 0.3,
+    "foregroundBounds": {
+      "minX": 154,
+      "maxX": 1448,
+      "minY": 180,
+      "maxY": 880
+    },
+    "foregroundWidthPercent": 80.9,
+    "horizonPercent": 88.1
+  },
+  "checks": {
+    "dimensions": {
+      "status": "pass",
+      "actual": "1600x1000"
+    },
+    "format": {
+      "status": "pass",
+      "actual": "webp"
+    },
+    "aspectRatio": {
+      "status": "pass",
+      "actual": 1.6
+    },
+    "background": {
+      "status": "pass",
+      "actualRgb": [
+        203.9,
+        203.8,
+        204.1
+      ],
+      "luminance": 203.9,
+      "neutralityDelta": 0.3
+    },
+    "scale": {
+      "status": "pass",
+      "actualPercent": 80.9,
+      "targetPercent": "78-84",
+      "tolerancePercent": "74-88"
+    },
+    "horizon": {
+      "status": "pass",
+      "actualPercent": 88.1,
+      "tolerancePercent": "72-93"
+    },
+    "exactlyOneVehicle": {
+      "status": "pass",
+      "method": "agent-visual-review"
+    },
+    "noPeople": {
+      "status": "pass",
+      "method": "agent-visual-review"
+    },
+    "noText": {
+      "status": "pass",
+      "method": "agent-visual-review"
+    },
+    "noWatermark": {
+      "status": "pass",
+      "method": "agent-visual-review"
+    },
+    "generationIdentity": {
+      "status": "approved",
+      "method": "agent-visual-review"
+    }
+  },
+  "semanticQa": "approved",
+  "generationQa": "approved",
+  "finalStatus": "production-approved"
+}

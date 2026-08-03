@@ -1,0 +1,41 @@
+{
+  "id": "kia-rio",
+  "catalogSlug": "kia_rio",
+  "manufacturer": "Kia",
+  "model": "Rio",
+  "generation": "fourth generation FB facelift",
+  "chassisCode": "FB",
+  "years": "2021-2023",
+  "facelift": "2020/2021 facelift, latest Russian-market Rio sedan",
+  "market": "Russia / CIS",
+  "body": "four-door compact sedan",
+  "trim": "Prestige",
+  "paint": "Steel Grey metallic",
+  "identityCues": [
+    "fourth-generation FB sedan body",
+    "facelift tiger-nose grille joined visually to the headlamps",
+    "angular facelift front bumper with horizontal lower intake",
+    "correct Kia oval-era badge for this production period"
+  ],
+  "modelExclusions": [
+    "third-generation Rio",
+    "pre-facelift FB",
+    "Rio X hatchback",
+    "Kia K2 China-market mismatch",
+    "Kia K3",
+    "Hyundai Solaris",
+    "new Kia K4"
+  ],
+  "referenceUrls": [
+    "https://www.kia.com/ru/models/rio/overview.html"
+  ],
+  "fallbackReferenceUrls": [
+    "https://en.wikipedia.org/wiki/Kia_Rio",
+    "https://www.autoevolution.com/cars/kia-rio-sedan-2020.html"
+  ],
+  "referenceQuality": "secondary-confirmed",
+  "confidenceLevel": "high",
+  "outputFilename": "kia-rio.webp",
+  "status": "qa",
+  "approved": false
+}

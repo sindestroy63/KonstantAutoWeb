@@ -1,0 +1,24 @@
+{
+  "id": "infiniti-qx80",
+  "catalogSlug": "infiniti_qx80",
+  "manufacturer": "Infiniti",
+  "model": "QX80",
+  "generation": "TODO: official current generation",
+  "chassisCode": "TODO",
+  "years": "TODO",
+  "facelift": "TODO",
+  "market": "TODO",
+  "body": "Внедорожник",
+  "trim": "TODO",
+  "paint": "factory production color",
+  "identityCues": [],
+  "modelExclusions": [
+    "previous generation",
+    "concept",
+    "fantasy design"
+  ],
+  "referenceUrls": [],
+  "outputFilename": "infiniti-qx80.webp",
+  "status": "draft",
+  "approved": false
+}

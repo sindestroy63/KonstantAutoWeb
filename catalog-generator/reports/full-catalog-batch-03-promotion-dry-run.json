@@ -1,0 +1,129 @@
+{
+  "generatedAt": "2026-07-30T10:01:47.372Z",
+  "batch": 3,
+  "productionWritesPerformed": false,
+  "models": [
+    {
+      "modelId": "honda-civic",
+      "catalogSlug": "honda_civic",
+      "stagingFile": "catalog-generator\\outputs\\honda-civic.webp",
+      "targetProductionPath": "public\\images\\catalog\\honda-civic.webp",
+      "file": "honda-civic.webp",
+      "stagingSha256": "48f7ad2bc16ff8e7b5a7fe1169d8de852e18ddd04b8809b7f3e94225b2ef9176",
+      "replacesExisting": true,
+      "backupPath": "catalog-generator\\backups\\full-catalog-batch-03-2026-07-30T10-01-47-313Z\\production\\honda-civic.webp"
+    },
+    {
+      "modelId": "honda-cr-v",
+      "catalogSlug": "honda_crv",
+      "stagingFile": "catalog-generator\\outputs\\honda-crv.webp",
+      "targetProductionPath": "public\\images\\catalog\\honda-crv.webp",
+      "file": "honda-crv.webp",
+      "stagingSha256": "f2ff3fb7f9606ccf443fd8b5ccadb366e187962cb357dfd471f92a91c3b00c7a",
+      "replacesExisting": true,
+      "backupPath": "catalog-generator\\backups\\full-catalog-batch-03-2026-07-30T10-01-47-313Z\\production\\honda-crv.webp"
+    },
+    {
+      "modelId": "honda-pilot",
+      "catalogSlug": "honda_pilot",
+      "stagingFile": "catalog-generator\\outputs\\honda-pilot.webp",
+      "targetProductionPath": "public\\images\\catalog\\honda-pilot.webp",
+      "file": "honda-pilot.webp",
+      "stagingSha256": "a5368524c7a2a716583ce420f2376e487d5cc85ff18559763aeafc754b4f2120",
+      "replacesExisting": true,
+      "backupPath": "catalog-generator\\backups\\full-catalog-batch-03-2026-07-30T10-01-47-313Z\\production\\honda-pilot.webp"
+    },
+    {
+      "modelId": "honda-fit",
+      "catalogSlug": "honda_fit",
+      "stagingFile": "catalog-generator\\outputs\\honda-fit.webp",
+      "targetProductionPath": "public\\images\\catalog\\honda-fit.webp",
+      "file": "honda-fit.webp",
+      "stagingSha256": "3788297d1202fc3eb870d357c32bff1ecee663f3b2aa7613e6079d1d4f64b0d1",
+      "replacesExisting": true,
+      "backupPath": "catalog-generator\\backups\\full-catalog-batch-03-2026-07-30T10-01-47-313Z\\production\\honda-fit.webp"
+    },
+    {
+      "modelId": "honda-accord",
+      "catalogSlug": "honda_accord",
+      "stagingFile": "catalog-generator\\outputs\\honda-accord.webp",
+      "targetProductionPath": "public\\images\\catalog\\honda-accord.webp",
+      "file": "honda-accord.webp",
+      "stagingSha256": "f98698f6d8d8bc99e268f6757c292d660bf6b337bd78d55565aebd5d445878dc",
+      "replacesExisting": true,
+      "backupPath": "catalog-generator\\backups\\full-catalog-batch-03-2026-07-30T10-01-47-313Z\\production\\honda-accord.webp"
+    },
+    {
+      "modelId": "nissan-qashqai",
+      "catalogSlug": "nissan_qashqai",
+      "stagingFile": "catalog-generator\\outputs\\nissan-qashqai.webp",
+      "targetProductionPath": "public\\images\\catalog\\nissan-qashqai.webp",
+      "file": "nissan-qashqai.webp",
+      "stagingSha256": "a5432fabbbabc9d91392455210364fb92eaf6cfbe2cdc008bf3a293076fee297",
+      "replacesExisting": true,
+      "backupPath": "catalog-generator\\backups\\full-catalog-batch-03-2026-07-30T10-01-47-313Z\\production\\nissan-qashqai.webp"
+    },
+    {
+      "modelId": "nissan-x-trail",
+      "catalogSlug": "nissan_x_trail",
+      "stagingFile": "catalog-generator\\outputs\\nissan-x-trail.webp",
+      "targetProductionPath": "public\\images\\catalog\\nissan-x-trail.webp",
+      "file": "nissan-x-trail.webp",
+      "stagingSha256": "57756dd181d09c3bb7922cc74c6d61e6c071fd972e0c9b175ce156fba3504395",
+      "replacesExisting": true,
+      "backupPath": "catalog-generator\\backups\\full-catalog-batch-03-2026-07-30T10-01-47-313Z\\production\\nissan-x-trail.webp"
+    },
+    {
+      "modelId": "nissan-patrol",
+      "catalogSlug": "nissan_patrol",
+      "stagingFile": "catalog-generator\\outputs\\nissan-patrol.webp",
+      "targetProductionPath": "public\\images\\catalog\\nissan-patrol.webp",
+      "file": "nissan-patrol.webp",
+      "stagingSha256": "4b5d9cde3180b9135db2cc9331d901f64b9f45cc8454c0d34abba426d22c7397",
+      "replacesExisting": true,
+      "backupPath": "catalog-generator\\backups\\full-catalog-batch-03-2026-07-30T10-01-47-313Z\\production\\nissan-patrol.webp"
+    },
+    {
+      "modelId": "nissan-navara",
+      "catalogSlug": "nissan_navara",
+      "stagingFile": "catalog-generator\\outputs\\nissan-navara.webp",
+      "targetProductionPath": "public\\images\\catalog\\nissan-navara.webp",
+      "file": "nissan-navara.webp",
+      "stagingSha256": "e622d125a03c421bce9fcb2f6b685e5a0a8136a04265f96612dc37a1e76ad658",
+      "replacesExisting": true,
+      "backupPath": "catalog-generator\\backups\\full-catalog-batch-03-2026-07-30T10-01-47-313Z\\production\\nissan-navara.webp"
+    },
+    {
+      "modelId": "nissan-leaf",
+      "catalogSlug": "nissan_leaf",
+      "stagingFile": "catalog-generator\\outputs\\nissan-leaf.webp",
+      "targetProductionPath": "public\\images\\catalog\\nissan-leaf.webp",
+      "file": "nissan-leaf.webp",
+      "stagingSha256": "229d895dc37872e770af7f2d6d64fe3f7653e80a3d215c7b1af49cb529ef430e",
+      "replacesExisting": true,
+      "backupPath": "catalog-generator\\backups\\full-catalog-batch-03-2026-07-30T10-01-47-313Z\\production\\nissan-leaf.webp"
+    }
+  ],
+  "affectedFiles": [
+    "public\\images\\catalog\\manifest.json",
+    "public\\images\\catalog\\honda-civic.webp",
+    "public\\images\\catalog\\honda-crv.webp",
+    "public\\images\\catalog\\honda-pilot.webp",
+    "public\\images\\catalog\\honda-fit.webp",
+    "public\\images\\catalog\\honda-accord.webp",
+    "public\\images\\catalog\\nissan-qashqai.webp",
+    "public\\images\\catalog\\nissan-x-trail.webp",
+    "public\\images\\catalog\\nissan-patrol.webp",
+    "public\\images\\catalog\\nissan-navara.webp",
+    "public\\images\\catalog\\nissan-leaf.webp"
+  ],
+  "explicitlyUnchanged": [
+    "data/cars.json",
+    "app",
+    "components",
+    "Hero",
+    "SEO",
+    "API",
+    ".git"
+  ]
+}

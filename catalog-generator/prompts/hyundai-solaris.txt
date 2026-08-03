@@ -1,0 +1,13 @@
+Use case: product-mockup. Asset type: identity-critical automotive catalog photograph.
+Manufacturer: Hyundai. Model: Solaris. Model years: 2020-2022.
+Generation: second generation HCr facelift. Chassis code: HCr. Facelift status: 2020 facelift, latest Hyundai-manufactured Solaris specification.
+Regional specification: Russia / CIS. Body style: four-door compact sedan. Trim: Elegance. Paint: Typhoon Silver metallic.
+Exact production identity cues: second-generation HCr sedan body; 2020 facelift wide dark mesh grille; facelift swept-back headlamps with angular lower edge; correct Hyundai H badge and compact sedan proportions.
+Official manufacturer reference confirms: second-generation HCr sedan body; 2020 facelift wide dark mesh grille; facelift swept-back headlamps with angular lower edge; correct Hyundai H badge and compact sedan proportions.
+Hard model exclusions: first-generation Solaris RB; pre-facelift HCr; AGR Solaris HS; Hyundai Accent hatchback; Elantra; Kia Rio; fictional current Hyundai Solaris successor.
+Brand exclusions: old generation; concept car; fantasy design; CGI look; tuning; oversized wheels; aftermarket bumper; wrong logo; old headlights; cropped vehicle; watermark; wrong Hyundai model; Genesis substitution; N body kit on standard trim.
+Realistic serial-production vehicle, front three-quarter view, nose pointing right. Camera height 1.1-1.3 metres, 70-90 mm full-frame equivalent lens, minimal perspective distortion.
+Entire vehicle fully visible, including both bumpers, roof, doors, wheels and tires. Vehicle occupies 78-84 percent of image width. Wheels straight, matching, and resting on one visual baseline.
+Neutral seamless light-gray studio cyclorama, soft diffused catalog lighting, restrained contact shadow beneath the tires, low reflection intensity, consistent horizon and scale.
+Exactly one car. No environment, people, other vehicles, text, watermark, dealer plate, readable license, concepts, invented lighting, modified badges, extra doors, handles or pillars, malformed wheels or mixed body panels.
+Depict the exact named serial-production model year, generation, chassis and body. Never substitute a previous generation or blend generations. Prioritize production identity over generic attractiveness.

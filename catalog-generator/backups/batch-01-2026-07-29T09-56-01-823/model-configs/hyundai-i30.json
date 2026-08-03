@@ -1,0 +1,40 @@
+{
+  "id": "hyundai-i30",
+  "catalogSlug": "hyundai_i30",
+  "manufacturer": "Hyundai",
+  "model": "i30",
+  "generation": "third generation PD",
+  "chassisCode": "PD",
+  "years": "2024-2025 current listed specification",
+  "facelift": "second current production facelift",
+  "market": "Europe",
+  "body": "five-door hatchback",
+  "trim": "N Line",
+  "paint": "Atlas White",
+  "identityCues": [
+    "third-generation PD five-door hatchback body",
+    "latest second-facelift grille insert",
+    "current front bumper",
+    "slim production headlamps",
+    "triangular N Line side intakes",
+    "correct Hyundai H badges on the grille and on both visible OEM wheel center caps",
+    "latest second-facelift grille texture and current fog-light housing treatment"
+  ],
+  "modelExclusions": [
+    "first- or second-generation i30",
+    "pre-facelift PD front bumper",
+    "i30 Sedan",
+    "Hyundai Elantra",
+    "Hyundai Ioniq",
+    "full i30 N track styling",
+    "three-door body or oversized rear wing",
+    "Audi rings or any non-Hyundai emblem on wheel centers",
+    "blank, malformed or mismatched wheel-center badges"
+  ],
+  "referenceUrls": [
+    "https://www.hyundai.com/eu/en/models/i30.html"
+  ],
+  "outputFilename": "batch-01-hyundai-i30-pd-second-facelift.webp",
+  "status": "qa",
+  "approved": false
+}

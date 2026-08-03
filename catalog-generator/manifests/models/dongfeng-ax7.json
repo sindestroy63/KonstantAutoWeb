@@ -1,0 +1,24 @@
+{
+  "id": "dongfeng-ax7",
+  "catalogSlug": "dongfeng_ax7",
+  "manufacturer": "Dongfeng",
+  "model": "AX7",
+  "generation": "TODO: official current generation",
+  "chassisCode": "TODO",
+  "years": "TODO",
+  "facelift": "TODO",
+  "market": "TODO",
+  "body": "Кроссовер",
+  "trim": "TODO",
+  "paint": "factory production color",
+  "identityCues": [],
+  "modelExclusions": [
+    "previous generation",
+    "concept",
+    "fantasy design"
+  ],
+  "referenceUrls": [],
+  "outputFilename": "dongfeng-ax7.webp",
+  "status": "draft",
+  "approved": false
+}

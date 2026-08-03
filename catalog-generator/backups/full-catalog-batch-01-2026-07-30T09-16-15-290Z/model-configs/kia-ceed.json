@@ -1,0 +1,44 @@
+{
+  "id": "kia-ceed",
+  "catalogSlug": "kia_ceed",
+  "manufacturer": "Kia",
+  "model": "Ceed",
+  "generation": "third generation CD facelift",
+  "chassisCode": "CD",
+  "years": "2022-2025",
+  "facelift": "2021 facelift, latest production Ceed",
+  "market": "Europe",
+  "body": "five-door compact hatchback",
+  "trim": "GT-Line",
+  "paint": "Experience Green metallic",
+  "identityCues": [
+    "CRITICAL: exactly the 2022-2025 facelift front, never the pre-facelift four-ice-cube headlamp",
+    "CRITICAL: three distinct arrowhead-shaped LED daytime-running-light modules inside each slim headlamp, not four round or square lamps",
+    "third-generation CD five-door hatchback body",
+    "facelift slim tiger-nose grille",
+    "three-arrow LED daytime-running-light signature inside each headlamp",
+    "facelift GT-Line bumper and current Kia wordmark"
+  ],
+  "modelExclusions": [
+    "the rejected pre-facelift-like attempt with four circular light modules",
+    "second-generation JD Ceed",
+    "pre-facelift CD",
+    "Proceed shooting brake",
+    "Ceed Sportswagon",
+    "Kia K4",
+    "Hyundai i30",
+    "three-door body"
+  ],
+  "referenceUrls": [
+    "https://www.kia.com/uk/new-cars/ceed/"
+  ],
+  "fallbackReferenceUrls": [
+    "https://en.wikipedia.org/wiki/Kia_Ceed",
+    "https://www.autocar.co.uk/car-review/kia/ceed"
+  ],
+  "referenceQuality": "secondary-confirmed",
+  "confidenceLevel": "high",
+  "outputFilename": "kia-ceed.webp",
+  "status": "qa",
+  "approved": false
+}

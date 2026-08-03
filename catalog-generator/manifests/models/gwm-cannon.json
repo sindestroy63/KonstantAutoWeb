@@ -1,0 +1,24 @@
+{
+  "id": "gwm-cannon",
+  "catalogSlug": "gwm_cannon",
+  "manufacturer": "GWM",
+  "model": "Cannon",
+  "generation": "TODO: official current generation",
+  "chassisCode": "TODO",
+  "years": "TODO",
+  "facelift": "TODO",
+  "market": "TODO",
+  "body": "Пикап",
+  "trim": "TODO",
+  "paint": "factory production color",
+  "identityCues": [],
+  "modelExclusions": [
+    "previous generation",
+    "concept",
+    "fantasy design"
+  ],
+  "referenceUrls": [],
+  "outputFilename": "gwm-cannon.webp",
+  "status": "draft",
+  "approved": false
+}

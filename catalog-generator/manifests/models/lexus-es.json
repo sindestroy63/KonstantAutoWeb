@@ -1,0 +1,41 @@
+{
+  "id": "lexus-es",
+  "catalogSlug": "lexus_es",
+  "manufacturer": "Lexus",
+  "model": "ES",
+  "generation": "eighth generation 2026",
+  "chassisCode": "not publicly confirmed",
+  "years": "2026",
+  "facelift": "all-new eighth generation",
+  "market": "Global / China",
+  "body": "four-door executive sedan",
+  "trim": "ES 300h",
+  "paint": "Sonic Iridium",
+  "identityCues": [
+    "all-new eighth-generation 2026 ES sedan body",
+    "very slim L-signature LED headlamps",
+    "new spindle-body front without the old large framed spindle grille",
+    "long modern fastback-like sedan roofline"
+  ],
+  "modelExclusions": [
+    "seventh-generation XZ10 ES",
+    "pre-2026 ES spindle grille",
+    "Lexus LS",
+    "Lexus IS",
+    "ES electric model charging details",
+    "concept",
+    "fantasy design"
+  ],
+  "referenceUrls": [
+    "https://global.toyota/en/newsroom/lexus/42637790.html"
+  ],
+  "fallbackReferenceUrls": [
+    "https://en.wikipedia.org/wiki/Lexus_ES",
+    "https://www.autoevolution.com/cars/lexus-es.html"
+  ],
+  "referenceQuality": "secondary-confirmed",
+  "confidenceLevel": "medium-high",
+  "outputFilename": "lexus-es.webp",
+  "status": "qa",
+  "approved": false
+}

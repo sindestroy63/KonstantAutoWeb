@@ -1,0 +1,27 @@
+{
+  "checkedAt": "2026-07-30T11:54:53.623Z",
+  "manufacturer": "Lexus",
+  "model": "NX",
+  "requestedYear": "2022-2026",
+  "generation": "second generation AZ20",
+  "chassisCode": "AZ20",
+  "market": "North America / Europe",
+  "referenceUrl": "https://www.lexus.com/models/NX",
+  "finalUrl": "https://www.lexus.com/models/NX",
+  "httpStatus": 200,
+  "officialDomain": "www.lexus.com",
+  "confirmedBodyCues": [
+    "second-generation AZ20 NX body",
+    "slim L-shaped LED headlamps",
+    "large integrated spindle grille",
+    "sharp rear-quarter surfacing and compact SUV proportions"
+  ],
+  "attempts": [
+    {
+      "url": "https://www.lexus.com/models/NX",
+      "finalUrl": "https://www.lexus.com/models/NX",
+      "httpStatus": 200,
+      "status": "confirmed"
+    }
+  ]
+}

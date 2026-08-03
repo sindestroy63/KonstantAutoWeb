@@ -1,0 +1,29 @@
+{
+  "checkedAt": "2026-07-30T10:31:57.787Z",
+  "manufacturer": "Volkswagen",
+  "model": "Passat",
+  "requestedYear": "2024-2026",
+  "generation": "ninth generation B9",
+  "chassisCode": "B9 / CJ",
+  "market": "Europe",
+  "referenceUrl": "https://www.volkswagen-newsroom.com/en/the-new-passat-variant-2024-17557",
+  "fallbackReferenceUrls": [
+    "https://en.wikipedia.org/wiki/Volkswagen_Passat_(B9)",
+    "https://www.autoevolution.com/cars/volkswagen-passat-variant.html"
+  ],
+  "referenceQuality": "secondary-confirmed",
+  "confirmedBodyCues": [
+    "ninth-generation B9 Variant body",
+    "slim LED headlamps connected by narrow upper light strip",
+    "large lower grille",
+    "long estate roof and distinct rear cargo body"
+  ],
+  "attempts": [
+    {
+      "url": "https://www.volkswagen-newsroom.com/en/the-new-passat-variant-2024-17557",
+      "finalUrl": "https://www.volkswagen-newsroom.com/en/the-new-passat-variant-2024-17557",
+      "httpStatus": 404,
+      "status": "http-error"
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "id": "audi-a4",
+  "catalogSlug": "audi_a4",
+  "manufacturer": "Audi",
+  "model": "A4",
+  "generation": "fifth generation B9 facelift final production specification",
+  "chassisCode": "B9 / 8W",
+  "years": "2023-2024 final model years",
+  "facelift": "2019 facelift",
+  "market": "Europe",
+  "body": "four-door compact executive sedan",
+  "trim": "S line 40 TFSI",
+  "paint": "Chronos Gray Metallic",
+  "identityCues": [
+    "B9 facelift A4 sedan body",
+    "facelift angular LED headlamps",
+    "wide singleframe grille with honeycomb texture",
+    "separate sedan trunk and restrained S line bumper"
+  ],
+  "modelExclusions": [
+    "pre-facelift B9 A4",
+    "B8 A4",
+    "new Audi A5 B10",
+    "A4 Avant",
+    "Audi A6",
+    "concept",
+    "fantasy design"
+  ],
+  "referenceUrls": [
+    "https://www.audi-mediacenter.com/en/audi-a4-sedan-14817"
+  ],
+  "fallbackReferenceUrls": [
+    "https://en.wikipedia.org/wiki/Audi_A4#B9",
+    "https://www.autoevolution.com/cars/audi-a4.html"
+  ],
+  "referenceQuality": "secondary-confirmed",
+  "confidenceLevel": "high",
+  "outputFilename": "audi-a4.webp",
+  "status": "qa",
+  "approved": false
+}

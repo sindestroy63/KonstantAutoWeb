@@ -1,0 +1,360 @@
+{
+  "updatedAt": "2026-07-30T11:58:06.507Z",
+  "model": "gpt-image-2",
+  "totalApiRequests": 93,
+  "imageResponsesReceived": 73,
+  "successfulResponses": 73,
+  "infrastructureErrors": 19,
+  "unsupportedEndpointErrors": 1,
+  "qaFailures": 13,
+  "promotedCount": 50,
+  "notes": [
+    "Network attempts without an HTTP response are included in totalApiRequests.",
+    "The unsupported /images/edits probe did not create an image.",
+    "Infrastructure failures do not count as image-generation attempts."
+  ],
+  "events": [
+    {
+      "at": "2026-07-30T09:23:09.741Z",
+      "modelId": "geely-monjaro",
+      "status": "image-received",
+      "infrastructureRetries": 0
+    },
+    {
+      "at": "2026-07-30T09:24:09.919Z",
+      "modelId": "haval-f7",
+      "status": "image-received",
+      "infrastructureRetries": 0
+    },
+    {
+      "at": "2026-07-30T09:24:55.494Z",
+      "modelId": "haval-jolion",
+      "status": "image-received",
+      "infrastructureRetries": 0
+    },
+    {
+      "at": "2026-07-30T09:25:42.157Z",
+      "modelId": "haval-h6",
+      "status": "image-received",
+      "infrastructureRetries": 0
+    },
+    {
+      "at": "2026-07-30T09:26:34.302Z",
+      "modelId": "haval-f7x",
+      "status": "image-received",
+      "infrastructureRetries": 0
+    },
+    {
+      "at": "2026-07-30T09:27:26.704Z",
+      "modelId": "haval-m6",
+      "status": "image-received",
+      "infrastructureRetries": 0
+    },
+    {
+      "at": "2026-07-30T09:28:10.997Z",
+      "modelId": "mercedes-benz-c-class",
+      "status": "image-received",
+      "infrastructureRetries": 0
+    },
+    {
+      "at": "2026-07-30T09:28:55.877Z",
+      "modelId": "mercedes-benz-glc",
+      "status": "image-received",
+      "infrastructureRetries": 0
+    },
+    {
+      "at": "2026-07-30T09:29:40.775Z",
+      "modelId": "mercedes-benz-gle",
+      "status": "image-received",
+      "infrastructureRetries": 0
+    },
+    {
+      "at": "2026-07-30T09:30:33.696Z",
+      "modelId": "mercedes-benz-a-class",
+      "status": "image-received",
+      "infrastructureRetries": 0
+    },
+    {
+      "at": "2026-07-30T09:33:31.618Z",
+      "modelId": "haval-h6",
+      "status": "image-received",
+      "infrastructureRetries": 0
+    },
+    {
+      "at": "2026-07-30T09:44:28.071Z",
+      "modelId": "honda-civic",
+      "status": "image-received",
+      "infrastructureRetries": 0
+    },
+    {
+      "at": "2026-07-30T09:45:21.239Z",
+      "modelId": "honda-cr-v",
+      "status": "image-received",
+      "infrastructureRetries": 0
+    },
+    {
+      "at": "2026-07-30T09:46:30.317Z",
+      "modelId": "honda-pilot",
+      "status": "image-received",
+      "infrastructureRetries": 0
+    },
+    {
+      "at": "2026-07-30T09:47:22.990Z",
+      "modelId": "honda-fit",
+      "status": "image-received",
+      "infrastructureRetries": 0
+    },
+    {
+      "at": "2026-07-30T09:48:15.754Z",
+      "modelId": "honda-accord",
+      "status": "image-received",
+      "infrastructureRetries": 0
+    },
+    {
+      "at": "2026-07-30T09:49:40.444Z",
+      "modelId": "nissan-qashqai",
+      "status": "image-received",
+      "infrastructureRetries": 0
+    },
+    {
+      "at": "2026-07-30T09:50:25.221Z",
+      "modelId": "nissan-x-trail",
+      "status": "image-received",
+      "infrastructureRetries": 0
+    },
+    {
+      "at": "2026-07-30T09:51:20.059Z",
+      "modelId": "nissan-patrol",
+      "status": "image-received",
+      "infrastructureRetries": 0
+    },
+    {
+      "at": "2026-07-30T09:52:13.665Z",
+      "modelId": "nissan-navara",
+      "status": "image-received",
+      "infrastructureRetries": 0
+    },
+    {
+      "at": "2026-07-30T09:53:06.344Z",
+      "modelId": "nissan-leaf",
+      "status": "image-received",
+      "infrastructureRetries": 0
+    },
+    {
+      "at": "2026-07-30T09:58:23.528Z",
+      "modelId": "honda-fit",
+      "status": "image-received",
+      "infrastructureRetries": 0
+    },
+    {
+      "at": "2026-07-30T09:59:16.159Z",
+      "modelId": "nissan-navara",
+      "status": "image-received",
+      "infrastructureRetries": 0
+    },
+    {
+      "at": "2026-07-30T10:14:30.171Z",
+      "modelId": "mazda-mazda3",
+      "status": "image-received",
+      "infrastructureRetries": 0
+    },
+    {
+      "at": "2026-07-30T10:19:26.645Z",
+      "modelId": "mazda-cx-5",
+      "status": "image-received",
+      "infrastructureRetries": 0
+    },
+    {
+      "at": "2026-07-30T10:20:12.017Z",
+      "modelId": "mazda-cx-9",
+      "status": "image-received",
+      "infrastructureRetries": 0
+    },
+    {
+      "at": "2026-07-30T10:21:33.609Z",
+      "modelId": "mazda-mazda2",
+      "status": "image-received",
+      "infrastructureRetries": 0
+    },
+    {
+      "at": "2026-07-30T10:22:25.980Z",
+      "modelId": "mazda-mazda6",
+      "status": "image-received",
+      "infrastructureRetries": 0
+    },
+    {
+      "at": "2026-07-30T10:24:54.181Z",
+      "modelId": "mazda-cx-5",
+      "status": "image-received",
+      "infrastructureRetries": 0
+    },
+    {
+      "at": "2026-07-30T10:28:16.459Z",
+      "modelId": "volkswagen-polo",
+      "status": "image-received",
+      "infrastructureRetries": 0
+    },
+    {
+      "at": "2026-07-30T10:29:33.102Z",
+      "modelId": "volkswagen-tiguan",
+      "status": "image-received",
+      "infrastructureRetries": 0
+    },
+    {
+      "at": "2026-07-30T10:30:56.756Z",
+      "modelId": "volkswagen-touareg",
+      "status": "image-received",
+      "infrastructureRetries": 0
+    },
+    {
+      "at": "2026-07-30T10:31:33.365Z",
+      "modelId": "volkswagen-golf",
+      "status": "image-received",
+      "infrastructureRetries": 0
+    },
+    {
+      "at": "2026-07-30T10:32:44.120Z",
+      "modelId": "volkswagen-passat",
+      "status": "image-received",
+      "infrastructureRetries": 0
+    },
+    {
+      "at": "2026-07-30T10:35:09.534Z",
+      "modelId": "mazda-cx-5",
+      "status": "image-received",
+      "infrastructureRetries": 0
+    },
+    {
+      "at": "2026-07-30T10:52:55.111Z",
+      "modelId": "audi-a4",
+      "status": "image-received",
+      "infrastructureRetries": 0
+    },
+    {
+      "at": "2026-07-30T10:53:48.577Z",
+      "modelId": "audi-q5",
+      "status": "image-received",
+      "infrastructureRetries": 0
+    },
+    {
+      "at": "2026-07-30T10:57:37.986Z",
+      "modelId": "audi-q7",
+      "status": "image-received",
+      "infrastructureRetries": 1
+    },
+    {
+      "at": "2026-07-30T10:58:34.317Z",
+      "modelId": "audi-a3",
+      "status": "image-received",
+      "infrastructureRetries": 0
+    },
+    {
+      "at": "2026-07-30T11:03:38.848Z",
+      "modelId": "audi-a6",
+      "status": "image-received",
+      "infrastructureRetries": 1
+    },
+    {
+      "at": "2026-07-30T11:05:11.038Z",
+      "modelId": "ford-focus",
+      "status": "image-received",
+      "infrastructureRetries": 0
+    },
+    {
+      "at": "2026-07-30T11:06:34.517Z",
+      "modelId": "ford-explorer",
+      "status": "image-received",
+      "infrastructureRetries": 0
+    },
+    {
+      "at": "2026-07-30T11:07:58.404Z",
+      "modelId": "ford-ranger",
+      "status": "image-received",
+      "infrastructureRetries": 0
+    },
+    {
+      "at": "2026-07-30T11:09:13.973Z",
+      "modelId": "ford-f-150",
+      "status": "image-received",
+      "infrastructureRetries": 0
+    },
+    {
+      "at": "2026-07-30T11:10:29.246Z",
+      "modelId": "ford-escape",
+      "status": "image-received",
+      "infrastructureRetries": 0
+    },
+    {
+      "at": "2026-07-30T11:14:42.937Z",
+      "modelId": "audi-a3",
+      "status": "image-received",
+      "infrastructureRetries": 0
+    },
+    {
+      "at": "2026-07-30T11:21:28.542Z",
+      "modelId": "audi-a3",
+      "status": "image-received",
+      "infrastructureRetries": 0
+    },
+    {
+      "at": "2026-07-30T11:48:33.673Z",
+      "modelId": "chevrolet-cruze",
+      "status": "image-received",
+      "infrastructureRetries": 0
+    },
+    {
+      "at": "2026-07-30T11:51:11.864Z",
+      "modelId": "chevrolet-tahoe",
+      "status": "image-received",
+      "infrastructureRetries": 0
+    },
+    {
+      "at": "2026-07-30T11:52:05.100Z",
+      "modelId": "chevrolet-silverado",
+      "status": "image-received",
+      "infrastructureRetries": 0
+    },
+    {
+      "at": "2026-07-30T11:52:51.085Z",
+      "modelId": "chevrolet-trax",
+      "status": "image-received",
+      "infrastructureRetries": 0
+    },
+    {
+      "at": "2026-07-30T11:53:52.057Z",
+      "modelId": "chevrolet-equinox",
+      "status": "image-received",
+      "infrastructureRetries": 0
+    },
+    {
+      "at": "2026-07-30T11:54:53.094Z",
+      "modelId": "lexus-es",
+      "status": "image-received",
+      "infrastructureRetries": 0
+    },
+    {
+      "at": "2026-07-30T11:55:47.063Z",
+      "modelId": "lexus-nx",
+      "status": "image-received",
+      "infrastructureRetries": 0
+    },
+    {
+      "at": "2026-07-30T11:56:32.611Z",
+      "modelId": "lexus-lx",
+      "status": "image-received",
+      "infrastructureRetries": 0
+    },
+    {
+      "at": "2026-07-30T11:57:20.769Z",
+      "modelId": "lexus-ct",
+      "status": "image-received",
+      "infrastructureRetries": 0
+    },
+    {
+      "at": "2026-07-30T11:58:06.507Z",
+      "modelId": "chery-tiggo",
+      "status": "image-received",
+      "infrastructureRetries": 0
+    }
+  ]
+}

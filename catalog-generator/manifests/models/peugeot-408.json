@@ -1,0 +1,24 @@
+{
+  "id": "peugeot-408",
+  "catalogSlug": "peugeot_408",
+  "manufacturer": "Peugeot",
+  "model": "408",
+  "generation": "TODO: official current generation",
+  "chassisCode": "TODO",
+  "years": "TODO",
+  "facelift": "TODO",
+  "market": "TODO",
+  "body": "Седан",
+  "trim": "TODO",
+  "paint": "factory production color",
+  "identityCues": [],
+  "modelExclusions": [
+    "previous generation",
+    "concept",
+    "fantasy design"
+  ],
+  "referenceUrls": [],
+  "outputFilename": "peugeot-408.webp",
+  "status": "draft",
+  "approved": false
+}

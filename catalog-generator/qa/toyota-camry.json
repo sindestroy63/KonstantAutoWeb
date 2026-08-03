@@ -1,0 +1,87 @@
+{
+  "checkedAt": "2026-07-28T12:20:17.721Z",
+  "modelId": "toyota-camry",
+  "file": "catalog-generator\\outputs\\toyota-camry-2026-xv80.webp",
+  "deterministicPass": true,
+  "analysis": {
+    "width": 1600,
+    "height": 1000,
+    "backgroundCornerRgb": [
+      184.6,
+      185.2,
+      188.9
+    ],
+    "backgroundCornerLuminance": 186.2,
+    "backgroundCornerNeutralityDelta": 4.3,
+    "foregroundBounds": {
+      "minX": 116,
+      "maxX": 1492,
+      "minY": 220,
+      "maxY": 808
+    },
+    "foregroundWidthPercent": 86.1,
+    "horizonPercent": 80.9
+  },
+  "checks": {
+    "dimensions": {
+      "status": "pass",
+      "actual": "1600x1000"
+    },
+    "format": {
+      "status": "pass",
+      "actual": "webp"
+    },
+    "aspectRatio": {
+      "status": "pass",
+      "actual": 1.6
+    },
+    "background": {
+      "status": "pass",
+      "actualRgb": [
+        184.6,
+        185.2,
+        188.9
+      ],
+      "luminance": 186.2,
+      "neutralityDelta": 4.3
+    },
+    "scale": {
+      "status": "pass",
+      "actualPercent": 86.1,
+      "targetPercent": "78-84",
+      "tolerancePercent": "74-88"
+    },
+    "horizon": {
+      "status": "pass",
+      "actualPercent": 80.9,
+      "tolerancePercent": "72-93"
+    },
+    "exactlyOneVehicle": {
+      "status": "pass",
+      "method": "final-visual-review"
+    },
+    "noPeople": {
+      "status": "pass",
+      "method": "final-visual-review"
+    },
+    "noText": {
+      "status": "pass",
+      "method": "final-visual-review",
+      "note": "No promotional, overlay, watermark or dealer text; authentic vehicle badges are acceptable."
+    },
+    "noWatermark": {
+      "status": "pass",
+      "method": "final-visual-review"
+    },
+    "generationIdentity": {
+      "status": "pass",
+      "method": "final-visual-review"
+    }
+  },
+  "visualGenerationMatch": "approved",
+  "semanticQa": "approved",
+  "generationQa": "approved",
+  "suspectedPreviousGeneration": false,
+  "suspectedMixedGeneration": false,
+  "issues": []
+}

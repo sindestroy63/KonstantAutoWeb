@@ -1,0 +1,24 @@
+{
+  "id": "jac-s7",
+  "catalogSlug": "jac_s7",
+  "manufacturer": "JAC",
+  "model": "S7",
+  "generation": "TODO: official current generation",
+  "chassisCode": "TODO",
+  "years": "TODO",
+  "facelift": "TODO",
+  "market": "TODO",
+  "body": "Кроссовер",
+  "trim": "TODO",
+  "paint": "factory production color",
+  "identityCues": [],
+  "modelExclusions": [
+    "previous generation",
+    "concept",
+    "fantasy design"
+  ],
+  "referenceUrls": [],
+  "outputFilename": "jac-s7.webp",
+  "status": "draft",
+  "approved": false
+}

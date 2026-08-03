@@ -1,0 +1,27 @@
+{
+  "checkedAt": "2026-07-30T10:20:33.921Z",
+  "manufacturer": "Mazda",
+  "model": "Mazda2",
+  "requestedYear": "2023-2025",
+  "generation": "third generation DJ facelift",
+  "chassisCode": "DJ",
+  "market": "Japan",
+  "referenceUrl": "https://www.mazda.co.jp/cars/mazda2/",
+  "finalUrl": "https://www.mazda.co.jp/cars/passenger/mazda2/",
+  "httpStatus": 200,
+  "officialDomain": "www.mazda.co.jp",
+  "confirmedBodyCues": [
+    "third-generation DJ five-door hatchback",
+    "2023 facelift grille with body-color accent panel",
+    "compact swept LED headlamps",
+    "short rear overhang and Mazda Kodo body surfacing"
+  ],
+  "attempts": [
+    {
+      "url": "https://www.mazda.co.jp/cars/mazda2/",
+      "finalUrl": "https://www.mazda.co.jp/cars/passenger/mazda2/",
+      "httpStatus": 200,
+      "status": "confirmed"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "generatedAt": "2026-07-30T09:59:16.157Z",
+  "modelId": "nissan-navara",
+  "manufacturer": "Nissan",
+  "model": "Navara",
+  "apiRequestCount": 1,
+  "infrastructureRetries": 0,
+  "infrastructureDiagnostics": [
+    {
+      "requestIndex": 0,
+      "httpStatus": 200,
+      "responseFormat": "json"
+    }
+  ],
+  "requestedYears": "2021-2025",
+  "requestedGeneration": "third generation D23 facelift",
+  "requestedChassisCode": "D23",
+  "modelUsed": "gpt-image-2",
+  "generationMode": "text-generation",
+  "endpoint": "https://vibecode.moe/v1/images/generations",
+  "referenceUrl": "https://en.nissan-dubai.com/vehicles/new/navara.html",
+  "referenceImageUrl": null,
+  "apiStatus": 200,
+  "downloadStatus": 200,
+  "contentType": "image/png",
+  "sourceUrl": "https://file4.aitohumanize.com/file/1e7f85fda8ef4688b091abbd520aa649.png",
+  "rawFile": "catalog-generator\\outputs\\raw\\nissan-navara.png",
+  "generatedFile": "catalog-generator\\outputs\\nissan-navara.webp",
+  "rawMetadata": {
+    "format": "png",
+    "width": 1536,
+    "height": 1024
+  },
+  "outputMetadata": {
+    "format": "webp",
+    "width": 1600,
+    "height": 1000
+  },
+  "promptFile": "catalog-generator\\prompts\\nissan-navara.txt"
+}

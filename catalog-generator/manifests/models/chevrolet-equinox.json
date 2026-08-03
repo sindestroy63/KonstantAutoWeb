@@ -1,0 +1,40 @@
+{
+  "id": "chevrolet-equinox",
+  "catalogSlug": "chevrolet_equinox",
+  "manufacturer": "Chevrolet",
+  "model": "Equinox",
+  "generation": "fourth generation 2025",
+  "chassisCode": "D2XX successor platform",
+  "years": "2025-2026",
+  "facelift": "all-new fourth generation",
+  "market": "North America",
+  "body": "five-door compact crossover SUV",
+  "trim": "RS",
+  "paint": "Lakeshore Blue Metallic",
+  "identityCues": [
+    "all-new fourth-generation boxier Equinox body",
+    "split front lighting with thin upper DRLs",
+    "wide rectangular RS grille",
+    "distinctive squared wheel arches and floating rear pillar"
+  ],
+  "modelExclusions": [
+    "third-generation Equinox",
+    "Equinox EV",
+    "Chevrolet Trax",
+    "Chevrolet Blazer",
+    "concept",
+    "fantasy design"
+  ],
+  "referenceUrls": [
+    "https://www.chevrolet.com/suvs/equinox"
+  ],
+  "fallbackReferenceUrls": [
+    "https://en.wikipedia.org/wiki/Chevrolet_Equinox",
+    "https://www.autoevolution.com/cars/chevrolet-equinox.html"
+  ],
+  "referenceQuality": "secondary-confirmed",
+  "confidenceLevel": "high",
+  "outputFilename": "chevrolet-equinox.webp",
+  "status": "qa",
+  "approved": false
+}

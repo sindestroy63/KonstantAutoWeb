@@ -1,0 +1,31 @@
+{
+  "checkedAt": "2026-07-30T09:12:31.849Z",
+  "manufacturer": "Geely",
+  "model": "Coolray",
+  "requestedYear": "2023-2026",
+  "generation": "first generation SX11 major facelift",
+  "chassisCode": "SX11 / BMA",
+  "market": "China / CIS",
+  "referenceUrl": "https://www.geely-motors.com/model/coolray/",
+  "fallbackReferenceUrls": [
+    "https://global.geely.com/en/models/coolray",
+    "https://en.wikipedia.org/wiki/Geely_Binyue"
+  ],
+  "referenceQuality": "secondary-confirmed",
+  "confirmedBodyCues": [
+    "CRITICAL: authentic current Geely shield badge with its segmented internal pattern, never a diamond-shaped or unrelated Chinese-brand badge",
+    "CRITICAL: exact 2023-2026 New Coolray SX11 production body and greenhouse",
+    "current New Coolray SX11 body",
+    "wide frameless-style dark mesh grille",
+    "very slim angular LED headlamps",
+    "sporty three-part lower bumper and compact crossover proportions"
+  ],
+  "attempts": [
+    {
+      "url": "https://www.geely-motors.com/model/coolray/",
+      "finalUrl": "https://www.geely-motors.com/model/coolray/",
+      "httpStatus": 404,
+      "status": "http-error"
+    }
+  ]
+}

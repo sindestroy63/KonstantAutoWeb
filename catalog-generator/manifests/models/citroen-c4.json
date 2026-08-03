@@ -1,0 +1,24 @@
+{
+  "id": "citroen-c4",
+  "catalogSlug": "citroen_c4",
+  "manufacturer": "Citroen",
+  "model": "C4",
+  "generation": "TODO: official current generation",
+  "chassisCode": "TODO",
+  "years": "TODO",
+  "facelift": "TODO",
+  "market": "TODO",
+  "body": "Хэтчбек",
+  "trim": "TODO",
+  "paint": "factory production color",
+  "identityCues": [],
+  "modelExclusions": [
+    "previous generation",
+    "concept",
+    "fantasy design"
+  ],
+  "referenceUrls": [],
+  "outputFilename": "citroen-c4.webp",
+  "status": "draft",
+  "approved": false
+}

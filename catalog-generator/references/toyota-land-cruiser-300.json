@@ -1,0 +1,27 @@
+{
+  "checkedAt": "2026-07-28T11:59:50.168Z",
+  "manufacturer": "Toyota",
+  "model": "Land Cruiser 300",
+  "requestedYear": "2025-2026",
+  "generation": "J300 generation",
+  "chassisCode": "J300",
+  "market": "Middle East / UAE",
+  "referenceUrl": "https://www.toyota.ae/en/new-cars/land-cruiser/",
+  "finalUrl": "https://www.toyota.ae/en/new-cars/land-cruiser/",
+  "httpStatus": 200,
+  "officialDomain": "www.toyota.ae",
+  "confirmedBodyCues": [
+    "full-size J300 proportions",
+    "large horizontal multi-bar grille",
+    "modern rectangular headlamps attached to grille",
+    "current VX-R bumper"
+  ],
+  "attempts": [
+    {
+      "url": "https://www.toyota.ae/en/new-cars/land-cruiser/",
+      "finalUrl": "https://www.toyota.ae/en/new-cars/land-cruiser/",
+      "httpStatus": 200,
+      "status": "confirmed"
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "checkedAt": "2026-07-30T10:21:34.503Z",
+  "manufacturer": "Mazda",
+  "model": "Mazda6",
+  "requestedYear": "2023-2024 final production specification",
+  "generation": "third generation GJ/GL final facelift",
+  "chassisCode": "GJ / GL",
+  "market": "Australia / Middle East",
+  "referenceUrl": "https://www.mazda.com.au/cars/mazda6/",
+  "finalUrl": "https://www.mazda.com.au/cars/mazda-6e",
+  "httpStatus": 200,
+  "officialDomain": "www.mazda.com.au",
+  "confirmedBodyCues": [
+    "third-generation facelift Mazda6 sedan body",
+    "large shield grille with mesh texture",
+    "slim LED headlamps integrated with chrome grille wings",
+    "low flowing roofline and long hood"
+  ],
+  "attempts": [
+    {
+      "url": "https://www.mazda.com.au/cars/mazda6/",
+      "finalUrl": "https://www.mazda.com.au/cars/mazda-6e",
+      "httpStatus": 200,
+      "status": "confirmed"
+    }
+  ]
+}

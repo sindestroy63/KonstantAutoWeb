@@ -1,0 +1,40 @@
+{
+  "generatedAt": "2026-07-30T07:08:45.713Z",
+  "modelId": "hyundai-solaris",
+  "manufacturer": "Hyundai",
+  "model": "Solaris",
+  "apiRequestCount": 1,
+  "infrastructureRetries": 0,
+  "infrastructureDiagnostics": [
+    {
+      "requestIndex": 0,
+      "httpStatus": 200,
+      "responseFormat": "json"
+    }
+  ],
+  "requestedYears": "2020-2022",
+  "requestedGeneration": "second generation HCr facelift",
+  "requestedChassisCode": "HCr",
+  "modelUsed": "gpt-image-2",
+  "generationMode": "text-generation",
+  "endpoint": "https://vibecode.moe/v1/images/generations",
+  "referenceUrl": "https://www.hyundai.com/worldwide/en/cars/accent",
+  "referenceImageUrl": null,
+  "apiStatus": 200,
+  "downloadStatus": 200,
+  "contentType": "image/png",
+  "sourceUrl": "https://file5.aitohumanize.com/file/fe4f0b60204945d6a9791173c860555d.png",
+  "rawFile": "catalog-generator\\outputs\\raw\\hyundai-solaris.png",
+  "generatedFile": "catalog-generator\\outputs\\hyundai-solaris.webp",
+  "rawMetadata": {
+    "format": "png",
+    "width": 1536,
+    "height": 1024
+  },
+  "outputMetadata": {
+    "format": "webp",
+    "width": 1600,
+    "height": 1000
+  },
+  "promptFile": "catalog-generator\\prompts\\hyundai-solaris.txt"
+}

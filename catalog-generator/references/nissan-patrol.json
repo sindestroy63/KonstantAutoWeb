@@ -1,0 +1,27 @@
+{
+  "checkedAt": "2026-07-30T09:50:27.820Z",
+  "manufacturer": "Nissan",
+  "model": "Patrol",
+  "requestedYear": "2025-2026",
+  "generation": "seventh generation Y63",
+  "chassisCode": "Y63",
+  "market": "Middle East / UAE",
+  "referenceUrl": "https://en.nissan-dubai.com/vehicles/new/patrol.html",
+  "finalUrl": "https://en.allnewpatrol.nissan-dubai.com/",
+  "httpStatus": 200,
+  "officialDomain": "en.nissan-dubai.com",
+  "confirmedBodyCues": [
+    "all-new boxy Y63 full-size SUV body",
+    "large double-layer V-motion grille",
+    "distinctive double-C LED daytime-running-light graphic",
+    "upright hood and accurate Nissan badge"
+  ],
+  "attempts": [
+    {
+      "url": "https://en.nissan-dubai.com/vehicles/new/patrol.html",
+      "finalUrl": "https://en.allnewpatrol.nissan-dubai.com/",
+      "httpStatus": 200,
+      "status": "confirmed"
+    }
+  ]
+}

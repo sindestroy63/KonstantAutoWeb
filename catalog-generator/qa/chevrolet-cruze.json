@@ -1,0 +1,80 @@
+{
+  "checkedAt": "2026-07-30T11:59:04.217Z",
+  "modelId": "chevrolet-cruze",
+  "file": "catalog-generator\\outputs\\chevrolet-cruze.webp",
+  "deterministicPass": true,
+  "analysis": {
+    "width": 1600,
+    "height": 1000,
+    "backgroundCornerRgb": [
+      183.8,
+      185.5,
+      187.2
+    ],
+    "backgroundCornerLuminance": 185.5,
+    "backgroundCornerNeutralityDelta": 3.4,
+    "foregroundBounds": {
+      "minX": 136,
+      "maxX": 1442,
+      "minY": 250,
+      "maxY": 878
+    },
+    "foregroundWidthPercent": 81.7,
+    "horizonPercent": 87.9
+  },
+  "checks": {
+    "dimensions": {
+      "status": "pass",
+      "actual": "1600x1000"
+    },
+    "format": {
+      "status": "pass",
+      "actual": "webp"
+    },
+    "aspectRatio": {
+      "status": "pass",
+      "actual": 1.6
+    },
+    "background": {
+      "status": "pass",
+      "actualRgb": [
+        183.8,
+        185.5,
+        187.2
+      ],
+      "luminance": 185.5,
+      "neutralityDelta": 3.4
+    },
+    "scale": {
+      "status": "pass",
+      "actualPercent": 81.7,
+      "targetPercent": "78-84",
+      "tolerancePercent": "74-88"
+    },
+    "horizon": {
+      "status": "pass",
+      "actualPercent": 87.9,
+      "tolerancePercent": "72-93"
+    },
+    "exactlyOneVehicle": {
+      "status": "pending",
+      "method": "manual-or-vision-adapter"
+    },
+    "noPeople": {
+      "status": "pending",
+      "method": "manual-or-vision-adapter"
+    },
+    "noText": {
+      "status": "pending",
+      "method": "manual-or-vision-adapter"
+    },
+    "noWatermark": {
+      "status": "pending",
+      "method": "manual-or-vision-adapter"
+    },
+    "generationIdentity": {
+      "status": "pending",
+      "method": "owner-review"
+    }
+  }
+}

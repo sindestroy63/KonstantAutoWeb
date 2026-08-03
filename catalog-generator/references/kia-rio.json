@@ -1,0 +1,29 @@
+{
+  "checkedAt": "2026-07-30T08:46:24.694Z",
+  "manufacturer": "Kia",
+  "model": "Rio",
+  "requestedYear": "2021-2023",
+  "generation": "fourth generation FB facelift",
+  "chassisCode": "FB",
+  "market": "Russia / CIS",
+  "referenceUrl": "https://www.kia.com/ru/models/rio/overview.html",
+  "fallbackReferenceUrls": [
+    "https://en.wikipedia.org/wiki/Kia_Rio",
+    "https://www.autoevolution.com/cars/kia-rio-sedan-2020.html"
+  ],
+  "referenceQuality": "secondary-confirmed",
+  "confirmedBodyCues": [
+    "fourth-generation FB sedan body",
+    "facelift tiger-nose grille joined visually to the headlamps",
+    "angular facelift front bumper with horizontal lower intake",
+    "correct Kia oval-era badge for this production period"
+  ],
+  "attempts": [
+    {
+      "url": "https://www.kia.com/ru/models/rio/overview.html",
+      "finalUrl": "https://www.kia.ru/",
+      "httpStatus": 200,
+      "status": "redirected-outside-official-domain"
+    }
+  ]
+}

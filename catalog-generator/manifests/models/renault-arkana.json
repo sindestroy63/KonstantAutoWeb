@@ -1,0 +1,24 @@
+{
+  "id": "renault-arkana",
+  "catalogSlug": "renault_arkana",
+  "manufacturer": "Renault",
+  "model": "Arkana",
+  "generation": "TODO: official current generation",
+  "chassisCode": "TODO",
+  "years": "TODO",
+  "facelift": "TODO",
+  "market": "TODO",
+  "body": "Кроссовер",
+  "trim": "TODO",
+  "paint": "factory production color",
+  "identityCues": [],
+  "modelExclusions": [
+    "previous generation",
+    "concept",
+    "fantasy design"
+  ],
+  "referenceUrls": [],
+  "outputFilename": "renault-arkana.webp",
+  "status": "draft",
+  "approved": false
+}

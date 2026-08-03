@@ -1,0 +1,27 @@
+{
+  "checkedAt": "2026-07-28T11:59:41.802Z",
+  "manufacturer": "Lexus",
+  "model": "RX",
+  "requestedYear": "2025-2026",
+  "generation": "fifth generation",
+  "chassisCode": "ALH10",
+  "market": "North America",
+  "referenceUrl": "https://www.lexus.com/models/RX",
+  "finalUrl": "https://www.lexus.com/models/RX",
+  "httpStatus": 200,
+  "officialDomain": "www.lexus.com",
+  "confirmedBodyCues": [
+    "spindle-body front with body-color upper section",
+    "narrow current headlamps",
+    "current ALH10 body",
+    "F SPORT lower grille"
+  ],
+  "attempts": [
+    {
+      "url": "https://www.lexus.com/models/RX",
+      "finalUrl": "https://www.lexus.com/models/RX",
+      "httpStatus": 200,
+      "status": "confirmed"
+    }
+  ]
+}

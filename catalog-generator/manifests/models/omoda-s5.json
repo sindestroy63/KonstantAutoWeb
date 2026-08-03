@@ -1,0 +1,24 @@
+{
+  "id": "omoda-s5",
+  "catalogSlug": "omoda_s5",
+  "manufacturer": "Omoda",
+  "model": "S5",
+  "generation": "TODO: official current generation",
+  "chassisCode": "TODO",
+  "years": "TODO",
+  "facelift": "TODO",
+  "market": "TODO",
+  "body": "Седан",
+  "trim": "TODO",
+  "paint": "factory production color",
+  "identityCues": [],
+  "modelExclusions": [
+    "previous generation",
+    "concept",
+    "fantasy design"
+  ],
+  "referenceUrls": [],
+  "outputFilename": "omoda-s5.webp",
+  "status": "draft",
+  "approved": false
+}

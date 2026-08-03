@@ -1,0 +1,40 @@
+{
+  "id": "haval-m6",
+  "catalogSlug": "haval_m6",
+  "manufacturer": "Haval",
+  "model": "M6",
+  "generation": "first generation M6 Plus current production facelift",
+  "chassisCode": "manufacturer internal code not publicly standardized",
+  "years": "2023-2026",
+  "facelift": "M6 Plus / current Russian production front",
+  "market": "Russia / China",
+  "body": "five-door compact crossover",
+  "trim": "Premium",
+  "paint": "Titanium Grey metallic",
+  "identityCues": [
+    "current M6 Plus body",
+    "large polygonal black mesh grille",
+    "slim swept LED headlamps",
+    "practical upright greenhouse and HAVAL wordmark"
+  ],
+  "modelExclusions": [
+    "old Haval H6 body with previous grille",
+    "pre-facelift M6",
+    "Haval Jolion",
+    "Haval H6 third generation",
+    "Haval F7",
+    "coupe roofline"
+  ],
+  "referenceUrls": [
+    "https://haval.ru/models/haval-m6/"
+  ],
+  "fallbackReferenceUrls": [
+    "https://en.wikipedia.org/wiki/Haval_M6",
+    "https://www.autoevolution.com/cars/haval-m6.html"
+  ],
+  "referenceQuality": "secondary-confirmed",
+  "confidenceLevel": "high",
+  "outputFilename": "haval-m6.webp",
+  "status": "qa",
+  "approved": false
+}

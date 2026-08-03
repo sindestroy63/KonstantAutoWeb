@@ -1,0 +1,87 @@
+{
+  "checkedAt": "2026-07-28T12:20:17.685Z",
+  "modelId": "lexus-rx",
+  "file": "catalog-generator\\outputs\\lexus-rx-alh10.webp",
+  "deterministicPass": true,
+  "analysis": {
+    "width": 1600,
+    "height": 1000,
+    "backgroundCornerRgb": [
+      201.3,
+      202,
+      203.7
+    ],
+    "backgroundCornerLuminance": 202.3,
+    "backgroundCornerNeutralityDelta": 2.3,
+    "foregroundBounds": {
+      "minX": 126,
+      "maxX": 1458,
+      "minY": 196,
+      "maxY": 866
+    },
+    "foregroundWidthPercent": 83.3,
+    "horizonPercent": 86.7
+  },
+  "checks": {
+    "dimensions": {
+      "status": "pass",
+      "actual": "1600x1000"
+    },
+    "format": {
+      "status": "pass",
+      "actual": "webp"
+    },
+    "aspectRatio": {
+      "status": "pass",
+      "actual": 1.6
+    },
+    "background": {
+      "status": "pass",
+      "actualRgb": [
+        201.3,
+        202,
+        203.7
+      ],
+      "luminance": 202.3,
+      "neutralityDelta": 2.3
+    },
+    "scale": {
+      "status": "pass",
+      "actualPercent": 83.3,
+      "targetPercent": "78-84",
+      "tolerancePercent": "74-88"
+    },
+    "horizon": {
+      "status": "pass",
+      "actualPercent": 86.7,
+      "tolerancePercent": "72-93"
+    },
+    "exactlyOneVehicle": {
+      "status": "pass",
+      "method": "final-visual-review"
+    },
+    "noPeople": {
+      "status": "pass",
+      "method": "final-visual-review"
+    },
+    "noText": {
+      "status": "pass",
+      "method": "final-visual-review",
+      "note": "No promotional, overlay, watermark or dealer text; authentic vehicle badges are acceptable."
+    },
+    "noWatermark": {
+      "status": "pass",
+      "method": "final-visual-review"
+    },
+    "generationIdentity": {
+      "status": "pass",
+      "method": "final-visual-review"
+    }
+  },
+  "visualGenerationMatch": "approved",
+  "semanticQa": "approved",
+  "generationQa": "approved",
+  "suspectedPreviousGeneration": false,
+  "suspectedMixedGeneration": false,
+  "issues": []
+}

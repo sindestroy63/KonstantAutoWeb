@@ -1,0 +1,30 @@
+{
+  "checkedAt": "2026-07-29T09:51:28.243Z",
+  "manufacturer": "Hyundai",
+  "model": "i30",
+  "requestedYear": "2024-2025 current listed specification",
+  "generation": "third generation PD",
+  "chassisCode": "PD",
+  "market": "Europe",
+  "referenceUrl": "https://www.hyundai.com/eu/en/models/i30.html",
+  "finalUrl": "https://www.hyundai.com/eu/en/models/i30.html",
+  "httpStatus": 200,
+  "officialDomain": "www.hyundai.com",
+  "confirmedBodyCues": [
+    "third-generation PD five-door hatchback body",
+    "latest second-facelift grille insert",
+    "current front bumper",
+    "slim production headlamps",
+    "triangular N Line side intakes",
+    "correct Hyundai H badges on the grille and on both visible OEM wheel center caps",
+    "latest second-facelift grille texture and current fog-light housing treatment"
+  ],
+  "attempts": [
+    {
+      "url": "https://www.hyundai.com/eu/en/models/i30.html",
+      "finalUrl": "https://www.hyundai.com/eu/en/models/i30.html",
+      "httpStatus": 200,
+      "status": "confirmed"
+    }
+  ]
+}

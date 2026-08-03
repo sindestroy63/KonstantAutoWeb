@@ -1,0 +1,27 @@
+{
+  "checkedAt": "2026-07-30T09:45:22.234Z",
+  "manufacturer": "Honda",
+  "model": "Pilot",
+  "requestedYear": "2023-2026",
+  "generation": "fourth generation YG",
+  "chassisCode": "YG3/YG4",
+  "market": "North America",
+  "referenceUrl": "https://automobiles.honda.com/pilot",
+  "finalUrl": "https://automobiles.honda.com/pilot",
+  "httpStatus": 200,
+  "officialDomain": "automobiles.honda.com",
+  "confirmedBodyCues": [
+    "fourth-generation YG boxier three-row SUV body",
+    "large upright black mesh grille",
+    "slim horizontal LED headlamps",
+    "TrailSport production bumper and accurate Honda badge"
+  ],
+  "attempts": [
+    {
+      "url": "https://automobiles.honda.com/pilot",
+      "finalUrl": "https://automobiles.honda.com/pilot",
+      "httpStatus": 200,
+      "status": "confirmed"
+    }
+  ]
+}

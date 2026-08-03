@@ -1,0 +1,41 @@
+{
+  "id": "haval-f7",
+  "catalogSlug": "haval_f7",
+  "manufacturer": "Haval",
+  "model": "F7",
+  "generation": "second generation current Russian-market production model",
+  "chassisCode": "manufacturer internal code not publicly standardized / L.E.M.O.N. platform",
+  "years": "2024-2026",
+  "facelift": "all-new second generation, not first-generation facelift",
+  "market": "Russia / CIS",
+  "body": "five-door compact crossover",
+  "trim": "Premium",
+  "paint": "Ash Grey metallic",
+  "identityCues": [
+    "all-new second-generation F7 body",
+    "large dark rectangular mesh grille",
+    "slim upper LED signature with separate vertical lighting modules",
+    "upright current-production crossover proportions and HAVAL wordmark"
+  ],
+  "modelExclusions": [
+    "first-generation 2019-2023 F7",
+    "Haval F7x",
+    "Haval H6",
+    "Haval Monster",
+    "mixed first- and second-generation front",
+    "concept lighting"
+  ],
+  "referenceUrls": [
+    "https://haval.ru/models/new-haval-f7/"
+  ],
+  "fallbackReferenceUrls": [
+    "https://en.wikipedia.org/wiki/Haval_F7",
+    "https://www.autoevolution.com/cars/haval-f7.html"
+  ],
+  "referenceQuality": "secondary-confirmed",
+  "confidenceLevel": "high",
+  "outputFilename": "haval-f7.webp",
+  "status": "production",
+  "approved": true,
+  "approvalStatus": "production-approved"
+}

@@ -1,0 +1,45 @@
+{
+  "generatedAt": "2026-07-30T11:03:38.845Z",
+  "modelId": "audi-a6",
+  "manufacturer": "Audi",
+  "model": "A6",
+  "apiRequestCount": 1,
+  "infrastructureRetries": 1,
+  "infrastructureDiagnostics": [
+    {
+      "requestIndex": 0,
+      "httpStatus": 504,
+      "responseFormat": "non-json"
+    },
+    {
+      "requestIndex": 1,
+      "httpStatus": 200,
+      "responseFormat": "json"
+    }
+  ],
+  "requestedYears": "2026",
+  "requestedGeneration": "sixth generation C9",
+  "requestedChassisCode": "C9",
+  "modelUsed": "gpt-image-2",
+  "generationMode": "text-generation",
+  "endpoint": "https://vibecode.moe/v1/images/generations",
+  "referenceUrl": "https://www.audi-mediacenter.com/en/the-new-audi-a6-sedan-16621",
+  "referenceImageUrl": null,
+  "apiStatus": 200,
+  "downloadStatus": 200,
+  "contentType": "image/png",
+  "sourceUrl": "https://file6.aitohumanize.com/file/a4d623d9445e407c81f7a30099315502.png",
+  "rawFile": "catalog-generator\\outputs\\raw\\audi-a6.png",
+  "generatedFile": "catalog-generator\\outputs\\audi-a6.webp",
+  "rawMetadata": {
+    "format": "png",
+    "width": 1536,
+    "height": 1024
+  },
+  "outputMetadata": {
+    "format": "webp",
+    "width": 1600,
+    "height": 1000
+  },
+  "promptFile": "catalog-generator\\prompts\\audi-a6.txt"
+}

@@ -1,0 +1,13 @@
+Use case: product-mockup. Asset type: identity-critical automotive catalog photograph.
+Manufacturer: Geely. Model: Emgrand. Model years: 2022-2026.
+Generation: fourth generation SS11. Chassis code: SS11 / BMA. Facelift status: current fourth-generation production specification.
+Regional specification: China / CIS. Body style: four-door compact sedan. Trim: Flagship. Paint: Ocean Blue metallic.
+Exact production identity cues: fourth-generation SS11 sedan body; wide vertical-slat energy-burst grille; slim rectangular LED headlamps; clean horizontal bumper and current Geely shield badge.
+Official manufacturer reference confirms: fourth-generation SS11 sedan body; wide vertical-slat energy-burst grille; slim rectangular LED headlamps; clean horizontal bumper and current Geely shield badge.
+Hard model exclusions: third-generation Emgrand GL; older EC7 body; Geely Preface; Geely Galaxy sedan; concept lighting; fastback body.
+Brand exclusions: old generation; concept car; fantasy design; CGI look; tuning; oversized wheels; aftermarket bumper; wrong logo; old headlights; cropped vehicle; watermark; wrong Geely model; Volvo substitution; Lynk and Co styling.
+Realistic serial-production vehicle, front three-quarter view, nose pointing right. Camera height 1.1-1.3 metres, 70-90 mm full-frame equivalent lens, minimal perspective distortion.
+Entire vehicle fully visible, including both bumpers, roof, doors, wheels and tires. Vehicle occupies 78-84 percent of image width. Wheels straight, matching, and resting on one visual baseline.
+Neutral seamless light-gray studio cyclorama, soft diffused catalog lighting, restrained contact shadow beneath the tires, low reflection intensity, consistent horizon and scale.
+Exactly one car. No environment, people, other vehicles, text, watermark, dealer plate, readable license, concepts, invented lighting, modified badges, extra doors, handles or pillars, malformed wheels or mixed body panels.
+Depict the exact named serial-production model year, generation, chassis and body. Never substitute a previous generation or blend generations. Prioritize production identity over generic attractiveness.

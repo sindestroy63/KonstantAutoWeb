@@ -1,0 +1,87 @@
+{
+  "checkedAt": "2026-07-28T12:20:17.494Z",
+  "modelId": "bmw-3-series",
+  "file": "catalog-generator\\outputs\\bmw-3-series-g20-lci.webp",
+  "deterministicPass": true,
+  "analysis": {
+    "width": 1600,
+    "height": 1000,
+    "backgroundCornerRgb": [
+      194.2,
+      194.1,
+      193.3
+    ],
+    "backgroundCornerLuminance": 193.9,
+    "backgroundCornerNeutralityDelta": 0.8,
+    "foregroundBounds": {
+      "minX": 136,
+      "maxX": 1470,
+      "minY": 256,
+      "maxY": 826
+    },
+    "foregroundWidthPercent": 83.4,
+    "horizonPercent": 82.7
+  },
+  "checks": {
+    "dimensions": {
+      "status": "pass",
+      "actual": "1600x1000"
+    },
+    "format": {
+      "status": "pass",
+      "actual": "webp"
+    },
+    "aspectRatio": {
+      "status": "pass",
+      "actual": 1.6
+    },
+    "background": {
+      "status": "pass",
+      "actualRgb": [
+        194.2,
+        194.1,
+        193.3
+      ],
+      "luminance": 193.9,
+      "neutralityDelta": 0.8
+    },
+    "scale": {
+      "status": "pass",
+      "actualPercent": 83.4,
+      "targetPercent": "78-84",
+      "tolerancePercent": "74-88"
+    },
+    "horizon": {
+      "status": "pass",
+      "actualPercent": 82.7,
+      "tolerancePercent": "72-93"
+    },
+    "exactlyOneVehicle": {
+      "status": "pass",
+      "method": "final-visual-review"
+    },
+    "noPeople": {
+      "status": "pass",
+      "method": "final-visual-review"
+    },
+    "noText": {
+      "status": "pass",
+      "method": "final-visual-review",
+      "note": "No promotional, overlay, watermark or dealer text; authentic vehicle badges are acceptable."
+    },
+    "noWatermark": {
+      "status": "pass",
+      "method": "final-visual-review"
+    },
+    "generationIdentity": {
+      "status": "pass",
+      "method": "final-visual-review"
+    }
+  },
+  "visualGenerationMatch": "approved",
+  "semanticQa": "approved",
+  "generationQa": "approved",
+  "suspectedPreviousGeneration": false,
+  "suspectedMixedGeneration": false,
+  "issues": []
+}

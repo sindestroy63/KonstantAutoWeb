@@ -1,0 +1,40 @@
+{
+  "generatedAt": "2026-07-30T11:57:20.767Z",
+  "modelId": "lexus-ct",
+  "manufacturer": "Lexus",
+  "model": "CT",
+  "apiRequestCount": 1,
+  "infrastructureRetries": 0,
+  "infrastructureDiagnostics": [
+    {
+      "requestIndex": 0,
+      "httpStatus": 200,
+      "responseFormat": "json"
+    }
+  ],
+  "requestedYears": "2018-2022 final production specification",
+  "requestedGeneration": "first generation ZWA10 final facelift",
+  "requestedChassisCode": "ZWA10",
+  "modelUsed": "gpt-image-2",
+  "generationMode": "text-generation",
+  "endpoint": "https://vibecode.moe/v1/images/generations",
+  "referenceUrl": "https://global.toyota/en/newsroom/lexus/24066854.html",
+  "referenceImageUrl": null,
+  "apiStatus": 200,
+  "downloadStatus": 200,
+  "contentType": "image/png",
+  "sourceUrl": "https://file3.aitohumanize.com/file/798e1335046d4b37bd0e0951d1dc0710.png",
+  "rawFile": "catalog-generator\\outputs\\raw\\lexus-ct.png",
+  "generatedFile": "catalog-generator\\outputs\\lexus-ct.webp",
+  "rawMetadata": {
+    "format": "png",
+    "width": 1536,
+    "height": 1024
+  },
+  "outputMetadata": {
+    "format": "webp",
+    "width": 1600,
+    "height": 1000
+  },
+  "promptFile": "catalog-generator\\prompts\\lexus-ct.txt"
+}

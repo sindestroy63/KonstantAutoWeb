@@ -1,0 +1,37 @@
+{
+  "id": "mazda-mazda3",
+  "catalogSlug": "mazda_3",
+  "manufacturer": "Mazda",
+  "model": "Mazda3",
+  "generation": "fourth generation BP",
+  "chassisCode": "BP",
+  "years": "2025-2026",
+  "facelift": "current production specification",
+  "market": "North America",
+  "body": "four-door compact sedan",
+  "trim": "2.5 S Premium",
+  "paint": "Polymetal Gray Metallic",
+  "identityCues": [
+    "fourth-generation BP sedan body",
+    "slim swept LED headlamps",
+    "large shield-shaped black mesh grille with chrome lower surround",
+    "long hood and short rear deck"
+  ],
+  "modelExclusions": [
+    "third-generation BM/BN Mazda3",
+    "Mazda3 hatchback",
+    "concept",
+    "fantasy design"
+  ],
+  "referenceUrls": [
+    "https://www.mazdausa.com/vehicles/mazda3-sedan"
+  ],
+  "fallbackReferenceUrls": [
+    "https://en.wikipedia.org/wiki/Mazda3"
+  ],
+  "referenceQuality": "official",
+  "confidenceLevel": "high",
+  "outputFilename": "mazda-mazda3.webp",
+  "status": "qa",
+  "approved": false
+}

@@ -1,0 +1,28 @@
+{
+  "checkedAt": "2026-07-29T09:52:42.926Z",
+  "manufacturer": "Kia",
+  "model": "Sportage",
+  "requestedYear": "2026",
+  "generation": "fifth generation NQ5",
+  "chassisCode": "NQ5",
+  "market": "North America",
+  "referenceUrl": "https://www.kia.com/us/en/sportage",
+  "finalUrl": "https://www.kia.com/us/en/sportage",
+  "httpStatus": 200,
+  "officialDomain": "www.kia.com",
+  "confirmedBodyCues": [
+    "2026 NQ5 facelift body",
+    "new vertically stacked headlamp modules",
+    "current Star Map daytime-running-light signature",
+    "wide rectangular grille",
+    "revised production front bumper"
+  ],
+  "attempts": [
+    {
+      "url": "https://www.kia.com/us/en/sportage",
+      "finalUrl": "https://www.kia.com/us/en/sportage",
+      "httpStatus": 200,
+      "status": "confirmed"
+    }
+  ]
+}

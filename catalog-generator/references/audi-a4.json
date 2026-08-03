@@ -1,0 +1,29 @@
+{
+  "checkedAt": "2026-07-30T10:50:34.945Z",
+  "manufacturer": "Audi",
+  "model": "A4",
+  "requestedYear": "2023-2024 final model years",
+  "generation": "fifth generation B9 facelift final production specification",
+  "chassisCode": "B9 / 8W",
+  "market": "Europe",
+  "referenceUrl": "https://www.audi-mediacenter.com/en/audi-a4-sedan-14817",
+  "fallbackReferenceUrls": [
+    "https://en.wikipedia.org/wiki/Audi_A4#B9",
+    "https://www.autoevolution.com/cars/audi-a4.html"
+  ],
+  "referenceQuality": "secondary-confirmed",
+  "confirmedBodyCues": [
+    "B9 facelift A4 sedan body",
+    "facelift angular LED headlamps",
+    "wide singleframe grille with honeycomb texture",
+    "separate sedan trunk and restrained S line bumper"
+  ],
+  "attempts": [
+    {
+      "url": "https://www.audi-mediacenter.com/en/audi-a4-sedan-14817",
+      "finalUrl": "https://www.audi.com/en/audi-a4-sedan-14817",
+      "httpStatus": 404,
+      "status": "http-error"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "name": "konstant-catalog-generator",
+  "version": "3.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "prompt": "node src/cli.mjs prompt",
+    "references": "node src/cli.mjs references",
+    "generate": "node src/cli.mjs generate",
+    "qa": "node src/cli.mjs qa",
+    "preview": "node src/cli.mjs preview",
+    "import:v2": "node src/cli.mjs import-v2",
+    "sync": "node src/cli.mjs sync",
+    "approve": "node src/cli.mjs approve",
+    "promotion:dry-run": "node src/cli.mjs promotion-dry-run",
+    "pipeline": "node src/cli.mjs pipeline",
+    "promote": "node src/cli.mjs promote"
+  }
+}

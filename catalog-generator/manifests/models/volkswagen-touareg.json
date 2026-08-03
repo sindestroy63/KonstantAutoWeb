@@ -1,0 +1,40 @@
+{
+  "id": "volkswagen-touareg",
+  "catalogSlug": "volkswagen_touareg",
+  "manufacturer": "Volkswagen",
+  "model": "Touareg",
+  "generation": "third generation CR facelift",
+  "chassisCode": "CR",
+  "years": "2024-2026",
+  "facelift": "2023 facelift",
+  "market": "Europe",
+  "body": "five-door midsize luxury SUV",
+  "trim": "R-Line",
+  "paint": "Silicon Gray Metallic",
+  "identityCues": [
+    "third-generation CR SUV proportions",
+    "facelift IQ.LIGHT HD matrix headlamps",
+    "full-width light strip across the upper grille",
+    "wide lower R-Line bumper and correct Volkswagen badge"
+  ],
+  "modelExclusions": [
+    "pre-facelift third-generation Touareg",
+    "second-generation 7P Touareg",
+    "Volkswagen Tiguan",
+    "concept",
+    "fantasy design"
+  ],
+  "referenceUrls": [
+    "https://www.volkswagen-newsroom.com/en/the-new-touareg-2023-15998"
+  ],
+  "fallbackReferenceUrls": [
+    "https://en.wikipedia.org/wiki/Volkswagen_Touareg",
+    "https://www.autoevolution.com/cars/volkswagen-touareg.html"
+  ],
+  "referenceQuality": "secondary-confirmed",
+  "confidenceLevel": "high",
+  "outputFilename": "volkswagen-touareg.webp",
+  "status": "production",
+  "approved": true,
+  "approvalStatus": "production-approved"
+}

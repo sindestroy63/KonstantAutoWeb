@@ -1,0 +1,17 @@
+{
+  "batch": 4,
+  "reviewedAt": "2026-07-30T10:37:00.000Z",
+  "reviewMethod": "agent visual review against resolved identity cues and manufacturer/secondary references",
+  "entries": [
+    {"modelId":"mazda-mazda3","status":"approved","generationQa":"approved","semanticQa":"approved","attempts":1,"issues":[]},
+    {"modelId":"mazda-cx-5","status":"approved","generationQa":"approved","semanticQa":"approved","attempts":3,"issues":["Attempts 1 and 2 rejected as second-generation KF; attempt 3 uses the all-new 2026 body and front identity."]},
+    {"modelId":"mazda-cx-9","status":"approved","generationQa":"approved","semanticQa":"approved","attempts":1,"issues":[]},
+    {"modelId":"mazda-mazda2","status":"approved","generationQa":"approved","semanticQa":"approved","attempts":1,"issues":[]},
+    {"modelId":"mazda-mazda6","status":"approved","generationQa":"approved","semanticQa":"approved","attempts":1,"issues":[]},
+    {"modelId":"volkswagen-polo","status":"approved","generationQa":"approved","semanticQa":"approved","attempts":1,"issues":[]},
+    {"modelId":"volkswagen-tiguan","status":"approved","generationQa":"approved","semanticQa":"approved","attempts":1,"issues":[]},
+    {"modelId":"volkswagen-touareg","status":"approved","generationQa":"approved","semanticQa":"approved","attempts":1,"issues":["Correct image was horizontally normalized to the catalog direction contract."]},
+    {"modelId":"volkswagen-golf","status":"approved","generationQa":"approved","semanticQa":"approved","attempts":1,"issues":[]},
+    {"modelId":"volkswagen-passat","status":"approved","generationQa":"approved","semanticQa":"approved","attempts":1,"issues":[]}
+  ]
+}

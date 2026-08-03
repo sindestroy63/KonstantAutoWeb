@@ -1,0 +1,41 @@
+{
+  "id": "nissan-patrol",
+  "catalogSlug": "nissan_patrol",
+  "manufacturer": "Nissan",
+  "model": "Patrol",
+  "generation": "seventh generation Y63",
+  "chassisCode": "Y63",
+  "years": "2025-2026",
+  "facelift": "all-new Y63 production specification",
+  "market": "Middle East / UAE",
+  "body": "five-door full-size SUV",
+  "trim": "Platinum City",
+  "paint": "Alpine Metallic",
+  "identityCues": [
+    "all-new boxy Y63 full-size SUV body",
+    "large double-layer V-motion grille",
+    "distinctive double-C LED daytime-running-light graphic",
+    "upright hood and accurate Nissan badge"
+  ],
+  "modelExclusions": [
+    "sixth-generation Y62 Patrol",
+    "Nissan Armada Y62",
+    "Toyota Land Cruiser",
+    "retro design",
+    "previous rounded headlights",
+    "mixed Y62/Y63"
+  ],
+  "referenceUrls": [
+    "https://en.nissan-dubai.com/vehicles/new/patrol.html"
+  ],
+  "fallbackReferenceUrls": [
+    "https://en.wikipedia.org/wiki/Nissan_Patrol",
+    "https://www.drivearabia.com/carprices/uae/nissan/nissan-patrol/"
+  ],
+  "referenceQuality": "secondary-confirmed",
+  "confidenceLevel": "high",
+  "outputFilename": "nissan-patrol.webp",
+  "status": "production",
+  "approved": true,
+  "approvalStatus": "production-approved"
+}

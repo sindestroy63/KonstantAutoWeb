@@ -1,0 +1,1067 @@
+{
+  "checkedAt": "2026-07-28T12:20:17.894Z",
+  "entries": [
+    {
+      "checkedAt": "2026-07-28T12:20:17.494Z",
+      "modelId": "bmw-3-series",
+      "file": "catalog-generator\\outputs\\bmw-3-series-g20-lci.webp",
+      "deterministicPass": true,
+      "analysis": {
+        "width": 1600,
+        "height": 1000,
+        "backgroundCornerRgb": [
+          194.2,
+          194.1,
+          193.3
+        ],
+        "backgroundCornerLuminance": 193.9,
+        "backgroundCornerNeutralityDelta": 0.8,
+        "foregroundBounds": {
+          "minX": 136,
+          "maxX": 1470,
+          "minY": 256,
+          "maxY": 826
+        },
+        "foregroundWidthPercent": 83.4,
+        "horizonPercent": 82.7
+      },
+      "checks": {
+        "dimensions": {
+          "status": "pass",
+          "actual": "1600x1000"
+        },
+        "format": {
+          "status": "pass",
+          "actual": "webp"
+        },
+        "aspectRatio": {
+          "status": "pass",
+          "actual": 1.6
+        },
+        "background": {
+          "status": "pass",
+          "actualRgb": [
+            194.2,
+            194.1,
+            193.3
+          ],
+          "luminance": 193.9,
+          "neutralityDelta": 0.8
+        },
+        "scale": {
+          "status": "pass",
+          "actualPercent": 83.4,
+          "targetPercent": "78-84",
+          "tolerancePercent": "74-88"
+        },
+        "horizon": {
+          "status": "pass",
+          "actualPercent": 82.7,
+          "tolerancePercent": "72-93"
+        },
+        "exactlyOneVehicle": {
+          "status": "pass",
+          "method": "final-visual-review"
+        },
+        "noPeople": {
+          "status": "pass",
+          "method": "final-visual-review"
+        },
+        "noText": {
+          "status": "pass",
+          "method": "final-visual-review",
+          "note": "No promotional, overlay, watermark or dealer text; authentic vehicle badges are acceptable."
+        },
+        "noWatermark": {
+          "status": "pass",
+          "method": "final-visual-review"
+        },
+        "generationIdentity": {
+          "status": "pass",
+          "method": "final-visual-review"
+        }
+      },
+      "visualGenerationMatch": "approved",
+      "semanticQa": "approved",
+      "generationQa": "approved",
+      "suspectedPreviousGeneration": false,
+      "suspectedMixedGeneration": false,
+      "issues": []
+    },
+    {
+      "checkedAt": "2026-07-28T12:20:17.545Z",
+      "modelId": "bmw-x3",
+      "file": "catalog-generator\\outputs\\bmw-x3-g45.webp",
+      "deterministicPass": true,
+      "analysis": {
+        "width": 1600,
+        "height": 1000,
+        "backgroundCornerRgb": [
+          207.2,
+          207.3,
+          206.2
+        ],
+        "backgroundCornerLuminance": 206.9,
+        "backgroundCornerNeutralityDelta": 1.1,
+        "foregroundBounds": {
+          "minX": 124,
+          "maxX": 1476,
+          "minY": 192,
+          "maxY": 848
+        },
+        "foregroundWidthPercent": 84.6,
+        "horizonPercent": 84.9
+      },
+      "checks": {
+        "dimensions": {
+          "status": "pass",
+          "actual": "1600x1000"
+        },
+        "format": {
+          "status": "pass",
+          "actual": "webp"
+        },
+        "aspectRatio": {
+          "status": "pass",
+          "actual": 1.6
+        },
+        "background": {
+          "status": "pass",
+          "actualRgb": [
+            207.2,
+            207.3,
+            206.2
+          ],
+          "luminance": 206.9,
+          "neutralityDelta": 1.1
+        },
+        "scale": {
+          "status": "pass",
+          "actualPercent": 84.6,
+          "targetPercent": "78-84",
+          "tolerancePercent": "74-88"
+        },
+        "horizon": {
+          "status": "pass",
+          "actualPercent": 84.9,
+          "tolerancePercent": "72-93"
+        },
+        "exactlyOneVehicle": {
+          "status": "pass",
+          "method": "final-visual-review"
+        },
+        "noPeople": {
+          "status": "pass",
+          "method": "final-visual-review"
+        },
+        "noText": {
+          "status": "pass",
+          "method": "final-visual-review",
+          "note": "No promotional, overlay, watermark or dealer text; authentic vehicle badges are acceptable."
+        },
+        "noWatermark": {
+          "status": "pass",
+          "method": "final-visual-review"
+        },
+        "generationIdentity": {
+          "status": "pass",
+          "method": "final-visual-review"
+        }
+      },
+      "visualGenerationMatch": "needs-review",
+      "semanticQa": "needs-review",
+      "generationQa": "approved",
+      "suspectedPreviousGeneration": false,
+      "suspectedMixedGeneration": false,
+      "issues": [
+        "Lower central bumper insert is unusually simplified and does not confidently match the production G45 trim detail."
+      ]
+    },
+    {
+      "checkedAt": "2026-07-28T12:20:17.580Z",
+      "modelId": "bmw-x5",
+      "file": "catalog-generator\\outputs\\bmw-x5-g05-lci.webp",
+      "deterministicPass": true,
+      "analysis": {
+        "width": 1600,
+        "height": 1000,
+        "backgroundCornerRgb": [
+          199.7,
+          199.7,
+          198.9
+        ],
+        "backgroundCornerLuminance": 199.5,
+        "backgroundCornerNeutralityDelta": 0.8,
+        "foregroundBounds": {
+          "minX": 88,
+          "maxX": 1486,
+          "minY": 178,
+          "maxY": 884
+        },
+        "foregroundWidthPercent": 87.4,
+        "horizonPercent": 88.5
+      },
+      "checks": {
+        "dimensions": {
+          "status": "pass",
+          "actual": "1600x1000"
+        },
+        "format": {
+          "status": "pass",
+          "actual": "webp"
+        },
+        "aspectRatio": {
+          "status": "pass",
+          "actual": 1.6
+        },
+        "background": {
+          "status": "pass",
+          "actualRgb": [
+            199.7,
+            199.7,
+            198.9
+          ],
+          "luminance": 199.5,
+          "neutralityDelta": 0.8
+        },
+        "scale": {
+          "status": "pass",
+          "actualPercent": 87.4,
+          "targetPercent": "78-84",
+          "tolerancePercent": "74-88"
+        },
+        "horizon": {
+          "status": "pass",
+          "actualPercent": 88.5,
+          "tolerancePercent": "72-93"
+        },
+        "exactlyOneVehicle": {
+          "status": "pass",
+          "method": "final-visual-review"
+        },
+        "noPeople": {
+          "status": "pass",
+          "method": "final-visual-review"
+        },
+        "noText": {
+          "status": "pass",
+          "method": "final-visual-review",
+          "note": "No promotional, overlay, watermark or dealer text; authentic vehicle badges are acceptable."
+        },
+        "noWatermark": {
+          "status": "pass",
+          "method": "final-visual-review"
+        },
+        "generationIdentity": {
+          "status": "pass",
+          "method": "final-visual-review"
+        }
+      },
+      "visualGenerationMatch": "approved",
+      "semanticQa": "approved",
+      "generationQa": "approved",
+      "suspectedPreviousGeneration": false,
+      "suspectedMixedGeneration": false,
+      "issues": []
+    },
+    {
+      "checkedAt": "2026-07-28T12:20:17.618Z",
+      "modelId": "kia-k5",
+      "file": "catalog-generator\\outputs\\kia-k5-2026-facelift.webp",
+      "deterministicPass": true,
+      "analysis": {
+        "width": 1600,
+        "height": 1000,
+        "backgroundCornerRgb": [
+          177,
+          176.8,
+          177.3
+        ],
+        "backgroundCornerLuminance": 177,
+        "backgroundCornerNeutralityDelta": 0.5,
+        "foregroundBounds": {
+          "minX": 160,
+          "maxX": 1442,
+          "minY": 244,
+          "maxY": 824
+        },
+        "foregroundWidthPercent": 80.2,
+        "horizonPercent": 82.5
+      },
+      "checks": {
+        "dimensions": {
+          "status": "pass",
+          "actual": "1600x1000"
+        },
+        "format": {
+          "status": "pass",
+          "actual": "webp"
+        },
+        "aspectRatio": {
+          "status": "pass",
+          "actual": 1.6
+        },
+        "background": {
+          "status": "pass",
+          "actualRgb": [
+            177,
+            176.8,
+            177.3
+          ],
+          "luminance": 177,
+          "neutralityDelta": 0.5
+        },
+        "scale": {
+          "status": "pass",
+          "actualPercent": 80.2,
+          "targetPercent": "78-84",
+          "tolerancePercent": "74-88"
+        },
+        "horizon": {
+          "status": "pass",
+          "actualPercent": 82.5,
+          "tolerancePercent": "72-93"
+        },
+        "exactlyOneVehicle": {
+          "status": "pass",
+          "method": "final-visual-review"
+        },
+        "noPeople": {
+          "status": "pass",
+          "method": "final-visual-review"
+        },
+        "noText": {
+          "status": "pass",
+          "method": "final-visual-review",
+          "note": "No promotional, overlay, watermark or dealer text; authentic vehicle badges are acceptable."
+        },
+        "noWatermark": {
+          "status": "pass",
+          "method": "final-visual-review"
+        },
+        "generationIdentity": {
+          "status": "pass",
+          "method": "final-visual-review"
+        }
+      },
+      "visualGenerationMatch": "approved",
+      "semanticQa": "approved",
+      "generationQa": "approved",
+      "suspectedPreviousGeneration": false,
+      "suspectedMixedGeneration": false,
+      "issues": []
+    },
+    {
+      "checkedAt": "2026-07-28T12:20:17.651Z",
+      "modelId": "kia-sorento",
+      "file": "catalog-generator\\outputs\\kia-sorento-mq4-facelift.webp",
+      "deterministicPass": true,
+      "analysis": {
+        "width": 1600,
+        "height": 1000,
+        "backgroundCornerRgb": [
+          194,
+          192.6,
+          192.3
+        ],
+        "backgroundCornerLuminance": 193,
+        "backgroundCornerNeutralityDelta": 1.7,
+        "foregroundBounds": {
+          "minX": 118,
+          "maxX": 1452,
+          "minY": 194,
+          "maxY": 894
+        },
+        "foregroundWidthPercent": 83.4,
+        "horizonPercent": 89.5
+      },
+      "checks": {
+        "dimensions": {
+          "status": "pass",
+          "actual": "1600x1000"
+        },
+        "format": {
+          "status": "pass",
+          "actual": "webp"
+        },
+        "aspectRatio": {
+          "status": "pass",
+          "actual": 1.6
+        },
+        "background": {
+          "status": "pass",
+          "actualRgb": [
+            194,
+            192.6,
+            192.3
+          ],
+          "luminance": 193,
+          "neutralityDelta": 1.7
+        },
+        "scale": {
+          "status": "pass",
+          "actualPercent": 83.4,
+          "targetPercent": "78-84",
+          "tolerancePercent": "74-88"
+        },
+        "horizon": {
+          "status": "pass",
+          "actualPercent": 89.5,
+          "tolerancePercent": "72-93"
+        },
+        "exactlyOneVehicle": {
+          "status": "pass",
+          "method": "final-visual-review"
+        },
+        "noPeople": {
+          "status": "pass",
+          "method": "final-visual-review"
+        },
+        "noText": {
+          "status": "pass",
+          "method": "final-visual-review",
+          "note": "No promotional, overlay, watermark or dealer text; authentic vehicle badges are acceptable."
+        },
+        "noWatermark": {
+          "status": "pass",
+          "method": "final-visual-review"
+        },
+        "generationIdentity": {
+          "status": "pass",
+          "method": "final-visual-review"
+        }
+      },
+      "visualGenerationMatch": "approved",
+      "semanticQa": "approved",
+      "generationQa": "approved",
+      "suspectedPreviousGeneration": false,
+      "suspectedMixedGeneration": false,
+      "issues": []
+    },
+    {
+      "checkedAt": "2026-07-28T12:20:17.685Z",
+      "modelId": "lexus-rx",
+      "file": "catalog-generator\\outputs\\lexus-rx-alh10.webp",
+      "deterministicPass": true,
+      "analysis": {
+        "width": 1600,
+        "height": 1000,
+        "backgroundCornerRgb": [
+          201.3,
+          202,
+          203.7
+        ],
+        "backgroundCornerLuminance": 202.3,
+        "backgroundCornerNeutralityDelta": 2.3,
+        "foregroundBounds": {
+          "minX": 126,
+          "maxX": 1458,
+          "minY": 196,
+          "maxY": 866
+        },
+        "foregroundWidthPercent": 83.3,
+        "horizonPercent": 86.7
+      },
+      "checks": {
+        "dimensions": {
+          "status": "pass",
+          "actual": "1600x1000"
+        },
+        "format": {
+          "status": "pass",
+          "actual": "webp"
+        },
+        "aspectRatio": {
+          "status": "pass",
+          "actual": 1.6
+        },
+        "background": {
+          "status": "pass",
+          "actualRgb": [
+            201.3,
+            202,
+            203.7
+          ],
+          "luminance": 202.3,
+          "neutralityDelta": 2.3
+        },
+        "scale": {
+          "status": "pass",
+          "actualPercent": 83.3,
+          "targetPercent": "78-84",
+          "tolerancePercent": "74-88"
+        },
+        "horizon": {
+          "status": "pass",
+          "actualPercent": 86.7,
+          "tolerancePercent": "72-93"
+        },
+        "exactlyOneVehicle": {
+          "status": "pass",
+          "method": "final-visual-review"
+        },
+        "noPeople": {
+          "status": "pass",
+          "method": "final-visual-review"
+        },
+        "noText": {
+          "status": "pass",
+          "method": "final-visual-review",
+          "note": "No promotional, overlay, watermark or dealer text; authentic vehicle badges are acceptable."
+        },
+        "noWatermark": {
+          "status": "pass",
+          "method": "final-visual-review"
+        },
+        "generationIdentity": {
+          "status": "pass",
+          "method": "final-visual-review"
+        }
+      },
+      "visualGenerationMatch": "approved",
+      "semanticQa": "approved",
+      "generationQa": "approved",
+      "suspectedPreviousGeneration": false,
+      "suspectedMixedGeneration": false,
+      "issues": []
+    },
+    {
+      "checkedAt": "2026-07-28T12:20:17.721Z",
+      "modelId": "toyota-camry",
+      "file": "catalog-generator\\outputs\\toyota-camry-2026-xv80.webp",
+      "deterministicPass": true,
+      "analysis": {
+        "width": 1600,
+        "height": 1000,
+        "backgroundCornerRgb": [
+          184.6,
+          185.2,
+          188.9
+        ],
+        "backgroundCornerLuminance": 186.2,
+        "backgroundCornerNeutralityDelta": 4.3,
+        "foregroundBounds": {
+          "minX": 116,
+          "maxX": 1492,
+          "minY": 220,
+          "maxY": 808
+        },
+        "foregroundWidthPercent": 86.1,
+        "horizonPercent": 80.9
+      },
+      "checks": {
+        "dimensions": {
+          "status": "pass",
+          "actual": "1600x1000"
+        },
+        "format": {
+          "status": "pass",
+          "actual": "webp"
+        },
+        "aspectRatio": {
+          "status": "pass",
+          "actual": 1.6
+        },
+        "background": {
+          "status": "pass",
+          "actualRgb": [
+            184.6,
+            185.2,
+            188.9
+          ],
+          "luminance": 186.2,
+          "neutralityDelta": 4.3
+        },
+        "scale": {
+          "status": "pass",
+          "actualPercent": 86.1,
+          "targetPercent": "78-84",
+          "tolerancePercent": "74-88"
+        },
+        "horizon": {
+          "status": "pass",
+          "actualPercent": 80.9,
+          "tolerancePercent": "72-93"
+        },
+        "exactlyOneVehicle": {
+          "status": "pass",
+          "method": "final-visual-review"
+        },
+        "noPeople": {
+          "status": "pass",
+          "method": "final-visual-review"
+        },
+        "noText": {
+          "status": "pass",
+          "method": "final-visual-review",
+          "note": "No promotional, overlay, watermark or dealer text; authentic vehicle badges are acceptable."
+        },
+        "noWatermark": {
+          "status": "pass",
+          "method": "final-visual-review"
+        },
+        "generationIdentity": {
+          "status": "pass",
+          "method": "final-visual-review"
+        }
+      },
+      "visualGenerationMatch": "approved",
+      "semanticQa": "approved",
+      "generationQa": "approved",
+      "suspectedPreviousGeneration": false,
+      "suspectedMixedGeneration": false,
+      "issues": []
+    },
+    {
+      "checkedAt": "2026-07-28T12:20:17.753Z",
+      "modelId": "toyota-corolla",
+      "file": "catalog-generator\\outputs\\toyota-corolla-e210-facelift.webp",
+      "deterministicPass": true,
+      "analysis": {
+        "width": 1600,
+        "height": 1000,
+        "backgroundCornerRgb": [
+          197.1,
+          194,
+          195.2
+        ],
+        "backgroundCornerLuminance": 195.4,
+        "backgroundCornerNeutralityDelta": 3.1,
+        "foregroundBounds": {
+          "minX": 114,
+          "maxX": 1472,
+          "minY": 226,
+          "maxY": 826
+        },
+        "foregroundWidthPercent": 84.9,
+        "horizonPercent": 82.7
+      },
+      "checks": {
+        "dimensions": {
+          "status": "pass",
+          "actual": "1600x1000"
+        },
+        "format": {
+          "status": "pass",
+          "actual": "webp"
+        },
+        "aspectRatio": {
+          "status": "pass",
+          "actual": 1.6
+        },
+        "background": {
+          "status": "pass",
+          "actualRgb": [
+            197.1,
+            194,
+            195.2
+          ],
+          "luminance": 195.4,
+          "neutralityDelta": 3.1
+        },
+        "scale": {
+          "status": "pass",
+          "actualPercent": 84.9,
+          "targetPercent": "78-84",
+          "tolerancePercent": "74-88"
+        },
+        "horizon": {
+          "status": "pass",
+          "actualPercent": 82.7,
+          "tolerancePercent": "72-93"
+        },
+        "exactlyOneVehicle": {
+          "status": "pass",
+          "method": "final-visual-review"
+        },
+        "noPeople": {
+          "status": "pass",
+          "method": "final-visual-review"
+        },
+        "noText": {
+          "status": "pass",
+          "method": "final-visual-review",
+          "note": "No promotional, overlay, watermark or dealer text; authentic vehicle badges are acceptable."
+        },
+        "noWatermark": {
+          "status": "pass",
+          "method": "final-visual-review"
+        },
+        "generationIdentity": {
+          "status": "pass",
+          "method": "final-visual-review"
+        }
+      },
+      "visualGenerationMatch": "approved",
+      "semanticQa": "approved",
+      "generationQa": "approved",
+      "suspectedPreviousGeneration": false,
+      "suspectedMixedGeneration": false,
+      "issues": []
+    },
+    {
+      "checkedAt": "2026-07-28T12:20:17.785Z",
+      "modelId": "toyota-hilux",
+      "file": "catalog-generator\\outputs\\toyota-hilux-current.webp",
+      "deterministicPass": true,
+      "analysis": {
+        "width": 1600,
+        "height": 1000,
+        "backgroundCornerRgb": [
+          209.5,
+          209.5,
+          208.6
+        ],
+        "backgroundCornerLuminance": 209.2,
+        "backgroundCornerNeutralityDelta": 0.9,
+        "foregroundBounds": {
+          "minX": 142,
+          "maxX": 1456,
+          "minY": 222,
+          "maxY": 844
+        },
+        "foregroundWidthPercent": 82.2,
+        "horizonPercent": 84.5
+      },
+      "checks": {
+        "dimensions": {
+          "status": "pass",
+          "actual": "1600x1000"
+        },
+        "format": {
+          "status": "pass",
+          "actual": "webp"
+        },
+        "aspectRatio": {
+          "status": "pass",
+          "actual": 1.6
+        },
+        "background": {
+          "status": "pass",
+          "actualRgb": [
+            209.5,
+            209.5,
+            208.6
+          ],
+          "luminance": 209.2,
+          "neutralityDelta": 0.9
+        },
+        "scale": {
+          "status": "pass",
+          "actualPercent": 82.2,
+          "targetPercent": "78-84",
+          "tolerancePercent": "74-88"
+        },
+        "horizon": {
+          "status": "pass",
+          "actualPercent": 84.5,
+          "tolerancePercent": "72-93"
+        },
+        "exactlyOneVehicle": {
+          "status": "pass",
+          "method": "final-visual-review"
+        },
+        "noPeople": {
+          "status": "pass",
+          "method": "final-visual-review"
+        },
+        "noText": {
+          "status": "pass",
+          "method": "final-visual-review",
+          "note": "No promotional, overlay, watermark or dealer text; authentic vehicle badges are acceptable."
+        },
+        "noWatermark": {
+          "status": "pass",
+          "method": "final-visual-review"
+        },
+        "generationIdentity": {
+          "status": "pass",
+          "method": "final-visual-review"
+        }
+      },
+      "visualGenerationMatch": "approved",
+      "semanticQa": "approved",
+      "generationQa": "approved",
+      "suspectedPreviousGeneration": false,
+      "suspectedMixedGeneration": false,
+      "issues": []
+    },
+    {
+      "checkedAt": "2026-07-28T12:20:17.819Z",
+      "modelId": "toyota-land-cruiser-300",
+      "file": "catalog-generator\\outputs\\toyota-land-cruiser-300.webp",
+      "deterministicPass": true,
+      "analysis": {
+        "width": 1600,
+        "height": 1000,
+        "backgroundCornerRgb": [
+          196.5,
+          196.6,
+          195.6
+        ],
+        "backgroundCornerLuminance": 196.2,
+        "backgroundCornerNeutralityDelta": 1,
+        "foregroundBounds": {
+          "minX": 122,
+          "maxX": 1490,
+          "minY": 196,
+          "maxY": 834
+        },
+        "foregroundWidthPercent": 85.6,
+        "horizonPercent": 83.5
+      },
+      "checks": {
+        "dimensions": {
+          "status": "pass",
+          "actual": "1600x1000"
+        },
+        "format": {
+          "status": "pass",
+          "actual": "webp"
+        },
+        "aspectRatio": {
+          "status": "pass",
+          "actual": 1.6
+        },
+        "background": {
+          "status": "pass",
+          "actualRgb": [
+            196.5,
+            196.6,
+            195.6
+          ],
+          "luminance": 196.2,
+          "neutralityDelta": 1
+        },
+        "scale": {
+          "status": "pass",
+          "actualPercent": 85.6,
+          "targetPercent": "78-84",
+          "tolerancePercent": "74-88"
+        },
+        "horizon": {
+          "status": "pass",
+          "actualPercent": 83.5,
+          "tolerancePercent": "72-93"
+        },
+        "exactlyOneVehicle": {
+          "status": "pass",
+          "method": "final-visual-review"
+        },
+        "noPeople": {
+          "status": "pass",
+          "method": "final-visual-review"
+        },
+        "noText": {
+          "status": "pass",
+          "method": "final-visual-review",
+          "note": "No promotional, overlay, watermark or dealer text; authentic vehicle badges are acceptable."
+        },
+        "noWatermark": {
+          "status": "pass",
+          "method": "final-visual-review"
+        },
+        "generationIdentity": {
+          "status": "pass",
+          "method": "final-visual-review"
+        }
+      },
+      "visualGenerationMatch": "approved",
+      "semanticQa": "approved",
+      "generationQa": "approved",
+      "suspectedPreviousGeneration": false,
+      "suspectedMixedGeneration": false,
+      "issues": []
+    },
+    {
+      "checkedAt": "2026-07-28T12:20:17.850Z",
+      "modelId": "toyota-rav4",
+      "file": "catalog-generator\\outputs\\toyota-rav4-2026.webp",
+      "deterministicPass": true,
+      "analysis": {
+        "width": 1600,
+        "height": 1000,
+        "backgroundCornerRgb": [
+          204.6,
+          204.7,
+          203.7
+        ],
+        "backgroundCornerLuminance": 204.3,
+        "backgroundCornerNeutralityDelta": 0.9,
+        "foregroundBounds": {
+          "minX": 146,
+          "maxX": 1464,
+          "minY": 240,
+          "maxY": 876
+        },
+        "foregroundWidthPercent": 82.4,
+        "horizonPercent": 87.7
+      },
+      "checks": {
+        "dimensions": {
+          "status": "pass",
+          "actual": "1600x1000"
+        },
+        "format": {
+          "status": "pass",
+          "actual": "webp"
+        },
+        "aspectRatio": {
+          "status": "pass",
+          "actual": 1.6
+        },
+        "background": {
+          "status": "pass",
+          "actualRgb": [
+            204.6,
+            204.7,
+            203.7
+          ],
+          "luminance": 204.3,
+          "neutralityDelta": 0.9
+        },
+        "scale": {
+          "status": "pass",
+          "actualPercent": 82.4,
+          "targetPercent": "78-84",
+          "tolerancePercent": "74-88"
+        },
+        "horizon": {
+          "status": "pass",
+          "actualPercent": 87.7,
+          "tolerancePercent": "72-93"
+        },
+        "exactlyOneVehicle": {
+          "status": "pass",
+          "method": "final-visual-review"
+        },
+        "noPeople": {
+          "status": "pass",
+          "method": "final-visual-review"
+        },
+        "noText": {
+          "status": "pass",
+          "method": "final-visual-review",
+          "note": "No promotional, overlay, watermark or dealer text; authentic vehicle badges are acceptable."
+        },
+        "noWatermark": {
+          "status": "pass",
+          "method": "final-visual-review"
+        },
+        "generationIdentity": {
+          "status": "pass",
+          "method": "final-visual-review"
+        }
+      },
+      "visualGenerationMatch": "approved",
+      "semanticQa": "approved",
+      "generationQa": "approved",
+      "suspectedPreviousGeneration": false,
+      "suspectedMixedGeneration": false,
+      "issues": []
+    },
+    {
+      "checkedAt": "2026-07-28T12:20:17.883Z",
+      "modelId": "toyota-yaris",
+      "file": "catalog-generator\\outputs\\toyota-yaris-xp210.webp",
+      "deterministicPass": true,
+      "analysis": {
+        "width": 1600,
+        "height": 1000,
+        "backgroundCornerRgb": [
+          199.1,
+          199.1,
+          198.2
+        ],
+        "backgroundCornerLuminance": 198.8,
+        "backgroundCornerNeutralityDelta": 0.8,
+        "foregroundBounds": {
+          "minX": 118,
+          "maxX": 1452,
+          "minY": 210,
+          "maxY": 838
+        },
+        "foregroundWidthPercent": 83.4,
+        "horizonPercent": 83.9
+      },
+      "checks": {
+        "dimensions": {
+          "status": "pass",
+          "actual": "1600x1000"
+        },
+        "format": {
+          "status": "pass",
+          "actual": "webp"
+        },
+        "aspectRatio": {
+          "status": "pass",
+          "actual": 1.6
+        },
+        "background": {
+          "status": "pass",
+          "actualRgb": [
+            199.1,
+            199.1,
+            198.2
+          ],
+          "luminance": 198.8,
+          "neutralityDelta": 0.8
+        },
+        "scale": {
+          "status": "pass",
+          "actualPercent": 83.4,
+          "targetPercent": "78-84",
+          "tolerancePercent": "74-88"
+        },
+        "horizon": {
+          "status": "pass",
+          "actualPercent": 83.9,
+          "tolerancePercent": "72-93"
+        },
+        "exactlyOneVehicle": {
+          "status": "pass",
+          "method": "final-visual-review"
+        },
+        "noPeople": {
+          "status": "pass",
+          "method": "final-visual-review"
+        },
+        "noText": {
+          "status": "pass",
+          "method": "final-visual-review",
+          "note": "No promotional, overlay, watermark or dealer text; authentic vehicle badges are acceptable."
+        },
+        "noWatermark": {
+          "status": "pass",
+          "method": "final-visual-review"
+        },
+        "generationIdentity": {
+          "status": "pass",
+          "method": "final-visual-review"
+        }
+      },
+      "visualGenerationMatch": "approved",
+      "semanticQa": "approved",
+      "generationQa": "approved",
+      "suspectedPreviousGeneration": false,
+      "suspectedMixedGeneration": false,
+      "issues": []
+    }
+  ],
+  "consistency": {
+    "scaleRange": [
+      80.2,
+      87.4
+    ],
+    "horizonRange": [
+      80.9,
+      89.5
+    ],
+    "scaleConsistent": true,
+    "horizonConsistent": true
+  },
+  "visualReview": {
+    "approved": 11,
+    "needsReview": 1
+  }
+}

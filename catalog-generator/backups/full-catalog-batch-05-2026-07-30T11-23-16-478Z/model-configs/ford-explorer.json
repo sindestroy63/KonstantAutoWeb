@@ -1,0 +1,40 @@
+{
+  "id": "ford-explorer",
+  "catalogSlug": "ford_explorer",
+  "manufacturer": "Ford",
+  "model": "Explorer",
+  "generation": "sixth generation U625 facelift",
+  "chassisCode": "U625",
+  "years": "2025-2026",
+  "facelift": "2025 model-year facelift",
+  "market": "North America",
+  "body": "five-door three-row midsize SUV",
+  "trim": "ST-Line",
+  "paint": "Vapor Blue Metallic",
+  "identityCues": [
+    "facelift U625 three-row SUV body",
+    "wider rectangular grille",
+    "new slim LED headlamps",
+    "revised front bumper and correct long Explorer proportions"
+  ],
+  "modelExclusions": [
+    "pre-facelift U625 Explorer",
+    "fifth-generation U502 Explorer",
+    "European electric Explorer",
+    "Ford Expedition",
+    "concept",
+    "fantasy design"
+  ],
+  "referenceUrls": [
+    "https://www.ford.com/suvs/explorer/"
+  ],
+  "fallbackReferenceUrls": [
+    "https://en.wikipedia.org/wiki/Ford_Explorer#Sixth_generation_(U625;_2020)",
+    "https://www.autoevolution.com/cars/ford-explorer.html"
+  ],
+  "referenceQuality": "secondary-confirmed",
+  "confidenceLevel": "high",
+  "outputFilename": "ford-explorer.webp",
+  "status": "qa",
+  "approved": false
+}

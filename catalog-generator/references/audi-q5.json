@@ -1,0 +1,29 @@
+{
+  "checkedAt": "2026-07-30T10:52:56.037Z",
+  "manufacturer": "Audi",
+  "model": "Q5",
+  "requestedYear": "2025-2026",
+  "generation": "third generation GU",
+  "chassisCode": "GU",
+  "market": "Europe",
+  "referenceUrl": "https://www.audi-mediacenter.com/en/the-new-audi-q5-suv-16204",
+  "fallbackReferenceUrls": [
+    "https://en.wikipedia.org/wiki/Audi_Q5",
+    "https://www.autoevolution.com/cars/audi-q5.html"
+  ],
+  "referenceQuality": "secondary-confirmed",
+  "confirmedBodyCues": [
+    "third-generation GU Q5 body",
+    "new slim segmented LED headlamps",
+    "wide new-generation singleframe grille",
+    "sculpted S line lower bumper and taut rear-quarter surfacing"
+  ],
+  "attempts": [
+    {
+      "url": "https://www.audi-mediacenter.com/en/the-new-audi-q5-suv-16204",
+      "finalUrl": "https://www.audi.com/en/the-new-audi-q5-suv-16204",
+      "httpStatus": 404,
+      "status": "http-error"
+    }
+  ]
+}

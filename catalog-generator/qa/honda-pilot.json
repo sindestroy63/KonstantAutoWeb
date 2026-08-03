@@ -1,0 +1,83 @@
+{
+  "checkedAt": "2026-07-30T09:59:46.318Z",
+  "modelId": "honda-pilot",
+  "file": "catalog-generator\\outputs\\honda-pilot.webp",
+  "deterministicPass": true,
+  "analysis": {
+    "width": 1600,
+    "height": 1000,
+    "backgroundCornerRgb": [
+      184.1,
+      184.1,
+      183.3
+    ],
+    "backgroundCornerLuminance": 183.8,
+    "backgroundCornerNeutralityDelta": 0.9,
+    "foregroundBounds": {
+      "minX": 190,
+      "maxX": 1438,
+      "minY": 246,
+      "maxY": 924
+    },
+    "foregroundWidthPercent": 78.1,
+    "horizonPercent": 92.5
+  },
+  "checks": {
+    "dimensions": {
+      "status": "pass",
+      "actual": "1600x1000"
+    },
+    "format": {
+      "status": "pass",
+      "actual": "webp"
+    },
+    "aspectRatio": {
+      "status": "pass",
+      "actual": 1.6
+    },
+    "background": {
+      "status": "pass",
+      "actualRgb": [
+        184.1,
+        184.1,
+        183.3
+      ],
+      "luminance": 183.8,
+      "neutralityDelta": 0.9
+    },
+    "scale": {
+      "status": "pass",
+      "actualPercent": 78.1,
+      "targetPercent": "78-84",
+      "tolerancePercent": "74-88"
+    },
+    "horizon": {
+      "status": "pass",
+      "actualPercent": 92.5,
+      "tolerancePercent": "72-93"
+    },
+    "exactlyOneVehicle": {
+      "status": "pass",
+      "method": "agent-visual-review"
+    },
+    "noPeople": {
+      "status": "pass",
+      "method": "agent-visual-review"
+    },
+    "noText": {
+      "status": "pass",
+      "method": "agent-visual-review"
+    },
+    "noWatermark": {
+      "status": "pass",
+      "method": "agent-visual-review"
+    },
+    "generationIdentity": {
+      "status": "approved",
+      "method": "agent-visual-review"
+    }
+  },
+  "semanticQa": "approved",
+  "generationQa": "approved",
+  "finalStatus": "production-approved"
+}

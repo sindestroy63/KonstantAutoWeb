@@ -1,0 +1,42 @@
+{
+  "id": "honda-fit",
+  "catalogSlug": "honda_fit",
+  "manufacturer": "Honda",
+  "model": "Fit",
+  "generation": "fourth generation GR/GS facelift",
+  "chassisCode": "GR1-GR8 / GS4-GS7",
+  "years": "2023-2026",
+  "facelift": "2022 Japanese-market facelift",
+  "market": "Japan",
+  "body": "five-door subcompact hatchback",
+  "trim": "Home",
+  "paint": "Surf Blue solid",
+  "identityCues": [
+    "fourth-generation Fit tall five-door hatchback body",
+    "facelift clean small grille",
+    "large rounded LED headlamps",
+    "short hood, expansive windshield and accurate Honda badge"
+  ],
+  "modelExclusions": [
+    "third-generation GK Fit",
+    "Honda City",
+    "Honda Jazz Crosstar body cladding",
+    "sedan body",
+    "sharp third-generation headlights",
+    "extra doors",
+    "FIT lettering on the license plate or anywhere in the image",
+    "readable model-name text"
+  ],
+  "referenceUrls": [
+    "https://www.honda.co.jp/Fit/"
+  ],
+  "fallbackReferenceUrls": [
+    "https://en.wikipedia.org/wiki/Honda_Fit",
+    "https://www.autoevolution.com/cars/honda-fit.html"
+  ],
+  "referenceQuality": "secondary-confirmed",
+  "confidenceLevel": "high",
+  "outputFilename": "honda-fit.webp",
+  "status": "qa",
+  "approved": false
+}

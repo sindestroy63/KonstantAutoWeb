@@ -1,0 +1,29 @@
+{
+  "checkedAt": "2026-07-30T10:53:49.539Z",
+  "manufacturer": "Audi",
+  "model": "Q7",
+  "requestedYear": "2024-2026",
+  "generation": "second generation 4M second facelift",
+  "chassisCode": "4M",
+  "market": "Europe",
+  "referenceUrl": "https://www.audi-mediacenter.com/en/the-new-audi-q7-15826",
+  "fallbackReferenceUrls": [
+    "https://en.wikipedia.org/wiki/Audi_Q7",
+    "https://www.autoevolution.com/cars/audi-q7.html"
+  ],
+  "referenceQuality": "secondary-confirmed",
+  "confirmedBodyCues": [
+    "large second-generation 4M three-row SUV body",
+    "2024 facelift customizable-signature LED headlamps",
+    "revised octagonal singleframe grille",
+    "new vertical outer bumper intakes"
+  ],
+  "attempts": [
+    {
+      "url": "https://www.audi-mediacenter.com/en/the-new-audi-q7-15826",
+      "finalUrl": "https://www.audi.com/en/the-new-audi-q7-15826",
+      "httpStatus": 404,
+      "status": "http-error"
+    }
+  ]
+}

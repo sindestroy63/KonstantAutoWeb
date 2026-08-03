@@ -1,0 +1,80 @@
+{
+  "checkedAt": "2026-07-30T11:59:05.086Z",
+  "modelId": "lexus-es",
+  "file": "catalog-generator\\outputs\\lexus-es.webp",
+  "deterministicPass": true,
+  "analysis": {
+    "width": 1600,
+    "height": 1000,
+    "backgroundCornerRgb": [
+      184.7,
+      184.7,
+      183.4
+    ],
+    "backgroundCornerLuminance": 184.3,
+    "backgroundCornerNeutralityDelta": 1.3,
+    "foregroundBounds": {
+      "minX": 128,
+      "maxX": 1454,
+      "minY": 260,
+      "maxY": 830
+    },
+    "foregroundWidthPercent": 82.9,
+    "horizonPercent": 83.1
+  },
+  "checks": {
+    "dimensions": {
+      "status": "pass",
+      "actual": "1600x1000"
+    },
+    "format": {
+      "status": "pass",
+      "actual": "webp"
+    },
+    "aspectRatio": {
+      "status": "pass",
+      "actual": 1.6
+    },
+    "background": {
+      "status": "pass",
+      "actualRgb": [
+        184.7,
+        184.7,
+        183.4
+      ],
+      "luminance": 184.3,
+      "neutralityDelta": 1.3
+    },
+    "scale": {
+      "status": "pass",
+      "actualPercent": 82.9,
+      "targetPercent": "78-84",
+      "tolerancePercent": "74-88"
+    },
+    "horizon": {
+      "status": "pass",
+      "actualPercent": 83.1,
+      "tolerancePercent": "72-93"
+    },
+    "exactlyOneVehicle": {
+      "status": "pending",
+      "method": "manual-or-vision-adapter"
+    },
+    "noPeople": {
+      "status": "pending",
+      "method": "manual-or-vision-adapter"
+    },
+    "noText": {
+      "status": "pending",
+      "method": "manual-or-vision-adapter"
+    },
+    "noWatermark": {
+      "status": "pending",
+      "method": "manual-or-vision-adapter"
+    },
+    "generationIdentity": {
+      "status": "pending",
+      "method": "owner-review"
+    }
+  }
+}

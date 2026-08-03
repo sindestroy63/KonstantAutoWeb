@@ -1,0 +1,27 @@
+{
+  "checkedAt": "2026-07-30T11:57:21.997Z",
+  "manufacturer": "Chery",
+  "model": "Tiggo (Tiggo 4 Pro)",
+  "requestedYear": "2024-2026",
+  "generation": "Tiggo 4 Pro facelift",
+  "chassisCode": "T17",
+  "market": "Global / Russia",
+  "referenceUrl": "https://www.cheryinternational.com/pc/models/tiggo/tiggo4pro/index.shtml",
+  "finalUrl": "https://www.cheryinternational.com/pc/models/tiggo/tiggo4pro/index.shtml",
+  "httpStatus": 200,
+  "officialDomain": "www.cheryinternational.com",
+  "confirmedBodyCues": [
+    "current Tiggo 4 Pro compact crossover body",
+    "facelift slim LED headlamps",
+    "large diamond-pattern grille with centered Chery badge",
+    "short upright subcompact SUV proportions"
+  ],
+  "attempts": [
+    {
+      "url": "https://www.cheryinternational.com/pc/models/tiggo/tiggo4pro/index.shtml",
+      "finalUrl": "https://www.cheryinternational.com/pc/models/tiggo/tiggo4pro/index.shtml",
+      "httpStatus": 200,
+      "status": "confirmed"
+    }
+  ]
+}

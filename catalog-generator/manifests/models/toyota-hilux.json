@@ -1,0 +1,39 @@
+{
+  "id": "toyota-hilux",
+  "catalogSlug": "toyota_hilux",
+  "manufacturer": "Toyota",
+  "model": "Hilux",
+  "generation": "eighth generation current facelift",
+  "chassisCode": "AN120/AN130",
+  "years": "2025-2026",
+  "facelift": "newest marketed production facelift",
+  "market": "Middle East / UAE",
+  "body": "four-door double-cab pickup",
+  "trim": "Adventure",
+  "paint": "Oxide Bronze metallic",
+  "identityCues": [
+    "current Hilux Adventure face",
+    "wide dark grille",
+    "angular current headlamps",
+    "complete cargo bed visible"
+  ],
+  "modelExclusions": [
+    "pre-facelift Hilux",
+    "Tacoma",
+    "Tundra",
+    "invented future Hilux",
+    "Hilux and Tacoma mixture"
+  ],
+  "referenceUrls": [
+    "https://www.toyota.ae/en/new-cars/hilux/"
+  ],
+  "outputFilename": "toyota-hilux-current.webp",
+  "status": "production",
+  "approved": true,
+  "production": {
+    "batchId": "pilot-v3-2026-07-28T12-20-46-652",
+    "file": "public\\images\\catalog\\toyota-hilux.webp",
+    "sha256": "6c13090e7446af15006c4ab5acc4092add3426dff41006f666b62a8a5efd855c",
+    "promotedAt": "2026-07-28T12:25:59.189Z"
+  }
+}

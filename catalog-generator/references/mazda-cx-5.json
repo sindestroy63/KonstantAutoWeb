@@ -1,0 +1,30 @@
+{
+  "checkedAt": "2026-07-30T10:34:09.415Z",
+  "manufacturer": "Mazda",
+  "model": "CX-5",
+  "requestedYear": "2026",
+  "generation": "third generation 2026",
+  "chassisCode": "not publicly confirmed",
+  "market": "North America",
+  "referenceUrl": "https://news.mazdausa.com/2025-07-10-All-New-2026-Mazda-CX-5-Debuts",
+  "fallbackReferenceUrls": [
+    "https://en.wikipedia.org/wiki/Mazda_CX-5",
+    "https://www.autoevolution.com/cars/mazda-cx-5.html"
+  ],
+  "referenceQuality": "secondary-confirmed",
+  "confirmedBodyCues": [
+    "all-new July-2025-revealed 2026 third-generation CX-5 body, visibly different from the 2017-2025 KF",
+    "longer 4690 mm body, wider planted stance, straighter beltline and squared modern surfacing",
+    "razor-thin angular two-level LED light signature extending outward from the upper grille corners",
+    "new wider lower-set black grille treatment without the old thick KF chrome wing",
+    "sharper front bumper corners and new third-generation side glass geometry"
+  ],
+  "attempts": [
+    {
+      "url": "https://news.mazdausa.com/2025-07-10-All-New-2026-Mazda-CX-5-Debuts",
+      "finalUrl": "https://news.mazdausa.com/2025-07-10-All-New-2026-Mazda-CX-5-Debuts",
+      "httpStatus": 404,
+      "status": "http-error"
+    }
+  ]
+}

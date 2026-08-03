@@ -1,0 +1,39 @@
+{
+  "id": "volkswagen-tiguan",
+  "catalogSlug": "volkswagen_tiguan",
+  "manufacturer": "Volkswagen",
+  "model": "Tiguan",
+  "generation": "third generation",
+  "chassisCode": "CT1",
+  "years": "2024-2026",
+  "facelift": "all-new third generation",
+  "market": "Europe",
+  "body": "five-door compact crossover SUV",
+  "trim": "R-Line",
+  "paint": "Dolphin Grey Metallic",
+  "identityCues": [
+    "third-generation CT1 rounded crossover body",
+    "slim upper LED light bar and headlamps",
+    "large lower grille opening",
+    "smooth closed upper nose with centered Volkswagen badge"
+  ],
+  "modelExclusions": [
+    "second-generation AD/BW Tiguan",
+    "Tiguan Allspace",
+    "Volkswagen Tayron",
+    "concept",
+    "fantasy design"
+  ],
+  "referenceUrls": [
+    "https://www.volkswagen-newsroom.com/en/the-new-tiguan-2024-17744"
+  ],
+  "fallbackReferenceUrls": [
+    "https://en.wikipedia.org/wiki/Volkswagen_Tiguan",
+    "https://www.autoevolution.com/cars/volkswagen-tiguan.html"
+  ],
+  "referenceQuality": "secondary-confirmed",
+  "confidenceLevel": "high",
+  "outputFilename": "volkswagen-tiguan.webp",
+  "status": "qa",
+  "approved": false
+}

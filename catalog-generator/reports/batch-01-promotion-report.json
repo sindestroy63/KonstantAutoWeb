@@ -1,0 +1,121 @@
+{
+  "completedAt": "2026-07-29T18:00:14.785Z",
+  "batchId": "batch-01-2026-07-29T18-00-14-769",
+  "promotedModels": 5,
+  "excludedModels": [
+    {
+      "modelId": "bmw-x3",
+      "manufacturer": "BMW",
+      "model": "X3",
+      "reason": "Second attempt still combines G45 grille cues with G01-like body surfacing and conventional protruding door handles."
+    },
+    {
+      "modelId": "bmw-1-series",
+      "manufacturer": "BMW",
+      "model": "1 Series",
+      "reason": "Provider returned HTTP 504 with a non-JSON body; no image URL or decodable staging file was returned. Retry was not made because there was no generated image to fail QA."
+    }
+  ],
+  "gitCommitCreated": false,
+  "carsJson": {
+    "path": "data\\cars.json",
+    "changed": false,
+    "sha256": "0cde230d2e016bfcb306c6e4ef29e7914c8a6012cf99110f8c66583fbb9a04ae"
+  },
+  "excludedProductionImages": [
+    {
+      "path": "public\\images\\catalog\\bmw-x3.webp",
+      "changed": false,
+      "sha256": "ae27e32203631f7beb6f308979e41f3ed5fccea687e3112422b1457c49bbf580"
+    },
+    {
+      "path": "public\\images\\catalog\\bmw-1-series.webp",
+      "changed": false,
+      "sha256": "ba01304bf8f948c96e5e42fa7f4b7b07f202d96bdbd3bf9457243851217ad687"
+    }
+  ],
+  "manifest": {
+    "path": "public\\images\\catalog\\manifest.json",
+    "previousModelCount": 11,
+    "modelCount": 16,
+    "previousSha256": "37ac67bc85e5a989c7015d4753e6ad9c5c67c5d78624572836e93f884d793a04",
+    "sha256": "1f3b7216d4d131d0f40aa09261fc58a88eb174ba051ad1bb79d0f7263dcd9a82",
+    "backupPath": "catalog-generator\\backups\\batch-01-2026-07-29T09-56-01-823\\manifest.json",
+    "backupSha256": "37ac67bc85e5a989c7015d4753e6ad9c5c67c5d78624572836e93f884d793a04"
+  },
+  "verification": [
+    {
+      "modelId": "hyundai-creta",
+      "productionFile": "public\\images\\catalog\\hyundai-creta.webp",
+      "expectedSha256": "9c025bae4deb732d263bd324e9292d06b7b6793be3706035332ff6debac209eb",
+      "actualSha256": "9c025bae4deb732d263bd324e9292d06b7b6793be3706035332ff6debac209eb",
+      "backupFile": "catalog-generator\\backups\\batch-01-2026-07-29T09-56-01-823\\hyundai-creta.webp",
+      "backupSha256": "0a2f817d69ac46c420433264b0fc693f5017143a18db1dfe417413e7488532d2",
+      "modelConfigBackup": "catalog-generator\\backups\\batch-01-2026-07-29T09-56-01-823\\model-configs\\hyundai-creta.json"
+    },
+    {
+      "modelId": "hyundai-tucson",
+      "productionFile": "public\\images\\catalog\\hyundai-tucson.webp",
+      "expectedSha256": "28b122078636489446e5498082098ba53eb2fd1f3cfc48f4da628f9fbf162fe6",
+      "actualSha256": "28b122078636489446e5498082098ba53eb2fd1f3cfc48f4da628f9fbf162fe6",
+      "backupFile": "catalog-generator\\backups\\batch-01-2026-07-29T09-56-01-823\\hyundai-tucson.webp",
+      "backupSha256": "86d335b2dcf14b463a306687c31f768dba446686ca61dd0128251eb6e84bbbbd",
+      "modelConfigBackup": "catalog-generator\\backups\\batch-01-2026-07-29T09-56-01-823\\model-configs\\hyundai-tucson.json"
+    },
+    {
+      "modelId": "hyundai-santa-fe",
+      "productionFile": "public\\images\\catalog\\hyundai-santa-fe.webp",
+      "expectedSha256": "3d8c93bb6185869c09e6410b182610df41cec727a738cd53c535a0ee3d02b7d3",
+      "actualSha256": "3d8c93bb6185869c09e6410b182610df41cec727a738cd53c535a0ee3d02b7d3",
+      "backupFile": "catalog-generator\\backups\\batch-01-2026-07-29T09-56-01-823\\hyundai-santa-fe.webp",
+      "backupSha256": "d60d4a3589798ef2b7387f5cbccdb00e0f0dcb2519136f45fbaeb5bfec692d2d",
+      "modelConfigBackup": "catalog-generator\\backups\\batch-01-2026-07-29T09-56-01-823\\model-configs\\hyundai-santa-fe.json"
+    },
+    {
+      "modelId": "hyundai-i30",
+      "productionFile": "public\\images\\catalog\\hyundai-i30.webp",
+      "expectedSha256": "50e28c5037b747daf66c3aa6acb617f5a0f392e4fc467f290330ff4485f21325",
+      "actualSha256": "50e28c5037b747daf66c3aa6acb617f5a0f392e4fc467f290330ff4485f21325",
+      "backupFile": "catalog-generator\\backups\\batch-01-2026-07-29T09-56-01-823\\hyundai-i30.webp",
+      "backupSha256": "d8fba60b1950ae314ae07c5d29c65041cdae4963190458b38797d6a2949b06c4",
+      "modelConfigBackup": "catalog-generator\\backups\\batch-01-2026-07-29T09-56-01-823\\model-configs\\hyundai-i30.json"
+    },
+    {
+      "modelId": "kia-sportage",
+      "productionFile": "public\\images\\catalog\\kia-sportage.webp",
+      "expectedSha256": "5ef3f1129f388691be4f309be6e173ac1609786b96548480429872705f3e1c44",
+      "actualSha256": "5ef3f1129f388691be4f309be6e173ac1609786b96548480429872705f3e1c44",
+      "backupFile": "catalog-generator\\backups\\batch-01-2026-07-29T09-56-01-823\\kia-sportage.webp",
+      "backupSha256": "2af73c33dbfa37c36684174d896b5b373ef953c5d4597e833dd4b1239ec8ba9a",
+      "modelConfigBackup": "catalog-generator\\backups\\batch-01-2026-07-29T09-56-01-823\\model-configs\\kia-sportage.json"
+    }
+  ],
+  "actuallyChangedProductionFiles": [
+    "public\\images\\catalog\\hyundai-creta.webp",
+    "public\\images\\catalog\\hyundai-tucson.webp",
+    "public\\images\\catalog\\hyundai-santa-fe.webp",
+    "public\\images\\catalog\\hyundai-i30.webp",
+    "public\\images\\catalog\\kia-sportage.webp",
+    "public\\images\\catalog\\manifest.json"
+  ],
+  "createdBackupFiles": [
+    "catalog-generator\\backups\\batch-01-2026-07-29T09-56-01-823\\manifest.json",
+    "catalog-generator\\backups\\batch-01-2026-07-29T09-56-01-823\\hyundai-creta.webp",
+    "catalog-generator\\backups\\batch-01-2026-07-29T09-56-01-823\\model-configs\\hyundai-creta.json",
+    "catalog-generator\\backups\\batch-01-2026-07-29T09-56-01-823\\hyundai-tucson.webp",
+    "catalog-generator\\backups\\batch-01-2026-07-29T09-56-01-823\\model-configs\\hyundai-tucson.json",
+    "catalog-generator\\backups\\batch-01-2026-07-29T09-56-01-823\\hyundai-santa-fe.webp",
+    "catalog-generator\\backups\\batch-01-2026-07-29T09-56-01-823\\model-configs\\hyundai-santa-fe.json",
+    "catalog-generator\\backups\\batch-01-2026-07-29T09-56-01-823\\hyundai-i30.webp",
+    "catalog-generator\\backups\\batch-01-2026-07-29T09-56-01-823\\model-configs\\hyundai-i30.json",
+    "catalog-generator\\backups\\batch-01-2026-07-29T09-56-01-823\\kia-sportage.webp",
+    "catalog-generator\\backups\\batch-01-2026-07-29T09-56-01-823\\model-configs\\kia-sportage.json"
+  ],
+  "changedModelConfigs": [
+    "catalog-generator\\manifests\\models\\hyundai-creta.json",
+    "catalog-generator\\manifests\\models\\hyundai-tucson.json",
+    "catalog-generator\\manifests\\models\\hyundai-santa-fe.json",
+    "catalog-generator\\manifests\\models\\hyundai-i30.json",
+    "catalog-generator\\manifests\\models\\kia-sportage.json"
+  ]
+}

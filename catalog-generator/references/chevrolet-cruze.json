@@ -1,0 +1,29 @@
+{
+  "checkedAt": "2026-07-30T11:47:41.048Z",
+  "manufacturer": "Chevrolet",
+  "model": "Cruze",
+  "requestedYear": "2019-2023 final model years",
+  "generation": "second generation D2LC facelift final production specification",
+  "chassisCode": "D2LC",
+  "market": "China / South America",
+  "referenceUrl": "https://media.chevrolet.com/media/cn/en/chevrolet/vehicles/cruze.html",
+  "fallbackReferenceUrls": [
+    "https://en.wikipedia.org/wiki/Chevrolet_Cruze",
+    "https://www.autoevolution.com/cars/chevrolet-cruze.html"
+  ],
+  "referenceQuality": "secondary-confirmed",
+  "confirmedBodyCues": [
+    "facelift second-generation Cruze sedan body",
+    "slim swept headlamps",
+    "dual-port Chevrolet grille",
+    "four doors and separate compact sedan trunk"
+  ],
+  "attempts": [
+    {
+      "url": "https://media.chevrolet.com/media/cn/en/chevrolet/vehicles/cruze.html",
+      "finalUrl": "https://news.gm.com.cn/en/home/brands/chevrolet.html",
+      "httpStatus": 200,
+      "status": "redirected-outside-official-domain"
+    }
+  ]
+}

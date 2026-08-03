@@ -1,0 +1,27 @@
+{
+  "checkedAt": "2026-07-30T10:13:45.153Z",
+  "manufacturer": "Mazda",
+  "model": "Mazda3",
+  "requestedYear": "2025-2026",
+  "generation": "fourth generation BP",
+  "chassisCode": "BP",
+  "market": "North America",
+  "referenceUrl": "https://www.mazdausa.com/vehicles/mazda3-sedan",
+  "finalUrl": "https://www.mazdausa.com/vehicles/mazda3-sedan",
+  "httpStatus": 200,
+  "officialDomain": "www.mazdausa.com",
+  "confirmedBodyCues": [
+    "fourth-generation BP sedan body",
+    "slim swept LED headlamps",
+    "large shield-shaped black mesh grille with chrome lower surround",
+    "long hood and short rear deck"
+  ],
+  "attempts": [
+    {
+      "url": "https://www.mazdausa.com/vehicles/mazda3-sedan",
+      "finalUrl": "https://www.mazdausa.com/vehicles/mazda3-sedan",
+      "httpStatus": 200,
+      "status": "confirmed"
+    }
+  ]
+}

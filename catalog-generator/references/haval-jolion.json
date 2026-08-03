@@ -1,0 +1,27 @@
+{
+  "checkedAt": "2026-07-30T09:24:10.629Z",
+  "manufacturer": "Haval",
+  "model": "Jolion",
+  "requestedYear": "2024-2026",
+  "generation": "first generation A01 current facelift",
+  "chassisCode": "A01 / L.E.M.O.N. platform",
+  "market": "Russia / CIS",
+  "referenceUrl": "https://haval.ru/models/haval-jolion/",
+  "finalUrl": "https://haval.ru/models/haval-jolion/",
+  "httpStatus": 200,
+  "officialDomain": "haval.ru",
+  "confirmedBodyCues": [
+    "current facelift Jolion body",
+    "wide dark grille with horizontal internal pattern",
+    "facelift LED headlamps and vertical outer bumper elements",
+    "compact crossover proportions and HAVAL wordmark"
+  ],
+  "attempts": [
+    {
+      "url": "https://haval.ru/models/haval-jolion/",
+      "finalUrl": "https://haval.ru/models/haval-jolion/",
+      "httpStatus": 200,
+      "status": "confirmed"
+    }
+  ]
+}

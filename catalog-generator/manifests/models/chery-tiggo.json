@@ -1,0 +1,45 @@
+{
+  "id": "chery-tiggo",
+  "catalogSlug": "chery_tiggo",
+  "manufacturer": "Chery",
+  "model": "Tiggo (Tiggo 4 Pro)",
+  "generation": "Tiggo 4 Pro facelift",
+  "chassisCode": "T17",
+  "years": "2024-2026",
+  "facelift": "current facelift",
+  "market": "Global / Russia",
+  "body": "five-door subcompact crossover SUV",
+  "trim": "Ultimate",
+  "paint": "Steel Gray Metallic",
+  "identityCues": [
+    "current Tiggo 4 Pro compact crossover body",
+    "facelift slim LED headlamps",
+    "large diamond-pattern grille with centered Chery badge",
+    "short upright subcompact SUV proportions",
+    "short 4358 mm Tiggo 4 Pro subcompact body",
+    "short rear overhang and visibly smaller body than Tiggo 7"
+  ],
+  "modelExclusions": [
+    "Chery Tiggo 7",
+    "Chery Tiggo 8",
+    "old Tiggo 3",
+    "Chery Omoda",
+    "concept",
+    "fantasy design",
+    "Tiggo 7 Pro body or proportions",
+    "long midsize crossover body",
+    "Tiggo 7 front bumper and side glass"
+  ],
+  "referenceUrls": [
+    "https://www.cheryinternational.com/pc/models/tiggo/tiggo4pro/index.shtml"
+  ],
+  "fallbackReferenceUrls": [
+    "https://en.wikipedia.org/wiki/Chery_Tiggo_3x",
+    "https://www.autoevolution.com/cars/chery-tiggo-4-pro.html"
+  ],
+  "referenceQuality": "secondary-confirmed",
+  "confidenceLevel": "medium-high",
+  "outputFilename": "chery-tiggo.webp",
+  "status": "qa",
+  "approved": false
+}

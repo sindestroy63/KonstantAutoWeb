@@ -1,0 +1,40 @@
+{
+  "generatedAt": "2026-07-30T08:49:12.229Z",
+  "modelId": "kia-optima",
+  "manufacturer": "Kia",
+  "model": "Optima",
+  "apiRequestCount": 1,
+  "infrastructureRetries": 0,
+  "infrastructureDiagnostics": [
+    {
+      "requestIndex": 0,
+      "httpStatus": 200,
+      "responseFormat": "json"
+    }
+  ],
+  "requestedYears": "2019-2020",
+  "requestedGeneration": "fourth generation JF facelift",
+  "requestedChassisCode": "JF",
+  "modelUsed": "gpt-image-2",
+  "generationMode": "text-generation",
+  "endpoint": "https://vibecode.moe/v1/images/generations",
+  "referenceUrl": "https://www.kiamedia.com/us/en/models/optima/2020",
+  "referenceImageUrl": null,
+  "apiStatus": 200,
+  "downloadStatus": 200,
+  "contentType": "image/png",
+  "sourceUrl": "https://file4.aitohumanize.com/file/6ebce7bb70a94c17bbd04739d530c5ae.png",
+  "rawFile": "catalog-generator\\outputs\\raw\\kia-optima.png",
+  "generatedFile": "catalog-generator\\outputs\\kia-optima.webp",
+  "rawMetadata": {
+    "format": "png",
+    "width": 1536,
+    "height": 1024
+  },
+  "outputMetadata": {
+    "format": "webp",
+    "width": 1600,
+    "height": 1000
+  },
+  "promptFile": "catalog-generator\\prompts\\kia-optima.txt"
+}

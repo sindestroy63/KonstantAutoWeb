@@ -1,0 +1,82 @@
+{
+  "generatedAt": "2026-07-30T10:37:13.475Z",
+  "batch": 4,
+  "backupRoot": "catalog-generator\\backups\\full-catalog-batch-04-2026-07-30T10-37-13-388Z",
+  "promoted": [
+    {
+      "modelId": "mazda-mazda3",
+      "catalogSlug": "mazda_3",
+      "productionFile": "public\\images\\catalog\\mazda-3.webp",
+      "sha256": "ff96eae57442ab85bd0b5e7becbea6f166a6af91e7f586cfa7d9b9f7321b8a72",
+      "verified": true
+    },
+    {
+      "modelId": "mazda-cx-5",
+      "catalogSlug": "mazda_cx5",
+      "productionFile": "public\\images\\catalog\\mazda-cx5.webp",
+      "sha256": "be6eb48fc35c13d4b60c3b7b91389108b37c7a2508f242170f0a9b47b03ead76",
+      "verified": true
+    },
+    {
+      "modelId": "mazda-cx-9",
+      "catalogSlug": "mazda_cx9",
+      "productionFile": "public\\images\\catalog\\mazda-cx9.webp",
+      "sha256": "3884a0b520f9682e3a61c6e41751d0c84825f16aabe073eaef4748f495a360ac",
+      "verified": true
+    },
+    {
+      "modelId": "mazda-mazda2",
+      "catalogSlug": "mazda_2",
+      "productionFile": "public\\images\\catalog\\mazda-2.webp",
+      "sha256": "afddf865a52c66220f9a72908bc3a013b74c8302bb023a1b1dba55d939e0775c",
+      "verified": true
+    },
+    {
+      "modelId": "mazda-mazda6",
+      "catalogSlug": "mazda_6",
+      "productionFile": "public\\images\\catalog\\mazda-6.webp",
+      "sha256": "a27da93f9f38aba6c3e3cdf578779b2b637673cce97c425bde166801ec7f8d6d",
+      "verified": true
+    },
+    {
+      "modelId": "volkswagen-polo",
+      "catalogSlug": "volkswagen_polo",
+      "productionFile": "public\\images\\catalog\\volkswagen-polo.webp",
+      "sha256": "7544cd9950f84115dc16733b8b2ce47dc7c6e7c2ca3db2961b6c115fb2c35517",
+      "verified": true
+    },
+    {
+      "modelId": "volkswagen-tiguan",
+      "catalogSlug": "volkswagen_tiguan",
+      "productionFile": "public\\images\\catalog\\volkswagen-tiguan.webp",
+      "sha256": "d4e83df8a027ec3dd1ab9b1906e36b2beea98afdcebc4935286d790d82efbc2f",
+      "verified": true
+    },
+    {
+      "modelId": "volkswagen-touareg",
+      "catalogSlug": "volkswagen_touareg",
+      "productionFile": "public\\images\\catalog\\volkswagen-touareg.webp",
+      "sha256": "be5c4e95d6b226a271a49fed4448901b268d1e404c4c40414c340322bb105406",
+      "verified": true
+    },
+    {
+      "modelId": "volkswagen-golf",
+      "catalogSlug": "volkswagen_golf",
+      "productionFile": "public\\images\\catalog\\volkswagen-golf.webp",
+      "sha256": "112127d0774dcd8d5884ddec5132592fd1b00da4b912b4856f0d248a7ea920d6",
+      "verified": true
+    },
+    {
+      "modelId": "volkswagen-passat",
+      "catalogSlug": "volkswagen_passat",
+      "productionFile": "public\\images\\catalog\\volkswagen-passat.webp",
+      "sha256": "64b3d6036be63e9751e1ded7164da173cc1db3f222a6a91fb819da7d23dd21a0",
+      "verified": true
+    }
+  ],
+  "manifestProductionEntries": 56,
+  "carsJsonSha256Before": "0cde230d2e016bfcb306c6e4ef29e7914c8a6012cf99110f8c66583fbb9a04ae",
+  "carsJsonSha256After": "0cde230d2e016bfcb306c6e4ef29e7914c8a6012cf99110f8c66583fbb9a04ae",
+  "carsJsonUnchanged": true,
+  "gitCommitCreated": false
+}

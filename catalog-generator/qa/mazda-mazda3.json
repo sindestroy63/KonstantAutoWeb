@@ -1,0 +1,83 @@
+{
+  "checkedAt": "2026-07-30T10:36:09.760Z",
+  "modelId": "mazda-mazda3",
+  "file": "catalog-generator\\outputs\\mazda-mazda3.webp",
+  "deterministicPass": true,
+  "analysis": {
+    "width": 1600,
+    "height": 1000,
+    "backgroundCornerRgb": [
+      193,
+      191.7,
+      191.4
+    ],
+    "backgroundCornerLuminance": 192,
+    "backgroundCornerNeutralityDelta": 1.7,
+    "foregroundBounds": {
+      "minX": 118,
+      "maxX": 1486,
+      "minY": 234,
+      "maxY": 870
+    },
+    "foregroundWidthPercent": 85.6,
+    "horizonPercent": 87.1
+  },
+  "checks": {
+    "dimensions": {
+      "status": "pass",
+      "actual": "1600x1000"
+    },
+    "format": {
+      "status": "pass",
+      "actual": "webp"
+    },
+    "aspectRatio": {
+      "status": "pass",
+      "actual": 1.6
+    },
+    "background": {
+      "status": "pass",
+      "actualRgb": [
+        193,
+        191.7,
+        191.4
+      ],
+      "luminance": 192,
+      "neutralityDelta": 1.7
+    },
+    "scale": {
+      "status": "pass",
+      "actualPercent": 85.6,
+      "targetPercent": "78-84",
+      "tolerancePercent": "74-88"
+    },
+    "horizon": {
+      "status": "pass",
+      "actualPercent": 87.1,
+      "tolerancePercent": "72-93"
+    },
+    "exactlyOneVehicle": {
+      "status": "pass",
+      "method": "agent-visual-review"
+    },
+    "noPeople": {
+      "status": "pass",
+      "method": "agent-visual-review"
+    },
+    "noText": {
+      "status": "pass",
+      "method": "agent-visual-review"
+    },
+    "noWatermark": {
+      "status": "pass",
+      "method": "agent-visual-review"
+    },
+    "generationIdentity": {
+      "status": "approved",
+      "method": "agent-visual-review"
+    }
+  },
+  "semanticQa": "approved",
+  "generationQa": "approved",
+  "finalStatus": "production-approved"
+}

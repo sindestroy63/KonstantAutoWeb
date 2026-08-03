@@ -1,0 +1,40 @@
+{
+  "id": "geely-tugella",
+  "catalogSlug": "geely_tugella",
+  "manufacturer": "Geely",
+  "model": "Tugella",
+  "generation": "first generation FY11 current facelift",
+  "chassisCode": "FY11 / CMA",
+  "years": "2022-2025",
+  "facelift": "current production facelift",
+  "market": "China / CIS",
+  "body": "five-door coupe crossover",
+  "trim": "Flagship",
+  "paint": "Deep Burgundy metallic",
+  "identityCues": [
+    "FY11 coupe-SUV roofline",
+    "facelift concentric expanding-cosmos grille",
+    "narrow swept LED headlamps",
+    "wide planted body with correct Geely shield badge"
+  ],
+  "modelExclusions": [
+    "Geely Monjaro",
+    "Geely Atlas",
+    "standard-roof crossover",
+    "Volvo XC40",
+    "pre-production concept",
+    "aftermarket bumper or oversized wheels"
+  ],
+  "referenceUrls": [
+    "https://www.geely-motors.com/model/tugella/"
+  ],
+  "fallbackReferenceUrls": [
+    "https://global.geely.com/en/models/tugella",
+    "https://en.wikipedia.org/wiki/Geely_Xingyue"
+  ],
+  "referenceQuality": "secondary-confirmed",
+  "confidenceLevel": "high",
+  "outputFilename": "geely-tugella.webp",
+  "status": "qa",
+  "approved": false
+}

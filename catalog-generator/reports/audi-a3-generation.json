@@ -1,0 +1,40 @@
+{
+  "generatedAt": "2026-07-30T11:21:28.540Z",
+  "modelId": "audi-a3",
+  "manufacturer": "Audi",
+  "model": "A3",
+  "apiRequestCount": 1,
+  "infrastructureRetries": 0,
+  "infrastructureDiagnostics": [
+    {
+      "requestIndex": 0,
+      "httpStatus": 200,
+      "responseFormat": "json"
+    }
+  ],
+  "requestedYears": "2025-2026",
+  "requestedGeneration": "fourth generation 8Y facelift",
+  "requestedChassisCode": "8Y",
+  "modelUsed": "gpt-image-2",
+  "generationMode": "text-generation",
+  "endpoint": "https://vibecode.moe/v1/images/generations",
+  "referenceUrl": "https://www.audi-mediacenter.com/en/the-new-audi-a3-15887",
+  "referenceImageUrl": null,
+  "apiStatus": 200,
+  "downloadStatus": 200,
+  "contentType": "image/png",
+  "sourceUrl": "https://file6.aitohumanize.com/file/9e1bb2128f02476f897a4c9c1c4b34d4.png",
+  "rawFile": "catalog-generator\\outputs\\raw\\audi-a3.png",
+  "generatedFile": "catalog-generator\\outputs\\audi-a3.webp",
+  "rawMetadata": {
+    "format": "png",
+    "width": 1536,
+    "height": 1024
+  },
+  "outputMetadata": {
+    "format": "webp",
+    "width": 1600,
+    "height": 1000
+  },
+  "promptFile": "catalog-generator\\prompts\\audi-a3.txt"
+}

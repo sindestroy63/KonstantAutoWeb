@@ -1,0 +1,27 @@
+{
+  "checkedAt": "2026-07-30T11:52:05.753Z",
+  "manufacturer": "Chevrolet",
+  "model": "Trax",
+  "requestedYear": "2024-2026",
+  "generation": "second generation VSS-F",
+  "chassisCode": "VSS-F",
+  "market": "North America",
+  "referenceUrl": "https://www.chevrolet.com/suvs/trax",
+  "finalUrl": "https://www.chevrolet.com/suvs/trax",
+  "httpStatus": 200,
+  "officialDomain": "www.chevrolet.com",
+  "confirmedBodyCues": [
+    "second-generation low wide Trax crossover body",
+    "thin upper LED DRLs and lower main lamps",
+    "wide black 2RS grille",
+    "longer wheelbase and coupe-like rear quarter"
+  ],
+  "attempts": [
+    {
+      "url": "https://www.chevrolet.com/suvs/trax",
+      "finalUrl": "https://www.chevrolet.com/suvs/trax",
+      "httpStatus": 200,
+      "status": "confirmed"
+    }
+  ]
+}

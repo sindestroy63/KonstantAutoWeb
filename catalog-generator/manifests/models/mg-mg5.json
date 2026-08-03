@@ -1,0 +1,24 @@
+{
+  "id": "mg-mg5",
+  "catalogSlug": "mg_5",
+  "manufacturer": "MG",
+  "model": "MG5",
+  "generation": "TODO: official current generation",
+  "chassisCode": "TODO",
+  "years": "TODO",
+  "facelift": "TODO",
+  "market": "TODO",
+  "body": "Седан",
+  "trim": "TODO",
+  "paint": "factory production color",
+  "identityCues": [],
+  "modelExclusions": [
+    "previous generation",
+    "concept",
+    "fantasy design"
+  ],
+  "referenceUrls": [],
+  "outputFilename": "mg-mg5.webp",
+  "status": "draft",
+  "approved": false
+}

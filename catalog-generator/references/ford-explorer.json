@@ -1,0 +1,27 @@
+{
+  "checkedAt": "2026-07-30T11:05:41.916Z",
+  "manufacturer": "Ford",
+  "model": "Explorer",
+  "requestedYear": "2025-2026",
+  "generation": "sixth generation U625 facelift",
+  "chassisCode": "U625",
+  "market": "North America",
+  "referenceUrl": "https://www.ford.com/suvs/explorer/",
+  "finalUrl": "https://www.ford.com/suvs/explorer/",
+  "httpStatus": 200,
+  "officialDomain": "www.ford.com",
+  "confirmedBodyCues": [
+    "facelift U625 three-row SUV body",
+    "wider rectangular grille",
+    "new slim LED headlamps",
+    "revised front bumper and correct long Explorer proportions"
+  ],
+  "attempts": [
+    {
+      "url": "https://www.ford.com/suvs/explorer/",
+      "finalUrl": "https://www.ford.com/suvs/explorer/",
+      "httpStatus": 200,
+      "status": "confirmed"
+    }
+  ]
+}

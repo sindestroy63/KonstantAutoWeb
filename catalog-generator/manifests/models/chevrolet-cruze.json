@@ -1,0 +1,41 @@
+{
+  "id": "chevrolet-cruze",
+  "catalogSlug": "chevrolet_cruze",
+  "manufacturer": "Chevrolet",
+  "model": "Cruze",
+  "generation": "second generation D2LC facelift final production specification",
+  "chassisCode": "D2LC",
+  "years": "2019-2023 final model years",
+  "facelift": "2019 facelift",
+  "market": "China / South America",
+  "body": "four-door compact sedan",
+  "trim": "Premier",
+  "paint": "Satin Steel Gray Metallic",
+  "identityCues": [
+    "facelift second-generation Cruze sedan body",
+    "slim swept headlamps",
+    "dual-port Chevrolet grille",
+    "four doors and separate compact sedan trunk"
+  ],
+  "modelExclusions": [
+    "first-generation J300 Cruze",
+    "pre-facelift second generation",
+    "Chevrolet Onix",
+    "Chevrolet Malibu",
+    "hatchback",
+    "concept",
+    "fantasy design"
+  ],
+  "referenceUrls": [
+    "https://media.chevrolet.com/media/cn/en/chevrolet/vehicles/cruze.html"
+  ],
+  "fallbackReferenceUrls": [
+    "https://en.wikipedia.org/wiki/Chevrolet_Cruze",
+    "https://www.autoevolution.com/cars/chevrolet-cruze.html"
+  ],
+  "referenceQuality": "secondary-confirmed",
+  "confidenceLevel": "high",
+  "outputFilename": "chevrolet-cruze.webp",
+  "status": "qa",
+  "approved": false
+}

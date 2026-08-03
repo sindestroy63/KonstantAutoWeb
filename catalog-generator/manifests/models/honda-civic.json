@@ -1,0 +1,41 @@
+{
+  "id": "honda-civic",
+  "catalogSlug": "honda_civic",
+  "manufacturer": "Honda",
+  "model": "Civic",
+  "generation": "eleventh generation FE facelift",
+  "chassisCode": "FE1",
+  "years": "2025-2026",
+  "facelift": "2025 North American facelift",
+  "market": "North America",
+  "body": "four-door compact sedan",
+  "trim": "Sport Touring Hybrid",
+  "paint": "Urban Grey Pearl",
+  "identityCues": [
+    "eleventh-generation FE sedan body",
+    "2025 facelift darker honeycomb upper grille",
+    "slim horizontal LED headlamps",
+    "facelift lower bumper and accurate Honda H badge"
+  ],
+  "modelExclusions": [
+    "tenth-generation FC Civic",
+    "pre-facelift 2022 Civic",
+    "Civic hatchback",
+    "Honda Accord",
+    "Civic Type R FL5",
+    "fictional full-width lights"
+  ],
+  "referenceUrls": [
+    "https://automobiles.honda.com/civic-sedan"
+  ],
+  "fallbackReferenceUrls": [
+    "https://en.wikipedia.org/wiki/Honda_Civic_(eleventh_generation)",
+    "https://www.caranddriver.com/honda/civic"
+  ],
+  "referenceQuality": "secondary-confirmed",
+  "confidenceLevel": "high",
+  "outputFilename": "honda-civic.webp",
+  "status": "production",
+  "approved": true,
+  "approvalStatus": "production-approved"
+}

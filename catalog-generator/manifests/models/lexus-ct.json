@@ -1,0 +1,45 @@
+{
+  "id": "lexus-ct",
+  "catalogSlug": "lexus_ct",
+  "manufacturer": "Lexus",
+  "model": "CT",
+  "generation": "first generation ZWA10 final facelift",
+  "chassisCode": "ZWA10",
+  "years": "2018-2022 final production specification",
+  "facelift": "2017 second facelift",
+  "market": "Europe / Japan",
+  "body": "five-door compact luxury hatchback",
+  "trim": "CT 200h F Sport",
+  "paint": "Mercury Gray Mica",
+  "identityCues": [
+    "ZWA10 five-door compact hatchback body",
+    "second-facelift spindle grille",
+    "revised arrowhead LED headlamps",
+    "short hatchback rear and low compact stance",
+    "clearly visible compact five-door hatchback roofline and rear hatch",
+    "short rear overhang with no separate trunk"
+  ],
+  "modelExclusions": [
+    "pre-facelift Lexus CT",
+    "Lexus UX",
+    "Toyota Corolla",
+    "sedan body",
+    "concept",
+    "fantasy design",
+    "Lexus IS sedan",
+    "any sedan trunk or three-box silhouette",
+    "four-door sedan body"
+  ],
+  "referenceUrls": [
+    "https://global.toyota/en/newsroom/lexus/24066854.html"
+  ],
+  "fallbackReferenceUrls": [
+    "https://en.wikipedia.org/wiki/Lexus_CT",
+    "https://www.autoevolution.com/cars/lexus-ct.html"
+  ],
+  "referenceQuality": "secondary-confirmed",
+  "confidenceLevel": "high",
+  "outputFilename": "lexus-ct.webp",
+  "status": "qa",
+  "approved": false
+}

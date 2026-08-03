@@ -1,0 +1,83 @@
+{
+  "checkedAt": "2026-07-30T09:30:48.707Z",
+  "modelId": "mercedes-benz-c-class",
+  "file": "catalog-generator\\outputs\\mercedes-c-class.webp",
+  "deterministicPass": true,
+  "analysis": {
+    "width": 1600,
+    "height": 1000,
+    "backgroundCornerRgb": [
+      182.2,
+      182.2,
+      181.4
+    ],
+    "backgroundCornerLuminance": 181.9,
+    "backgroundCornerNeutralityDelta": 0.8,
+    "foregroundBounds": {
+      "minX": 174,
+      "maxX": 1462,
+      "minY": 270,
+      "maxY": 842
+    },
+    "foregroundWidthPercent": 80.6,
+    "horizonPercent": 84.3
+  },
+  "checks": {
+    "dimensions": {
+      "status": "pass",
+      "actual": "1600x1000"
+    },
+    "format": {
+      "status": "pass",
+      "actual": "webp"
+    },
+    "aspectRatio": {
+      "status": "pass",
+      "actual": 1.6
+    },
+    "background": {
+      "status": "pass",
+      "actualRgb": [
+        182.2,
+        182.2,
+        181.4
+      ],
+      "luminance": 181.9,
+      "neutralityDelta": 0.8
+    },
+    "scale": {
+      "status": "pass",
+      "actualPercent": 80.6,
+      "targetPercent": "78-84",
+      "tolerancePercent": "74-88"
+    },
+    "horizon": {
+      "status": "pass",
+      "actualPercent": 84.3,
+      "tolerancePercent": "72-93"
+    },
+    "exactlyOneVehicle": {
+      "status": "pass",
+      "method": "agent-visual-review"
+    },
+    "noPeople": {
+      "status": "pass",
+      "method": "agent-visual-review"
+    },
+    "noText": {
+      "status": "pass",
+      "method": "agent-visual-review"
+    },
+    "noWatermark": {
+      "status": "pass",
+      "method": "agent-visual-review"
+    },
+    "generationIdentity": {
+      "status": "approved",
+      "method": "agent-visual-review"
+    }
+  },
+  "semanticQa": "approved",
+  "generationQa": "approved",
+  "finalStatus": "production-approved"
+}

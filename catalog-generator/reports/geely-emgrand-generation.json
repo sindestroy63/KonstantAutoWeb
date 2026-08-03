@@ -1,0 +1,40 @@
+{
+  "generatedAt": "2026-07-30T08:58:23.162Z",
+  "modelId": "geely-emgrand",
+  "manufacturer": "Geely",
+  "model": "Emgrand",
+  "apiRequestCount": 1,
+  "infrastructureRetries": 0,
+  "infrastructureDiagnostics": [
+    {
+      "requestIndex": 0,
+      "httpStatus": 200,
+      "responseFormat": "json"
+    }
+  ],
+  "requestedYears": "2022-2026",
+  "requestedGeneration": "fourth generation SS11",
+  "requestedChassisCode": "SS11 / BMA",
+  "modelUsed": "gpt-image-2",
+  "generationMode": "text-generation",
+  "endpoint": "https://vibecode.moe/v1/images/generations",
+  "referenceUrl": "https://www.geely-motors.com/model/emgrand/",
+  "referenceImageUrl": null,
+  "apiStatus": 200,
+  "downloadStatus": 200,
+  "contentType": "image/png",
+  "sourceUrl": "https://file5.aitohumanize.com/file/0471765e0cac4603b39210388d45be4c.png",
+  "rawFile": "catalog-generator\\outputs\\raw\\geely-emgrand.png",
+  "generatedFile": "catalog-generator\\outputs\\geely-emgrand.webp",
+  "rawMetadata": {
+    "format": "png",
+    "width": 1536,
+    "height": 1024
+  },
+  "outputMetadata": {
+    "format": "webp",
+    "width": 1600,
+    "height": 1000
+  },
+  "promptFile": "catalog-generator\\prompts\\geely-emgrand.txt"
+}

@@ -1,0 +1,38 @@
+{
+  "id": "mazda-mazda2",
+  "catalogSlug": "mazda_2",
+  "manufacturer": "Mazda",
+  "model": "Mazda2",
+  "generation": "third generation DJ facelift",
+  "chassisCode": "DJ",
+  "years": "2023-2025",
+  "facelift": "2023 Japanese-market facelift",
+  "market": "Japan",
+  "body": "five-door subcompact hatchback",
+  "trim": "15 Sport",
+  "paint": "Aero Gray Metallic",
+  "identityCues": [
+    "third-generation DJ five-door hatchback",
+    "2023 facelift grille with body-color accent panel",
+    "compact swept LED headlamps",
+    "short rear overhang and Mazda Kodo body surfacing"
+  ],
+  "modelExclusions": [
+    "second-generation DE Mazda2",
+    "Toyota Yaris Hybrid rebadge",
+    "sedan body",
+    "concept",
+    "fantasy design"
+  ],
+  "referenceUrls": [
+    "https://www.mazda.co.jp/cars/mazda2/"
+  ],
+  "fallbackReferenceUrls": [
+    "https://en.wikipedia.org/wiki/Mazda2"
+  ],
+  "referenceQuality": "official",
+  "confidenceLevel": "high",
+  "outputFilename": "mazda-mazda2.webp",
+  "status": "qa",
+  "approved": false
+}

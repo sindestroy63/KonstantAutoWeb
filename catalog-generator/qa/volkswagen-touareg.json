@@ -1,0 +1,83 @@
+{
+  "checkedAt": "2026-07-30T10:36:11.223Z",
+  "modelId": "volkswagen-touareg",
+  "file": "catalog-generator\\outputs\\volkswagen-touareg.webp",
+  "deterministicPass": true,
+  "analysis": {
+    "width": 1600,
+    "height": 1000,
+    "backgroundCornerRgb": [
+      205,
+      204.4,
+      205
+    ],
+    "backgroundCornerLuminance": 204.8,
+    "backgroundCornerNeutralityDelta": 0.6,
+    "foregroundBounds": {
+      "minX": 128,
+      "maxX": 1456,
+      "minY": 168,
+      "maxY": 836
+    },
+    "foregroundWidthPercent": 83.1,
+    "horizonPercent": 83.7
+  },
+  "checks": {
+    "dimensions": {
+      "status": "pass",
+      "actual": "1600x1000"
+    },
+    "format": {
+      "status": "pass",
+      "actual": "webp"
+    },
+    "aspectRatio": {
+      "status": "pass",
+      "actual": 1.6
+    },
+    "background": {
+      "status": "pass",
+      "actualRgb": [
+        205,
+        204.4,
+        205
+      ],
+      "luminance": 204.8,
+      "neutralityDelta": 0.6
+    },
+    "scale": {
+      "status": "pass",
+      "actualPercent": 83.1,
+      "targetPercent": "78-84",
+      "tolerancePercent": "74-88"
+    },
+    "horizon": {
+      "status": "pass",
+      "actualPercent": 83.7,
+      "tolerancePercent": "72-93"
+    },
+    "exactlyOneVehicle": {
+      "status": "pass",
+      "method": "agent-visual-review"
+    },
+    "noPeople": {
+      "status": "pass",
+      "method": "agent-visual-review"
+    },
+    "noText": {
+      "status": "pass",
+      "method": "agent-visual-review"
+    },
+    "noWatermark": {
+      "status": "pass",
+      "method": "agent-visual-review"
+    },
+    "generationIdentity": {
+      "status": "approved",
+      "method": "agent-visual-review"
+    }
+  },
+  "semanticQa": "approved",
+  "generationQa": "approved",
+  "finalStatus": "production-approved"
+}

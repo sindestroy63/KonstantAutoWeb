@@ -1,0 +1,39 @@
+{
+  "id": "volkswagen-passat",
+  "catalogSlug": "volkswagen_passat",
+  "manufacturer": "Volkswagen",
+  "model": "Passat",
+  "generation": "ninth generation B9",
+  "chassisCode": "B9 / CJ",
+  "years": "2024-2026",
+  "facelift": "all-new ninth generation",
+  "market": "Europe",
+  "body": "five-door midsize estate (Variant)",
+  "trim": "Elegance",
+  "paint": "Melting Silver Metallic",
+  "identityCues": [
+    "ninth-generation B9 Variant body",
+    "slim LED headlamps connected by narrow upper light strip",
+    "large lower grille",
+    "long estate roof and distinct rear cargo body"
+  ],
+  "modelExclusions": [
+    "eighth-generation B8 Passat",
+    "Passat sedan",
+    "Volkswagen Arteon",
+    "concept",
+    "fantasy design"
+  ],
+  "referenceUrls": [
+    "https://www.volkswagen-newsroom.com/en/the-new-passat-variant-2024-17557"
+  ],
+  "fallbackReferenceUrls": [
+    "https://en.wikipedia.org/wiki/Volkswagen_Passat_(B9)",
+    "https://www.autoevolution.com/cars/volkswagen-passat-variant.html"
+  ],
+  "referenceQuality": "secondary-confirmed",
+  "confidenceLevel": "high",
+  "outputFilename": "volkswagen-passat.webp",
+  "status": "qa",
+  "approved": false
+}

@@ -1,0 +1,40 @@
+{
+  "generatedAt": "2026-07-30T11:54:53.092Z",
+  "modelId": "lexus-es",
+  "manufacturer": "Lexus",
+  "model": "ES",
+  "apiRequestCount": 1,
+  "infrastructureRetries": 0,
+  "infrastructureDiagnostics": [
+    {
+      "requestIndex": 0,
+      "httpStatus": 200,
+      "responseFormat": "json"
+    }
+  ],
+  "requestedYears": "2026",
+  "requestedGeneration": "eighth generation 2026",
+  "requestedChassisCode": "not publicly confirmed",
+  "modelUsed": "gpt-image-2",
+  "generationMode": "text-generation",
+  "endpoint": "https://vibecode.moe/v1/images/generations",
+  "referenceUrl": "https://global.toyota/en/newsroom/lexus/42637790.html",
+  "referenceImageUrl": null,
+  "apiStatus": 200,
+  "downloadStatus": 200,
+  "contentType": "image/png",
+  "sourceUrl": "https://file6.aitohumanize.com/file/a51e4123c1594c23b6700d8b763afad1.png",
+  "rawFile": "catalog-generator\\outputs\\raw\\lexus-es.png",
+  "generatedFile": "catalog-generator\\outputs\\lexus-es.webp",
+  "rawMetadata": {
+    "format": "png",
+    "width": 1536,
+    "height": 1024
+  },
+  "outputMetadata": {
+    "format": "webp",
+    "width": 1600,
+    "height": 1000
+  },
+  "promptFile": "catalog-generator\\prompts\\lexus-es.txt"
+}

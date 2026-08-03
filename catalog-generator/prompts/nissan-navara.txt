@@ -1,0 +1,13 @@
+Use case: product-mockup. Asset type: identity-critical automotive catalog photograph.
+Manufacturer: Nissan. Model: Navara. Model years: 2021-2025.
+Generation: third generation D23 facelift. Chassis code: D23. Facelift status: 2020 facelift current marketed specification.
+Regional specification: Asia / Middle East. Body style: four-door double-cab midsize pickup. Trim: PRO-4X. Paint: Forged Metallic Copper.
+Exact production identity cues: facelift D23 double-cab pickup body; large interlock-style grille; facelift squared C-shaped LED headlamps; correct separate cargo bed, four doors and Nissan badge.
+Official manufacturer reference confirms: facelift D23 double-cab pickup body; large interlock-style grille; facelift squared C-shaped LED headlamps; correct separate cargo bed, four doors and Nissan badge.
+Hard model exclusions: pre-facelift D23; Nissan Frontier D41; Nissan Titan; Toyota Hilux; single cab; fictional next Navara; bed merged into SUV body; PRO-4X lettering on the cargo bed or anywhere in the image; readable trim or model-name text.
+Brand exclusions: old generation; concept car; fantasy design; CGI look; tuning; oversized wheels; aftermarket bumper; wrong logo; old headlights; cropped vehicle; watermark; wrong Nissan model; Infiniti substitution; old V-motion front.
+Realistic serial-production vehicle, front three-quarter view, nose pointing right. Camera height 1.1-1.3 metres, 70-90 mm full-frame equivalent lens, minimal perspective distortion.
+Entire vehicle fully visible, including both bumpers, roof, doors, wheels and tires. Vehicle occupies 78-84 percent of image width. Wheels straight, matching, and resting on one visual baseline.
+Neutral seamless light-gray studio cyclorama, soft diffused catalog lighting, restrained contact shadow beneath the tires, low reflection intensity, consistent horizon and scale.
+Exactly one car. No environment, people, other vehicles, text, watermark, dealer plate, readable license, concepts, invented lighting, modified badges, extra doors, handles or pillars, malformed wheels or mixed body panels.
+Depict the exact named serial-production model year, generation, chassis and body. Never substitute a previous generation or blend generations. Prioritize production identity over generic attractiveness.

@@ -1,0 +1,42 @@
+{
+  "id": "hyundai-santa-fe",
+  "catalogSlug": "hyundai_santa_fe",
+  "manufacturer": "Hyundai",
+  "model": "Santa Fe",
+  "generation": "fifth generation MX5",
+  "chassisCode": "MX5",
+  "years": "2024-2026",
+  "facelift": "first current MX5 production specification",
+  "market": "North America",
+  "body": "five-door midsize SUV",
+  "trim": "Calligraphy",
+  "paint": "Ecotronic Gray Pearl",
+  "identityCues": [
+    "boxy fifth-generation MX5 body",
+    "H-shaped front daytime-running-light signature",
+    "wide rectangular grille",
+    "low horizontal bumper intake",
+    "upright hood and squared wheel arches"
+  ],
+  "modelExclusions": [
+    "fourth-generation TM Santa Fe",
+    "rounded previous-generation body",
+    "Hyundai Palisade",
+    "Hyundai Tucson",
+    "Land Rover body cues",
+    "rear-mounted spare wheel",
+    "fictional off-road parts"
+  ],
+  "referenceUrls": [
+    "https://www.hyundaiusa.com/us/en/vehicles/santa-fe"
+  ],
+  "outputFilename": "batch-01-hyundai-santa-fe-mx5.webp",
+  "status": "production",
+  "approved": true,
+  "production": {
+    "batchId": "batch-01-2026-07-29T18-00-14-769",
+    "file": "public\\images\\catalog\\hyundai-santa-fe.webp",
+    "sha256": "3d8c93bb6185869c09e6410b182610df41cec727a738cd53c535a0ee3d02b7d3",
+    "promotedAt": "2026-07-29T18:00:14.769Z"
+  }
+}

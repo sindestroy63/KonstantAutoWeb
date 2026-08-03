@@ -1,0 +1,40 @@
+{
+  "generatedAt": "2026-07-30T11:09:13.971Z",
+  "modelId": "ford-f-150",
+  "manufacturer": "Ford",
+  "model": "F-150",
+  "apiRequestCount": 1,
+  "infrastructureRetries": 0,
+  "infrastructureDiagnostics": [
+    {
+      "requestIndex": 0,
+      "httpStatus": 200,
+      "responseFormat": "json"
+    }
+  ],
+  "requestedYears": "2024-2026",
+  "requestedGeneration": "fourteenth generation P702 facelift",
+  "requestedChassisCode": "P702",
+  "modelUsed": "gpt-image-2",
+  "generationMode": "text-generation",
+  "endpoint": "https://vibecode.moe/v1/images/generations",
+  "referenceUrl": "https://www.ford.com/trucks/f150/",
+  "referenceImageUrl": null,
+  "apiStatus": 200,
+  "downloadStatus": 200,
+  "contentType": "image/png",
+  "sourceUrl": "https://file6.aitohumanize.com/file/856cd62d2845418a88012133c1f4a27f.png",
+  "rawFile": "catalog-generator\\outputs\\raw\\ford-f-150.png",
+  "generatedFile": "catalog-generator\\outputs\\ford-f-150.webp",
+  "rawMetadata": {
+    "format": "png",
+    "width": 1536,
+    "height": 1024
+  },
+  "outputMetadata": {
+    "format": "webp",
+    "width": 1600,
+    "height": 1000
+  },
+  "promptFile": "catalog-generator\\prompts\\ford-f-150.txt"
+}

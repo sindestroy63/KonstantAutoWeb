@@ -1,0 +1,33 @@
+{
+  "checkedAt": "2026-07-30T11:17:48.427Z",
+  "manufacturer": "Audi",
+  "model": "A3",
+  "requestedYear": "2025-2026",
+  "generation": "fourth generation 8Y facelift",
+  "chassisCode": "8Y",
+  "market": "Europe",
+  "referenceUrl": "https://www.audi-mediacenter.com/en/the-new-audi-a3-15887",
+  "fallbackReferenceUrls": [
+    "https://en.wikipedia.org/wiki/Audi_A3#Fourth_generation_(Typ_8Y;_2020)",
+    "https://www.autoevolution.com/cars/audi-a3-sportback.html"
+  ],
+  "referenceQuality": "secondary-confirmed",
+  "confirmedBodyCues": [
+    "facelift 8Y A3 Sportback five-door body",
+    "flatter wider singleframe grille",
+    "new selectable-signature LED headlamps",
+    "revised angular S line bumper",
+    "clearly visible hatchback roofline, rear hatch and short rear overhang",
+    "four side doors plus one rear hatch, not a sedan trunk",
+    "compact Golf-class wheelbase and short five-door hatchback body",
+    "roof ends immediately above the rear hatch, no extended cargo wagon section"
+  ],
+  "attempts": [
+    {
+      "url": "https://www.audi-mediacenter.com/en/the-new-audi-a3-15887",
+      "finalUrl": "https://www.audi.com/en/the-new-audi-a3-15887",
+      "httpStatus": 404,
+      "status": "http-error"
+    }
+  ]
+}

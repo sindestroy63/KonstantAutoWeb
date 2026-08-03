@@ -1,0 +1,80 @@
+{
+  "checkedAt": "2026-07-30T11:59:04.740Z",
+  "modelId": "chevrolet-trax",
+  "file": "catalog-generator\\outputs\\chevrolet-trax.webp",
+  "deterministicPass": true,
+  "analysis": {
+    "width": 1600,
+    "height": 1000,
+    "backgroundCornerRgb": [
+      190.6,
+      190.4,
+      190.4
+    ],
+    "backgroundCornerLuminance": 190.5,
+    "backgroundCornerNeutralityDelta": 0.2,
+    "foregroundBounds": {
+      "minX": 154,
+      "maxX": 1476,
+      "minY": 228,
+      "maxY": 874
+    },
+    "foregroundWidthPercent": 82.7,
+    "horizonPercent": 87.5
+  },
+  "checks": {
+    "dimensions": {
+      "status": "pass",
+      "actual": "1600x1000"
+    },
+    "format": {
+      "status": "pass",
+      "actual": "webp"
+    },
+    "aspectRatio": {
+      "status": "pass",
+      "actual": 1.6
+    },
+    "background": {
+      "status": "pass",
+      "actualRgb": [
+        190.6,
+        190.4,
+        190.4
+      ],
+      "luminance": 190.5,
+      "neutralityDelta": 0.2
+    },
+    "scale": {
+      "status": "pass",
+      "actualPercent": 82.7,
+      "targetPercent": "78-84",
+      "tolerancePercent": "74-88"
+    },
+    "horizon": {
+      "status": "pass",
+      "actualPercent": 87.5,
+      "tolerancePercent": "72-93"
+    },
+    "exactlyOneVehicle": {
+      "status": "pending",
+      "method": "manual-or-vision-adapter"
+    },
+    "noPeople": {
+      "status": "pending",
+      "method": "manual-or-vision-adapter"
+    },
+    "noText": {
+      "status": "pending",
+      "method": "manual-or-vision-adapter"
+    },
+    "noWatermark": {
+      "status": "pending",
+      "method": "manual-or-vision-adapter"
+    },
+    "generationIdentity": {
+      "status": "pending",
+      "method": "owner-review"
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "checkedAt": "2026-07-30T09:25:42.857Z",
+  "manufacturer": "Haval",
+  "model": "F7x",
+  "requestedYear": "2022-2024",
+  "generation": "first generation B02 coupe current facelift",
+  "chassisCode": "B02",
+  "market": "Russia / CIS",
+  "referenceUrl": "https://haval.ru/models/haval-f7x/",
+  "finalUrl": "https://haval.ru/models/haval-f7x/",
+  "httpStatus": 200,
+  "officialDomain": "haval.ru",
+  "confirmedBodyCues": [
+    "first-generation F7x coupe-SUV roofline",
+    "facelift dark mesh grille",
+    "facelift LED headlamps and sporty lower bumper",
+    "correct F7x rear-quarter silhouette and HAVAL wordmark"
+  ],
+  "attempts": [
+    {
+      "url": "https://haval.ru/models/haval-f7x/",
+      "finalUrl": "https://haval.ru/models/haval-f7x/",
+      "httpStatus": 200,
+      "status": "confirmed"
+    }
+  ]
+}

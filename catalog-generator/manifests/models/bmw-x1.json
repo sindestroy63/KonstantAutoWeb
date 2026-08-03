@@ -1,0 +1,24 @@
+{
+  "id": "bmw-x1",
+  "catalogSlug": "bmw_x1",
+  "manufacturer": "BMW",
+  "model": "X1",
+  "generation": "TODO: official current generation",
+  "chassisCode": "TODO",
+  "years": "TODO",
+  "facelift": "TODO",
+  "market": "TODO",
+  "body": "Кроссовер",
+  "trim": "TODO",
+  "paint": "factory production color",
+  "identityCues": [],
+  "modelExclusions": [
+    "previous generation",
+    "concept",
+    "fantasy design"
+  ],
+  "referenceUrls": [],
+  "outputFilename": "bmw-x1.webp",
+  "status": "draft",
+  "approved": false
+}

@@ -1,0 +1,41 @@
+{
+  "id": "geely-atlas",
+  "catalogSlug": "geely_atlas",
+  "manufacturer": "Geely",
+  "model": "Atlas",
+  "generation": "second generation FX11",
+  "chassisCode": "FX11 / CMA",
+  "years": "2024-2026",
+  "facelift": "current second-generation production specification",
+  "market": "China / CIS",
+  "body": "five-door compact crossover",
+  "trim": "Flagship",
+  "paint": "Basalt Grey metallic",
+  "identityCues": [
+    "second-generation FX11 Atlas body derived from Boyue L",
+    "large vertical waterfall grille",
+    "slim angular upper LED headlamps",
+    "full-width visual front graphic and current Geely shield badge"
+  ],
+  "modelExclusions": [
+    "first-generation NL-3 Atlas",
+    "Atlas Pro",
+    "Geely Monjaro",
+    "Geely Coolray",
+    "old concentric grille",
+    "mixed first- and second-generation body"
+  ],
+  "referenceUrls": [
+    "https://www.geely-motors.com/model/atlas/"
+  ],
+  "fallbackReferenceUrls": [
+    "https://global.geely.com/en/models/boyue-l",
+    "https://en.wikipedia.org/wiki/Geely_Boyue"
+  ],
+  "referenceQuality": "secondary-confirmed",
+  "confidenceLevel": "high",
+  "outputFilename": "geely-atlas.webp",
+  "status": "production",
+  "approved": true,
+  "approvalStatus": "production-approved"
+}

@@ -1,0 +1,24 @@
+{
+  "id": "renault-logan",
+  "catalogSlug": "renault_logan",
+  "manufacturer": "Renault",
+  "model": "Logan",
+  "generation": "TODO: official current generation",
+  "chassisCode": "TODO",
+  "years": "TODO",
+  "facelift": "TODO",
+  "market": "TODO",
+  "body": "Седан",
+  "trim": "TODO",
+  "paint": "factory production color",
+  "identityCues": [],
+  "modelExclusions": [
+    "previous generation",
+    "concept",
+    "fantasy design"
+  ],
+  "referenceUrls": [],
+  "outputFilename": "renault-logan.webp",
+  "status": "draft",
+  "approved": false
+}

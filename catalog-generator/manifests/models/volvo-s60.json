@@ -1,0 +1,24 @@
+{
+  "id": "volvo-s60",
+  "catalogSlug": "volvo_s60",
+  "manufacturer": "Volvo",
+  "model": "S60",
+  "generation": "TODO: official current generation",
+  "chassisCode": "TODO",
+  "years": "TODO",
+  "facelift": "TODO",
+  "market": "TODO",
+  "body": "Седан",
+  "trim": "TODO",
+  "paint": "factory production color",
+  "identityCues": [],
+  "modelExclusions": [
+    "previous generation",
+    "concept",
+    "fantasy design"
+  ],
+  "referenceUrls": [],
+  "outputFilename": "volvo-s60.webp",
+  "status": "draft",
+  "approved": false
+}

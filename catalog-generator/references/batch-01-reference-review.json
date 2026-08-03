@@ -1,0 +1,291 @@
+{
+  "version": 1,
+  "reviewedAt": "2026-07-29T12:30:00+03:00",
+  "sourceQueue": "catalog-generator/manifests/generation-queue.json",
+  "selectionRule": "First ten queued models by their actual order in data/cars.json",
+  "imageModel": "gpt-image-2",
+  "generationStarted": false,
+  "estimatedImageApiRequests": {
+    "initial": 7,
+    "blocked": 3,
+    "qaRerunsIncluded": false
+  },
+  "models": [
+    {
+      "catalogOrder": 8,
+      "slug": "bmw_x3",
+      "manufacturer": "BMW",
+      "model": "X3",
+      "status": "reference-approved",
+      "targetGeneration": "fourth generation G45",
+      "modelYears": "2025-2026",
+      "chassisCode": "G45",
+      "market": "Europe / UK",
+      "bodyType": "five-door compact luxury SUV",
+      "trim": "X3 20 xDrive M Sport",
+      "officialReferenceUrl": "https://www.press.bmwgroup.com/global/article/detail/T0442377EN/the-new-bmw-x3",
+      "referenceHttpStatus": 200,
+      "mustHave": [
+        "current monolithic G45 body surfacing",
+        "compact current-generation headlamps with the G45 light signature",
+        "BMW kidney grille with the production vertical and diagonal internal-bar pattern",
+        "current G45 M Sport front bumper and OEM wheels"
+      ],
+      "mustNotHave": [
+        "G01 or any previous-generation X3 body",
+        "G01 body combined with a G45 grille",
+        "BMW X1, X5, XM or Neue Klasse iX3 cues",
+        "concept details, oversized grille or fictional lighting"
+      ],
+      "estimatedImageApiRequests": 1
+    },
+    {
+      "catalogOrder": 10,
+      "slug": "bmw_1_series",
+      "manufacturer": "BMW",
+      "model": "1 Series",
+      "status": "reference-approved",
+      "targetGeneration": "fourth generation F70",
+      "modelYears": "2025-2026",
+      "chassisCode": "F70",
+      "market": "Europe / UK",
+      "bodyType": "five-door hatchback",
+      "trim": "BMW 120 M Sport",
+      "officialReferenceUrl": "https://www.bmw.co.uk/en/all-models/1-series/1-series-5doors/bmw-1-series.html",
+      "referenceHttpStatus": 200,
+      "mustHave": [
+        "current F70 five-door hatchback body",
+        "slim swept-back LED headlamps with current vertical daytime-running-light elements",
+        "compact production kidney grille and current M Sport bumper",
+        "OEM five-door proportions and BMW roundel"
+      ],
+      "mustNotHave": [
+        "F40, F20 or E87 generation",
+        "BMW 2 Series, M2 or sedan body",
+        "three-door body or rear-wheel-drive-era proportions",
+        "oversized kidneys, M1 badge or fictional performance parts"
+      ],
+      "estimatedImageApiRequests": 1
+    },
+    {
+      "catalogOrder": 11,
+      "slug": "hyundai_solaris",
+      "manufacturer": "Hyundai",
+      "model": "Solaris",
+      "status": "blocked",
+      "targetGeneration": null,
+      "modelYears": null,
+      "chassisCode": null,
+      "market": "Russia / CIS",
+      "bodyType": "sedan",
+      "trim": null,
+      "officialReferenceUrl": null,
+      "referenceHttpStatus": null,
+      "mustHave": [],
+      "mustNotHave": [
+        "Hyundai Accent substituted without owner approval",
+        "AGR Solaris HS presented as a current Hyundai-manufactured model",
+        "mixed first- and second-generation Solaris styling",
+        "unofficial dealer, marketplace or used-car reference"
+      ],
+      "blockReason": "No current Hyundai manufacturer reference confirms a current-production Solaris model and generation. The nameplate's present Russian-market use cannot be treated as a current Hyundai model without an authoritative manufacturer source.",
+      "estimatedImageApiRequests": 0
+    },
+    {
+      "catalogOrder": 12,
+      "slug": "hyundai_creta",
+      "manufacturer": "Hyundai",
+      "model": "Creta",
+      "status": "reference-approved",
+      "targetGeneration": "second generation, 2024 facelift",
+      "modelYears": "2024-2026",
+      "chassisCode": "SU2i",
+      "market": "India",
+      "bodyType": "five-door compact SUV",
+      "trim": "SX (O)",
+      "officialReferenceUrl": "https://www.hyundai.com/in/en/find-a-car/creta/highlights",
+      "referenceHttpStatus": 200,
+      "mustHave": [
+        "2024-facelift SU2i body",
+        "wide dark parametric grille",
+        "connected horizontal upper LED daytime-running-light graphic",
+        "vertical stacked main lamps and current facelift bumper"
+      ],
+      "mustNotHave": [
+        "first-generation GS Creta",
+        "pre-facelift second-generation Creta",
+        "Hyundai Venue, Exter, Alcazar or Tucson body",
+        "China-market ix25 front end or mixed generations"
+      ],
+      "estimatedImageApiRequests": 1
+    },
+    {
+      "catalogOrder": 13,
+      "slug": "hyundai_tucson",
+      "manufacturer": "Hyundai",
+      "model": "Tucson",
+      "status": "reference-approved",
+      "targetGeneration": "fourth generation NX4 facelift",
+      "modelYears": "2025-2026",
+      "chassisCode": "NX4",
+      "market": "North America",
+      "bodyType": "five-door compact SUV",
+      "trim": "SEL Premium",
+      "officialReferenceUrl": "https://www.hyundaiusa.com/us/en/vehicles/tucson",
+      "referenceHttpStatus": 200,
+      "mustHave": [
+        "2025-2026 NX4 facelift body and front fascia",
+        "revised parametric grille with integrated daytime-running-light elements",
+        "separate low-mounted headlamp modules",
+        "current wider bumper and skid-plate treatment"
+      ],
+      "mustNotHave": [
+        "pre-facelift 2022-2024 NX4 front end",
+        "third-generation TL Tucson",
+        "Santa Fe, Creta or Palisade body",
+        "full-width light bar, concept grille or fictional lamps"
+      ],
+      "estimatedImageApiRequests": 1
+    },
+    {
+      "catalogOrder": 14,
+      "slug": "hyundai_santa_fe",
+      "manufacturer": "Hyundai",
+      "model": "Santa Fe",
+      "status": "reference-approved",
+      "targetGeneration": "fifth generation MX5",
+      "modelYears": "2024-2026",
+      "chassisCode": "MX5",
+      "market": "North America",
+      "bodyType": "five-door midsize SUV",
+      "trim": "Calligraphy",
+      "officialReferenceUrl": "https://www.hyundaiusa.com/us/en/vehicles/santa-fe",
+      "referenceHttpStatus": 200,
+      "mustHave": [
+        "boxy fifth-generation MX5 body",
+        "H-shaped front daytime-running-light signature",
+        "wide rectangular grille and low horizontal bumper intake",
+        "upright hood, squared wheel arches and OEM three-row SUV proportions"
+      ],
+      "mustNotHave": [
+        "fourth-generation TM Santa Fe",
+        "rounded previous-generation body",
+        "Palisade, Tucson or Land Rover body cues",
+        "rear-mounted spare wheel or fictional off-road parts"
+      ],
+      "estimatedImageApiRequests": 1
+    },
+    {
+      "catalogOrder": 15,
+      "slug": "hyundai_i30",
+      "manufacturer": "Hyundai",
+      "model": "i30",
+      "status": "reference-approved",
+      "targetGeneration": "third generation PD, second facelift",
+      "modelYears": "2024-2025 current listed specification",
+      "chassisCode": "PD",
+      "market": "Europe",
+      "bodyType": "five-door hatchback",
+      "trim": "N Line",
+      "officialReferenceUrl": "https://www.hyundai.com/eu/en/models/i30.html",
+      "referenceHttpStatus": 200,
+      "mustHave": [
+        "third-generation PD five-door hatchback body",
+        "latest facelift grille insert and current front bumper",
+        "slim production headlamps and triangular N Line side intakes",
+        "OEM compact hatchback proportions and matching wheels"
+      ],
+      "mustNotHave": [
+        "first- or second-generation i30",
+        "pre-facelift PD front bumper",
+        "i30 Sedan, Elantra, Ioniq or full i30 N track styling",
+        "three-door body, oversized wing or tuning parts"
+      ],
+      "estimatedImageApiRequests": 1
+    },
+    {
+      "catalogOrder": 16,
+      "slug": "kia_rio",
+      "manufacturer": "Kia",
+      "model": "Rio",
+      "status": "blocked",
+      "targetGeneration": null,
+      "modelYears": null,
+      "chassisCode": null,
+      "market": null,
+      "bodyType": "sedan",
+      "trim": null,
+      "officialReferenceUrl": null,
+      "referenceHttpStatus": null,
+      "mustHave": [],
+      "mustNotHave": [
+        "Kia K3 substituted for Rio",
+        "mixed YB, FB and K3 styling",
+        "an obsolete Rio presented as a 2026 current-production model",
+        "unofficial dealer, marketplace or used-car reference"
+      ],
+      "attemptedOfficialUrls": [
+        "https://www.kia.com/ae/showroom/rio/features.html",
+        "https://www.kia.com/de/modelle/rio/entdecken/"
+      ],
+      "blockReason": "Current official Kia pages no longer resolve to a Rio model page: the UAE URL redirects to the Kia homepage and the German URL redirects to Stonic. Market, current model year and exact Rio generation therefore remain unconfirmed.",
+      "estimatedImageApiRequests": 0
+    },
+    {
+      "catalogOrder": 17,
+      "slug": "kia_sportage",
+      "manufacturer": "Kia",
+      "model": "Sportage",
+      "status": "reference-approved",
+      "targetGeneration": "fifth generation NQ5 facelift",
+      "modelYears": "2026",
+      "chassisCode": "NQ5",
+      "market": "North America",
+      "bodyType": "five-door compact SUV",
+      "trim": "X-Line AWD",
+      "officialReferenceUrl": "https://www.kia.com/us/en/sportage",
+      "referenceHttpStatus": 200,
+      "mustHave": [
+        "2026 NQ5 facelift body",
+        "new vertically stacked headlamp modules",
+        "current Star Map daytime-running-light signature",
+        "wide rectangular grille and revised production front bumper"
+      ],
+      "mustNotHave": [
+        "pre-facelift 2023-2025 boomerang-DRL front end",
+        "fourth-generation QL Sportage",
+        "Sorento, Seltos or EV9 body",
+        "fictional light bar, concept grille or mixed generations"
+      ],
+      "estimatedImageApiRequests": 1
+    },
+    {
+      "catalogOrder": 19,
+      "slug": "kia_ceed",
+      "manufacturer": "Kia",
+      "model": "Ceed",
+      "status": "blocked",
+      "targetGeneration": "latest known third generation CD facelift, not approved for generation",
+      "modelYears": "latest known 2022-2025, current 2026 availability unconfirmed",
+      "chassisCode": "CD",
+      "market": "Europe",
+      "bodyType": "five-door hatchback",
+      "trim": null,
+      "officialReferenceUrl": null,
+      "referenceHttpStatus": null,
+      "mustHave": [],
+      "mustNotHave": [
+        "Kia XCeed, ProCeed or K4 substituted for Ceed",
+        "pre-facelift CD or second-generation JD styling",
+        "a discontinued specification presented as current production",
+        "unofficial dealer, marketplace or used-car reference"
+      ],
+      "attemptedOfficialUrls": [
+        "https://www.kia.com/uk/new-cars/ceed/",
+        "https://www.kia.com/de/modelle/ceed/entdecken/"
+      ],
+      "blockReason": "The official UK Ceed URL redirects to XCeed and the German Ceed URL redirects to the Kia homepage. A current Ceed production specification and model year cannot be confirmed from an active manufacturer model reference.",
+      "estimatedImageApiRequests": 0
+    }
+  ]
+}

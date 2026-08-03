@@ -1,0 +1,152 @@
+{
+  "version": 1,
+  "batchId": "batch-01-2026-07-29T18-00-14-769",
+  "generatedAt": "2026-07-29T18:00:14.769Z",
+  "modelCount": 16,
+  "images": {
+    "bmw_3_series": {
+      "file": "bmw-3-series.webp",
+      "generation": "G20 LCI current second-update specification",
+      "chassisCode": "G20 LCI",
+      "sourceSha256": "f47489ef83def0e75227230dee839c9bd02c2bc12a64bde816a7d00a6179505a",
+      "status": "production",
+      "stagingFile": "catalog-generator\\outputs\\bmw-3-series-g20-lci.webp",
+      "promotedAt": "2026-07-28T12:25:59.181Z"
+    },
+    "bmw_x5": {
+      "file": "bmw-x5.webp",
+      "generation": "G05 LCI current facelift",
+      "chassisCode": "G05 LCI",
+      "sourceSha256": "d8e5f4f92a39761fea3a13e3a266e98fb57addf3a5a5f21963b6c0663be4eafa",
+      "status": "production",
+      "stagingFile": "catalog-generator\\outputs\\bmw-x5-g05-lci.webp",
+      "promotedAt": "2026-07-28T12:25:59.182Z"
+    },
+    "kia_k5": {
+      "file": "kia-k5.webp",
+      "generation": "DL3 facelift",
+      "chassisCode": "DL3 facelift",
+      "sourceSha256": "cce9af2ee45534da8570e1f4aa7c1b06c594ead452088b0e287158ee0360b0b6",
+      "status": "production",
+      "stagingFile": "catalog-generator\\outputs\\kia-k5-2026-facelift.webp",
+      "promotedAt": "2026-07-28T12:25:59.182Z"
+    },
+    "kia_sorento": {
+      "file": "kia-sorento.webp",
+      "generation": "fourth generation MQ4 facelift",
+      "chassisCode": "MQ4 facelift",
+      "sourceSha256": "4e073460f246ae9121527d5c4cd098dd3b0527caa3353695d27f8284cedf4688",
+      "status": "production",
+      "stagingFile": "catalog-generator\\outputs\\kia-sorento-mq4-facelift.webp",
+      "promotedAt": "2026-07-28T12:25:59.182Z"
+    },
+    "lexus_rx": {
+      "file": "lexus-rx.webp",
+      "generation": "fifth generation",
+      "chassisCode": "ALH10",
+      "sourceSha256": "851bfad1df32fa5fab5fdfc0594ca170e40c42d6ef76d72c808b17ceb137eb7f",
+      "status": "production",
+      "stagingFile": "catalog-generator\\outputs\\lexus-rx-alh10.webp",
+      "promotedAt": "2026-07-28T12:25:59.182Z"
+    },
+    "toyota_camry": {
+      "file": "toyota-camry.webp",
+      "generation": "ninth generation",
+      "chassisCode": "XV80",
+      "sourceSha256": "bca210e30d88055fd543033439178053c350930c91cd1ab7566f715061c6753c",
+      "status": "production",
+      "stagingFile": "catalog-generator\\outputs\\toyota-camry-2026-xv80.webp",
+      "promotedAt": "2026-07-28T12:25:59.182Z"
+    },
+    "toyota_corolla": {
+      "file": "toyota-corolla.webp",
+      "generation": "E210 facelift",
+      "chassisCode": "E210",
+      "sourceSha256": "ca8fe1db543fd78d13ec86c33bf66e7d0e7430afb4aeae8173bd876ec11d4c34",
+      "status": "production",
+      "stagingFile": "catalog-generator\\outputs\\toyota-corolla-e210-facelift.webp",
+      "promotedAt": "2026-07-28T12:25:59.182Z"
+    },
+    "toyota_hilux": {
+      "file": "toyota-hilux.webp",
+      "generation": "eighth generation current facelift",
+      "chassisCode": "AN120/AN130",
+      "sourceSha256": "6c13090e7446af15006c4ab5acc4092add3426dff41006f666b62a8a5efd855c",
+      "status": "production",
+      "stagingFile": "catalog-generator\\outputs\\toyota-hilux-current.webp",
+      "promotedAt": "2026-07-28T12:25:59.182Z"
+    },
+    "toyota_land_cruiser": {
+      "file": "toyota-land-cruiser.webp",
+      "generation": "J300 generation",
+      "chassisCode": "J300",
+      "sourceSha256": "455c9987a54340184e6930ac5d02d0beb33fcf6909ab47c508935daa8c76b49d",
+      "status": "production",
+      "stagingFile": "catalog-generator\\outputs\\toyota-land-cruiser-300.webp",
+      "promotedAt": "2026-07-28T12:25:59.182Z"
+    },
+    "toyota_rav4": {
+      "file": "toyota-rav4.webp",
+      "generation": "sixth generation",
+      "chassisCode": "2026 sixth-generation production body",
+      "sourceSha256": "6f109def418fc095dc5da9372bd383451a59a733b93b981815e5494a1a09b64c",
+      "status": "production",
+      "stagingFile": "catalog-generator\\outputs\\toyota-rav4-2026.webp",
+      "promotedAt": "2026-07-28T12:25:59.182Z"
+    },
+    "toyota_yaris": {
+      "file": "toyota-yaris.webp",
+      "generation": "XP210 current facelift",
+      "chassisCode": "XP210",
+      "sourceSha256": "11c3b15e9144551e616933aee11ba71e713b8494e643871c1fe650c907dd548d",
+      "status": "production",
+      "stagingFile": "catalog-generator\\outputs\\toyota-yaris-xp210.webp",
+      "promotedAt": "2026-07-28T12:25:59.182Z"
+    },
+    "hyundai_creta": {
+      "file": "hyundai-creta.webp",
+      "generation": "second generation SU2i",
+      "chassisCode": "SU2i",
+      "sourceSha256": "9c025bae4deb732d263bd324e9292d06b7b6793be3706035332ff6debac209eb",
+      "status": "production",
+      "stagingFile": "catalog-generator\\outputs\\batch-01-hyundai-creta-su2i-facelift.webp",
+      "promotedAt": "2026-07-29T18:00:14.769Z"
+    },
+    "hyundai_tucson": {
+      "file": "hyundai-tucson.webp",
+      "generation": "fourth generation NX4",
+      "chassisCode": "NX4",
+      "sourceSha256": "28b122078636489446e5498082098ba53eb2fd1f3cfc48f4da628f9fbf162fe6",
+      "status": "production",
+      "stagingFile": "catalog-generator\\outputs\\batch-01-hyundai-tucson-nx4-facelift.webp",
+      "promotedAt": "2026-07-29T18:00:14.769Z"
+    },
+    "hyundai_santa_fe": {
+      "file": "hyundai-santa-fe.webp",
+      "generation": "fifth generation MX5",
+      "chassisCode": "MX5",
+      "sourceSha256": "3d8c93bb6185869c09e6410b182610df41cec727a738cd53c535a0ee3d02b7d3",
+      "status": "production",
+      "stagingFile": "catalog-generator\\outputs\\batch-01-hyundai-santa-fe-mx5.webp",
+      "promotedAt": "2026-07-29T18:00:14.769Z"
+    },
+    "hyundai_i30": {
+      "file": "hyundai-i30.webp",
+      "generation": "third generation PD",
+      "chassisCode": "PD",
+      "sourceSha256": "50e28c5037b747daf66c3aa6acb617f5a0f392e4fc467f290330ff4485f21325",
+      "status": "production",
+      "stagingFile": "catalog-generator\\outputs\\batch-01-hyundai-i30-pd-second-facelift.webp",
+      "promotedAt": "2026-07-29T18:00:14.769Z"
+    },
+    "kia_sportage": {
+      "file": "kia-sportage.webp",
+      "generation": "fifth generation NQ5",
+      "chassisCode": "NQ5",
+      "sourceSha256": "5ef3f1129f388691be4f309be6e173ac1609786b96548480429872705f3e1c44",
+      "status": "production",
+      "stagingFile": "catalog-generator\\outputs\\batch-01-kia-sportage-nq5-facelift.webp",
+      "promotedAt": "2026-07-29T18:00:14.769Z"
+    }
+  }
+}

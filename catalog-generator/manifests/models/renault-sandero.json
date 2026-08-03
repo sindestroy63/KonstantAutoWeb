@@ -1,0 +1,24 @@
+{
+  "id": "renault-sandero",
+  "catalogSlug": "renault_sandero",
+  "manufacturer": "Renault",
+  "model": "Sandero",
+  "generation": "TODO: official current generation",
+  "chassisCode": "TODO",
+  "years": "TODO",
+  "facelift": "TODO",
+  "market": "TODO",
+  "body": "Хэтчбек",
+  "trim": "TODO",
+  "paint": "factory production color",
+  "identityCues": [],
+  "modelExclusions": [
+    "previous generation",
+    "concept",
+    "fantasy design"
+  ],
+  "referenceUrls": [],
+  "outputFilename": "renault-sandero.webp",
+  "status": "draft",
+  "approved": false
+}

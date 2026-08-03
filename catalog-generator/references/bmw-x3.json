@@ -1,0 +1,31 @@
+{
+  "checkedAt": "2026-07-30T06:39:26.198Z",
+  "manufacturer": "BMW",
+  "model": "X3",
+  "requestedYear": "2025-2026",
+  "generation": "fourth generation G45",
+  "chassisCode": "G45",
+  "market": "Europe / UK",
+  "referenceUrl": "https://www.press.bmwgroup.com/global/article/detail/T0442377EN/the-new-bmw-x3",
+  "finalUrl": "https://www.press.bmwgroup.com/global/article/detail/T0442377EN/the-new-bmw-x3",
+  "httpStatus": 200,
+  "officialDomain": "www.press.bmwgroup.com",
+  "confirmedBodyCues": [
+    "CRITICAL G45 check: four flush rectangular door handles integrated nearly level with the doors, never conventional protruding pull handles",
+    "CRITICAL G45 check: compact angular production headlights with paired overlapping L-shaped daytime-running-light elements, not the larger G01 lamp shape",
+    "current monolithic G45 body surfacing",
+    "compact current-generation headlamps with the G45 light signature",
+    "BMW kidney grille with the production vertical and diagonal internal-bar pattern",
+    "current G45 standard production front bumper and OEM wheels",
+    "flush-fitting current G45 door handles rather than protruding G01 handles",
+    "clean monolithic G45 side surfacing with the correct fourth-generation greenhouse"
+  ],
+  "attempts": [
+    {
+      "url": "https://www.press.bmwgroup.com/global/article/detail/T0442377EN/the-new-bmw-x3",
+      "finalUrl": "https://www.press.bmwgroup.com/global/article/detail/T0442377EN/the-new-bmw-x3",
+      "httpStatus": 200,
+      "status": "confirmed"
+    }
+  ]
+}

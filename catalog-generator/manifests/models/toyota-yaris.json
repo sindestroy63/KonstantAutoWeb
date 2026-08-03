@@ -1,0 +1,39 @@
+{
+  "id": "toyota-yaris",
+  "catalogSlug": "toyota_yaris",
+  "manufacturer": "Toyota",
+  "model": "Yaris",
+  "generation": "XP210 current facelift",
+  "chassisCode": "XP210",
+  "years": "2025",
+  "facelift": "current production facelift",
+  "market": "Europe / UK",
+  "body": "five-door subcompact hatchback",
+  "trim": "Hybrid 130",
+  "paint": "Juniper Blue metallic",
+  "identityCues": [
+    "compact XP210 hatchback proportions",
+    "current compact headlamps",
+    "wide planted current bumper",
+    "short rear overhang"
+  ],
+  "modelExclusions": [
+    "XP130",
+    "2011-2019 Yaris",
+    "Yaris sedan",
+    "Vios",
+    "old large vertical intake"
+  ],
+  "referenceUrls": [
+    "https://www.toyota.co.uk/new-cars/yaris"
+  ],
+  "outputFilename": "toyota-yaris-xp210.webp",
+  "status": "production",
+  "approved": true,
+  "production": {
+    "batchId": "pilot-v3-2026-07-28T12-20-46-652",
+    "file": "public\\images\\catalog\\toyota-yaris.webp",
+    "sha256": "11c3b15e9144551e616933aee11ba71e713b8494e643871c1fe650c907dd548d",
+    "promotedAt": "2026-07-28T12:25:59.190Z"
+  }
+}

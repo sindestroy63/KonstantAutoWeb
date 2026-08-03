@@ -1,0 +1,44 @@
+{
+  "id": "mazda-cx-5",
+  "catalogSlug": "mazda_cx5",
+  "manufacturer": "Mazda",
+  "model": "CX-5",
+  "generation": "third generation 2026",
+  "chassisCode": "not publicly confirmed",
+  "years": "2026",
+  "facelift": "all-new third generation",
+  "market": "North America",
+  "body": "five-door compact crossover SUV",
+  "trim": "Premium Plus",
+  "paint": "Machine Gray Metallic",
+  "identityCues": [
+    "all-new July-2025-revealed 2026 third-generation CX-5 body, visibly different from the 2017-2025 KF",
+    "longer 4690 mm body, wider planted stance, straighter beltline and squared modern surfacing",
+    "razor-thin angular two-level LED light signature extending outward from the upper grille corners",
+    "new wider lower-set black grille treatment without the old thick KF chrome wing",
+    "sharper front bumper corners and new third-generation side glass geometry"
+  ],
+  "modelExclusions": [
+    "second-generation KF CX-5",
+    "2017-2025 CX-5",
+    "rounded second-generation KF headlamps",
+    "old KF shield grille and chrome wing shape",
+    "body shell or side glass geometry from the KF generation",
+    "CX-50",
+    "CX-60",
+    "concept",
+    "fantasy design"
+  ],
+  "referenceUrls": [
+    "https://news.mazdausa.com/2025-07-10-All-New-2026-Mazda-CX-5-Debuts"
+  ],
+  "fallbackReferenceUrls": [
+    "https://en.wikipedia.org/wiki/Mazda_CX-5",
+    "https://www.autoevolution.com/cars/mazda-cx-5.html"
+  ],
+  "referenceQuality": "secondary-confirmed",
+  "confidenceLevel": "high",
+  "outputFilename": "mazda-cx-5.webp",
+  "status": "qa",
+  "approved": false
+}

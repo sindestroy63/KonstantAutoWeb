@@ -1,0 +1,13 @@
+Use case: product-mockup. Asset type: identity-critical automotive catalog photograph.
+Manufacturer: Mazda. Model: CX-9. Model years: 2023 final model year.
+Generation: second generation TC final production specification. Chassis code: TC. Facelift status: final post-2021 production specification.
+Regional specification: North America. Body style: five-door three-row midsize crossover SUV. Trim: Grand Touring. Paint: Machine Gray Metallic.
+Exact production identity cues: second-generation TC three-row crossover body; wide Mazda shield grille with chrome wing surround; slim horizontal LED headlamps; long roof and distinct rear quarter window.
+Official manufacturer reference confirms: second-generation TC three-row crossover body; wide Mazda shield grille with chrome wing surround; slim horizontal LED headlamps; long roof and distinct rear quarter window.
+Hard model exclusions: first-generation TB CX-9; Mazda CX-90; Mazda CX-8; concept; fantasy design.
+Brand exclusions: old generation; concept car; fantasy design; CGI look; tuning; oversized wheels; aftermarket bumper; wrong logo; old headlights; cropped vehicle; watermark; wrong Mazda model; old Kodo front; incorrect wing grille.
+Realistic serial-production vehicle, front three-quarter view, nose pointing right. Camera height 1.1-1.3 metres, 70-90 mm full-frame equivalent lens, minimal perspective distortion.
+Entire vehicle fully visible, including both bumpers, roof, doors, wheels and tires. Vehicle occupies 78-84 percent of image width. Wheels straight, matching, and resting on one visual baseline.
+Neutral seamless light-gray studio cyclorama, soft diffused catalog lighting, restrained contact shadow beneath the tires, low reflection intensity, consistent horizon and scale.
+Exactly one car. No environment, people, other vehicles, text, watermark, dealer plate, readable license, concepts, invented lighting, modified badges, extra doors, handles or pillars, malformed wheels or mixed body panels.
+Depict the exact named serial-production model year, generation, chassis and body. Never substitute a previous generation or blend generations. Prioritize production identity over generic attractiveness.

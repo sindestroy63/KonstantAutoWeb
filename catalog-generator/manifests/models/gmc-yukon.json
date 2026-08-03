@@ -1,0 +1,24 @@
+{
+  "id": "gmc-yukon",
+  "catalogSlug": "gmc_yukon",
+  "manufacturer": "GMC",
+  "model": "Yukon",
+  "generation": "TODO: official current generation",
+  "chassisCode": "TODO",
+  "years": "TODO",
+  "facelift": "TODO",
+  "market": "TODO",
+  "body": "Внедорожник",
+  "trim": "TODO",
+  "paint": "factory production color",
+  "identityCues": [],
+  "modelExclusions": [
+    "previous generation",
+    "concept",
+    "fantasy design"
+  ],
+  "referenceUrls": [],
+  "outputFilename": "gmc-yukon.webp",
+  "status": "draft",
+  "approved": false
+}

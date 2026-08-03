@@ -1,0 +1,39 @@
+{
+  "id": "lexus-rx",
+  "catalogSlug": "lexus_rx",
+  "manufacturer": "Lexus",
+  "model": "RX",
+  "generation": "fifth generation",
+  "chassisCode": "ALH10",
+  "years": "2025-2026",
+  "facelift": "current production body",
+  "market": "North America",
+  "body": "five-door midsize luxury crossover",
+  "trim": "RX 500h F SPORT Performance",
+  "paint": "Nori Green Pearl",
+  "identityCues": [
+    "spindle-body front with body-color upper section",
+    "narrow current headlamps",
+    "current ALH10 body",
+    "F SPORT lower grille"
+  ],
+  "modelExclusions": [
+    "fourth generation AL20",
+    "pre-2023 RX",
+    "NX",
+    "RZ",
+    "mixed generations"
+  ],
+  "referenceUrls": [
+    "https://www.lexus.com/models/RX"
+  ],
+  "outputFilename": "lexus-rx-alh10.webp",
+  "status": "production",
+  "approved": true,
+  "production": {
+    "batchId": "pilot-v3-2026-07-28T12-20-46-652",
+    "file": "public\\images\\catalog\\lexus-rx.webp",
+    "sha256": "851bfad1df32fa5fab5fdfc0594ca170e40c42d6ef76d72c808b17ceb137eb7f",
+    "promotedAt": "2026-07-28T12:25:59.186Z"
+  }
+}

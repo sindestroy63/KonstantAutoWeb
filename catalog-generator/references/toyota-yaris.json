@@ -1,0 +1,27 @@
+{
+  "checkedAt": "2026-07-28T11:59:52.769Z",
+  "manufacturer": "Toyota",
+  "model": "Yaris",
+  "requestedYear": "2025",
+  "generation": "XP210 current facelift",
+  "chassisCode": "XP210",
+  "market": "Europe / UK",
+  "referenceUrl": "https://www.toyota.co.uk/new-cars/yaris",
+  "finalUrl": "https://www.toyota.co.uk/new-cars/yaris",
+  "httpStatus": 200,
+  "officialDomain": "www.toyota.co.uk",
+  "confirmedBodyCues": [
+    "compact XP210 hatchback proportions",
+    "current compact headlamps",
+    "wide planted current bumper",
+    "short rear overhang"
+  ],
+  "attempts": [
+    {
+      "url": "https://www.toyota.co.uk/new-cars/yaris",
+      "finalUrl": "https://www.toyota.co.uk/new-cars/yaris",
+      "httpStatus": 200,
+      "status": "confirmed"
+    }
+  ]
+}

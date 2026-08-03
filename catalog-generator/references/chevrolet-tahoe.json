@@ -1,0 +1,27 @@
+{
+  "checkedAt": "2026-07-30T11:48:34.294Z",
+  "manufacturer": "Chevrolet",
+  "model": "Tahoe",
+  "requestedYear": "2025-2026",
+  "generation": "fifth generation GMT1YC facelift",
+  "chassisCode": "GMT1YC",
+  "market": "North America",
+  "referenceUrl": "https://www.chevrolet.com/suvs/tahoe",
+  "finalUrl": "https://www.chevrolet.com/suvs/tahoe",
+  "httpStatus": 200,
+  "officialDomain": "www.chevrolet.com",
+  "confirmedBodyCues": [
+    "facelift fifth-generation full-size Tahoe body",
+    "new split lighting with thin upper DRLs",
+    "large revised High Country grille",
+    "long three-row body and upright rear quarter"
+  ],
+  "attempts": [
+    {
+      "url": "https://www.chevrolet.com/suvs/tahoe",
+      "finalUrl": "https://www.chevrolet.com/suvs/tahoe",
+      "httpStatus": 200,
+      "status": "confirmed"
+    }
+  ]
+}

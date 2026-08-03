@@ -1,0 +1,29 @@
+{
+  "checkedAt": "2026-07-30T09:23:10.489Z",
+  "manufacturer": "Haval",
+  "model": "F7",
+  "requestedYear": "2024-2026",
+  "generation": "second generation current Russian-market production model",
+  "chassisCode": "manufacturer internal code not publicly standardized / L.E.M.O.N. platform",
+  "market": "Russia / CIS",
+  "referenceUrl": "https://haval.ru/models/new-haval-f7/",
+  "fallbackReferenceUrls": [
+    "https://en.wikipedia.org/wiki/Haval_F7",
+    "https://www.autoevolution.com/cars/haval-f7.html"
+  ],
+  "referenceQuality": "secondary-confirmed",
+  "confirmedBodyCues": [
+    "all-new second-generation F7 body",
+    "large dark rectangular mesh grille",
+    "slim upper LED signature with separate vertical lighting modules",
+    "upright current-production crossover proportions and HAVAL wordmark"
+  ],
+  "attempts": [
+    {
+      "url": "https://haval.ru/models/new-haval-f7/",
+      "finalUrl": "https://haval.ru/models/new-haval-f7/",
+      "httpStatus": 404,
+      "status": "http-error"
+    }
+  ]
+}

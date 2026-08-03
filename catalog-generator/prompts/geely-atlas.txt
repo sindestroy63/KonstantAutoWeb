@@ -1,0 +1,13 @@
+Use case: product-mockup. Asset type: identity-critical automotive catalog photograph.
+Manufacturer: Geely. Model: Atlas. Model years: 2024-2026.
+Generation: second generation FX11. Chassis code: FX11 / CMA. Facelift status: current second-generation production specification.
+Regional specification: China / CIS. Body style: five-door compact crossover. Trim: Flagship. Paint: Basalt Grey metallic.
+Exact production identity cues: second-generation FX11 Atlas body derived from Boyue L; large vertical waterfall grille; slim angular upper LED headlamps; full-width visual front graphic and current Geely shield badge.
+Official manufacturer reference confirms: second-generation FX11 Atlas body derived from Boyue L; large vertical waterfall grille; slim angular upper LED headlamps; full-width visual front graphic and current Geely shield badge.
+Hard model exclusions: first-generation NL-3 Atlas; Atlas Pro; Geely Monjaro; Geely Coolray; old concentric grille; mixed first- and second-generation body.
+Brand exclusions: old generation; concept car; fantasy design; CGI look; tuning; oversized wheels; aftermarket bumper; wrong logo; old headlights; cropped vehicle; watermark; wrong Geely model; Volvo substitution; Lynk and Co styling.
+Realistic serial-production vehicle, front three-quarter view, nose pointing right. Camera height 1.1-1.3 metres, 70-90 mm full-frame equivalent lens, minimal perspective distortion.
+Entire vehicle fully visible, including both bumpers, roof, doors, wheels and tires. Vehicle occupies 78-84 percent of image width. Wheels straight, matching, and resting on one visual baseline.
+Neutral seamless light-gray studio cyclorama, soft diffused catalog lighting, restrained contact shadow beneath the tires, low reflection intensity, consistent horizon and scale.
+Exactly one car. No environment, people, other vehicles, text, watermark, dealer plate, readable license, concepts, invented lighting, modified badges, extra doors, handles or pillars, malformed wheels or mixed body panels.
+Depict the exact named serial-production model year, generation, chassis and body. Never substitute a previous generation or blend generations. Prioritize production identity over generic attractiveness.

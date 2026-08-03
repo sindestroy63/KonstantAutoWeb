@@ -1,0 +1,41 @@
+{
+  "id": "mercedes-benz-c-class",
+  "catalogSlug": "mercedes_c_class",
+  "manufacturer": "Mercedes-Benz",
+  "model": "C-Class",
+  "generation": "fifth generation W206 current production specification",
+  "chassisCode": "W206",
+  "years": "2022-2026",
+  "facelift": "current pre-facelift W206 production model",
+  "market": "Europe",
+  "body": "four-door compact executive sedan",
+  "trim": "C 300 AMG Line",
+  "paint": "Alpine Grey solid",
+  "identityCues": [
+    "W206 sedan body",
+    "compact swept LED headlamps",
+    "single-bar star-pattern AMG Line grille with central Mercedes star",
+    "current W206 AMG Line bumper and OEM wheels"
+  ],
+  "modelExclusions": [
+    "W205",
+    "W204",
+    "E-Class W214",
+    "CLA",
+    "AMG C63 extreme body",
+    "fictional facelift lights",
+    "oversized grille"
+  ],
+  "referenceUrls": [
+    "https://www.mercedes-benz.com/en/vehicles/passenger-cars/c-class/"
+  ],
+  "fallbackReferenceUrls": [
+    "https://en.wikipedia.org/wiki/Mercedes-Benz_C-Class_(W206)",
+    "https://www.caranddriver.com/mercedes-benz/c-class"
+  ],
+  "referenceQuality": "secondary-confirmed",
+  "confidenceLevel": "high",
+  "outputFilename": "mercedes-c-class.webp",
+  "status": "qa",
+  "approved": false
+}

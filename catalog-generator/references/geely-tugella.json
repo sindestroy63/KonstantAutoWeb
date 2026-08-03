@@ -1,0 +1,27 @@
+{
+  "checkedAt": "2026-07-30T08:58:23.778Z",
+  "manufacturer": "Geely",
+  "model": "Tugella",
+  "requestedYear": "2022-2025",
+  "generation": "first generation FY11 current facelift",
+  "chassisCode": "FY11 / CMA",
+  "market": "China / CIS",
+  "referenceUrl": "https://www.geely-motors.com/model/tugella/",
+  "finalUrl": "https://www.geely-motors.com/model/tugella/",
+  "httpStatus": 200,
+  "officialDomain": "www.geely-motors.com",
+  "confirmedBodyCues": [
+    "FY11 coupe-SUV roofline",
+    "facelift concentric expanding-cosmos grille",
+    "narrow swept LED headlamps",
+    "wide planted body with correct Geely shield badge"
+  ],
+  "attempts": [
+    {
+      "url": "https://www.geely-motors.com/model/tugella/",
+      "finalUrl": "https://www.geely-motors.com/model/tugella/",
+      "httpStatus": 200,
+      "status": "confirmed"
+    }
+  ]
+}

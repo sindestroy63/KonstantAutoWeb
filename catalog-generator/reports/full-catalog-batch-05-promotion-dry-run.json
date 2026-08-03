@@ -1,0 +1,129 @@
+{
+  "generatedAt": "2026-07-30T11:23:16.526Z",
+  "batch": 5,
+  "productionWritesPerformed": false,
+  "models": [
+    {
+      "modelId": "audi-a4",
+      "catalogSlug": "audi_a4",
+      "stagingFile": "catalog-generator\\outputs\\audi-a4.webp",
+      "targetProductionPath": "public\\images\\catalog\\audi-a4.webp",
+      "file": "audi-a4.webp",
+      "stagingSha256": "7f6c1532e6e722d525fb218d3760a995414b888636d76acc709800692463209b",
+      "replacesExisting": true,
+      "backupPath": "catalog-generator\\backups\\full-catalog-batch-05-2026-07-30T11-23-16-478Z\\production\\audi-a4.webp"
+    },
+    {
+      "modelId": "audi-q5",
+      "catalogSlug": "audi_q5",
+      "stagingFile": "catalog-generator\\outputs\\audi-q5.webp",
+      "targetProductionPath": "public\\images\\catalog\\audi-q5.webp",
+      "file": "audi-q5.webp",
+      "stagingSha256": "3257da724c055bc3bd994d7afd4dc2ab0cef34b2b1f7d9d5cdb925e935355648",
+      "replacesExisting": true,
+      "backupPath": "catalog-generator\\backups\\full-catalog-batch-05-2026-07-30T11-23-16-478Z\\production\\audi-q5.webp"
+    },
+    {
+      "modelId": "audi-q7",
+      "catalogSlug": "audi_q7",
+      "stagingFile": "catalog-generator\\outputs\\audi-q7.webp",
+      "targetProductionPath": "public\\images\\catalog\\audi-q7.webp",
+      "file": "audi-q7.webp",
+      "stagingSha256": "7fc056c33abdd71b12802126208bae8d6c3ea05b0db42a73505916a894972247",
+      "replacesExisting": true,
+      "backupPath": "catalog-generator\\backups\\full-catalog-batch-05-2026-07-30T11-23-16-478Z\\production\\audi-q7.webp"
+    },
+    {
+      "modelId": "audi-a3",
+      "catalogSlug": "audi_a3",
+      "stagingFile": "catalog-generator\\outputs\\audi-a3.webp",
+      "targetProductionPath": "public\\images\\catalog\\audi-a3.webp",
+      "file": "audi-a3.webp",
+      "stagingSha256": "51c79a21f1834f8a78bc235ab127f24444546f16deaafc25fe5e45750f7488ad",
+      "replacesExisting": true,
+      "backupPath": "catalog-generator\\backups\\full-catalog-batch-05-2026-07-30T11-23-16-478Z\\production\\audi-a3.webp"
+    },
+    {
+      "modelId": "audi-a6",
+      "catalogSlug": "audi_a6",
+      "stagingFile": "catalog-generator\\outputs\\audi-a6.webp",
+      "targetProductionPath": "public\\images\\catalog\\audi-a6.webp",
+      "file": "audi-a6.webp",
+      "stagingSha256": "33843560e7197bf09d27250cfd1e0845a493e824f5f3150774b127e674aac102",
+      "replacesExisting": true,
+      "backupPath": "catalog-generator\\backups\\full-catalog-batch-05-2026-07-30T11-23-16-478Z\\production\\audi-a6.webp"
+    },
+    {
+      "modelId": "ford-focus",
+      "catalogSlug": "ford_focus",
+      "stagingFile": "catalog-generator\\outputs\\ford-focus.webp",
+      "targetProductionPath": "public\\images\\catalog\\ford-focus.webp",
+      "file": "ford-focus.webp",
+      "stagingSha256": "0a2742fac946509c50bb0483b9cb7f93de73bdb7477d1f80139768d2ad0de567",
+      "replacesExisting": true,
+      "backupPath": "catalog-generator\\backups\\full-catalog-batch-05-2026-07-30T11-23-16-478Z\\production\\ford-focus.webp"
+    },
+    {
+      "modelId": "ford-explorer",
+      "catalogSlug": "ford_explorer",
+      "stagingFile": "catalog-generator\\outputs\\ford-explorer.webp",
+      "targetProductionPath": "public\\images\\catalog\\ford-explorer.webp",
+      "file": "ford-explorer.webp",
+      "stagingSha256": "7127361b0b769b7f7d3df4f520834e8a71a6f3ac0339992b29b142be26139503",
+      "replacesExisting": true,
+      "backupPath": "catalog-generator\\backups\\full-catalog-batch-05-2026-07-30T11-23-16-478Z\\production\\ford-explorer.webp"
+    },
+    {
+      "modelId": "ford-ranger",
+      "catalogSlug": "ford_ranger",
+      "stagingFile": "catalog-generator\\outputs\\ford-ranger.webp",
+      "targetProductionPath": "public\\images\\catalog\\ford-ranger.webp",
+      "file": "ford-ranger.webp",
+      "stagingSha256": "e208c1de09f7b7966fe1c4b74032f9f1a59c5bca741cc685a7dc6b698e2656ce",
+      "replacesExisting": true,
+      "backupPath": "catalog-generator\\backups\\full-catalog-batch-05-2026-07-30T11-23-16-478Z\\production\\ford-ranger.webp"
+    },
+    {
+      "modelId": "ford-f-150",
+      "catalogSlug": "ford_f150",
+      "stagingFile": "catalog-generator\\outputs\\ford-f-150.webp",
+      "targetProductionPath": "public\\images\\catalog\\ford-f150.webp",
+      "file": "ford-f150.webp",
+      "stagingSha256": "914b5ae5d4377179df8c42d9681d1eb78d2df49d7beb0354ee8e195404fc3b6a",
+      "replacesExisting": true,
+      "backupPath": "catalog-generator\\backups\\full-catalog-batch-05-2026-07-30T11-23-16-478Z\\production\\ford-f150.webp"
+    },
+    {
+      "modelId": "ford-escape",
+      "catalogSlug": "ford_escape",
+      "stagingFile": "catalog-generator\\outputs\\ford-escape.webp",
+      "targetProductionPath": "public\\images\\catalog\\ford-escape.webp",
+      "file": "ford-escape.webp",
+      "stagingSha256": "d98df0bc80f73353d306099aed2cce83c4d60d303a51a4e19d2b3ec563711917",
+      "replacesExisting": true,
+      "backupPath": "catalog-generator\\backups\\full-catalog-batch-05-2026-07-30T11-23-16-478Z\\production\\ford-escape.webp"
+    }
+  ],
+  "affectedFiles": [
+    "public\\images\\catalog\\manifest.json",
+    "public\\images\\catalog\\audi-a4.webp",
+    "public\\images\\catalog\\audi-q5.webp",
+    "public\\images\\catalog\\audi-q7.webp",
+    "public\\images\\catalog\\audi-a3.webp",
+    "public\\images\\catalog\\audi-a6.webp",
+    "public\\images\\catalog\\ford-focus.webp",
+    "public\\images\\catalog\\ford-explorer.webp",
+    "public\\images\\catalog\\ford-ranger.webp",
+    "public\\images\\catalog\\ford-f150.webp",
+    "public\\images\\catalog\\ford-escape.webp"
+  ],
+  "explicitlyUnchanged": [
+    "data/cars.json",
+    "app",
+    "components",
+    "Hero",
+    "SEO",
+    "API",
+    ".git"
+  ]
+}

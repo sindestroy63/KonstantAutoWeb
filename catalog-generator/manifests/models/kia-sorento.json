@@ -1,0 +1,38 @@
+{
+  "id": "kia-sorento",
+  "catalogSlug": "kia_sorento",
+  "manufacturer": "Kia",
+  "model": "Sorento",
+  "generation": "fourth generation MQ4 facelift",
+  "chassisCode": "MQ4 facelift",
+  "years": "2025-2026",
+  "facelift": "current production facelift",
+  "market": "North America",
+  "body": "five-door midsize SUV",
+  "trim": "X-Line",
+  "paint": "Road Rider Brown metallic",
+  "identityCues": [
+    "vertical front headlamp modules",
+    "Star Map lighting signature",
+    "current facelift grille",
+    "X-Line bumper"
+  ],
+  "modelExclusions": [
+    "pre-facelift MQ4",
+    "pre-2024 Sorento",
+    "Telluride",
+    "Sportage"
+  ],
+  "referenceUrls": [
+    "https://www.kiamedia.com/us/en/models/sorento/2026"
+  ],
+  "outputFilename": "kia-sorento-mq4-facelift.webp",
+  "status": "production",
+  "approved": true,
+  "production": {
+    "batchId": "pilot-v3-2026-07-28T12-20-46-652",
+    "file": "public\\images\\catalog\\kia-sorento.webp",
+    "sha256": "4e073460f246ae9121527d5c4cd098dd3b0527caa3353695d27f8284cedf4688",
+    "promotedAt": "2026-07-28T12:25:59.186Z"
+  }
+}

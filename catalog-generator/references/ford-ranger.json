@@ -1,0 +1,27 @@
+{
+  "checkedAt": "2026-07-30T11:07:05.332Z",
+  "manufacturer": "Ford",
+  "model": "Ranger",
+  "requestedYear": "2023-2026",
+  "generation": "fifth generation P703",
+  "chassisCode": "P703",
+  "market": "Europe / Australia",
+  "referenceUrl": "https://www.ford.co.uk/vans-and-pickups/ranger",
+  "finalUrl": "https://www.ford.co.uk/vans-and-pickups/ranger",
+  "httpStatus": 200,
+  "officialDomain": "www.ford.co.uk",
+  "confirmedBodyCues": [
+    "P703 double-cab pickup body",
+    "signature C-clamp LED headlamps",
+    "wide rectangular grille with central Ford oval",
+    "separate cargo bed and four full doors"
+  ],
+  "attempts": [
+    {
+      "url": "https://www.ford.co.uk/vans-and-pickups/ranger",
+      "finalUrl": "https://www.ford.co.uk/vans-and-pickups/ranger",
+      "httpStatus": 200,
+      "status": "confirmed"
+    }
+  ]
+}

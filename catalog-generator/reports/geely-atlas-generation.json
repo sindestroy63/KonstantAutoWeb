@@ -1,0 +1,40 @@
+{
+  "generatedAt": "2026-07-30T08:57:26.241Z",
+  "modelId": "geely-atlas",
+  "manufacturer": "Geely",
+  "model": "Atlas",
+  "apiRequestCount": 1,
+  "infrastructureRetries": 0,
+  "infrastructureDiagnostics": [
+    {
+      "requestIndex": 0,
+      "httpStatus": 200,
+      "responseFormat": "json"
+    }
+  ],
+  "requestedYears": "2024-2026",
+  "requestedGeneration": "second generation FX11",
+  "requestedChassisCode": "FX11 / CMA",
+  "modelUsed": "gpt-image-2",
+  "generationMode": "text-generation",
+  "endpoint": "https://vibecode.moe/v1/images/generations",
+  "referenceUrl": "https://www.geely-motors.com/model/atlas/",
+  "referenceImageUrl": null,
+  "apiStatus": 200,
+  "downloadStatus": 200,
+  "contentType": "image/png",
+  "sourceUrl": "https://file7.aitohumanize.com/file/f9dcd7b4d58f4c398dbdb77870c6250f.png",
+  "rawFile": "catalog-generator\\outputs\\raw\\geely-atlas.png",
+  "generatedFile": "catalog-generator\\outputs\\geely-atlas.webp",
+  "rawMetadata": {
+    "format": "png",
+    "width": 1536,
+    "height": 1024
+  },
+  "outputMetadata": {
+    "format": "webp",
+    "width": 1600,
+    "height": 1000
+  },
+  "promptFile": "catalog-generator\\prompts\\geely-atlas.txt"
+}

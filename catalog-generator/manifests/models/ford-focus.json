@@ -1,0 +1,42 @@
+{
+  "id": "ford-focus",
+  "catalogSlug": "ford_focus",
+  "manufacturer": "Ford",
+  "model": "Focus",
+  "generation": "fourth generation C519 facelift final production specification",
+  "chassisCode": "C519",
+  "years": "2022-2025 final model years",
+  "facelift": "2021 facelift",
+  "market": "Europe",
+  "body": "five-door compact hatchback",
+  "trim": "ST-Line X",
+  "paint": "Chrome Blue Metallic",
+  "identityCues": [
+    "facelift fourth-generation five-door Focus body",
+    "slimmer LED headlamps",
+    "larger Ford-badge-in-grille front design",
+    "ST-Line lower bumper without full ST body kit"
+  ],
+  "modelExclusions": [
+    "pre-facelift fourth-generation Focus",
+    "third-generation C346 Focus",
+    "Focus sedan",
+    "Ford Fiesta",
+    "Focus ST or RS body kit",
+    "concept",
+    "fantasy design"
+  ],
+  "referenceUrls": [
+    "https://www.ford.co.uk/cars/focus"
+  ],
+  "fallbackReferenceUrls": [
+    "https://en.wikipedia.org/wiki/Ford_Focus_(fourth_generation)",
+    "https://www.autoevolution.com/cars/ford-focus.html"
+  ],
+  "referenceQuality": "secondary-confirmed",
+  "confidenceLevel": "high",
+  "outputFilename": "ford-focus.webp",
+  "status": "production",
+  "approved": true,
+  "approvalStatus": "production-approved"
+}

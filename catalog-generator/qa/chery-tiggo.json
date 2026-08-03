@@ -1,0 +1,80 @@
+{
+  "checkedAt": "2026-07-30T11:59:05.790Z",
+  "modelId": "chery-tiggo",
+  "file": "catalog-generator\\outputs\\chery-tiggo.webp",
+  "deterministicPass": true,
+  "analysis": {
+    "width": 1600,
+    "height": 1000,
+    "backgroundCornerRgb": [
+      196.7,
+      195.7,
+      194.6
+    ],
+    "backgroundCornerLuminance": 195.6,
+    "backgroundCornerNeutralityDelta": 2.2,
+    "foregroundBounds": {
+      "minX": 128,
+      "maxX": 1454,
+      "minY": 210,
+      "maxY": 874
+    },
+    "foregroundWidthPercent": 82.9,
+    "horizonPercent": 87.5
+  },
+  "checks": {
+    "dimensions": {
+      "status": "pass",
+      "actual": "1600x1000"
+    },
+    "format": {
+      "status": "pass",
+      "actual": "webp"
+    },
+    "aspectRatio": {
+      "status": "pass",
+      "actual": 1.6
+    },
+    "background": {
+      "status": "pass",
+      "actualRgb": [
+        196.7,
+        195.7,
+        194.6
+      ],
+      "luminance": 195.6,
+      "neutralityDelta": 2.2
+    },
+    "scale": {
+      "status": "pass",
+      "actualPercent": 82.9,
+      "targetPercent": "78-84",
+      "tolerancePercent": "74-88"
+    },
+    "horizon": {
+      "status": "pass",
+      "actualPercent": 87.5,
+      "tolerancePercent": "72-93"
+    },
+    "exactlyOneVehicle": {
+      "status": "pending",
+      "method": "manual-or-vision-adapter"
+    },
+    "noPeople": {
+      "status": "pending",
+      "method": "manual-or-vision-adapter"
+    },
+    "noText": {
+      "status": "pending",
+      "method": "manual-or-vision-adapter"
+    },
+    "noWatermark": {
+      "status": "pending",
+      "method": "manual-or-vision-adapter"
+    },
+    "generationIdentity": {
+      "status": "pending",
+      "method": "owner-review"
+    }
+  }
+}

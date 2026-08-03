@@ -1,0 +1,29 @@
+{
+  "checkedAt": "2026-07-30T09:28:11.849Z",
+  "manufacturer": "Mercedes-Benz",
+  "model": "GLC",
+  "requestedYear": "2023-2026",
+  "generation": "second generation X254",
+  "chassisCode": "X254",
+  "market": "Europe",
+  "referenceUrl": "https://www.mercedes-benz.com/en/vehicles/passenger-cars/glc/",
+  "fallbackReferenceUrls": [
+    "https://en.wikipedia.org/wiki/Mercedes-Benz_GLC",
+    "https://www.caranddriver.com/mercedes-benz/glc-class"
+  ],
+  "referenceQuality": "secondary-confirmed",
+  "confirmedBodyCues": [
+    "X254 standard SUV body, not coupe",
+    "slim swept LED headlamps",
+    "star-pattern AMG Line grille with central Mercedes star",
+    "current X254 bumper and flush integrated body surfacing"
+  ],
+  "attempts": [
+    {
+      "url": "https://www.mercedes-benz.com/en/vehicles/passenger-cars/glc/",
+      "finalUrl": "https://www.mercedes-benz.com/en/vehicles/passenger-cars/glc/",
+      "httpStatus": 404,
+      "status": "http-error"
+    }
+  ]
+}

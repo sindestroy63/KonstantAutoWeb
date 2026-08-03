@@ -1,0 +1,40 @@
+{
+  "generatedAt": "2026-07-30T06:45:17.009Z",
+  "modelId": "bmw-1-series",
+  "manufacturer": "BMW",
+  "model": "1 Series",
+  "apiRequestCount": 1,
+  "infrastructureRetries": 0,
+  "infrastructureDiagnostics": [
+    {
+      "requestIndex": 0,
+      "httpStatus": 200,
+      "responseFormat": "json"
+    }
+  ],
+  "requestedYears": "2025-2026",
+  "requestedGeneration": "fourth generation F70",
+  "requestedChassisCode": "F70",
+  "modelUsed": "gpt-image-2",
+  "generationMode": "text-generation",
+  "endpoint": "https://vibecode.moe/v1/images/generations",
+  "referenceUrl": "https://www.bmw.co.uk/en/all-models/1-series/1-series-5doors/bmw-1-series.html",
+  "referenceImageUrl": null,
+  "apiStatus": 200,
+  "downloadStatus": 200,
+  "contentType": "image/png",
+  "sourceUrl": "https://file6.aitohumanize.com/file/b40b7654970d4538a42111388c58d5a4.png",
+  "rawFile": "catalog-generator\\outputs\\raw\\batch-01-bmw-1-series-f70.png",
+  "generatedFile": "catalog-generator\\outputs\\batch-01-bmw-1-series-f70.webp",
+  "rawMetadata": {
+    "format": "png",
+    "width": 1536,
+    "height": 1024
+  },
+  "outputMetadata": {
+    "format": "webp",
+    "width": 1600,
+    "height": 1000
+  },
+  "promptFile": "catalog-generator\\prompts\\bmw-1-series.txt"
+}

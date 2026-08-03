@@ -1,0 +1,24 @@
+{
+  "id": "ram-1500",
+  "catalogSlug": "ram_1500",
+  "manufacturer": "RAM",
+  "model": "1500",
+  "generation": "TODO: official current generation",
+  "chassisCode": "TODO",
+  "years": "TODO",
+  "facelift": "TODO",
+  "market": "TODO",
+  "body": "Пикап",
+  "trim": "TODO",
+  "paint": "factory production color",
+  "identityCues": [],
+  "modelExclusions": [
+    "previous generation",
+    "concept",
+    "fantasy design"
+  ],
+  "referenceUrls": [],
+  "outputFilename": "ram-1500.webp",
+  "status": "draft",
+  "approved": false
+}

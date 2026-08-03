@@ -1,0 +1,24 @@
+{
+  "id": "peugeot-308",
+  "catalogSlug": "peugeot_308",
+  "manufacturer": "Peugeot",
+  "model": "308",
+  "generation": "TODO: official current generation",
+  "chassisCode": "TODO",
+  "years": "TODO",
+  "facelift": "TODO",
+  "market": "TODO",
+  "body": "Хэтчбек",
+  "trim": "TODO",
+  "paint": "factory production color",
+  "identityCues": [],
+  "modelExclusions": [
+    "previous generation",
+    "concept",
+    "fantasy design"
+  ],
+  "referenceUrls": [],
+  "outputFilename": "peugeot-308.webp",
+  "status": "draft",
+  "approved": false
+}

@@ -1,0 +1,82 @@
+{
+  "generatedAt": "2026-07-30T09:36:25.040Z",
+  "batch": 2,
+  "backupRoot": "catalog-generator\\backups\\full-catalog-batch-02-2026-07-30T09-36-24-931Z",
+  "promoted": [
+    {
+      "modelId": "geely-monjaro",
+      "catalogSlug": "geely_monjaro",
+      "productionFile": "public\\images\\catalog\\geely-monjaro.webp",
+      "sha256": "ff1870d37ce67f70ecc9e1ec000efe3fd192504bc31eac3ec17515a0c1333d1a",
+      "verified": true
+    },
+    {
+      "modelId": "haval-f7",
+      "catalogSlug": "haval_f7",
+      "productionFile": "public\\images\\catalog\\haval-f7.webp",
+      "sha256": "7dda778c9f21fee088eff82ca1b1ad877797264b924068b0846d09c2ce699c9b",
+      "verified": true
+    },
+    {
+      "modelId": "haval-jolion",
+      "catalogSlug": "haval_jolion",
+      "productionFile": "public\\images\\catalog\\haval-jolion.webp",
+      "sha256": "e1465d3dd73f23d6997a78329e6868c77302fb50ccd6a4e877b1780ab2ce4fdb",
+      "verified": true
+    },
+    {
+      "modelId": "haval-h6",
+      "catalogSlug": "haval_h6",
+      "productionFile": "public\\images\\catalog\\haval-h6.webp",
+      "sha256": "300f595937cd433fccd5dffc0317cd8483b8a0e269e0a8d77798f2caae3e4115",
+      "verified": true
+    },
+    {
+      "modelId": "haval-f7x",
+      "catalogSlug": "haval_f7x",
+      "productionFile": "public\\images\\catalog\\haval-f7x.webp",
+      "sha256": "d9355c58c20f15a2438321303aeb00359bd4d385f970fd0d51064509dae8c1ff",
+      "verified": true
+    },
+    {
+      "modelId": "haval-m6",
+      "catalogSlug": "haval_m6",
+      "productionFile": "public\\images\\catalog\\haval-m6.webp",
+      "sha256": "c54fc76fbcffb5de71275866a9c46930ae32cf974b8ebc3ae6c34d722f1d0b02",
+      "verified": true
+    },
+    {
+      "modelId": "mercedes-benz-c-class",
+      "catalogSlug": "mercedes_c_class",
+      "productionFile": "public\\images\\catalog\\mercedes-c-class.webp",
+      "sha256": "8800b9f456a9a6ef79afe8230ef150766b6a84b0d275a5ac6fc041bf99dc06d4",
+      "verified": true
+    },
+    {
+      "modelId": "mercedes-benz-glc",
+      "catalogSlug": "mercedes_glc",
+      "productionFile": "public\\images\\catalog\\mercedes-glc.webp",
+      "sha256": "beafea3f1f324d0b167f46a9ff394619cf586184a44f221a8e5f696b472440c6",
+      "verified": true
+    },
+    {
+      "modelId": "mercedes-benz-gle",
+      "catalogSlug": "mercedes_gle",
+      "productionFile": "public\\images\\catalog\\mercedes-gle.webp",
+      "sha256": "e4ae84469f1abe1f4754465643e9d723550c502fcc16686663433589863aff30",
+      "verified": true
+    },
+    {
+      "modelId": "mercedes-benz-a-class",
+      "catalogSlug": "mercedes_a_class",
+      "productionFile": "public\\images\\catalog\\mercedes-a-class.webp",
+      "sha256": "96bf2345d33299f4f26c1d496dabf411d4f591ca356b7ace0b0f8201fe26896a",
+      "verified": true
+    }
+  ],
+  "manifestProductionEntries": 36,
+  "carsJsonSha256Before": "0cde230d2e016bfcb306c6e4ef29e7914c8a6012cf99110f8c66583fbb9a04ae",
+  "carsJsonSha256After": "0cde230d2e016bfcb306c6e4ef29e7914c8a6012cf99110f8c66583fbb9a04ae",
+  "carsJsonUnchanged": true,
+  "gitCommitCreated": false
+}

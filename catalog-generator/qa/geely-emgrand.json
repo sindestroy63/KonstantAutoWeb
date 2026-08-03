@@ -1,0 +1,83 @@
+{
+  "checkedAt": "2026-07-30T09:00:10.487Z",
+  "modelId": "geely-emgrand",
+  "file": "catalog-generator\\outputs\\geely-emgrand.webp",
+  "deterministicPass": true,
+  "analysis": {
+    "width": 1600,
+    "height": 1000,
+    "backgroundCornerRgb": [
+      203.6,
+      202.9,
+      207.1
+    ],
+    "backgroundCornerLuminance": 204.5,
+    "backgroundCornerNeutralityDelta": 4.2,
+    "foregroundBounds": {
+      "minX": 142,
+      "maxX": 1422,
+      "minY": 262,
+      "maxY": 842
+    },
+    "foregroundWidthPercent": 80.1,
+    "horizonPercent": 84.3
+  },
+  "checks": {
+    "dimensions": {
+      "status": "pass",
+      "actual": "1600x1000"
+    },
+    "format": {
+      "status": "pass",
+      "actual": "webp"
+    },
+    "aspectRatio": {
+      "status": "pass",
+      "actual": 1.6
+    },
+    "background": {
+      "status": "pass",
+      "actualRgb": [
+        203.6,
+        202.9,
+        207.1
+      ],
+      "luminance": 204.5,
+      "neutralityDelta": 4.2
+    },
+    "scale": {
+      "status": "pass",
+      "actualPercent": 80.1,
+      "targetPercent": "78-84",
+      "tolerancePercent": "74-88"
+    },
+    "horizon": {
+      "status": "pass",
+      "actualPercent": 84.3,
+      "tolerancePercent": "72-93"
+    },
+    "exactlyOneVehicle": {
+      "status": "pass",
+      "method": "agent-visual-review"
+    },
+    "noPeople": {
+      "status": "pass",
+      "method": "agent-visual-review"
+    },
+    "noText": {
+      "status": "pass",
+      "method": "agent-visual-review"
+    },
+    "noWatermark": {
+      "status": "pass",
+      "method": "agent-visual-review"
+    },
+    "generationIdentity": {
+      "status": "approved",
+      "method": "agent-visual-review"
+    }
+  },
+  "semanticQa": "approved",
+  "generationQa": "approved",
+  "finalStatus": "production-approved"
+}

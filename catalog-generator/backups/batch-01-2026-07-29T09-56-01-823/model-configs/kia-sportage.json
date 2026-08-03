@@ -1,0 +1,36 @@
+{
+  "id": "kia-sportage",
+  "catalogSlug": "kia_sportage",
+  "manufacturer": "Kia",
+  "model": "Sportage",
+  "generation": "fifth generation NQ5",
+  "chassisCode": "NQ5",
+  "years": "2026",
+  "facelift": "current 2026 production facelift",
+  "market": "North America",
+  "body": "five-door compact SUV",
+  "trim": "X-Line AWD",
+  "paint": "Wolf Gray",
+  "identityCues": [
+    "2026 NQ5 facelift body",
+    "new vertically stacked headlamp modules",
+    "current Star Map daytime-running-light signature",
+    "wide rectangular grille",
+    "revised production front bumper"
+  ],
+  "modelExclusions": [
+    "pre-facelift 2023-2025 boomerang-DRL front end",
+    "fourth-generation QL Sportage",
+    "Kia Sorento",
+    "Kia Seltos",
+    "Kia EV9",
+    "fictional light bar or concept grille",
+    "mixed generations"
+  ],
+  "referenceUrls": [
+    "https://www.kia.com/us/en/sportage"
+  ],
+  "outputFilename": "batch-01-kia-sportage-nq5-facelift.webp",
+  "status": "qa",
+  "approved": false
+}

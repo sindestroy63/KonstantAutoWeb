@@ -1,0 +1,38 @@
+{
+  "id": "mazda-mazda6",
+  "catalogSlug": "mazda_6",
+  "manufacturer": "Mazda",
+  "model": "Mazda6",
+  "generation": "third generation GJ/GL final facelift",
+  "chassisCode": "GJ / GL",
+  "years": "2023-2024 final production specification",
+  "facelift": "2018 facelift, final production specification",
+  "market": "Australia / Middle East",
+  "body": "four-door midsize sedan",
+  "trim": "GT SP",
+  "paint": "Soul Red Crystal Metallic",
+  "identityCues": [
+    "third-generation facelift Mazda6 sedan body",
+    "large shield grille with mesh texture",
+    "slim LED headlamps integrated with chrome grille wings",
+    "low flowing roofline and long hood"
+  ],
+  "modelExclusions": [
+    "second-generation GH Mazda6",
+    "Mazda EZ-6",
+    "wagon body",
+    "concept",
+    "fantasy design"
+  ],
+  "referenceUrls": [
+    "https://www.mazda.com.au/cars/mazda6/"
+  ],
+  "fallbackReferenceUrls": [
+    "https://en.wikipedia.org/wiki/Mazda6"
+  ],
+  "referenceQuality": "official-archive",
+  "confidenceLevel": "high",
+  "outputFilename": "mazda-mazda6.webp",
+  "status": "qa",
+  "approved": false
+}

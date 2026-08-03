@@ -1,0 +1,40 @@
+{
+  "name": "konstant-auto-next",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "test:typecheck": "tsc --noEmit",
+    "typecheck": "tsc --noEmit",
+    "download:images": "ts-node -P tsconfig.scripts.json scripts/download-car-images.ts",
+    "qa:images": "node scripts/audit-unified-vehicle-media.mjs",
+    "qa:vehicle-media": "node scripts/audit-unified-vehicle-media.mjs"
+  },
+  "dependencies": {
+    "lucide-react": "^0.460.0",
+    "next": "14.2.18",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@types/d3-geo": "^3.1.0",
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "@types/topojson-client": "^3.1.5",
+    "autoprefixer": "^10.4.20",
+    "d3-geo": "^3.1.1",
+    "eslint": "^8",
+    "eslint-config-next": "14.2.18",
+    "postcss": "^8.4.49",
+    "sharp": "^0.35.3",
+    "tailwindcss": "^3.4.15",
+    "topojson-client": "^3.1.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5",
+    "world-atlas": "^2.0.2"
+  }
+}

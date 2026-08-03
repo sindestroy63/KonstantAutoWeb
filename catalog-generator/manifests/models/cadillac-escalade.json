@@ -1,0 +1,24 @@
+{
+  "id": "cadillac-escalade",
+  "catalogSlug": "cadillac_escalade",
+  "manufacturer": "Cadillac",
+  "model": "Escalade",
+  "generation": "TODO: official current generation",
+  "chassisCode": "TODO",
+  "years": "TODO",
+  "facelift": "TODO",
+  "market": "TODO",
+  "body": "Внедорожник",
+  "trim": "TODO",
+  "paint": "factory production color",
+  "identityCues": [],
+  "modelExclusions": [
+    "previous generation",
+    "concept",
+    "fantasy design"
+  ],
+  "referenceUrls": [],
+  "outputFilename": "cadillac-escalade.webp",
+  "status": "draft",
+  "approved": false
+}

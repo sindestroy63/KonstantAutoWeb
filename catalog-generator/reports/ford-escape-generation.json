@@ -1,0 +1,40 @@
+{
+  "generatedAt": "2026-07-30T11:10:29.243Z",
+  "modelId": "ford-escape",
+  "manufacturer": "Ford",
+  "model": "Escape",
+  "apiRequestCount": 1,
+  "infrastructureRetries": 0,
+  "infrastructureDiagnostics": [
+    {
+      "requestIndex": 0,
+      "httpStatus": 200,
+      "responseFormat": "json"
+    }
+  ],
+  "requestedYears": "2023-2025 final production specification",
+  "requestedGeneration": "fourth generation CX482 facelift",
+  "requestedChassisCode": "CX482",
+  "modelUsed": "gpt-image-2",
+  "generationMode": "text-generation",
+  "endpoint": "https://vibecode.moe/v1/images/generations",
+  "referenceUrl": "https://www.ford.com/suvs-crossovers/escape/",
+  "referenceImageUrl": null,
+  "apiStatus": 200,
+  "downloadStatus": 200,
+  "contentType": "image/png",
+  "sourceUrl": "https://file8.aitohumanize.com/file/968f5bc47c2b418da83e1ec217429e40.png",
+  "rawFile": "catalog-generator\\outputs\\raw\\ford-escape.png",
+  "generatedFile": "catalog-generator\\outputs\\ford-escape.webp",
+  "rawMetadata": {
+    "format": "png",
+    "width": 1536,
+    "height": 1024
+  },
+  "outputMetadata": {
+    "format": "webp",
+    "width": 1600,
+    "height": 1000
+  },
+  "promptFile": "catalog-generator\\prompts\\ford-escape.txt"
+}

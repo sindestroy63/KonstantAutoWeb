@@ -1,0 +1,29 @@
+{
+  "checkedAt": "2026-07-30T10:30:57.397Z",
+  "manufacturer": "Volkswagen",
+  "model": "Golf",
+  "requestedYear": "2025-2026",
+  "generation": "eighth generation Mk8.5 facelift",
+  "chassisCode": "CD1",
+  "market": "Europe",
+  "referenceUrl": "https://www.volkswagen-newsroom.com/en/the-new-golf-2024-18136",
+  "fallbackReferenceUrls": [
+    "https://en.wikipedia.org/wiki/Volkswagen_Golf_Mk8",
+    "https://www.autoevolution.com/cars/volkswagen-golf.html"
+  ],
+  "referenceQuality": "secondary-confirmed",
+  "confirmedBodyCues": [
+    "Mk8.5 five-door hatchback body",
+    "facelift LED headlamps with revised internal signature",
+    "narrow illuminated upper grille strip",
+    "revised R-Line lower bumper and compact Golf proportions"
+  ],
+  "attempts": [
+    {
+      "url": "https://www.volkswagen-newsroom.com/en/the-new-golf-2024-18136",
+      "finalUrl": "https://www.volkswagen-newsroom.com/en/the-new-golf-2024-18136",
+      "httpStatus": 404,
+      "status": "http-error"
+    }
+  ]
+}

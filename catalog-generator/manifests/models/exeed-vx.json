@@ -1,0 +1,24 @@
+{
+  "id": "exeed-vx",
+  "catalogSlug": "exeed_vx",
+  "manufacturer": "Exeed",
+  "model": "VX",
+  "generation": "TODO: official current generation",
+  "chassisCode": "TODO",
+  "years": "TODO",
+  "facelift": "TODO",
+  "market": "TODO",
+  "body": "Внедорожник",
+  "trim": "TODO",
+  "paint": "factory production color",
+  "identityCues": [],
+  "modelExclusions": [
+    "previous generation",
+    "concept",
+    "fantasy design"
+  ],
+  "referenceUrls": [],
+  "outputFilename": "exeed-vx.webp",
+  "status": "draft",
+  "approved": false
+}

@@ -1,0 +1,422 @@
+{
+  "version": 1,
+  "batchId": "batch-01-2026-07-29T18-00-14-769",
+  "generatedAt": "2026-07-30T10:01:47.427Z",
+  "modelCount": 46,
+  "images": {
+    "bmw_3_series": {
+      "file": "bmw-3-series.webp",
+      "generation": "G20 LCI current second-update specification",
+      "chassisCode": "G20 LCI",
+      "sourceSha256": "f47489ef83def0e75227230dee839c9bd02c2bc12a64bde816a7d00a6179505a",
+      "status": "production",
+      "stagingFile": "catalog-generator\\outputs\\bmw-3-series-g20-lci.webp",
+      "promotedAt": "2026-07-28T12:25:59.181Z"
+    },
+    "bmw_x5": {
+      "file": "bmw-x5.webp",
+      "generation": "G05 LCI current facelift",
+      "chassisCode": "G05 LCI",
+      "sourceSha256": "d8e5f4f92a39761fea3a13e3a266e98fb57addf3a5a5f21963b6c0663be4eafa",
+      "status": "production",
+      "stagingFile": "catalog-generator\\outputs\\bmw-x5-g05-lci.webp",
+      "promotedAt": "2026-07-28T12:25:59.182Z"
+    },
+    "kia_k5": {
+      "file": "kia-k5.webp",
+      "generation": "DL3 facelift",
+      "chassisCode": "DL3 facelift",
+      "sourceSha256": "cce9af2ee45534da8570e1f4aa7c1b06c594ead452088b0e287158ee0360b0b6",
+      "status": "production",
+      "stagingFile": "catalog-generator\\outputs\\kia-k5-2026-facelift.webp",
+      "promotedAt": "2026-07-28T12:25:59.182Z"
+    },
+    "kia_sorento": {
+      "file": "kia-sorento.webp",
+      "generation": "fourth generation MQ4 facelift",
+      "chassisCode": "MQ4 facelift",
+      "sourceSha256": "4e073460f246ae9121527d5c4cd098dd3b0527caa3353695d27f8284cedf4688",
+      "status": "production",
+      "stagingFile": "catalog-generator\\outputs\\kia-sorento-mq4-facelift.webp",
+      "promotedAt": "2026-07-28T12:25:59.182Z"
+    },
+    "lexus_rx": {
+      "file": "lexus-rx.webp",
+      "generation": "fifth generation",
+      "chassisCode": "ALH10",
+      "sourceSha256": "851bfad1df32fa5fab5fdfc0594ca170e40c42d6ef76d72c808b17ceb137eb7f",
+      "status": "production",
+      "stagingFile": "catalog-generator\\outputs\\lexus-rx-alh10.webp",
+      "promotedAt": "2026-07-28T12:25:59.182Z"
+    },
+    "toyota_camry": {
+      "file": "toyota-camry.webp",
+      "generation": "ninth generation",
+      "chassisCode": "XV80",
+      "sourceSha256": "bca210e30d88055fd543033439178053c350930c91cd1ab7566f715061c6753c",
+      "status": "production",
+      "stagingFile": "catalog-generator\\outputs\\toyota-camry-2026-xv80.webp",
+      "promotedAt": "2026-07-28T12:25:59.182Z"
+    },
+    "toyota_corolla": {
+      "file": "toyota-corolla.webp",
+      "generation": "E210 facelift",
+      "chassisCode": "E210",
+      "sourceSha256": "ca8fe1db543fd78d13ec86c33bf66e7d0e7430afb4aeae8173bd876ec11d4c34",
+      "status": "production",
+      "stagingFile": "catalog-generator\\outputs\\toyota-corolla-e210-facelift.webp",
+      "promotedAt": "2026-07-28T12:25:59.182Z"
+    },
+    "toyota_hilux": {
+      "file": "toyota-hilux.webp",
+      "generation": "eighth generation current facelift",
+      "chassisCode": "AN120/AN130",
+      "sourceSha256": "6c13090e7446af15006c4ab5acc4092add3426dff41006f666b62a8a5efd855c",
+      "status": "production",
+      "stagingFile": "catalog-generator\\outputs\\toyota-hilux-current.webp",
+      "promotedAt": "2026-07-28T12:25:59.182Z"
+    },
+    "toyota_land_cruiser": {
+      "file": "toyota-land-cruiser.webp",
+      "generation": "J300 generation",
+      "chassisCode": "J300",
+      "sourceSha256": "455c9987a54340184e6930ac5d02d0beb33fcf6909ab47c508935daa8c76b49d",
+      "status": "production",
+      "stagingFile": "catalog-generator\\outputs\\toyota-land-cruiser-300.webp",
+      "promotedAt": "2026-07-28T12:25:59.182Z"
+    },
+    "toyota_rav4": {
+      "file": "toyota-rav4.webp",
+      "generation": "sixth generation",
+      "chassisCode": "2026 sixth-generation production body",
+      "sourceSha256": "6f109def418fc095dc5da9372bd383451a59a733b93b981815e5494a1a09b64c",
+      "status": "production",
+      "stagingFile": "catalog-generator\\outputs\\toyota-rav4-2026.webp",
+      "promotedAt": "2026-07-28T12:25:59.182Z"
+    },
+    "toyota_yaris": {
+      "file": "toyota-yaris.webp",
+      "generation": "XP210 current facelift",
+      "chassisCode": "XP210",
+      "sourceSha256": "11c3b15e9144551e616933aee11ba71e713b8494e643871c1fe650c907dd548d",
+      "status": "production",
+      "stagingFile": "catalog-generator\\outputs\\toyota-yaris-xp210.webp",
+      "promotedAt": "2026-07-28T12:25:59.182Z"
+    },
+    "hyundai_creta": {
+      "file": "hyundai-creta.webp",
+      "generation": "second generation SU2i",
+      "chassisCode": "SU2i",
+      "sourceSha256": "9c025bae4deb732d263bd324e9292d06b7b6793be3706035332ff6debac209eb",
+      "status": "production",
+      "stagingFile": "catalog-generator\\outputs\\batch-01-hyundai-creta-su2i-facelift.webp",
+      "promotedAt": "2026-07-29T18:00:14.769Z"
+    },
+    "hyundai_tucson": {
+      "file": "hyundai-tucson.webp",
+      "generation": "fourth generation NX4",
+      "chassisCode": "NX4",
+      "sourceSha256": "28b122078636489446e5498082098ba53eb2fd1f3cfc48f4da628f9fbf162fe6",
+      "status": "production",
+      "stagingFile": "catalog-generator\\outputs\\batch-01-hyundai-tucson-nx4-facelift.webp",
+      "promotedAt": "2026-07-29T18:00:14.769Z"
+    },
+    "hyundai_santa_fe": {
+      "file": "hyundai-santa-fe.webp",
+      "generation": "fifth generation MX5",
+      "chassisCode": "MX5",
+      "sourceSha256": "3d8c93bb6185869c09e6410b182610df41cec727a738cd53c535a0ee3d02b7d3",
+      "status": "production",
+      "stagingFile": "catalog-generator\\outputs\\batch-01-hyundai-santa-fe-mx5.webp",
+      "promotedAt": "2026-07-29T18:00:14.769Z"
+    },
+    "hyundai_i30": {
+      "file": "hyundai-i30.webp",
+      "generation": "third generation PD",
+      "chassisCode": "PD",
+      "sourceSha256": "50e28c5037b747daf66c3aa6acb617f5a0f392e4fc467f290330ff4485f21325",
+      "status": "production",
+      "stagingFile": "catalog-generator\\outputs\\batch-01-hyundai-i30-pd-second-facelift.webp",
+      "promotedAt": "2026-07-29T18:00:14.769Z"
+    },
+    "kia_sportage": {
+      "file": "kia-sportage.webp",
+      "generation": "fifth generation NQ5",
+      "chassisCode": "NQ5",
+      "sourceSha256": "5ef3f1129f388691be4f309be6e173ac1609786b96548480429872705f3e1c44",
+      "status": "production",
+      "stagingFile": "catalog-generator\\outputs\\batch-01-kia-sportage-nq5-facelift.webp",
+      "promotedAt": "2026-07-29T18:00:14.769Z"
+    },
+    "bmw_x3": {
+      "file": "bmw-x3.webp",
+      "generation": "fourth generation G45",
+      "chassisCode": "G45",
+      "sourceSha256": "00f044e4823bfdd2389bf110a49fb1148f5d80e098e039db480e8a312af2a645",
+      "status": "production",
+      "stagingFile": "catalog-generator\\outputs\\batch-01-bmw-x3-g45.webp",
+      "promotedAt": "2026-07-30T09:16:15.365Z"
+    },
+    "bmw_1_series": {
+      "file": "bmw-1-series.webp",
+      "generation": "fourth generation F70",
+      "chassisCode": "F70",
+      "sourceSha256": "218f627fcfc2dd971a1554935bd0eba1a085aa2ed5a76435dcb8939e6d65fa85",
+      "status": "production",
+      "stagingFile": "catalog-generator\\outputs\\batch-01-bmw-1-series-f70.webp",
+      "promotedAt": "2026-07-30T09:16:15.367Z"
+    },
+    "hyundai_solaris": {
+      "file": "hyundai-solaris.webp",
+      "generation": "second generation HCr facelift",
+      "chassisCode": "HCr",
+      "sourceSha256": "eb7d7557d41ab47626b05664815fcd295e0e27f17836668715b3393980be89ea",
+      "status": "production",
+      "stagingFile": "catalog-generator\\outputs\\hyundai-solaris.webp",
+      "promotedAt": "2026-07-30T09:16:15.369Z"
+    },
+    "kia_rio": {
+      "file": "kia-rio.webp",
+      "generation": "fourth generation FB facelift",
+      "chassisCode": "FB",
+      "sourceSha256": "c3efab50af5c6357bedbca2a5d5118d05124267ea072e2d196cc30285fde46c2",
+      "status": "production",
+      "stagingFile": "catalog-generator\\outputs\\kia-rio.webp",
+      "promotedAt": "2026-07-30T09:16:15.371Z"
+    },
+    "kia_ceed": {
+      "file": "kia-ceed.webp",
+      "generation": "third generation CD facelift",
+      "chassisCode": "CD",
+      "sourceSha256": "69ba4a4fd85f8919ab82248130d8b1e25b02014401ce71b22384569f5722df7d",
+      "status": "production",
+      "stagingFile": "catalog-generator\\outputs\\kia-ceed.webp",
+      "promotedAt": "2026-07-30T09:16:15.373Z"
+    },
+    "kia_optima": {
+      "file": "kia-optima.webp",
+      "generation": "fourth generation JF facelift",
+      "chassisCode": "JF",
+      "sourceSha256": "9664752274a6fc09195dcdf70feffa6f4f9876c6ac505a1a9ea1770f525cac72",
+      "status": "production",
+      "stagingFile": "catalog-generator\\outputs\\kia-optima.webp",
+      "promotedAt": "2026-07-30T09:16:15.375Z"
+    },
+    "geely_coolray": {
+      "file": "geely-coolray.webp",
+      "generation": "first generation SX11 major facelift",
+      "chassisCode": "SX11 / BMA",
+      "sourceSha256": "9c9e03d069a105dae10a26bcdc4e379533804fed07bebbbb22eeeb5e5e82e6cf",
+      "status": "production",
+      "stagingFile": "catalog-generator\\outputs\\geely-coolray.webp",
+      "promotedAt": "2026-07-30T09:16:15.377Z"
+    },
+    "geely_atlas": {
+      "file": "geely-atlas.webp",
+      "generation": "second generation FX11",
+      "chassisCode": "FX11 / CMA",
+      "sourceSha256": "bc0f9d42e82076e9a5f76d2fdf1516e6a7bed360512d21682d3761ba827ea0d5",
+      "status": "production",
+      "stagingFile": "catalog-generator\\outputs\\geely-atlas.webp",
+      "promotedAt": "2026-07-30T09:16:15.378Z"
+    },
+    "geely_emgrand": {
+      "file": "geely-emgrand.webp",
+      "generation": "fourth generation SS11",
+      "chassisCode": "SS11 / BMA",
+      "sourceSha256": "6fda60d41a8a90d859884437aff05095d71d2e52c0b1b2b243a72ea498c222a1",
+      "status": "production",
+      "stagingFile": "catalog-generator\\outputs\\geely-emgrand.webp",
+      "promotedAt": "2026-07-30T09:16:15.380Z"
+    },
+    "geely_tugella": {
+      "file": "geely-tugella.webp",
+      "generation": "first generation FY11 current facelift",
+      "chassisCode": "FY11 / CMA",
+      "sourceSha256": "0dc271bf9c78f1b3021e8569acffe4b0de691c620dcc75576422cdcb00dc1528",
+      "status": "production",
+      "stagingFile": "catalog-generator\\outputs\\geely-tugella.webp",
+      "promotedAt": "2026-07-30T09:16:15.382Z"
+    },
+    "geely_monjaro": {
+      "file": "geely-monjaro.webp",
+      "generation": "first generation KX11 current production specification",
+      "chassisCode": "KX11 / CMA",
+      "sourceSha256": "ff1870d37ce67f70ecc9e1ec000efe3fd192504bc31eac3ec17515a0c1333d1a",
+      "status": "production",
+      "stagingFile": "catalog-generator\\outputs\\geely-monjaro.webp",
+      "promotedAt": "2026-07-30T09:36:25.019Z"
+    },
+    "haval_f7": {
+      "file": "haval-f7.webp",
+      "generation": "second generation current Russian-market production model",
+      "chassisCode": "manufacturer internal code not publicly standardized / L.E.M.O.N. platform",
+      "sourceSha256": "7dda778c9f21fee088eff82ca1b1ad877797264b924068b0846d09c2ce699c9b",
+      "status": "production",
+      "stagingFile": "catalog-generator\\outputs\\haval-f7.webp",
+      "promotedAt": "2026-07-30T09:36:25.021Z"
+    },
+    "haval_jolion": {
+      "file": "haval-jolion.webp",
+      "generation": "first generation A01 current facelift",
+      "chassisCode": "A01 / L.E.M.O.N. platform",
+      "sourceSha256": "e1465d3dd73f23d6997a78329e6868c77302fb50ccd6a4e877b1780ab2ce4fdb",
+      "status": "production",
+      "stagingFile": "catalog-generator\\outputs\\haval-jolion.webp",
+      "promotedAt": "2026-07-30T09:36:25.024Z"
+    },
+    "haval_h6": {
+      "file": "haval-h6.webp",
+      "generation": "third generation B01 current facelift",
+      "chassisCode": "B01 / L.E.M.O.N. platform",
+      "sourceSha256": "300f595937cd433fccd5dffc0317cd8483b8a0e269e0a8d77798f2caae3e4115",
+      "status": "production",
+      "stagingFile": "catalog-generator\\outputs\\haval-h6.webp",
+      "promotedAt": "2026-07-30T09:36:25.026Z"
+    },
+    "haval_f7x": {
+      "file": "haval-f7x.webp",
+      "generation": "first generation B02 coupe current facelift",
+      "chassisCode": "B02",
+      "sourceSha256": "d9355c58c20f15a2438321303aeb00359bd4d385f970fd0d51064509dae8c1ff",
+      "status": "production",
+      "stagingFile": "catalog-generator\\outputs\\haval-f7x.webp",
+      "promotedAt": "2026-07-30T09:36:25.028Z"
+    },
+    "haval_m6": {
+      "file": "haval-m6.webp",
+      "generation": "first generation M6 Plus current production facelift",
+      "chassisCode": "manufacturer internal code not publicly standardized",
+      "sourceSha256": "c54fc76fbcffb5de71275866a9c46930ae32cf974b8ebc3ae6c34d722f1d0b02",
+      "status": "production",
+      "stagingFile": "catalog-generator\\outputs\\haval-m6.webp",
+      "promotedAt": "2026-07-30T09:36:25.030Z"
+    },
+    "mercedes_c_class": {
+      "file": "mercedes-c-class.webp",
+      "generation": "fifth generation W206 current production specification",
+      "chassisCode": "W206",
+      "sourceSha256": "8800b9f456a9a6ef79afe8230ef150766b6a84b0d275a5ac6fc041bf99dc06d4",
+      "status": "production",
+      "stagingFile": "catalog-generator\\outputs\\mercedes-c-class.webp",
+      "promotedAt": "2026-07-30T09:36:25.032Z"
+    },
+    "mercedes_glc": {
+      "file": "mercedes-glc.webp",
+      "generation": "second generation X254",
+      "chassisCode": "X254",
+      "sourceSha256": "beafea3f1f324d0b167f46a9ff394619cf586184a44f221a8e5f696b472440c6",
+      "status": "production",
+      "stagingFile": "catalog-generator\\outputs\\mercedes-glc.webp",
+      "promotedAt": "2026-07-30T09:36:25.034Z"
+    },
+    "mercedes_gle": {
+      "file": "mercedes-gle.webp",
+      "generation": "second generation V167 facelift",
+      "chassisCode": "V167",
+      "sourceSha256": "e4ae84469f1abe1f4754465643e9d723550c502fcc16686663433589863aff30",
+      "status": "production",
+      "stagingFile": "catalog-generator\\outputs\\mercedes-gle.webp",
+      "promotedAt": "2026-07-30T09:36:25.036Z"
+    },
+    "mercedes_a_class": {
+      "file": "mercedes-a-class.webp",
+      "generation": "fourth generation W177 facelift",
+      "chassisCode": "W177",
+      "sourceSha256": "96bf2345d33299f4f26c1d496dabf411d4f591ca356b7ace0b0f8201fe26896a",
+      "status": "production",
+      "stagingFile": "catalog-generator\\outputs\\mercedes-a-class.webp",
+      "promotedAt": "2026-07-30T09:36:25.038Z"
+    },
+    "honda_civic": {
+      "file": "honda-civic.webp",
+      "generation": "eleventh generation FE facelift",
+      "chassisCode": "FE1",
+      "sourceSha256": "48f7ad2bc16ff8e7b5a7fe1169d8de852e18ddd04b8809b7f3e94225b2ef9176",
+      "status": "production",
+      "stagingFile": "catalog-generator\\outputs\\honda-civic.webp",
+      "promotedAt": "2026-07-30T10:01:47.401Z"
+    },
+    "honda_crv": {
+      "file": "honda-crv.webp",
+      "generation": "sixth generation RS",
+      "chassisCode": "RS3/RS4/RS5/RS6",
+      "sourceSha256": "f2ff3fb7f9606ccf443fd8b5ccadb366e187962cb357dfd471f92a91c3b00c7a",
+      "status": "production",
+      "stagingFile": "catalog-generator\\outputs\\honda-crv.webp",
+      "promotedAt": "2026-07-30T10:01:47.403Z"
+    },
+    "honda_pilot": {
+      "file": "honda-pilot.webp",
+      "generation": "fourth generation YG",
+      "chassisCode": "YG3/YG4",
+      "sourceSha256": "a5368524c7a2a716583ce420f2376e487d5cc85ff18559763aeafc754b4f2120",
+      "status": "production",
+      "stagingFile": "catalog-generator\\outputs\\honda-pilot.webp",
+      "promotedAt": "2026-07-30T10:01:47.405Z"
+    },
+    "honda_fit": {
+      "file": "honda-fit.webp",
+      "generation": "fourth generation GR/GS facelift",
+      "chassisCode": "GR1-GR8 / GS4-GS7",
+      "sourceSha256": "3788297d1202fc3eb870d357c32bff1ecee663f3b2aa7613e6079d1d4f64b0d1",
+      "status": "production",
+      "stagingFile": "catalog-generator\\outputs\\honda-fit.webp",
+      "promotedAt": "2026-07-30T10:01:47.408Z"
+    },
+    "honda_accord": {
+      "file": "honda-accord.webp",
+      "generation": "eleventh generation CY",
+      "chassisCode": "CY1/CY2",
+      "sourceSha256": "f98698f6d8d8bc99e268f6757c292d660bf6b337bd78d55565aebd5d445878dc",
+      "status": "production",
+      "stagingFile": "catalog-generator\\outputs\\honda-accord.webp",
+      "promotedAt": "2026-07-30T10:01:47.413Z"
+    },
+    "nissan_qashqai": {
+      "file": "nissan-qashqai.webp",
+      "generation": "third generation J12 facelift",
+      "chassisCode": "J12",
+      "sourceSha256": "a5432fabbbabc9d91392455210364fb92eaf6cfbe2cdc008bf3a293076fee297",
+      "status": "production",
+      "stagingFile": "catalog-generator\\outputs\\nissan-qashqai.webp",
+      "promotedAt": "2026-07-30T10:01:47.416Z"
+    },
+    "nissan_x_trail": {
+      "file": "nissan-x-trail.webp",
+      "generation": "fourth generation T33",
+      "chassisCode": "T33",
+      "sourceSha256": "57756dd181d09c3bb7922cc74c6d61e6c071fd972e0c9b175ce156fba3504395",
+      "status": "production",
+      "stagingFile": "catalog-generator\\outputs\\nissan-x-trail.webp",
+      "promotedAt": "2026-07-30T10:01:47.418Z"
+    },
+    "nissan_patrol": {
+      "file": "nissan-patrol.webp",
+      "generation": "seventh generation Y63",
+      "chassisCode": "Y63",
+      "sourceSha256": "4b5d9cde3180b9135db2cc9331d901f64b9f45cc8454c0d34abba426d22c7397",
+      "status": "production",
+      "stagingFile": "catalog-generator\\outputs\\nissan-patrol.webp",
+      "promotedAt": "2026-07-30T10:01:47.421Z"
+    },
+    "nissan_navara": {
+      "file": "nissan-navara.webp",
+      "generation": "third generation D23 facelift",
+      "chassisCode": "D23",
+      "sourceSha256": "e622d125a03c421bce9fcb2f6b685e5a0a8136a04265f96612dc37a1e76ad658",
+      "status": "production",
+      "stagingFile": "catalog-generator\\outputs\\nissan-navara.webp",
+      "promotedAt": "2026-07-30T10:01:47.423Z"
+    },
+    "nissan_leaf": {
+      "file": "nissan-leaf.webp",
+      "generation": "second generation ZE1 final production facelift",
+      "chassisCode": "ZE1",
+      "sourceSha256": "229d895dc37872e770af7f2d6d64fe3f7653e80a3d215c7b1af49cb529ef430e",
+      "status": "production",
+      "stagingFile": "catalog-generator\\outputs\\nissan-leaf.webp",
+      "promotedAt": "2026-07-30T10:01:47.425Z"
+    }
+  }
+}

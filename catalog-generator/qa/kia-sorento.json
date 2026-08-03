@@ -1,0 +1,87 @@
+{
+  "checkedAt": "2026-07-28T12:20:17.651Z",
+  "modelId": "kia-sorento",
+  "file": "catalog-generator\\outputs\\kia-sorento-mq4-facelift.webp",
+  "deterministicPass": true,
+  "analysis": {
+    "width": 1600,
+    "height": 1000,
+    "backgroundCornerRgb": [
+      194,
+      192.6,
+      192.3
+    ],
+    "backgroundCornerLuminance": 193,
+    "backgroundCornerNeutralityDelta": 1.7,
+    "foregroundBounds": {
+      "minX": 118,
+      "maxX": 1452,
+      "minY": 194,
+      "maxY": 894
+    },
+    "foregroundWidthPercent": 83.4,
+    "horizonPercent": 89.5
+  },
+  "checks": {
+    "dimensions": {
+      "status": "pass",
+      "actual": "1600x1000"
+    },
+    "format": {
+      "status": "pass",
+      "actual": "webp"
+    },
+    "aspectRatio": {
+      "status": "pass",
+      "actual": 1.6
+    },
+    "background": {
+      "status": "pass",
+      "actualRgb": [
+        194,
+        192.6,
+        192.3
+      ],
+      "luminance": 193,
+      "neutralityDelta": 1.7
+    },
+    "scale": {
+      "status": "pass",
+      "actualPercent": 83.4,
+      "targetPercent": "78-84",
+      "tolerancePercent": "74-88"
+    },
+    "horizon": {
+      "status": "pass",
+      "actualPercent": 89.5,
+      "tolerancePercent": "72-93"
+    },
+    "exactlyOneVehicle": {
+      "status": "pass",
+      "method": "final-visual-review"
+    },
+    "noPeople": {
+      "status": "pass",
+      "method": "final-visual-review"
+    },
+    "noText": {
+      "status": "pass",
+      "method": "final-visual-review",
+      "note": "No promotional, overlay, watermark or dealer text; authentic vehicle badges are acceptable."
+    },
+    "noWatermark": {
+      "status": "pass",
+      "method": "final-visual-review"
+    },
+    "generationIdentity": {
+      "status": "pass",
+      "method": "final-visual-review"
+    }
+  },
+  "visualGenerationMatch": "approved",
+  "semanticQa": "approved",
+  "generationQa": "approved",
+  "suspectedPreviousGeneration": false,
+  "suspectedMixedGeneration": false,
+  "issues": []
+}

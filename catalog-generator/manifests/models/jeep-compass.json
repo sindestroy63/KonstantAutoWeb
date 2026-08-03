@@ -1,0 +1,24 @@
+{
+  "id": "jeep-compass",
+  "catalogSlug": "jeep_compass",
+  "manufacturer": "Jeep",
+  "model": "Compass",
+  "generation": "TODO: official current generation",
+  "chassisCode": "TODO",
+  "years": "TODO",
+  "facelift": "TODO",
+  "market": "TODO",
+  "body": "Кроссовер",
+  "trim": "TODO",
+  "paint": "factory production color",
+  "identityCues": [],
+  "modelExclusions": [
+    "previous generation",
+    "concept",
+    "fantasy design"
+  ],
+  "referenceUrls": [],
+  "outputFilename": "jeep-compass.webp",
+  "status": "draft",
+  "approved": false
+}

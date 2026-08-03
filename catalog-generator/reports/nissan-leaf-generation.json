@@ -1,0 +1,40 @@
+{
+  "generatedAt": "2026-07-30T09:53:06.340Z",
+  "modelId": "nissan-leaf",
+  "manufacturer": "Nissan",
+  "model": "Leaf",
+  "apiRequestCount": 1,
+  "infrastructureRetries": 0,
+  "infrastructureDiagnostics": [
+    {
+      "requestIndex": 0,
+      "httpStatus": 200,
+      "responseFormat": "json"
+    }
+  ],
+  "requestedYears": "2023-2025",
+  "requestedGeneration": "second generation ZE1 final production facelift",
+  "requestedChassisCode": "ZE1",
+  "modelUsed": "gpt-image-2",
+  "generationMode": "text-generation",
+  "endpoint": "https://vibecode.moe/v1/images/generations",
+  "referenceUrl": "https://www.nissan.co.uk/vehicles/new-vehicles/leaf.html",
+  "referenceImageUrl": null,
+  "apiStatus": 200,
+  "downloadStatus": 200,
+  "contentType": "image/png",
+  "sourceUrl": "https://file7.aitohumanize.com/file/4a8b2ea574cf4535a0f08ef6012af279.png",
+  "rawFile": "catalog-generator\\outputs\\raw\\nissan-leaf.png",
+  "generatedFile": "catalog-generator\\outputs\\nissan-leaf.webp",
+  "rawMetadata": {
+    "format": "png",
+    "width": 1536,
+    "height": 1024
+  },
+  "outputMetadata": {
+    "format": "webp",
+    "width": 1600,
+    "height": 1000
+  },
+  "promptFile": "catalog-generator\\prompts\\nissan-leaf.txt"
+}

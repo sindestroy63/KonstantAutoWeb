@@ -1,0 +1,82 @@
+{
+  "generatedAt": "2026-07-30T09:16:15.384Z",
+  "batch": 1,
+  "backupRoot": "catalog-generator\\backups\\full-catalog-batch-01-2026-07-30T09-16-15-290Z",
+  "promoted": [
+    {
+      "modelId": "bmw-x3",
+      "catalogSlug": "bmw_x3",
+      "productionFile": "public\\images\\catalog\\bmw-x3.webp",
+      "sha256": "00f044e4823bfdd2389bf110a49fb1148f5d80e098e039db480e8a312af2a645",
+      "verified": true
+    },
+    {
+      "modelId": "bmw-1-series",
+      "catalogSlug": "bmw_1_series",
+      "productionFile": "public\\images\\catalog\\bmw-1-series.webp",
+      "sha256": "218f627fcfc2dd971a1554935bd0eba1a085aa2ed5a76435dcb8939e6d65fa85",
+      "verified": true
+    },
+    {
+      "modelId": "hyundai-solaris",
+      "catalogSlug": "hyundai_solaris",
+      "productionFile": "public\\images\\catalog\\hyundai-solaris.webp",
+      "sha256": "eb7d7557d41ab47626b05664815fcd295e0e27f17836668715b3393980be89ea",
+      "verified": true
+    },
+    {
+      "modelId": "kia-rio",
+      "catalogSlug": "kia_rio",
+      "productionFile": "public\\images\\catalog\\kia-rio.webp",
+      "sha256": "c3efab50af5c6357bedbca2a5d5118d05124267ea072e2d196cc30285fde46c2",
+      "verified": true
+    },
+    {
+      "modelId": "kia-ceed",
+      "catalogSlug": "kia_ceed",
+      "productionFile": "public\\images\\catalog\\kia-ceed.webp",
+      "sha256": "69ba4a4fd85f8919ab82248130d8b1e25b02014401ce71b22384569f5722df7d",
+      "verified": true
+    },
+    {
+      "modelId": "kia-optima",
+      "catalogSlug": "kia_optima",
+      "productionFile": "public\\images\\catalog\\kia-optima.webp",
+      "sha256": "9664752274a6fc09195dcdf70feffa6f4f9876c6ac505a1a9ea1770f525cac72",
+      "verified": true
+    },
+    {
+      "modelId": "geely-coolray",
+      "catalogSlug": "geely_coolray",
+      "productionFile": "public\\images\\catalog\\geely-coolray.webp",
+      "sha256": "9c9e03d069a105dae10a26bcdc4e379533804fed07bebbbb22eeeb5e5e82e6cf",
+      "verified": true
+    },
+    {
+      "modelId": "geely-atlas",
+      "catalogSlug": "geely_atlas",
+      "productionFile": "public\\images\\catalog\\geely-atlas.webp",
+      "sha256": "bc0f9d42e82076e9a5f76d2fdf1516e6a7bed360512d21682d3761ba827ea0d5",
+      "verified": true
+    },
+    {
+      "modelId": "geely-emgrand",
+      "catalogSlug": "geely_emgrand",
+      "productionFile": "public\\images\\catalog\\geely-emgrand.webp",
+      "sha256": "6fda60d41a8a90d859884437aff05095d71d2e52c0b1b2b243a72ea498c222a1",
+      "verified": true
+    },
+    {
+      "modelId": "geely-tugella",
+      "catalogSlug": "geely_tugella",
+      "productionFile": "public\\images\\catalog\\geely-tugella.webp",
+      "sha256": "0dc271bf9c78f1b3021e8569acffe4b0de691c620dcc75576422cdcb00dc1528",
+      "verified": true
+    }
+  ],
+  "manifestProductionEntries": 26,
+  "carsJsonSha256Before": "0cde230d2e016bfcb306c6e4ef29e7914c8a6012cf99110f8c66583fbb9a04ae",
+  "carsJsonSha256After": "0cde230d2e016bfcb306c6e4ef29e7914c8a6012cf99110f8c66583fbb9a04ae",
+  "carsJsonUnchanged": true,
+  "gitCommitCreated": false
+}

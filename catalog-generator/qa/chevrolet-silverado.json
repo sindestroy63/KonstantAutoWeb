@@ -1,0 +1,80 @@
+{
+  "checkedAt": "2026-07-30T11:59:04.567Z",
+  "modelId": "chevrolet-silverado",
+  "file": "catalog-generator\\outputs\\chevrolet-silverado.webp",
+  "deterministicPass": true,
+  "analysis": {
+    "width": 1600,
+    "height": 1000,
+    "backgroundCornerRgb": [
+      200,
+      200,
+      199
+    ],
+    "backgroundCornerLuminance": 199.7,
+    "backgroundCornerNeutralityDelta": 1,
+    "foregroundBounds": {
+      "minX": 108,
+      "maxX": 1482,
+      "minY": 218,
+      "maxY": 844
+    },
+    "foregroundWidthPercent": 85.9,
+    "horizonPercent": 84.5
+  },
+  "checks": {
+    "dimensions": {
+      "status": "pass",
+      "actual": "1600x1000"
+    },
+    "format": {
+      "status": "pass",
+      "actual": "webp"
+    },
+    "aspectRatio": {
+      "status": "pass",
+      "actual": 1.6
+    },
+    "background": {
+      "status": "pass",
+      "actualRgb": [
+        200,
+        200,
+        199
+      ],
+      "luminance": 199.7,
+      "neutralityDelta": 1
+    },
+    "scale": {
+      "status": "pass",
+      "actualPercent": 85.9,
+      "targetPercent": "78-84",
+      "tolerancePercent": "74-88"
+    },
+    "horizon": {
+      "status": "pass",
+      "actualPercent": 84.5,
+      "tolerancePercent": "72-93"
+    },
+    "exactlyOneVehicle": {
+      "status": "pending",
+      "method": "manual-or-vision-adapter"
+    },
+    "noPeople": {
+      "status": "pending",
+      "method": "manual-or-vision-adapter"
+    },
+    "noText": {
+      "status": "pending",
+      "method": "manual-or-vision-adapter"
+    },
+    "noWatermark": {
+      "status": "pending",
+      "method": "manual-or-vision-adapter"
+    },
+    "generationIdentity": {
+      "status": "pending",
+      "method": "owner-review"
+    }
+  }
+}

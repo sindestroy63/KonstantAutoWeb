@@ -1,0 +1,83 @@
+{
+  "checkedAt": "2026-07-30T10:36:11.428Z",
+  "modelId": "volkswagen-golf",
+  "file": "catalog-generator\\outputs\\volkswagen-golf.webp",
+  "deterministicPass": true,
+  "analysis": {
+    "width": 1600,
+    "height": 1000,
+    "backgroundCornerRgb": [
+      194.2,
+      193.9,
+      196.2
+    ],
+    "backgroundCornerLuminance": 194.8,
+    "backgroundCornerNeutralityDelta": 2.3,
+    "foregroundBounds": {
+      "minX": 166,
+      "maxX": 1412,
+      "minY": 240,
+      "maxY": 828
+    },
+    "foregroundWidthPercent": 77.9,
+    "horizonPercent": 82.9
+  },
+  "checks": {
+    "dimensions": {
+      "status": "pass",
+      "actual": "1600x1000"
+    },
+    "format": {
+      "status": "pass",
+      "actual": "webp"
+    },
+    "aspectRatio": {
+      "status": "pass",
+      "actual": 1.6
+    },
+    "background": {
+      "status": "pass",
+      "actualRgb": [
+        194.2,
+        193.9,
+        196.2
+      ],
+      "luminance": 194.8,
+      "neutralityDelta": 2.3
+    },
+    "scale": {
+      "status": "pass",
+      "actualPercent": 77.9,
+      "targetPercent": "78-84",
+      "tolerancePercent": "74-88"
+    },
+    "horizon": {
+      "status": "pass",
+      "actualPercent": 82.9,
+      "tolerancePercent": "72-93"
+    },
+    "exactlyOneVehicle": {
+      "status": "pass",
+      "method": "agent-visual-review"
+    },
+    "noPeople": {
+      "status": "pass",
+      "method": "agent-visual-review"
+    },
+    "noText": {
+      "status": "pass",
+      "method": "agent-visual-review"
+    },
+    "noWatermark": {
+      "status": "pass",
+      "method": "agent-visual-review"
+    },
+    "generationIdentity": {
+      "status": "approved",
+      "method": "agent-visual-review"
+    }
+  },
+  "semanticQa": "approved",
+  "generationQa": "approved",
+  "finalStatus": "production-approved"
+}

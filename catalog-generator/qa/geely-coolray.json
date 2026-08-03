@@ -1,0 +1,83 @@
+{
+  "checkedAt": "2026-07-30T09:15:46.745Z",
+  "modelId": "geely-coolray",
+  "file": "catalog-generator\\outputs\\geely-coolray.webp",
+  "deterministicPass": true,
+  "analysis": {
+    "width": 1600,
+    "height": 1000,
+    "backgroundCornerRgb": [
+      202.1,
+      202.8,
+      205.3
+    ],
+    "backgroundCornerLuminance": 203.4,
+    "backgroundCornerNeutralityDelta": 3.2,
+    "foregroundBounds": {
+      "minX": 152,
+      "maxX": 1438,
+      "minY": 216,
+      "maxY": 860
+    },
+    "foregroundWidthPercent": 80.4,
+    "horizonPercent": 86.1
+  },
+  "checks": {
+    "dimensions": {
+      "status": "pass",
+      "actual": "1600x1000"
+    },
+    "format": {
+      "status": "pass",
+      "actual": "webp"
+    },
+    "aspectRatio": {
+      "status": "pass",
+      "actual": 1.6
+    },
+    "background": {
+      "status": "pass",
+      "actualRgb": [
+        202.1,
+        202.8,
+        205.3
+      ],
+      "luminance": 203.4,
+      "neutralityDelta": 3.2
+    },
+    "scale": {
+      "status": "pass",
+      "actualPercent": 80.4,
+      "targetPercent": "78-84",
+      "tolerancePercent": "74-88"
+    },
+    "horizon": {
+      "status": "pass",
+      "actualPercent": 86.1,
+      "tolerancePercent": "72-93"
+    },
+    "exactlyOneVehicle": {
+      "status": "pass",
+      "method": "agent-visual-review"
+    },
+    "noPeople": {
+      "status": "pass",
+      "method": "agent-visual-review"
+    },
+    "noText": {
+      "status": "pass",
+      "method": "agent-visual-review"
+    },
+    "noWatermark": {
+      "status": "pass",
+      "method": "agent-visual-review"
+    },
+    "generationIdentity": {
+      "status": "approved",
+      "method": "agent-visual-review"
+    }
+  },
+  "semanticQa": "approved",
+  "generationQa": "approved",
+  "finalStatus": "production-approved"
+}

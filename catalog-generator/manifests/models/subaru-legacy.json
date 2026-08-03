@@ -1,0 +1,24 @@
+{
+  "id": "subaru-legacy",
+  "catalogSlug": "subaru_legacy",
+  "manufacturer": "Subaru",
+  "model": "Legacy",
+  "generation": "TODO: official current generation",
+  "chassisCode": "TODO",
+  "years": "TODO",
+  "facelift": "TODO",
+  "market": "TODO",
+  "body": "Седан",
+  "trim": "TODO",
+  "paint": "factory production color",
+  "identityCues": [],
+  "modelExclusions": [
+    "previous generation",
+    "concept",
+    "fantasy design"
+  ],
+  "referenceUrls": [],
+  "outputFilename": "subaru-legacy.webp",
+  "status": "draft",
+  "approved": false
+}

@@ -1,0 +1,40 @@
+{
+  "generatedAt": "2026-07-30T10:21:33.606Z",
+  "modelId": "mazda-mazda2",
+  "manufacturer": "Mazda",
+  "model": "Mazda2",
+  "apiRequestCount": 1,
+  "infrastructureRetries": 0,
+  "infrastructureDiagnostics": [
+    {
+      "requestIndex": 0,
+      "httpStatus": 200,
+      "responseFormat": "json"
+    }
+  ],
+  "requestedYears": "2023-2025",
+  "requestedGeneration": "third generation DJ facelift",
+  "requestedChassisCode": "DJ",
+  "modelUsed": "gpt-image-2",
+  "generationMode": "text-generation",
+  "endpoint": "https://vibecode.moe/v1/images/generations",
+  "referenceUrl": "https://www.mazda.co.jp/cars/mazda2/",
+  "referenceImageUrl": null,
+  "apiStatus": 200,
+  "downloadStatus": 200,
+  "contentType": "image/png",
+  "sourceUrl": "https://file5.aitohumanize.com/file/dde6b86ccbe94362853bc8db64002c50.png",
+  "rawFile": "catalog-generator\\outputs\\raw\\mazda-mazda2.png",
+  "generatedFile": "catalog-generator\\outputs\\mazda-mazda2.webp",
+  "rawMetadata": {
+    "format": "png",
+    "width": 1536,
+    "height": 1024
+  },
+  "outputMetadata": {
+    "format": "webp",
+    "width": 1600,
+    "height": 1000
+  },
+  "promptFile": "catalog-generator\\prompts\\mazda-mazda2.txt"
+}

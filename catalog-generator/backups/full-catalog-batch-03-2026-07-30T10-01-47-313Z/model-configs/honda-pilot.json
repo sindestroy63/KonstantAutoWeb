@@ -1,0 +1,40 @@
+{
+  "id": "honda-pilot",
+  "catalogSlug": "honda_pilot",
+  "manufacturer": "Honda",
+  "model": "Pilot",
+  "generation": "fourth generation YG",
+  "chassisCode": "YG3/YG4",
+  "years": "2023-2026",
+  "facelift": "current fourth-generation production specification",
+  "market": "North America",
+  "body": "five-door three-row midsize SUV",
+  "trim": "TrailSport",
+  "paint": "Diffused Sky Blue Pearl",
+  "identityCues": [
+    "fourth-generation YG boxier three-row SUV body",
+    "large upright black mesh grille",
+    "slim horizontal LED headlamps",
+    "TrailSport production bumper and accurate Honda badge"
+  ],
+  "modelExclusions": [
+    "third-generation Pilot",
+    "Honda Passport",
+    "Honda CR-V",
+    "Honda Ridgeline",
+    "rounded previous body",
+    "fictional off-road accessories"
+  ],
+  "referenceUrls": [
+    "https://automobiles.honda.com/pilot"
+  ],
+  "fallbackReferenceUrls": [
+    "https://en.wikipedia.org/wiki/Honda_Pilot",
+    "https://www.caranddriver.com/honda/pilot"
+  ],
+  "referenceQuality": "secondary-confirmed",
+  "confidenceLevel": "high",
+  "outputFilename": "honda-pilot.webp",
+  "status": "qa",
+  "approved": false
+}

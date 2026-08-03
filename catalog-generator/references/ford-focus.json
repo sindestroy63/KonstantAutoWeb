@@ -1,0 +1,27 @@
+{
+  "checkedAt": "2026-07-30T11:04:09.472Z",
+  "manufacturer": "Ford",
+  "model": "Focus",
+  "requestedYear": "2022-2025 final model years",
+  "generation": "fourth generation C519 facelift final production specification",
+  "chassisCode": "C519",
+  "market": "Europe",
+  "referenceUrl": "https://www.ford.co.uk/cars/focus",
+  "finalUrl": "https://www.ford.co.uk/cars/focus",
+  "httpStatus": 200,
+  "officialDomain": "www.ford.co.uk",
+  "confirmedBodyCues": [
+    "facelift fourth-generation five-door Focus body",
+    "slimmer LED headlamps",
+    "larger Ford-badge-in-grille front design",
+    "ST-Line lower bumper without full ST body kit"
+  ],
+  "attempts": [
+    {
+      "url": "https://www.ford.co.uk/cars/focus",
+      "finalUrl": "https://www.ford.co.uk/cars/focus",
+      "httpStatus": 200,
+      "status": "confirmed"
+    }
+  ]
+}

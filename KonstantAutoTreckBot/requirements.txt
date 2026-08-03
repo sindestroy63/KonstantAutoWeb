@@ -1,0 +1,4 @@
+aiogram==3.*
+python-dotenv==1.*
+gspread==6.*
+google-auth==2.*

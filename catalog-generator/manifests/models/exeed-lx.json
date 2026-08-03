@@ -1,0 +1,24 @@
+{
+  "id": "exeed-lx",
+  "catalogSlug": "exeed_lx",
+  "manufacturer": "Exeed",
+  "model": "LX",
+  "generation": "TODO: official current generation",
+  "chassisCode": "TODO",
+  "years": "TODO",
+  "facelift": "TODO",
+  "market": "TODO",
+  "body": "Кроссовер",
+  "trim": "TODO",
+  "paint": "factory production color",
+  "identityCues": [],
+  "modelExclusions": [
+    "previous generation",
+    "concept",
+    "fantasy design"
+  ],
+  "referenceUrls": [],
+  "outputFilename": "exeed-lx.webp",
+  "status": "draft",
+  "approved": false
+}

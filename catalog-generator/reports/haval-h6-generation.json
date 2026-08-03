@@ -1,0 +1,40 @@
+{
+  "generatedAt": "2026-07-30T09:33:31.616Z",
+  "modelId": "haval-h6",
+  "manufacturer": "Haval",
+  "model": "H6",
+  "apiRequestCount": 1,
+  "infrastructureRetries": 0,
+  "infrastructureDiagnostics": [
+    {
+      "requestIndex": 0,
+      "httpStatus": 200,
+      "responseFormat": "json"
+    }
+  ],
+  "requestedYears": "2024-2026",
+  "requestedGeneration": "third generation B01 current facelift",
+  "requestedChassisCode": "B01 / L.E.M.O.N. platform",
+  "modelUsed": "gpt-image-2",
+  "generationMode": "text-generation",
+  "endpoint": "https://vibecode.moe/v1/images/generations",
+  "referenceUrl": "https://www.haval-global.com/haval-h6/",
+  "referenceImageUrl": null,
+  "apiStatus": 200,
+  "downloadStatus": 200,
+  "contentType": "image/png",
+  "sourceUrl": "https://file3.aitohumanize.com/file/2ab6859f55bc42a2bf7b1e5523fddf18.png",
+  "rawFile": "catalog-generator\\outputs\\raw\\haval-h6.png",
+  "generatedFile": "catalog-generator\\outputs\\haval-h6.webp",
+  "rawMetadata": {
+    "format": "png",
+    "width": 1536,
+    "height": 1024
+  },
+  "outputMetadata": {
+    "format": "webp",
+    "width": 1600,
+    "height": 1000
+  },
+  "promptFile": "catalog-generator\\prompts\\haval-h6.txt"
+}

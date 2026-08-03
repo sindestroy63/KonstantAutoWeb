@@ -1,0 +1,80 @@
+{
+  "checkedAt": "2026-07-29T09:54:14.182Z",
+  "modelId": "kia-sportage",
+  "file": "catalog-generator\\outputs\\batch-01-kia-sportage-nq5-facelift.webp",
+  "deterministicPass": true,
+  "analysis": {
+    "width": 1600,
+    "height": 1000,
+    "backgroundCornerRgb": [
+      200.7,
+      200.7,
+      199.9
+    ],
+    "backgroundCornerLuminance": 200.5,
+    "backgroundCornerNeutralityDelta": 0.8,
+    "foregroundBounds": {
+      "minX": 128,
+      "maxX": 1430,
+      "minY": 218,
+      "maxY": 838
+    },
+    "foregroundWidthPercent": 81.4,
+    "horizonPercent": 83.9
+  },
+  "checks": {
+    "dimensions": {
+      "status": "pass",
+      "actual": "1600x1000"
+    },
+    "format": {
+      "status": "pass",
+      "actual": "webp"
+    },
+    "aspectRatio": {
+      "status": "pass",
+      "actual": 1.6
+    },
+    "background": {
+      "status": "pass",
+      "actualRgb": [
+        200.7,
+        200.7,
+        199.9
+      ],
+      "luminance": 200.5,
+      "neutralityDelta": 0.8
+    },
+    "scale": {
+      "status": "pass",
+      "actualPercent": 81.4,
+      "targetPercent": "78-84",
+      "tolerancePercent": "74-88"
+    },
+    "horizon": {
+      "status": "pass",
+      "actualPercent": 83.9,
+      "tolerancePercent": "72-93"
+    },
+    "exactlyOneVehicle": {
+      "status": "pending",
+      "method": "manual-or-vision-adapter"
+    },
+    "noPeople": {
+      "status": "pending",
+      "method": "manual-or-vision-adapter"
+    },
+    "noText": {
+      "status": "pending",
+      "method": "manual-or-vision-adapter"
+    },
+    "noWatermark": {
+      "status": "pending",
+      "method": "manual-or-vision-adapter"
+    },
+    "generationIdentity": {
+      "status": "pending",
+      "method": "owner-review"
+    }
+  }
+}

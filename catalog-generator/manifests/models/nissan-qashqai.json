@@ -1,0 +1,41 @@
+{
+  "id": "nissan-qashqai",
+  "catalogSlug": "nissan_qashqai",
+  "manufacturer": "Nissan",
+  "model": "Qashqai",
+  "generation": "third generation J12 facelift",
+  "chassisCode": "J12",
+  "years": "2024-2026",
+  "facelift": "2024 European facelift",
+  "market": "Europe",
+  "body": "five-door compact crossover",
+  "trim": "Tekna",
+  "paint": "Fuji Sunset Red metallic",
+  "identityCues": [
+    "J12 crossover body",
+    "2024 facelift broad geometric textured grille",
+    "facelift segmented upper light signature and slim main lamps",
+    "current bumper and Nissan circle wordmark"
+  ],
+  "modelExclusions": [
+    "second-generation J11 Qashqai",
+    "pre-facelift J12 V-motion front",
+    "Nissan X-Trail",
+    "Nissan Juke",
+    "Rogue Sport",
+    "mixed J11/J12"
+  ],
+  "referenceUrls": [
+    "https://www.nissan.co.uk/vehicles/new-vehicles/qashqai.html"
+  ],
+  "fallbackReferenceUrls": [
+    "https://en.wikipedia.org/wiki/Nissan_Qashqai",
+    "https://www.autocar.co.uk/car-review/nissan/qashqai"
+  ],
+  "referenceQuality": "secondary-confirmed",
+  "confidenceLevel": "high",
+  "outputFilename": "nissan-qashqai.webp",
+  "status": "production",
+  "approved": true,
+  "approvalStatus": "production-approved"
+}

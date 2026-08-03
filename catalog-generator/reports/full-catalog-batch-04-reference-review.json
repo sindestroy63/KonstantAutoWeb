@@ -1,0 +1,361 @@
+{
+  "batch": 4,
+  "reviewedAt": "2026-07-30T10:13:44.546Z",
+  "entries": [
+    {
+      "modelId": "mazda-mazda3",
+      "manufacturer": "Mazda",
+      "model": "Mazda3",
+      "generation": "fourth generation BP",
+      "modelYears": "2025-2026",
+      "chassisCode": "BP",
+      "market": "North America",
+      "body": "four-door compact sedan",
+      "trim": "2.5 S Premium",
+      "facelift": "current production specification",
+      "mustHave": [
+        "fourth-generation BP sedan body",
+        "slim swept LED headlamps",
+        "large shield-shaped black mesh grille with chrome lower surround",
+        "long hood and short rear deck"
+      ],
+      "mustNotHave": [
+        "third-generation BM/BN Mazda3",
+        "Mazda3 hatchback",
+        "concept",
+        "fantasy design"
+      ],
+      "officialReferenceUrls": [
+        "https://www.mazdausa.com/vehicles/mazda3-sedan"
+      ],
+      "fallbackReferenceUrls": [
+        "https://en.wikipedia.org/wiki/Mazda3"
+      ],
+      "resolvedReferenceUrl": "https://www.mazdausa.com/vehicles/mazda3-sedan",
+      "referenceQuality": "official",
+      "confidenceLevel": "high",
+      "status": "reference-approved"
+    },
+    {
+      "modelId": "mazda-cx-5",
+      "manufacturer": "Mazda",
+      "model": "CX-5",
+      "generation": "third generation 2026",
+      "modelYears": "2026",
+      "chassisCode": "not publicly confirmed",
+      "market": "North America",
+      "body": "five-door compact crossover SUV",
+      "trim": "Premium Plus",
+      "facelift": "all-new third generation",
+      "mustHave": [
+        "all-new 2026 third-generation CX-5 body",
+        "wider planted stance and longer wheelbase",
+        "thin angular LED headlamps flowing into the grille",
+        "new Mazda wing grille and sculpted lower bumper"
+      ],
+      "mustNotHave": [
+        "second-generation KF CX-5",
+        "CX-50",
+        "CX-60",
+        "concept",
+        "fantasy design"
+      ],
+      "officialReferenceUrls": [
+        "https://news.mazdausa.com/2025-07-10-All-New-2026-Mazda-CX-5-Debuts"
+      ],
+      "fallbackReferenceUrls": [
+        "https://en.wikipedia.org/wiki/Mazda_CX-5",
+        "https://www.autoevolution.com/cars/mazda-cx-5.html"
+      ],
+      "resolvedReferenceUrl": "https://news.mazdausa.com/2025-07-10-All-New-2026-Mazda-CX-5-Debuts",
+      "referenceQuality": "secondary-confirmed",
+      "confidenceLevel": "high",
+      "status": "reference-approved"
+    },
+    {
+      "modelId": "mazda-cx-9",
+      "manufacturer": "Mazda",
+      "model": "CX-9",
+      "generation": "second generation TC final production specification",
+      "modelYears": "2023 final model year",
+      "chassisCode": "TC",
+      "market": "North America",
+      "body": "five-door three-row midsize crossover SUV",
+      "trim": "Grand Touring",
+      "facelift": "final post-2021 production specification",
+      "mustHave": [
+        "second-generation TC three-row crossover body",
+        "wide Mazda shield grille with chrome wing surround",
+        "slim horizontal LED headlamps",
+        "long roof and distinct rear quarter window"
+      ],
+      "mustNotHave": [
+        "first-generation TB CX-9",
+        "Mazda CX-90",
+        "Mazda CX-8",
+        "concept",
+        "fantasy design"
+      ],
+      "officialReferenceUrls": [
+        "https://news.mazdausa.com/2022-08-30-2023-Mazda-CX-9-Pricing-and-Packaging"
+      ],
+      "fallbackReferenceUrls": [
+        "https://en.wikipedia.org/wiki/Mazda_CX-9"
+      ],
+      "resolvedReferenceUrl": "https://news.mazdausa.com/2022-08-30-2023-Mazda-CX-9-Pricing-and-Packaging",
+      "referenceQuality": "official-archive",
+      "confidenceLevel": "high",
+      "status": "reference-approved"
+    },
+    {
+      "modelId": "mazda-mazda2",
+      "manufacturer": "Mazda",
+      "model": "Mazda2",
+      "generation": "third generation DJ facelift",
+      "modelYears": "2023-2025",
+      "chassisCode": "DJ",
+      "market": "Japan",
+      "body": "five-door subcompact hatchback",
+      "trim": "15 Sport",
+      "facelift": "2023 Japanese-market facelift",
+      "mustHave": [
+        "third-generation DJ five-door hatchback",
+        "2023 facelift grille with body-color accent panel",
+        "compact swept LED headlamps",
+        "short rear overhang and Mazda Kodo body surfacing"
+      ],
+      "mustNotHave": [
+        "second-generation DE Mazda2",
+        "Toyota Yaris Hybrid rebadge",
+        "sedan body",
+        "concept",
+        "fantasy design"
+      ],
+      "officialReferenceUrls": [
+        "https://www.mazda.co.jp/cars/mazda2/"
+      ],
+      "fallbackReferenceUrls": [
+        "https://en.wikipedia.org/wiki/Mazda2"
+      ],
+      "resolvedReferenceUrl": "https://www.mazda.co.jp/cars/mazda2/",
+      "referenceQuality": "official",
+      "confidenceLevel": "high",
+      "status": "reference-approved"
+    },
+    {
+      "modelId": "mazda-mazda6",
+      "manufacturer": "Mazda",
+      "model": "Mazda6",
+      "generation": "third generation GJ/GL final facelift",
+      "modelYears": "2023-2024 final production specification",
+      "chassisCode": "GJ / GL",
+      "market": "Australia / Middle East",
+      "body": "four-door midsize sedan",
+      "trim": "GT SP",
+      "facelift": "2018 facelift, final production specification",
+      "mustHave": [
+        "third-generation facelift Mazda6 sedan body",
+        "large shield grille with mesh texture",
+        "slim LED headlamps integrated with chrome grille wings",
+        "low flowing roofline and long hood"
+      ],
+      "mustNotHave": [
+        "second-generation GH Mazda6",
+        "Mazda EZ-6",
+        "wagon body",
+        "concept",
+        "fantasy design"
+      ],
+      "officialReferenceUrls": [
+        "https://www.mazda.com.au/cars/mazda6/"
+      ],
+      "fallbackReferenceUrls": [
+        "https://en.wikipedia.org/wiki/Mazda6"
+      ],
+      "resolvedReferenceUrl": "https://www.mazda.com.au/cars/mazda6/",
+      "referenceQuality": "official-archive",
+      "confidenceLevel": "high",
+      "status": "reference-approved"
+    },
+    {
+      "modelId": "volkswagen-polo",
+      "manufacturer": "Volkswagen",
+      "model": "Polo",
+      "generation": "current Polo Sedan AW/MQB A0 specification",
+      "modelYears": "2024-2026",
+      "chassisCode": "AW / MQB A0",
+      "market": "South Africa",
+      "body": "four-door subcompact sedan",
+      "trim": "Life",
+      "facelift": "current production specification",
+      "mustHave": [
+        "current MQB A0 Polo Sedan four-door body",
+        "slim Volkswagen headlamps joined visually to narrow grille",
+        "wide lower bumper intake",
+        "separate sedan trunk and correct Volkswagen roundel"
+      ],
+      "mustNotHave": [
+        "fifth-generation 6R Polo",
+        "European Polo hatchback",
+        "Volkswagen Virtus GT body kit",
+        "concept",
+        "fantasy design"
+      ],
+      "officialReferenceUrls": [
+        "https://www.vw.co.za/en/models/polo-sedan.html"
+      ],
+      "fallbackReferenceUrls": [
+        "https://en.wikipedia.org/wiki/Volkswagen_Virtus",
+        "https://www.autoevolution.com/cars/volkswagen-virtus.html"
+      ],
+      "resolvedReferenceUrl": "https://www.vw.co.za/en/models/polo-sedan.html",
+      "referenceQuality": "secondary-confirmed",
+      "confidenceLevel": "medium-high",
+      "status": "reference-approved"
+    },
+    {
+      "modelId": "volkswagen-tiguan",
+      "manufacturer": "Volkswagen",
+      "model": "Tiguan",
+      "generation": "third generation",
+      "modelYears": "2024-2026",
+      "chassisCode": "CT1",
+      "market": "Europe",
+      "body": "five-door compact crossover SUV",
+      "trim": "R-Line",
+      "facelift": "all-new third generation",
+      "mustHave": [
+        "third-generation CT1 rounded crossover body",
+        "slim upper LED light bar and headlamps",
+        "large lower grille opening",
+        "smooth closed upper nose with centered Volkswagen badge"
+      ],
+      "mustNotHave": [
+        "second-generation AD/BW Tiguan",
+        "Tiguan Allspace",
+        "Volkswagen Tayron",
+        "concept",
+        "fantasy design"
+      ],
+      "officialReferenceUrls": [
+        "https://www.volkswagen-newsroom.com/en/the-new-tiguan-2024-17744"
+      ],
+      "fallbackReferenceUrls": [
+        "https://en.wikipedia.org/wiki/Volkswagen_Tiguan",
+        "https://www.autoevolution.com/cars/volkswagen-tiguan.html"
+      ],
+      "resolvedReferenceUrl": "https://www.volkswagen-newsroom.com/en/the-new-tiguan-2024-17744",
+      "referenceQuality": "secondary-confirmed",
+      "confidenceLevel": "high",
+      "status": "reference-approved"
+    },
+    {
+      "modelId": "volkswagen-touareg",
+      "manufacturer": "Volkswagen",
+      "model": "Touareg",
+      "generation": "third generation CR facelift",
+      "modelYears": "2024-2026",
+      "chassisCode": "CR",
+      "market": "Europe",
+      "body": "five-door midsize luxury SUV",
+      "trim": "R-Line",
+      "facelift": "2023 facelift",
+      "mustHave": [
+        "third-generation CR SUV proportions",
+        "facelift IQ.LIGHT HD matrix headlamps",
+        "full-width light strip across the upper grille",
+        "wide lower R-Line bumper and correct Volkswagen badge"
+      ],
+      "mustNotHave": [
+        "pre-facelift third-generation Touareg",
+        "second-generation 7P Touareg",
+        "Volkswagen Tiguan",
+        "concept",
+        "fantasy design"
+      ],
+      "officialReferenceUrls": [
+        "https://www.volkswagen-newsroom.com/en/the-new-touareg-2023-15998"
+      ],
+      "fallbackReferenceUrls": [
+        "https://en.wikipedia.org/wiki/Volkswagen_Touareg",
+        "https://www.autoevolution.com/cars/volkswagen-touareg.html"
+      ],
+      "resolvedReferenceUrl": "https://www.volkswagen-newsroom.com/en/the-new-touareg-2023-15998",
+      "referenceQuality": "secondary-confirmed",
+      "confidenceLevel": "high",
+      "status": "reference-approved"
+    },
+    {
+      "modelId": "volkswagen-golf",
+      "manufacturer": "Volkswagen",
+      "model": "Golf",
+      "generation": "eighth generation Mk8.5 facelift",
+      "modelYears": "2025-2026",
+      "chassisCode": "CD1",
+      "market": "Europe",
+      "body": "five-door compact hatchback",
+      "trim": "R-Line",
+      "facelift": "2024 facelift",
+      "mustHave": [
+        "Mk8.5 five-door hatchback body",
+        "facelift LED headlamps with revised internal signature",
+        "narrow illuminated upper grille strip",
+        "revised R-Line lower bumper and compact Golf proportions"
+      ],
+      "mustNotHave": [
+        "pre-facelift Mk8 Golf",
+        "Mk7 Golf",
+        "Golf GTI red trim",
+        "concept",
+        "fantasy design"
+      ],
+      "officialReferenceUrls": [
+        "https://www.volkswagen-newsroom.com/en/the-new-golf-2024-18136"
+      ],
+      "fallbackReferenceUrls": [
+        "https://en.wikipedia.org/wiki/Volkswagen_Golf_Mk8",
+        "https://www.autoevolution.com/cars/volkswagen-golf.html"
+      ],
+      "resolvedReferenceUrl": "https://www.volkswagen-newsroom.com/en/the-new-golf-2024-18136",
+      "referenceQuality": "secondary-confirmed",
+      "confidenceLevel": "high",
+      "status": "reference-approved"
+    },
+    {
+      "modelId": "volkswagen-passat",
+      "manufacturer": "Volkswagen",
+      "model": "Passat",
+      "generation": "ninth generation B9",
+      "modelYears": "2024-2026",
+      "chassisCode": "B9 / CJ",
+      "market": "Europe",
+      "body": "five-door midsize estate (Variant)",
+      "trim": "Elegance",
+      "facelift": "all-new ninth generation",
+      "mustHave": [
+        "ninth-generation B9 Variant body",
+        "slim LED headlamps connected by narrow upper light strip",
+        "large lower grille",
+        "long estate roof and distinct rear cargo body"
+      ],
+      "mustNotHave": [
+        "eighth-generation B8 Passat",
+        "Passat sedan",
+        "Volkswagen Arteon",
+        "concept",
+        "fantasy design"
+      ],
+      "officialReferenceUrls": [
+        "https://www.volkswagen-newsroom.com/en/the-new-passat-variant-2024-17557"
+      ],
+      "fallbackReferenceUrls": [
+        "https://en.wikipedia.org/wiki/Volkswagen_Passat_(B9)",
+        "https://www.autoevolution.com/cars/volkswagen-passat-variant.html"
+      ],
+      "resolvedReferenceUrl": "https://www.volkswagen-newsroom.com/en/the-new-passat-variant-2024-17557",
+      "referenceQuality": "secondary-confirmed",
+      "confidenceLevel": "high",
+      "status": "reference-approved"
+    }
+  ]
+}

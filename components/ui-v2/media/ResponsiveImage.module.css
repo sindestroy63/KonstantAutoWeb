@@ -1,0 +1,14 @@
+.frame {
+  position: relative;
+  overflow: hidden;
+  background: var(--ka-v2-color-surface-muted);
+}
+
+.landscape { aspect-ratio: var(--ka-v2-image-landscape); }
+.editorial { aspect-ratio: var(--ka-v2-image-editorial); }
+.square { aspect-ratio: var(--ka-v2-image-square); }
+.none { aspect-ratio: auto; }
+.rounded { border-radius: var(--ka-v2-radius-md); }
+.image { width: 100%; height: 100%; }
+.cover { object-fit: cover; }
+.contain { object-fit: contain; }

@@ -1,0 +1,40 @@
+{
+  "id": "nissan-x-trail",
+  "catalogSlug": "nissan_x_trail",
+  "manufacturer": "Nissan",
+  "model": "X-Trail",
+  "generation": "fourth generation T33",
+  "chassisCode": "T33",
+  "years": "2022-2026",
+  "facelift": "current European/Japanese production specification",
+  "market": "Europe / Japan",
+  "body": "five-door midsize crossover",
+  "trim": "Tekna e-POWER",
+  "paint": "Champagne Silver metallic",
+  "identityCues": [
+    "fourth-generation T33 body",
+    "split-level headlights with thin upper DRLs",
+    "large current V-motion grille",
+    "upright three-row-capable crossover proportions and Nissan badge"
+  ],
+  "modelExclusions": [
+    "third-generation T32 X-Trail",
+    "Nissan Qashqai",
+    "previous unified headlamp shape",
+    "North American Rogue facelift mismatch",
+    "Nissan Pathfinder",
+    "mixed T32/T33"
+  ],
+  "referenceUrls": [
+    "https://www.nissan.co.uk/vehicles/new-vehicles/x-trail.html"
+  ],
+  "fallbackReferenceUrls": [
+    "https://en.wikipedia.org/wiki/Nissan_X-Trail",
+    "https://www.autocar.co.uk/car-review/nissan/x-trail"
+  ],
+  "referenceQuality": "secondary-confirmed",
+  "confidenceLevel": "high",
+  "outputFilename": "nissan-x-trail.webp",
+  "status": "qa",
+  "approved": false
+}

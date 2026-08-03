@@ -1,0 +1,24 @@
+{
+  "id": "mg-hs",
+  "catalogSlug": "mg_hs",
+  "manufacturer": "MG",
+  "model": "HS",
+  "generation": "TODO: official current generation",
+  "chassisCode": "TODO",
+  "years": "TODO",
+  "facelift": "TODO",
+  "market": "TODO",
+  "body": "Кроссовер",
+  "trim": "TODO",
+  "paint": "factory production color",
+  "identityCues": [],
+  "modelExclusions": [
+    "previous generation",
+    "concept",
+    "fantasy design"
+  ],
+  "referenceUrls": [],
+  "outputFilename": "mg-hs.webp",
+  "status": "draft",
+  "approved": false
+}

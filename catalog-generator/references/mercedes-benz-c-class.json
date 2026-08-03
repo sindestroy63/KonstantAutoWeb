@@ -1,0 +1,29 @@
+{
+  "checkedAt": "2026-07-30T09:27:27.529Z",
+  "manufacturer": "Mercedes-Benz",
+  "model": "C-Class",
+  "requestedYear": "2022-2026",
+  "generation": "fifth generation W206 current production specification",
+  "chassisCode": "W206",
+  "market": "Europe",
+  "referenceUrl": "https://www.mercedes-benz.com/en/vehicles/passenger-cars/c-class/",
+  "fallbackReferenceUrls": [
+    "https://en.wikipedia.org/wiki/Mercedes-Benz_C-Class_(W206)",
+    "https://www.caranddriver.com/mercedes-benz/c-class"
+  ],
+  "referenceQuality": "secondary-confirmed",
+  "confirmedBodyCues": [
+    "W206 sedan body",
+    "compact swept LED headlamps",
+    "single-bar star-pattern AMG Line grille with central Mercedes star",
+    "current W206 AMG Line bumper and OEM wheels"
+  ],
+  "attempts": [
+    {
+      "url": "https://www.mercedes-benz.com/en/vehicles/passenger-cars/c-class/",
+      "finalUrl": "https://www.mercedes-benz.com/en/vehicles/passenger-cars/c-class/",
+      "httpStatus": 404,
+      "status": "http-error"
+    }
+  ]
+}

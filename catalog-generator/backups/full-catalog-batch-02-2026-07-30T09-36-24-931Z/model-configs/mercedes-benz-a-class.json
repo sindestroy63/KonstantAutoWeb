@@ -1,0 +1,41 @@
+{
+  "id": "mercedes-benz-a-class",
+  "catalogSlug": "mercedes_a_class",
+  "manufacturer": "Mercedes-Benz",
+  "model": "A-Class",
+  "generation": "fourth generation W177 facelift",
+  "chassisCode": "W177",
+  "years": "2023-2026",
+  "facelift": "2022 facelift current production hatchback",
+  "market": "Europe",
+  "body": "five-door premium hatchback",
+  "trim": "A 200 AMG Line",
+  "paint": "Rose Gold metallic",
+  "identityCues": [
+    "W177 five-door hatchback body",
+    "facelift slim LED headlamps",
+    "facelift star-pattern grille with central Mercedes star",
+    "current AMG Line bumper and compact cab-rearward proportions"
+  ],
+  "modelExclusions": [
+    "pre-facelift W177",
+    "A-Class Sedan V177",
+    "third-generation W176",
+    "CLA",
+    "GLA",
+    "AMG A45 extreme aero",
+    "fictional successor"
+  ],
+  "referenceUrls": [
+    "https://www.mercedes-benz.com/en/vehicles/passenger-cars/a-class/"
+  ],
+  "fallbackReferenceUrls": [
+    "https://en.wikipedia.org/wiki/Mercedes-Benz_A-Class_(W177)",
+    "https://www.autocar.co.uk/car-review/mercedes-benz/a-class"
+  ],
+  "referenceQuality": "secondary-confirmed",
+  "confidenceLevel": "high",
+  "outputFilename": "mercedes-a-class.webp",
+  "status": "qa",
+  "approved": false
+}

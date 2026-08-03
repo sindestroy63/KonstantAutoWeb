@@ -1,0 +1,27 @@
+{
+  "checkedAt": "2026-07-30T09:47:23.781Z",
+  "manufacturer": "Honda",
+  "model": "Accord",
+  "requestedYear": "2023-2026",
+  "generation": "eleventh generation CY",
+  "chassisCode": "CY1/CY2",
+  "market": "North America",
+  "referenceUrl": "https://automobiles.honda.com/accord-sedan",
+  "finalUrl": "https://automobiles.honda.com/accord-sedan",
+  "httpStatus": 200,
+  "officialDomain": "automobiles.honda.com",
+  "confirmedBodyCues": [
+    "eleventh-generation CY fastback-like sedan body",
+    "thin full-width black upper grille",
+    "slim rectangular LED headlamps",
+    "clean horizontal bumper and accurate Honda H badge"
+  ],
+  "attempts": [
+    {
+      "url": "https://automobiles.honda.com/accord-sedan",
+      "finalUrl": "https://automobiles.honda.com/accord-sedan",
+      "httpStatus": 200,
+      "status": "confirmed"
+    }
+  ]
+}

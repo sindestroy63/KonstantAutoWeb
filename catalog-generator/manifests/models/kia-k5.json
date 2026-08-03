@@ -1,0 +1,38 @@
+{
+  "id": "kia-k5",
+  "catalogSlug": "kia_k5",
+  "manufacturer": "Kia",
+  "model": "K5",
+  "generation": "DL3 facelift",
+  "chassisCode": "DL3 facelift",
+  "years": "2025-2026",
+  "facelift": "current production facelift",
+  "market": "North America",
+  "body": "four-door midsize fastback sedan",
+  "trim": "GT-Line",
+  "paint": "Wolf Gray",
+  "identityCues": [
+    "Star Map front lighting",
+    "current facelift bumper",
+    "current grille",
+    "facelift fastback body"
+  ],
+  "modelExclusions": [
+    "Kia Optima",
+    "2021-2024 pre-facelift K5",
+    "old amber heartbeat DRL",
+    "K4 mixture"
+  ],
+  "referenceUrls": [
+    "https://www.kiamedia.com/us/en/models/k5/2026"
+  ],
+  "outputFilename": "kia-k5-2026-facelift.webp",
+  "status": "production",
+  "approved": true,
+  "production": {
+    "batchId": "pilot-v3-2026-07-28T12-20-46-652",
+    "file": "public\\images\\catalog\\kia-k5.webp",
+    "sha256": "cce9af2ee45534da8570e1f4aa7c1b06c594ead452088b0e287158ee0360b0b6",
+    "promotedAt": "2026-07-28T12:25:59.185Z"
+  }
+}

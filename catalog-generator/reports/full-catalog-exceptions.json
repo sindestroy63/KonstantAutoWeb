@@ -1,0 +1,10 @@
+{
+  "updatedAt": "2026-07-30T09:17:00.000Z",
+  "exceptionQueue": [],
+  "resolved": [
+    { "modelId": "bmw-x3", "resolution": "third attempt approved; deterministic horizontal flip corrected direction" },
+    { "modelId": "bmw-1-series", "resolution": "third attempt approved after standard-trim recovery" },
+    { "modelId": "kia-ceed", "resolution": "second attempt approved after facelift-lighting correction" },
+    { "modelId": "geely-coolray", "resolution": "second attempt approved after badge/body correction" }
+  ]
+}

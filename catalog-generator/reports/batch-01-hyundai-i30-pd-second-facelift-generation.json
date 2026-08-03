@@ -1,0 +1,30 @@
+{
+  "generatedAt": "2026-07-29T09:52:20.009Z",
+  "modelId": "hyundai-i30",
+  "manufacturer": "Hyundai",
+  "model": "i30",
+  "apiRequestCount": 1,
+  "requestedYears": "2024-2025 current listed specification",
+  "requestedGeneration": "third generation PD",
+  "requestedChassisCode": "PD",
+  "modelUsed": "gpt-image-2",
+  "endpoint": "https://vibecode.moe/v1/images/generations",
+  "referenceUrl": "https://www.hyundai.com/eu/en/models/i30.html",
+  "apiStatus": 200,
+  "downloadStatus": 200,
+  "contentType": "image/png",
+  "sourceUrl": "https://file6.aitohumanize.com/file/70c77c509245486ea5d1f43723c0bcc7.png",
+  "rawFile": "catalog-generator\\outputs\\raw\\batch-01-hyundai-i30-pd-second-facelift.png",
+  "generatedFile": "catalog-generator\\outputs\\batch-01-hyundai-i30-pd-second-facelift.webp",
+  "rawMetadata": {
+    "format": "png",
+    "width": 1536,
+    "height": 1024
+  },
+  "outputMetadata": {
+    "format": "webp",
+    "width": 1600,
+    "height": 1000
+  },
+  "promptFile": "catalog-generator\\prompts\\hyundai-i30.txt"
+}

@@ -1,0 +1,27 @@
+{
+  "checkedAt": "2026-07-30T09:22:02.023Z",
+  "manufacturer": "Geely",
+  "model": "Monjaro",
+  "requestedYear": "2022-2026",
+  "generation": "first generation KX11 current production specification",
+  "chassisCode": "KX11 / CMA",
+  "market": "China / CIS",
+  "referenceUrl": "https://www.geely-motors.com/model/monjaro/",
+  "finalUrl": "https://www.geely-motors.com/model/monjaro/",
+  "httpStatus": 200,
+  "officialDomain": "www.geely-motors.com",
+  "confirmedBodyCues": [
+    "KX11 Monjaro body with long hood and upright premium crossover proportions",
+    "large concave vertical-slat grille",
+    "slim rectangular LED headlamps",
+    "current Geely shield badge and restrained production bumper"
+  ],
+  "attempts": [
+    {
+      "url": "https://www.geely-motors.com/model/monjaro/",
+      "finalUrl": "https://www.geely-motors.com/model/monjaro/",
+      "httpStatus": 200,
+      "status": "confirmed"
+    }
+  ]
+}

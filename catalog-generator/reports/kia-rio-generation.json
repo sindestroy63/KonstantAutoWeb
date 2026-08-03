@@ -1,0 +1,40 @@
+{
+  "generatedAt": "2026-07-30T08:47:21.036Z",
+  "modelId": "kia-rio",
+  "manufacturer": "Kia",
+  "model": "Rio",
+  "apiRequestCount": 1,
+  "infrastructureRetries": 0,
+  "infrastructureDiagnostics": [
+    {
+      "requestIndex": 0,
+      "httpStatus": 200,
+      "responseFormat": "json"
+    }
+  ],
+  "requestedYears": "2021-2023",
+  "requestedGeneration": "fourth generation FB facelift",
+  "requestedChassisCode": "FB",
+  "modelUsed": "gpt-image-2",
+  "generationMode": "text-generation",
+  "endpoint": "https://vibecode.moe/v1/images/generations",
+  "referenceUrl": "https://www.kia.com/ru/models/rio/overview.html",
+  "referenceImageUrl": null,
+  "apiStatus": 200,
+  "downloadStatus": 200,
+  "contentType": "image/png",
+  "sourceUrl": "https://file4.aitohumanize.com/file/cc0a3d84caec4b60a1162a38310e84aa.png",
+  "rawFile": "catalog-generator\\outputs\\raw\\kia-rio.png",
+  "generatedFile": "catalog-generator\\outputs\\kia-rio.webp",
+  "rawMetadata": {
+    "format": "png",
+    "width": 1536,
+    "height": 1024
+  },
+  "outputMetadata": {
+    "format": "webp",
+    "width": 1600,
+    "height": 1000
+  },
+  "promptFile": "catalog-generator\\prompts\\kia-rio.txt"
+}

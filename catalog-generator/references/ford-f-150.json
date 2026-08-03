@@ -1,0 +1,27 @@
+{
+  "checkedAt": "2026-07-30T11:08:29.267Z",
+  "manufacturer": "Ford",
+  "model": "F-150",
+  "requestedYear": "2024-2026",
+  "generation": "fourteenth generation P702 facelift",
+  "chassisCode": "P702",
+  "market": "North America",
+  "referenceUrl": "https://www.ford.com/trucks/f150/",
+  "finalUrl": "https://www.ford.com/trucks/f150/",
+  "httpStatus": 200,
+  "officialDomain": "www.ford.com",
+  "confirmedBodyCues": [
+    "facelift P702 SuperCrew full-size pickup body",
+    "revised C-clamp LED headlamps",
+    "large rectangular Lariat grille",
+    "four full doors and separate full-size cargo bed"
+  ],
+  "attempts": [
+    {
+      "url": "https://www.ford.com/trucks/f150/",
+      "finalUrl": "https://www.ford.com/trucks/f150/",
+      "httpStatus": 200,
+      "status": "confirmed"
+    }
+  ]
+}

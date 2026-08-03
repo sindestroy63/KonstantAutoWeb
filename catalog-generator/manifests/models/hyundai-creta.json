@@ -1,0 +1,43 @@
+{
+  "id": "hyundai-creta",
+  "catalogSlug": "hyundai_creta",
+  "manufacturer": "Hyundai",
+  "model": "Creta",
+  "generation": "second generation SU2i",
+  "chassisCode": "SU2i",
+  "years": "2024-2026",
+  "facelift": "2024 current production facelift",
+  "market": "India",
+  "body": "five-door compact SUV",
+  "trim": "SX (O)",
+  "paint": "Atlas White",
+  "identityCues": [
+    "2024-facelift SU2i body",
+    "wide dark parametric grille",
+    "connected horizontal upper LED daytime-running-light graphic",
+    "vertical stacked main lamps",
+    "current facelift front bumper"
+  ],
+  "modelExclusions": [
+    "first-generation GS Creta",
+    "pre-facelift second-generation Creta",
+    "China-market ix25 front end",
+    "Hyundai Venue",
+    "Hyundai Exter",
+    "Hyundai Alcazar",
+    "Hyundai Tucson",
+    "mixed generations"
+  ],
+  "referenceUrls": [
+    "https://www.hyundai.com/in/en/find-a-car/creta/highlights"
+  ],
+  "outputFilename": "batch-01-hyundai-creta-su2i-facelift.webp",
+  "status": "production",
+  "approved": true,
+  "production": {
+    "batchId": "batch-01-2026-07-29T18-00-14-769",
+    "file": "public\\images\\catalog\\hyundai-creta.webp",
+    "sha256": "9c025bae4deb732d263bd324e9292d06b7b6793be3706035332ff6debac209eb",
+    "promotedAt": "2026-07-29T18:00:14.769Z"
+  }
+}

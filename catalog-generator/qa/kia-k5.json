@@ -1,0 +1,87 @@
+{
+  "checkedAt": "2026-07-28T12:20:17.618Z",
+  "modelId": "kia-k5",
+  "file": "catalog-generator\\outputs\\kia-k5-2026-facelift.webp",
+  "deterministicPass": true,
+  "analysis": {
+    "width": 1600,
+    "height": 1000,
+    "backgroundCornerRgb": [
+      177,
+      176.8,
+      177.3
+    ],
+    "backgroundCornerLuminance": 177,
+    "backgroundCornerNeutralityDelta": 0.5,
+    "foregroundBounds": {
+      "minX": 160,
+      "maxX": 1442,
+      "minY": 244,
+      "maxY": 824
+    },
+    "foregroundWidthPercent": 80.2,
+    "horizonPercent": 82.5
+  },
+  "checks": {
+    "dimensions": {
+      "status": "pass",
+      "actual": "1600x1000"
+    },
+    "format": {
+      "status": "pass",
+      "actual": "webp"
+    },
+    "aspectRatio": {
+      "status": "pass",
+      "actual": 1.6
+    },
+    "background": {
+      "status": "pass",
+      "actualRgb": [
+        177,
+        176.8,
+        177.3
+      ],
+      "luminance": 177,
+      "neutralityDelta": 0.5
+    },
+    "scale": {
+      "status": "pass",
+      "actualPercent": 80.2,
+      "targetPercent": "78-84",
+      "tolerancePercent": "74-88"
+    },
+    "horizon": {
+      "status": "pass",
+      "actualPercent": 82.5,
+      "tolerancePercent": "72-93"
+    },
+    "exactlyOneVehicle": {
+      "status": "pass",
+      "method": "final-visual-review"
+    },
+    "noPeople": {
+      "status": "pass",
+      "method": "final-visual-review"
+    },
+    "noText": {
+      "status": "pass",
+      "method": "final-visual-review",
+      "note": "No promotional, overlay, watermark or dealer text; authentic vehicle badges are acceptable."
+    },
+    "noWatermark": {
+      "status": "pass",
+      "method": "final-visual-review"
+    },
+    "generationIdentity": {
+      "status": "pass",
+      "method": "final-visual-review"
+    }
+  },
+  "visualGenerationMatch": "approved",
+  "semanticQa": "approved",
+  "generationQa": "approved",
+  "suspectedPreviousGeneration": false,
+  "suspectedMixedGeneration": false,
+  "issues": []
+}

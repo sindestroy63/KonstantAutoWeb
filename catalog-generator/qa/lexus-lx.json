@@ -1,0 +1,80 @@
+{
+  "checkedAt": "2026-07-30T11:59:05.441Z",
+  "modelId": "lexus-lx",
+  "file": "catalog-generator\\outputs\\lexus-lx.webp",
+  "deterministicPass": true,
+  "analysis": {
+    "width": 1600,
+    "height": 1000,
+    "backgroundCornerRgb": [
+      195.2,
+      195.2,
+      194.3
+    ],
+    "backgroundCornerLuminance": 194.9,
+    "backgroundCornerNeutralityDelta": 0.9,
+    "foregroundBounds": {
+      "minX": 136,
+      "maxX": 1482,
+      "minY": 216,
+      "maxY": 884
+    },
+    "foregroundWidthPercent": 84.2,
+    "horizonPercent": 88.5
+  },
+  "checks": {
+    "dimensions": {
+      "status": "pass",
+      "actual": "1600x1000"
+    },
+    "format": {
+      "status": "pass",
+      "actual": "webp"
+    },
+    "aspectRatio": {
+      "status": "pass",
+      "actual": 1.6
+    },
+    "background": {
+      "status": "pass",
+      "actualRgb": [
+        195.2,
+        195.2,
+        194.3
+      ],
+      "luminance": 194.9,
+      "neutralityDelta": 0.9
+    },
+    "scale": {
+      "status": "pass",
+      "actualPercent": 84.2,
+      "targetPercent": "78-84",
+      "tolerancePercent": "74-88"
+    },
+    "horizon": {
+      "status": "pass",
+      "actualPercent": 88.5,
+      "tolerancePercent": "72-93"
+    },
+    "exactlyOneVehicle": {
+      "status": "pending",
+      "method": "manual-or-vision-adapter"
+    },
+    "noPeople": {
+      "status": "pending",
+      "method": "manual-or-vision-adapter"
+    },
+    "noText": {
+      "status": "pending",
+      "method": "manual-or-vision-adapter"
+    },
+    "noWatermark": {
+      "status": "pending",
+      "method": "manual-or-vision-adapter"
+    },
+    "generationIdentity": {
+      "status": "pending",
+      "method": "owner-review"
+    }
+  }
+}

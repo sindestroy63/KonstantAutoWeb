@@ -1,0 +1,87 @@
+{
+  "checkedAt": "2026-07-28T12:20:17.753Z",
+  "modelId": "toyota-corolla",
+  "file": "catalog-generator\\outputs\\toyota-corolla-e210-facelift.webp",
+  "deterministicPass": true,
+  "analysis": {
+    "width": 1600,
+    "height": 1000,
+    "backgroundCornerRgb": [
+      197.1,
+      194,
+      195.2
+    ],
+    "backgroundCornerLuminance": 195.4,
+    "backgroundCornerNeutralityDelta": 3.1,
+    "foregroundBounds": {
+      "minX": 114,
+      "maxX": 1472,
+      "minY": 226,
+      "maxY": 826
+    },
+    "foregroundWidthPercent": 84.9,
+    "horizonPercent": 82.7
+  },
+  "checks": {
+    "dimensions": {
+      "status": "pass",
+      "actual": "1600x1000"
+    },
+    "format": {
+      "status": "pass",
+      "actual": "webp"
+    },
+    "aspectRatio": {
+      "status": "pass",
+      "actual": 1.6
+    },
+    "background": {
+      "status": "pass",
+      "actualRgb": [
+        197.1,
+        194,
+        195.2
+      ],
+      "luminance": 195.4,
+      "neutralityDelta": 3.1
+    },
+    "scale": {
+      "status": "pass",
+      "actualPercent": 84.9,
+      "targetPercent": "78-84",
+      "tolerancePercent": "74-88"
+    },
+    "horizon": {
+      "status": "pass",
+      "actualPercent": 82.7,
+      "tolerancePercent": "72-93"
+    },
+    "exactlyOneVehicle": {
+      "status": "pass",
+      "method": "final-visual-review"
+    },
+    "noPeople": {
+      "status": "pass",
+      "method": "final-visual-review"
+    },
+    "noText": {
+      "status": "pass",
+      "method": "final-visual-review",
+      "note": "No promotional, overlay, watermark or dealer text; authentic vehicle badges are acceptable."
+    },
+    "noWatermark": {
+      "status": "pass",
+      "method": "final-visual-review"
+    },
+    "generationIdentity": {
+      "status": "pass",
+      "method": "final-visual-review"
+    }
+  },
+  "visualGenerationMatch": "approved",
+  "semanticQa": "approved",
+  "generationQa": "approved",
+  "suspectedPreviousGeneration": false,
+  "suspectedMixedGeneration": false,
+  "issues": []
+}

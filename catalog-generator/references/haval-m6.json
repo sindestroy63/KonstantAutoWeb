@@ -1,0 +1,27 @@
+{
+  "checkedAt": "2026-07-30T09:26:35.097Z",
+  "manufacturer": "Haval",
+  "model": "M6",
+  "requestedYear": "2023-2026",
+  "generation": "first generation M6 Plus current production facelift",
+  "chassisCode": "manufacturer internal code not publicly standardized",
+  "market": "Russia / China",
+  "referenceUrl": "https://haval.ru/models/haval-m6/",
+  "finalUrl": "https://haval.ru/models/haval-m6/",
+  "httpStatus": 200,
+  "officialDomain": "haval.ru",
+  "confirmedBodyCues": [
+    "current M6 Plus body",
+    "large polygonal black mesh grille",
+    "slim swept LED headlamps",
+    "practical upright greenhouse and HAVAL wordmark"
+  ],
+  "attempts": [
+    {
+      "url": "https://haval.ru/models/haval-m6/",
+      "finalUrl": "https://haval.ru/models/haval-m6/",
+      "httpStatus": 200,
+      "status": "confirmed"
+    }
+  ]
+}

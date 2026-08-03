@@ -1,0 +1,27 @@
+{
+  "checkedAt": "2026-07-30T09:44:29.175Z",
+  "manufacturer": "Honda",
+  "model": "CR-V",
+  "requestedYear": "2023-2026",
+  "generation": "sixth generation RS",
+  "chassisCode": "RS3/RS4/RS5/RS6",
+  "market": "North America",
+  "referenceUrl": "https://automobiles.honda.com/cr-v",
+  "finalUrl": "https://automobiles.honda.com/cr-v",
+  "httpStatus": 200,
+  "officialDomain": "automobiles.honda.com",
+  "confirmedBodyCues": [
+    "sixth-generation RS CR-V body",
+    "wide upright black mesh grille",
+    "slim rectangular LED headlamps",
+    "clean current bumper and accurate Honda H badge"
+  ],
+  "attempts": [
+    {
+      "url": "https://automobiles.honda.com/cr-v",
+      "finalUrl": "https://automobiles.honda.com/cr-v",
+      "httpStatus": 200,
+      "status": "confirmed"
+    }
+  ]
+}

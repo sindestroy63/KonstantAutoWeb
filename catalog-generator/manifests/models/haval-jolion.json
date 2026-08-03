@@ -1,0 +1,41 @@
+{
+  "id": "haval-jolion",
+  "catalogSlug": "haval_jolion",
+  "manufacturer": "Haval",
+  "model": "Jolion",
+  "generation": "first generation A01 current facelift",
+  "chassisCode": "A01 / L.E.M.O.N. platform",
+  "years": "2024-2026",
+  "facelift": "2024 Russian-market facelift",
+  "market": "Russia / CIS",
+  "body": "five-door subcompact crossover",
+  "trim": "Premium",
+  "paint": "Lunar Red metallic",
+  "identityCues": [
+    "current facelift Jolion body",
+    "wide dark grille with horizontal internal pattern",
+    "facelift LED headlamps and vertical outer bumper elements",
+    "compact crossover proportions and HAVAL wordmark"
+  ],
+  "modelExclusions": [
+    "pre-facelift Jolion",
+    "Haval M6",
+    "Haval H6",
+    "Haval Chitu",
+    "previous H2",
+    "fictional split-headlamp redesign"
+  ],
+  "referenceUrls": [
+    "https://haval.ru/models/haval-jolion/"
+  ],
+  "fallbackReferenceUrls": [
+    "https://en.wikipedia.org/wiki/Haval_Jolion",
+    "https://www.autoevolution.com/cars/haval-jolion.html"
+  ],
+  "referenceQuality": "secondary-confirmed",
+  "confidenceLevel": "high",
+  "outputFilename": "haval-jolion.webp",
+  "status": "production",
+  "approved": true,
+  "approvalStatus": "production-approved"
+}

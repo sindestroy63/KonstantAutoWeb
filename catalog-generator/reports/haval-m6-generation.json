@@ -1,0 +1,40 @@
+{
+  "generatedAt": "2026-07-30T09:27:26.702Z",
+  "modelId": "haval-m6",
+  "manufacturer": "Haval",
+  "model": "M6",
+  "apiRequestCount": 1,
+  "infrastructureRetries": 0,
+  "infrastructureDiagnostics": [
+    {
+      "requestIndex": 0,
+      "httpStatus": 200,
+      "responseFormat": "json"
+    }
+  ],
+  "requestedYears": "2023-2026",
+  "requestedGeneration": "first generation M6 Plus current production facelift",
+  "requestedChassisCode": "manufacturer internal code not publicly standardized",
+  "modelUsed": "gpt-image-2",
+  "generationMode": "text-generation",
+  "endpoint": "https://vibecode.moe/v1/images/generations",
+  "referenceUrl": "https://haval.ru/models/haval-m6/",
+  "referenceImageUrl": null,
+  "apiStatus": 200,
+  "downloadStatus": 200,
+  "contentType": "image/png",
+  "sourceUrl": "https://file7.aitohumanize.com/file/9f48c8124ee2467b9e534f9be3e362cf.png",
+  "rawFile": "catalog-generator\\outputs\\raw\\haval-m6.png",
+  "generatedFile": "catalog-generator\\outputs\\haval-m6.webp",
+  "rawMetadata": {
+    "format": "png",
+    "width": 1536,
+    "height": 1024
+  },
+  "outputMetadata": {
+    "format": "webp",
+    "width": 1600,
+    "height": 1000
+  },
+  "promptFile": "catalog-generator\\prompts\\haval-m6.txt"
+}

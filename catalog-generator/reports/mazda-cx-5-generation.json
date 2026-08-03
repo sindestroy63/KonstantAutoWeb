@@ -1,0 +1,40 @@
+{
+  "generatedAt": "2026-07-30T10:35:09.532Z",
+  "modelId": "mazda-cx-5",
+  "manufacturer": "Mazda",
+  "model": "CX-5",
+  "apiRequestCount": 1,
+  "infrastructureRetries": 0,
+  "infrastructureDiagnostics": [
+    {
+      "requestIndex": 0,
+      "httpStatus": 200,
+      "responseFormat": "json"
+    }
+  ],
+  "requestedYears": "2026",
+  "requestedGeneration": "third generation 2026",
+  "requestedChassisCode": "not publicly confirmed",
+  "modelUsed": "gpt-image-2",
+  "generationMode": "text-generation",
+  "endpoint": "https://vibecode.moe/v1/images/generations",
+  "referenceUrl": "https://news.mazdausa.com/2025-07-10-All-New-2026-Mazda-CX-5-Debuts",
+  "referenceImageUrl": null,
+  "apiStatus": 200,
+  "downloadStatus": 200,
+  "contentType": "image/png",
+  "sourceUrl": "https://file6.aitohumanize.com/file/ab090e239a6f4b20929df7a34c84ca02.png",
+  "rawFile": "catalog-generator\\outputs\\raw\\mazda-cx-5.png",
+  "generatedFile": "catalog-generator\\outputs\\mazda-cx-5.webp",
+  "rawMetadata": {
+    "format": "png",
+    "width": 1536,
+    "height": 1024
+  },
+  "outputMetadata": {
+    "format": "webp",
+    "width": 1600,
+    "height": 1000
+  },
+  "promptFile": "catalog-generator\\prompts\\mazda-cx-5.txt"
+}

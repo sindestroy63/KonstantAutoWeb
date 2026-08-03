@@ -1,0 +1,13 @@
+Use case: product-mockup. Asset type: identity-critical automotive catalog photograph.
+Manufacturer: BMW. Model: 3 Series. Model years: 2025-2026.
+Generation: G20 LCI current second-update specification. Chassis code: G20 LCI. Facelift status: current LCI production front, not pre-LCI.
+Regional specification: Europe. Body style: four-door sports sedan. Trim: 330i M Sport. Paint: Arctic Race Blue metallic.
+Exact production identity cues: current 2025-2026 LCI headlights with a smooth uninterrupted lower outer contour and no notch; two inverted-L arrow LED daytime-running-light elements in each lamp; compact horizontal kidney grilles; current M Sport lower bumper with angular side intakes.
+Official manufacturer reference confirms: current 2025-2026 LCI headlights with a smooth uninterrupted lower outer contour and no notch; two inverted-L arrow LED daytime-running-light elements in each lamp; compact horizontal kidney grilles; current M Sport lower bumper with angular side intakes.
+Hard model exclusions: pre-LCI G20; F30; M3 G80; 5 Series; G80 vertical grille; early G20 headlamps with U-shaped internal graphics; headlamp housing with a downward notch in its lower edge.
+Brand exclusions: wrong BMW series; M3 G80 substitution; BMW XM styling; F30; pre-LCI front end; oversized kidney grille unless generation-correct; concept car; fantasy design; tuning; aftermarket bumper; cropped vehicle; watermark; incorrect Hofmeister kink.
+Realistic serial-production vehicle, front three-quarter view, nose pointing right. Camera height 1.1-1.3 metres, 70-90 mm full-frame equivalent lens, minimal perspective distortion.
+Entire vehicle fully visible, including both bumpers, roof, doors, wheels and tires. Vehicle occupies 78-84 percent of image width. Wheels straight, matching, and resting on one visual baseline.
+Neutral seamless light-gray studio cyclorama, soft diffused catalog lighting, restrained contact shadow beneath the tires, low reflection intensity, consistent horizon and scale.
+Exactly one car. No environment, people, other vehicles, text, watermark, dealer plate, readable license, concepts, invented lighting, modified badges, extra doors, handles or pillars, malformed wheels or mixed body panels.
+Depict the exact named serial-production model year, generation, chassis and body. Never substitute a previous generation or blend generations. Prioritize production identity over generic attractiveness.

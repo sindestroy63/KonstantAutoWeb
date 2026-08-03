@@ -1,0 +1,41 @@
+{
+  "id": "audi-q7",
+  "catalogSlug": "audi_q7",
+  "manufacturer": "Audi",
+  "model": "Q7",
+  "generation": "second generation 4M second facelift",
+  "chassisCode": "4M",
+  "years": "2024-2026",
+  "facelift": "2024 second facelift",
+  "market": "Europe",
+  "body": "five-door three-row luxury SUV",
+  "trim": "S line 55 TFSI quattro",
+  "paint": "Satellite Silver Metallic",
+  "identityCues": [
+    "large second-generation 4M three-row SUV body",
+    "2024 facelift customizable-signature LED headlamps",
+    "revised octagonal singleframe grille",
+    "new vertical outer bumper intakes"
+  ],
+  "modelExclusions": [
+    "pre-facelift Q7",
+    "first facelift 2020 Q7",
+    "first-generation 4L Q7",
+    "Audi Q8",
+    "Audi Q5",
+    "concept",
+    "fantasy design"
+  ],
+  "referenceUrls": [
+    "https://www.audi-mediacenter.com/en/the-new-audi-q7-15826"
+  ],
+  "fallbackReferenceUrls": [
+    "https://en.wikipedia.org/wiki/Audi_Q7",
+    "https://www.autoevolution.com/cars/audi-q7.html"
+  ],
+  "referenceQuality": "secondary-confirmed",
+  "confidenceLevel": "high",
+  "outputFilename": "audi-q7.webp",
+  "status": "qa",
+  "approved": false
+}

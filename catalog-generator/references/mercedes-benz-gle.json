@@ -1,0 +1,29 @@
+{
+  "checkedAt": "2026-07-30T09:28:56.703Z",
+  "manufacturer": "Mercedes-Benz",
+  "model": "GLE",
+  "requestedYear": "2024-2026",
+  "generation": "second generation V167 facelift",
+  "chassisCode": "V167",
+  "market": "Europe / North America",
+  "referenceUrl": "https://www.mercedes-benz.com/en/vehicles/passenger-cars/gle/",
+  "fallbackReferenceUrls": [
+    "https://en.wikipedia.org/wiki/Mercedes-Benz_GLE",
+    "https://www.caranddriver.com/mercedes-benz/gle-class"
+  ],
+  "referenceQuality": "secondary-confirmed",
+  "confirmedBodyCues": [
+    "V167 standard SUV body",
+    "facelift LED headlamps with current daytime-running-light graphic",
+    "facelift star-pattern grille and AMG Line bumper",
+    "correct broad C-pillar and current Mercedes star"
+  ],
+  "attempts": [
+    {
+      "url": "https://www.mercedes-benz.com/en/vehicles/passenger-cars/gle/",
+      "finalUrl": "https://www.mercedes-benz.com/en/vehicles/passenger-cars/gle/",
+      "httpStatus": 404,
+      "status": "http-error"
+    }
+  ]
+}

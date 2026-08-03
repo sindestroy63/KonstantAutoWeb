@@ -1,0 +1,553 @@
+{
+  "generatedAt": "2026-07-28T12:20:46.675Z",
+  "dryRun": true,
+  "scope": "owner-reviewed 12-model V2 pilot",
+  "batchId": "pilot-v3-2026-07-28T12-20-46-652",
+  "productionWritesPerformed": false,
+  "gitCommitCreated": false,
+  "approvedModels": 11,
+  "excludedModels": [
+    {
+      "manufacturer": "BMW",
+      "model": "X3",
+      "status": "needs-review",
+      "reason": "Lower central bumper insert is unusually simplified and does not confidently match the production G45 trim detail."
+    }
+  ],
+  "productionManifest": {
+    "path": "public\\images\\catalog\\manifest.json",
+    "exists": false,
+    "action": "create manifest with approved entries"
+  },
+  "carsJson": {
+    "path": "data\\cars.json",
+    "action": "no write required; all existing public image URLs are preserved",
+    "changes": [
+      {
+        "slug": "bmw_3_series",
+        "field": "image",
+        "before": "/images/catalog/bmw-3-series.webp",
+        "after": "/images/catalog/bmw-3-series.webp",
+        "changed": false,
+        "reason": "Preserve the current public URL and replace its file atomically."
+      },
+      {
+        "slug": "bmw_x5",
+        "field": "image",
+        "before": "/images/catalog/bmw-x5.webp",
+        "after": "/images/catalog/bmw-x5.webp",
+        "changed": false,
+        "reason": "Preserve the current public URL and replace its file atomically."
+      },
+      {
+        "slug": "kia_k5",
+        "field": "image",
+        "before": "/images/catalog/kia-k5.webp",
+        "after": "/images/catalog/kia-k5.webp",
+        "changed": false,
+        "reason": "Preserve the current public URL and replace its file atomically."
+      },
+      {
+        "slug": "kia_sorento",
+        "field": "image",
+        "before": "/images/catalog/kia-sorento.webp",
+        "after": "/images/catalog/kia-sorento.webp",
+        "changed": false,
+        "reason": "Preserve the current public URL and replace its file atomically."
+      },
+      {
+        "slug": "lexus_rx",
+        "field": "image",
+        "before": "/images/catalog/lexus-rx.webp",
+        "after": "/images/catalog/lexus-rx.webp",
+        "changed": false,
+        "reason": "Preserve the current public URL and replace its file atomically."
+      },
+      {
+        "slug": "toyota_camry",
+        "field": "image",
+        "before": "/images/catalog/toyota-camry.webp",
+        "after": "/images/catalog/toyota-camry.webp",
+        "changed": false,
+        "reason": "Preserve the current public URL and replace its file atomically."
+      },
+      {
+        "slug": "toyota_corolla",
+        "field": "image",
+        "before": "/images/catalog/toyota-corolla.webp",
+        "after": "/images/catalog/toyota-corolla.webp",
+        "changed": false,
+        "reason": "Preserve the current public URL and replace its file atomically."
+      },
+      {
+        "slug": "toyota_hilux",
+        "field": "image",
+        "before": "/images/catalog/toyota-hilux.webp",
+        "after": "/images/catalog/toyota-hilux.webp",
+        "changed": false,
+        "reason": "Preserve the current public URL and replace its file atomically."
+      },
+      {
+        "slug": "toyota_land_cruiser",
+        "field": "image",
+        "before": "/images/catalog/toyota-land-cruiser.webp",
+        "after": "/images/catalog/toyota-land-cruiser.webp",
+        "changed": false,
+        "reason": "Preserve the current public URL and replace its file atomically."
+      },
+      {
+        "slug": "toyota_rav4",
+        "field": "image",
+        "before": "/images/catalog/toyota-rav4.webp",
+        "after": "/images/catalog/toyota-rav4.webp",
+        "changed": false,
+        "reason": "Preserve the current public URL and replace its file atomically."
+      },
+      {
+        "slug": "toyota_yaris",
+        "field": "image",
+        "before": "/images/catalog/toyota-yaris.webp",
+        "after": "/images/catalog/toyota-yaris.webp",
+        "changed": false,
+        "reason": "Preserve the current public URL and replace its file atomically."
+      }
+    ]
+  },
+  "promotions": [
+    {
+      "manufacturer": "BMW",
+      "model": "3 Series",
+      "generation": "G20 LCI current second-update specification",
+      "stagingFile": "catalog-generator\\outputs\\bmw-3-series-g20-lci.webp",
+      "stagingSha256": "f47489ef83def0e75227230dee839c9bd02c2bc12a64bde816a7d00a6179505a",
+      "targetProductionPath": "public\\images\\catalog\\bmw-3-series.webp",
+      "existingFile": {
+        "path": "public\\images\\catalog\\bmw-3-series.webp",
+        "exists": true,
+        "bytes": 117292,
+        "sha256": "c6be05d5e69d11f0e5c89b45d23e5e97fa4f69aeb4b32175db21f82b05b044fd"
+      },
+      "backupPath": "catalog-generator\\backups\\pilot-v3-2026-07-28T12-20-46-652\\bmw-3-series.webp",
+      "carsJsonChange": {
+        "slug": "bmw_3_series",
+        "field": "image",
+        "before": "/images/catalog/bmw-3-series.webp",
+        "after": "/images/catalog/bmw-3-series.webp",
+        "changed": false,
+        "reason": "Preserve the current public URL and replace its file atomically."
+      },
+      "manifestChange": {
+        "key": "bmw_3_series",
+        "before": null,
+        "after": {
+          "file": "bmw-3-series.webp",
+          "generation": "G20 LCI current second-update specification",
+          "chassisCode": "G20 LCI",
+          "sourceSha256": "f47489ef83def0e75227230dee839c9bd02c2bc12a64bde816a7d00a6179505a",
+          "status": "production"
+        }
+      }
+    },
+    {
+      "manufacturer": "BMW",
+      "model": "X5",
+      "generation": "G05 LCI current facelift",
+      "stagingFile": "catalog-generator\\outputs\\bmw-x5-g05-lci.webp",
+      "stagingSha256": "d8e5f4f92a39761fea3a13e3a266e98fb57addf3a5a5f21963b6c0663be4eafa",
+      "targetProductionPath": "public\\images\\catalog\\bmw-x5.webp",
+      "existingFile": {
+        "path": "public\\images\\catalog\\bmw-x5.webp",
+        "exists": true,
+        "bytes": 176148,
+        "sha256": "8fc2071a495b97fd3dee828a02f51959fef20c0b57d71e5234d2624a43a2952c"
+      },
+      "backupPath": "catalog-generator\\backups\\pilot-v3-2026-07-28T12-20-46-652\\bmw-x5.webp",
+      "carsJsonChange": {
+        "slug": "bmw_x5",
+        "field": "image",
+        "before": "/images/catalog/bmw-x5.webp",
+        "after": "/images/catalog/bmw-x5.webp",
+        "changed": false,
+        "reason": "Preserve the current public URL and replace its file atomically."
+      },
+      "manifestChange": {
+        "key": "bmw_x5",
+        "before": null,
+        "after": {
+          "file": "bmw-x5.webp",
+          "generation": "G05 LCI current facelift",
+          "chassisCode": "G05 LCI",
+          "sourceSha256": "d8e5f4f92a39761fea3a13e3a266e98fb57addf3a5a5f21963b6c0663be4eafa",
+          "status": "production"
+        }
+      }
+    },
+    {
+      "manufacturer": "Kia",
+      "model": "K5",
+      "generation": "DL3 facelift",
+      "stagingFile": "catalog-generator\\outputs\\kia-k5-2026-facelift.webp",
+      "stagingSha256": "cce9af2ee45534da8570e1f4aa7c1b06c594ead452088b0e287158ee0360b0b6",
+      "targetProductionPath": "public\\images\\catalog\\kia-k5.webp",
+      "existingFile": {
+        "path": "public\\images\\catalog\\kia-k5.webp",
+        "exists": true,
+        "bytes": 92788,
+        "sha256": "6f1a4822012c0583efbe088250e4de1242e9df17246b45699610ead9143ac893"
+      },
+      "backupPath": "catalog-generator\\backups\\pilot-v3-2026-07-28T12-20-46-652\\kia-k5.webp",
+      "carsJsonChange": {
+        "slug": "kia_k5",
+        "field": "image",
+        "before": "/images/catalog/kia-k5.webp",
+        "after": "/images/catalog/kia-k5.webp",
+        "changed": false,
+        "reason": "Preserve the current public URL and replace its file atomically."
+      },
+      "manifestChange": {
+        "key": "kia_k5",
+        "before": null,
+        "after": {
+          "file": "kia-k5.webp",
+          "generation": "DL3 facelift",
+          "chassisCode": "DL3 facelift",
+          "sourceSha256": "cce9af2ee45534da8570e1f4aa7c1b06c594ead452088b0e287158ee0360b0b6",
+          "status": "production"
+        }
+      }
+    },
+    {
+      "manufacturer": "Kia",
+      "model": "Sorento",
+      "generation": "fourth generation MQ4 facelift",
+      "stagingFile": "catalog-generator\\outputs\\kia-sorento-mq4-facelift.webp",
+      "stagingSha256": "4e073460f246ae9121527d5c4cd098dd3b0527caa3353695d27f8284cedf4688",
+      "targetProductionPath": "public\\images\\catalog\\kia-sorento.webp",
+      "existingFile": {
+        "path": "public\\images\\catalog\\kia-sorento.webp",
+        "exists": true,
+        "bytes": 165734,
+        "sha256": "c537256a049365b3f1e515d05c63489ba3c3c13676d352292109971333cbadc5"
+      },
+      "backupPath": "catalog-generator\\backups\\pilot-v3-2026-07-28T12-20-46-652\\kia-sorento.webp",
+      "carsJsonChange": {
+        "slug": "kia_sorento",
+        "field": "image",
+        "before": "/images/catalog/kia-sorento.webp",
+        "after": "/images/catalog/kia-sorento.webp",
+        "changed": false,
+        "reason": "Preserve the current public URL and replace its file atomically."
+      },
+      "manifestChange": {
+        "key": "kia_sorento",
+        "before": null,
+        "after": {
+          "file": "kia-sorento.webp",
+          "generation": "fourth generation MQ4 facelift",
+          "chassisCode": "MQ4 facelift",
+          "sourceSha256": "4e073460f246ae9121527d5c4cd098dd3b0527caa3353695d27f8284cedf4688",
+          "status": "production"
+        }
+      }
+    },
+    {
+      "manufacturer": "Lexus",
+      "model": "RX",
+      "generation": "fifth generation",
+      "stagingFile": "catalog-generator\\outputs\\lexus-rx-alh10.webp",
+      "stagingSha256": "851bfad1df32fa5fab5fdfc0594ca170e40c42d6ef76d72c808b17ceb137eb7f",
+      "targetProductionPath": "public\\images\\catalog\\lexus-rx.webp",
+      "existingFile": {
+        "path": "public\\images\\catalog\\lexus-rx.webp",
+        "exists": true,
+        "bytes": 122488,
+        "sha256": "a79bcc47c67bf59ace0fcf68466e3396129e2eaa9d3f1412ba3cd9769717191d"
+      },
+      "backupPath": "catalog-generator\\backups\\pilot-v3-2026-07-28T12-20-46-652\\lexus-rx.webp",
+      "carsJsonChange": {
+        "slug": "lexus_rx",
+        "field": "image",
+        "before": "/images/catalog/lexus-rx.webp",
+        "after": "/images/catalog/lexus-rx.webp",
+        "changed": false,
+        "reason": "Preserve the current public URL and replace its file atomically."
+      },
+      "manifestChange": {
+        "key": "lexus_rx",
+        "before": null,
+        "after": {
+          "file": "lexus-rx.webp",
+          "generation": "fifth generation",
+          "chassisCode": "ALH10",
+          "sourceSha256": "851bfad1df32fa5fab5fdfc0594ca170e40c42d6ef76d72c808b17ceb137eb7f",
+          "status": "production"
+        }
+      }
+    },
+    {
+      "manufacturer": "Toyota",
+      "model": "Camry",
+      "generation": "ninth generation",
+      "stagingFile": "catalog-generator\\outputs\\toyota-camry-2026-xv80.webp",
+      "stagingSha256": "bca210e30d88055fd543033439178053c350930c91cd1ab7566f715061c6753c",
+      "targetProductionPath": "public\\images\\catalog\\toyota-camry.webp",
+      "existingFile": {
+        "path": "public\\images\\catalog\\toyota-camry.webp",
+        "exists": true,
+        "bytes": 77676,
+        "sha256": "7dd963f94eca9743307cf5bd119c528ffa243ff40a95a17a970a8b5049e925fa"
+      },
+      "backupPath": "catalog-generator\\backups\\pilot-v3-2026-07-28T12-20-46-652\\toyota-camry.webp",
+      "carsJsonChange": {
+        "slug": "toyota_camry",
+        "field": "image",
+        "before": "/images/catalog/toyota-camry.webp",
+        "after": "/images/catalog/toyota-camry.webp",
+        "changed": false,
+        "reason": "Preserve the current public URL and replace its file atomically."
+      },
+      "manifestChange": {
+        "key": "toyota_camry",
+        "before": null,
+        "after": {
+          "file": "toyota-camry.webp",
+          "generation": "ninth generation",
+          "chassisCode": "XV80",
+          "sourceSha256": "bca210e30d88055fd543033439178053c350930c91cd1ab7566f715061c6753c",
+          "status": "production"
+        }
+      }
+    },
+    {
+      "manufacturer": "Toyota",
+      "model": "Corolla",
+      "generation": "E210 facelift",
+      "stagingFile": "catalog-generator\\outputs\\toyota-corolla-e210-facelift.webp",
+      "stagingSha256": "ca8fe1db543fd78d13ec86c33bf66e7d0e7430afb4aeae8173bd876ec11d4c34",
+      "targetProductionPath": "public\\images\\catalog\\toyota-corolla.webp",
+      "existingFile": {
+        "path": "public\\images\\catalog\\toyota-corolla.webp",
+        "exists": true,
+        "bytes": 105096,
+        "sha256": "dfa6dd00afe7e9c89eded7fc1a30679c5f47555970da4d95d5b4062a5c28a40a"
+      },
+      "backupPath": "catalog-generator\\backups\\pilot-v3-2026-07-28T12-20-46-652\\toyota-corolla.webp",
+      "carsJsonChange": {
+        "slug": "toyota_corolla",
+        "field": "image",
+        "before": "/images/catalog/toyota-corolla.webp",
+        "after": "/images/catalog/toyota-corolla.webp",
+        "changed": false,
+        "reason": "Preserve the current public URL and replace its file atomically."
+      },
+      "manifestChange": {
+        "key": "toyota_corolla",
+        "before": null,
+        "after": {
+          "file": "toyota-corolla.webp",
+          "generation": "E210 facelift",
+          "chassisCode": "E210",
+          "sourceSha256": "ca8fe1db543fd78d13ec86c33bf66e7d0e7430afb4aeae8173bd876ec11d4c34",
+          "status": "production"
+        }
+      }
+    },
+    {
+      "manufacturer": "Toyota",
+      "model": "Hilux",
+      "generation": "eighth generation current facelift",
+      "stagingFile": "catalog-generator\\outputs\\toyota-hilux-current.webp",
+      "stagingSha256": "6c13090e7446af15006c4ab5acc4092add3426dff41006f666b62a8a5efd855c",
+      "targetProductionPath": "public\\images\\catalog\\toyota-hilux.webp",
+      "existingFile": {
+        "path": "public\\images\\catalog\\toyota-hilux.webp",
+        "exists": true,
+        "bytes": 103492,
+        "sha256": "43c98b353f2435388db8f34ee9d2aa33aca79b918407b1e3928fed862bae4810"
+      },
+      "backupPath": "catalog-generator\\backups\\pilot-v3-2026-07-28T12-20-46-652\\toyota-hilux.webp",
+      "carsJsonChange": {
+        "slug": "toyota_hilux",
+        "field": "image",
+        "before": "/images/catalog/toyota-hilux.webp",
+        "after": "/images/catalog/toyota-hilux.webp",
+        "changed": false,
+        "reason": "Preserve the current public URL and replace its file atomically."
+      },
+      "manifestChange": {
+        "key": "toyota_hilux",
+        "before": null,
+        "after": {
+          "file": "toyota-hilux.webp",
+          "generation": "eighth generation current facelift",
+          "chassisCode": "AN120/AN130",
+          "sourceSha256": "6c13090e7446af15006c4ab5acc4092add3426dff41006f666b62a8a5efd855c",
+          "status": "production"
+        }
+      }
+    },
+    {
+      "manufacturer": "Toyota",
+      "model": "Land Cruiser 300",
+      "generation": "J300 generation",
+      "stagingFile": "catalog-generator\\outputs\\toyota-land-cruiser-300.webp",
+      "stagingSha256": "455c9987a54340184e6930ac5d02d0beb33fcf6909ab47c508935daa8c76b49d",
+      "targetProductionPath": "public\\images\\catalog\\toyota-land-cruiser.webp",
+      "existingFile": {
+        "path": "public\\images\\catalog\\toyota-land-cruiser.webp",
+        "exists": true,
+        "bytes": 132142,
+        "sha256": "b3aea5bdc9ec7e1c22c6e120fc2bb718e2acd258525779af43c33c7c3aa8089a"
+      },
+      "backupPath": "catalog-generator\\backups\\pilot-v3-2026-07-28T12-20-46-652\\toyota-land-cruiser.webp",
+      "carsJsonChange": {
+        "slug": "toyota_land_cruiser",
+        "field": "image",
+        "before": "/images/catalog/toyota-land-cruiser.webp",
+        "after": "/images/catalog/toyota-land-cruiser.webp",
+        "changed": false,
+        "reason": "Preserve the current public URL and replace its file atomically."
+      },
+      "manifestChange": {
+        "key": "toyota_land_cruiser",
+        "before": null,
+        "after": {
+          "file": "toyota-land-cruiser.webp",
+          "generation": "J300 generation",
+          "chassisCode": "J300",
+          "sourceSha256": "455c9987a54340184e6930ac5d02d0beb33fcf6909ab47c508935daa8c76b49d",
+          "status": "production"
+        }
+      }
+    },
+    {
+      "manufacturer": "Toyota",
+      "model": "RAV4",
+      "generation": "sixth generation",
+      "stagingFile": "catalog-generator\\outputs\\toyota-rav4-2026.webp",
+      "stagingSha256": "6f109def418fc095dc5da9372bd383451a59a733b93b981815e5494a1a09b64c",
+      "targetProductionPath": "public\\images\\catalog\\toyota-rav4.webp",
+      "existingFile": {
+        "path": "public\\images\\catalog\\toyota-rav4.webp",
+        "exists": true,
+        "bytes": 134118,
+        "sha256": "9f46892a150e283b219a5b693663fd2ae26b11df4921a4ea76dc7a216740870a"
+      },
+      "backupPath": "catalog-generator\\backups\\pilot-v3-2026-07-28T12-20-46-652\\toyota-rav4.webp",
+      "carsJsonChange": {
+        "slug": "toyota_rav4",
+        "field": "image",
+        "before": "/images/catalog/toyota-rav4.webp",
+        "after": "/images/catalog/toyota-rav4.webp",
+        "changed": false,
+        "reason": "Preserve the current public URL and replace its file atomically."
+      },
+      "manifestChange": {
+        "key": "toyota_rav4",
+        "before": null,
+        "after": {
+          "file": "toyota-rav4.webp",
+          "generation": "sixth generation",
+          "chassisCode": "2026 sixth-generation production body",
+          "sourceSha256": "6f109def418fc095dc5da9372bd383451a59a733b93b981815e5494a1a09b64c",
+          "status": "production"
+        }
+      }
+    },
+    {
+      "manufacturer": "Toyota",
+      "model": "Yaris",
+      "generation": "XP210 current facelift",
+      "stagingFile": "catalog-generator\\outputs\\toyota-yaris-xp210.webp",
+      "stagingSha256": "11c3b15e9144551e616933aee11ba71e713b8494e643871c1fe650c907dd548d",
+      "targetProductionPath": "public\\images\\catalog\\toyota-yaris.webp",
+      "existingFile": {
+        "path": "public\\images\\catalog\\toyota-yaris.webp",
+        "exists": true,
+        "bytes": 110184,
+        "sha256": "debc7fae11d691d6994ca5911158a0611444fcd6810af3a7ff243f2c00badfeb"
+      },
+      "backupPath": "catalog-generator\\backups\\pilot-v3-2026-07-28T12-20-46-652\\toyota-yaris.webp",
+      "carsJsonChange": {
+        "slug": "toyota_yaris",
+        "field": "image",
+        "before": "/images/catalog/toyota-yaris.webp",
+        "after": "/images/catalog/toyota-yaris.webp",
+        "changed": false,
+        "reason": "Preserve the current public URL and replace its file atomically."
+      },
+      "manifestChange": {
+        "key": "toyota_yaris",
+        "before": null,
+        "after": {
+          "file": "toyota-yaris.webp",
+          "generation": "XP210 current facelift",
+          "chassisCode": "XP210",
+          "sourceSha256": "11c3b15e9144551e616933aee11ba71e713b8494e643871c1fe650c907dd548d",
+          "status": "production"
+        }
+      }
+    }
+  ],
+  "affectedFiles": {
+    "wouldRead": [
+      "data\\cars.json",
+      "catalog-generator\\outputs\\bmw-3-series-g20-lci.webp",
+      "catalog-generator\\outputs\\bmw-x5-g05-lci.webp",
+      "catalog-generator\\outputs\\kia-k5-2026-facelift.webp",
+      "catalog-generator\\outputs\\kia-sorento-mq4-facelift.webp",
+      "catalog-generator\\outputs\\lexus-rx-alh10.webp",
+      "catalog-generator\\outputs\\toyota-camry-2026-xv80.webp",
+      "catalog-generator\\outputs\\toyota-corolla-e210-facelift.webp",
+      "catalog-generator\\outputs\\toyota-hilux-current.webp",
+      "catalog-generator\\outputs\\toyota-land-cruiser-300.webp",
+      "catalog-generator\\outputs\\toyota-rav4-2026.webp",
+      "catalog-generator\\outputs\\toyota-yaris-xp210.webp",
+      "public\\images\\catalog\\bmw-3-series.webp",
+      "public\\images\\catalog\\bmw-x5.webp",
+      "public\\images\\catalog\\kia-k5.webp",
+      "public\\images\\catalog\\kia-sorento.webp",
+      "public\\images\\catalog\\lexus-rx.webp",
+      "public\\images\\catalog\\toyota-camry.webp",
+      "public\\images\\catalog\\toyota-corolla.webp",
+      "public\\images\\catalog\\toyota-hilux.webp",
+      "public\\images\\catalog\\toyota-land-cruiser.webp",
+      "public\\images\\catalog\\toyota-rav4.webp",
+      "public\\images\\catalog\\toyota-yaris.webp"
+    ],
+    "wouldReplace": [
+      "public\\images\\catalog\\bmw-3-series.webp",
+      "public\\images\\catalog\\bmw-x5.webp",
+      "public\\images\\catalog\\kia-k5.webp",
+      "public\\images\\catalog\\kia-sorento.webp",
+      "public\\images\\catalog\\lexus-rx.webp",
+      "public\\images\\catalog\\toyota-camry.webp",
+      "public\\images\\catalog\\toyota-corolla.webp",
+      "public\\images\\catalog\\toyota-hilux.webp",
+      "public\\images\\catalog\\toyota-land-cruiser.webp",
+      "public\\images\\catalog\\toyota-rav4.webp",
+      "public\\images\\catalog\\toyota-yaris.webp"
+    ],
+    "wouldCreate": [
+      "catalog-generator\\backups\\pilot-v3-2026-07-28T12-20-46-652\\bmw-3-series.webp",
+      "catalog-generator\\backups\\pilot-v3-2026-07-28T12-20-46-652\\bmw-x5.webp",
+      "catalog-generator\\backups\\pilot-v3-2026-07-28T12-20-46-652\\kia-k5.webp",
+      "catalog-generator\\backups\\pilot-v3-2026-07-28T12-20-46-652\\kia-sorento.webp",
+      "catalog-generator\\backups\\pilot-v3-2026-07-28T12-20-46-652\\lexus-rx.webp",
+      "catalog-generator\\backups\\pilot-v3-2026-07-28T12-20-46-652\\toyota-camry.webp",
+      "catalog-generator\\backups\\pilot-v3-2026-07-28T12-20-46-652\\toyota-corolla.webp",
+      "catalog-generator\\backups\\pilot-v3-2026-07-28T12-20-46-652\\toyota-hilux.webp",
+      "catalog-generator\\backups\\pilot-v3-2026-07-28T12-20-46-652\\toyota-land-cruiser.webp",
+      "catalog-generator\\backups\\pilot-v3-2026-07-28T12-20-46-652\\toyota-rav4.webp",
+      "catalog-generator\\backups\\pilot-v3-2026-07-28T12-20-46-652\\toyota-yaris.webp",
+      "public\\images\\catalog\\manifest.json"
+    ],
+    "wouldModify": [],
+    "explicitlyNotTouched": [
+      "data\\cars.json",
+      "showcase",
+      "catalog pages/cards",
+      ".git"
+    ]
+  }
+}

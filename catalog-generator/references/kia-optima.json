@@ -1,0 +1,27 @@
+{
+  "checkedAt": "2026-07-30T08:48:17.471Z",
+  "manufacturer": "Kia",
+  "model": "Optima",
+  "requestedYear": "2019-2020",
+  "generation": "fourth generation JF facelift",
+  "chassisCode": "JF",
+  "market": "North America / Korea",
+  "referenceUrl": "https://www.kiamedia.com/us/en/models/optima/2020",
+  "finalUrl": "https://www.kiamedia.com/us/en/models/optima/2020",
+  "httpStatus": 200,
+  "officialDomain": "www.kiamedia.com",
+  "confirmedBodyCues": [
+    "fourth-generation JF sedan body",
+    "facelift slim tiger-nose grille",
+    "swept headlamps with four-point lower LED detail",
+    "final Optima production bumper and period-correct oval Kia badge"
+  ],
+  "attempts": [
+    {
+      "url": "https://www.kiamedia.com/us/en/models/optima/2020",
+      "finalUrl": "https://www.kiamedia.com/us/en/models/optima/2020",
+      "httpStatus": 200,
+      "status": "confirmed"
+    }
+  ]
+}

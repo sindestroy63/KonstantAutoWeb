@@ -1,0 +1,17 @@
+{
+  "batch": 1,
+  "reviewedAt": "2026-07-30T09:16:00.000Z",
+  "reviewMethod": "agent visual review against resolved identity cues and manufacturer/secondary references",
+  "entries": [
+    { "modelId": "bmw-x3", "status": "approved", "generationQa": "approved", "semanticQa": "approved", "attempts": 3, "normalization": ["horizontal-flip-to-standard-direction"], "issues": [] },
+    { "modelId": "bmw-1-series", "status": "approved", "generationQa": "approved", "semanticQa": "approved", "attempts": 3, "issues": [] },
+    { "modelId": "hyundai-solaris", "status": "approved", "generationQa": "approved", "semanticQa": "approved", "attempts": 1, "issues": [] },
+    { "modelId": "kia-rio", "status": "approved", "generationQa": "approved", "semanticQa": "approved", "attempts": 1, "issues": [] },
+    { "modelId": "kia-ceed", "status": "approved", "generationQa": "approved", "semanticQa": "approved", "attempts": 2, "issues": [] },
+    { "modelId": "kia-optima", "status": "approved", "generationQa": "approved", "semanticQa": "approved", "attempts": 1, "issues": [] },
+    { "modelId": "geely-coolray", "status": "approved", "generationQa": "approved", "semanticQa": "approved", "attempts": 2, "issues": [] },
+    { "modelId": "geely-atlas", "status": "approved", "generationQa": "approved", "semanticQa": "approved", "attempts": 1, "issues": [] },
+    { "modelId": "geely-emgrand", "status": "approved", "generationQa": "approved", "semanticQa": "approved", "attempts": 1, "issues": [] },
+    { "modelId": "geely-tugella", "status": "approved", "generationQa": "approved", "semanticQa": "approved", "attempts": 1, "issues": [] }
+  ]
+}

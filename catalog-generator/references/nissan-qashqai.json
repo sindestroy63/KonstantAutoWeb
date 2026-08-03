@@ -1,0 +1,27 @@
+{
+  "checkedAt": "2026-07-30T09:48:16.717Z",
+  "manufacturer": "Nissan",
+  "model": "Qashqai",
+  "requestedYear": "2024-2026",
+  "generation": "third generation J12 facelift",
+  "chassisCode": "J12",
+  "market": "Europe",
+  "referenceUrl": "https://www.nissan.co.uk/vehicles/new-vehicles/qashqai.html",
+  "finalUrl": "https://www.nissan.co.uk/cf/vehicles/new-vehicles/qashqai",
+  "httpStatus": 200,
+  "officialDomain": "www.nissan.co.uk",
+  "confirmedBodyCues": [
+    "J12 crossover body",
+    "2024 facelift broad geometric textured grille",
+    "facelift segmented upper light signature and slim main lamps",
+    "current bumper and Nissan circle wordmark"
+  ],
+  "attempts": [
+    {
+      "url": "https://www.nissan.co.uk/vehicles/new-vehicles/qashqai.html",
+      "finalUrl": "https://www.nissan.co.uk/cf/vehicles/new-vehicles/qashqai",
+      "httpStatus": 200,
+      "status": "confirmed"
+    }
+  ]
+}

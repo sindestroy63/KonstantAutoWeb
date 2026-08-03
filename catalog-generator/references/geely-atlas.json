@@ -1,0 +1,29 @@
+{
+  "checkedAt": "2026-07-30T08:56:40.324Z",
+  "manufacturer": "Geely",
+  "model": "Atlas",
+  "requestedYear": "2024-2026",
+  "generation": "second generation FX11",
+  "chassisCode": "FX11 / CMA",
+  "market": "China / CIS",
+  "referenceUrl": "https://www.geely-motors.com/model/atlas/",
+  "fallbackReferenceUrls": [
+    "https://global.geely.com/en/models/boyue-l",
+    "https://en.wikipedia.org/wiki/Geely_Boyue"
+  ],
+  "referenceQuality": "secondary-confirmed",
+  "confirmedBodyCues": [
+    "second-generation FX11 Atlas body derived from Boyue L",
+    "large vertical waterfall grille",
+    "slim angular upper LED headlamps",
+    "full-width visual front graphic and current Geely shield badge"
+  ],
+  "attempts": [
+    {
+      "url": "https://www.geely-motors.com/model/atlas/",
+      "finalUrl": "https://www.geely-motors.com/model/atlas/",
+      "httpStatus": 404,
+      "status": "http-error"
+    }
+  ]
+}

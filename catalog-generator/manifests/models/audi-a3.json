@@ -1,0 +1,52 @@
+{
+  "id": "audi-a3",
+  "catalogSlug": "audi_a3",
+  "manufacturer": "Audi",
+  "model": "A3",
+  "generation": "fourth generation 8Y facelift",
+  "chassisCode": "8Y",
+  "years": "2025-2026",
+  "facelift": "2024 facelift",
+  "market": "Europe",
+  "body": "five-door compact Sportback hatchback",
+  "trim": "S line 35 TFSI",
+  "paint": "District Green Metallic",
+  "identityCues": [
+    "facelift 8Y A3 Sportback five-door body",
+    "flatter wider singleframe grille",
+    "new selectable-signature LED headlamps",
+    "revised angular S line bumper",
+    "clearly visible hatchback roofline, rear hatch and short rear overhang",
+    "four side doors plus one rear hatch, not a sedan trunk",
+    "compact Golf-class wheelbase and short five-door hatchback body",
+    "roof ends immediately above the rear hatch, no extended cargo wagon section"
+  ],
+  "modelExclusions": [
+    "pre-facelift 8Y A3",
+    "third-generation 8V A3",
+    "A3 sedan",
+    "Audi S3 or RS3 body kit",
+    "concept",
+    "fantasy design",
+    "any separate three-box trunk or sedan rear deck",
+    "four-door sedan silhouette",
+    "Audi A4 Avant",
+    "Audi A4 allroad",
+    "station wagon or estate body",
+    "roof rails",
+    "long cargo-area rear quarter window"
+  ],
+  "referenceUrls": [
+    "https://www.audi-mediacenter.com/en/the-new-audi-a3-15887"
+  ],
+  "fallbackReferenceUrls": [
+    "https://en.wikipedia.org/wiki/Audi_A3#Fourth_generation_(Typ_8Y;_2020)",
+    "https://www.autoevolution.com/cars/audi-a3-sportback.html"
+  ],
+  "referenceQuality": "secondary-confirmed",
+  "confidenceLevel": "high",
+  "outputFilename": "audi-a3.webp",
+  "status": "production",
+  "approved": true,
+  "approvalStatus": "production-approved"
+}

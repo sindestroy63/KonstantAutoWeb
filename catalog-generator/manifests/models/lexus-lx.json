@@ -1,0 +1,40 @@
+{
+  "id": "lexus-lx",
+  "catalogSlug": "lexus_lx",
+  "manufacturer": "Lexus",
+  "model": "LX",
+  "generation": "fourth generation J310 facelift",
+  "chassisCode": "J310",
+  "years": "2025-2026",
+  "facelift": "2025 specification with LX 700h updates",
+  "market": "Middle East / North America",
+  "body": "five-door full-size luxury SUV",
+  "trim": "LX 600 F Sport",
+  "paint": "Manganese Luster",
+  "identityCues": [
+    "fourth-generation J310 full-size SUV body",
+    "large spindle grille with horizontal dark mesh",
+    "triple-projector slim LED headlamps",
+    "upright Land Cruiser 300-derived proportions with Lexus bodywork"
+  ],
+  "modelExclusions": [
+    "third-generation J200 LX",
+    "Toyota Land Cruiser 300 grille",
+    "Lexus GX",
+    "Lexus RX",
+    "concept",
+    "fantasy design"
+  ],
+  "referenceUrls": [
+    "https://www.lexus.com/models/LX"
+  ],
+  "fallbackReferenceUrls": [
+    "https://en.wikipedia.org/wiki/Lexus_LX",
+    "https://www.autoevolution.com/cars/lexus-lx.html"
+  ],
+  "referenceQuality": "secondary-confirmed",
+  "confidenceLevel": "high",
+  "outputFilename": "lexus-lx.webp",
+  "status": "qa",
+  "approved": false
+}

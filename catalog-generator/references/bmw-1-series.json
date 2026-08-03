@@ -1,0 +1,30 @@
+{
+  "checkedAt": "2026-07-30T06:44:08.950Z",
+  "manufacturer": "BMW",
+  "model": "1 Series",
+  "requestedYear": "2025-2026",
+  "generation": "fourth generation F70",
+  "chassisCode": "F70",
+  "market": "Europe / UK",
+  "referenceUrl": "https://www.bmw.co.uk/en/all-models/1-series/1-series-5doors/bmw-1-series.html",
+  "finalUrl": "https://www.bmw.co.uk/en/all-models/1-series/1-series-5doors/bmw-1-series.html",
+  "httpStatus": 200,
+  "officialDomain": "www.bmw.co.uk",
+  "confirmedBodyCues": [
+    "CRITICAL F70 check: the exact 2025 BMW 120 F70 production front end shown on the official BMW UK reference, not an interpreted transition from F40",
+    "CRITICAL F70 check: two vertical LED elements inside each slim headlamp; no separate vertical daytime-running lamps in the bumper",
+    "current F70 five-door hatchback body",
+    "slim swept-back LED headlamps with current vertical daytime-running-light elements",
+    "compact production kidney grille",
+    "current F70 standard production front bumper with no separate vertical bumper lamps",
+    "OEM five-door proportions and BMW roundel"
+  ],
+  "attempts": [
+    {
+      "url": "https://www.bmw.co.uk/en/all-models/1-series/1-series-5doors/bmw-1-series.html",
+      "finalUrl": "https://www.bmw.co.uk/en/all-models/1-series/1-series-5doors/bmw-1-series.html",
+      "httpStatus": 200,
+      "status": "confirmed"
+    }
+  ]
+}

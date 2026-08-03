@@ -1,0 +1,51 @@
+.viewer { min-width: 0; }
+.main {
+  position: relative;
+  display: block;
+  width: 100%;
+  aspect-ratio: var(--ka-v2-image-landscape);
+  overflow: hidden;
+  border: 0;
+  border-radius: var(--ka-v2-radius-md);
+  background: var(--ka-v2-color-surface-muted);
+  color: var(--ka-v2-color-text);
+  cursor: zoom-in;
+  touch-action: pan-y;
+}
+.main:disabled { cursor: default; }
+.main:focus-visible,
+.thumbnail:focus-visible { outline: var(--ka-v2-focus-width) solid var(--ka-v2-color-focus); outline-offset: var(--ka-v2-focus-offset); }
+.imagePadding { padding: var(--ka-v2-space-3); }
+.expand {
+  position: absolute;
+  right: var(--ka-v2-space-4);
+  bottom: var(--ka-v2-space-4);
+  display: inline-flex;
+  min-height: var(--ka-v2-target-size);
+  align-items: center;
+  gap: var(--ka-v2-space-2);
+  border-radius: var(--ka-v2-radius-sm);
+  padding: 0 var(--ka-v2-space-3);
+  background: rgb(255 255 255 / 92%);
+  box-shadow: var(--ka-v2-shadow-soft);
+  font-size: var(--ka-v2-font-body-sm);
+  font-weight: var(--ka-v2-weight-medium);
+}
+.expand svg { width: var(--ka-v2-icon-sm); height: var(--ka-v2-icon-sm); }
+.thumbnails { display: flex; gap: var(--ka-v2-space-3); margin-top: var(--ka-v2-space-3); overflow-x: auto; padding: var(--ka-v2-focus-width); }
+.thumbnail { position: relative; width: 7rem; flex: 0 0 7rem; aspect-ratio: var(--ka-v2-image-landscape); overflow: hidden; border: var(--ka-v2-field-border-width) solid var(--ka-v2-color-border); border-radius: var(--ka-v2-radius-sm); background: var(--ka-v2-color-surface); }
+.thumbnail[aria-current="true"] { border-color: var(--ka-v2-color-accent); }
+.thumbPadding { padding: var(--ka-v2-space-1); }
+.lightbox { width: min(72rem, calc(100vw - (var(--ka-v2-space-4) * 2))); max-width: 72rem; }
+.lightboxMedia { position: relative; width: 100%; aspect-ratio: var(--ka-v2-image-landscape); touch-action: pan-y; }
+.lightboxPadding { padding: var(--ka-v2-space-2); }
+.lightboxControls { position: absolute; right: var(--ka-v2-space-3); bottom: var(--ka-v2-space-3); left: var(--ka-v2-space-3); display: flex; align-items: center; justify-content: center; gap: var(--ka-v2-space-3); }
+.srOnly { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0, 0, 0, 0); white-space: nowrap; }
+
+@media (min-width: 48rem) {
+  .imagePadding { padding: var(--ka-v2-space-5); }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .main, .thumbnail { scroll-behavior: auto; }
+}

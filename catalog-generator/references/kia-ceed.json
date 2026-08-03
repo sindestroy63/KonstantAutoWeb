@@ -1,0 +1,29 @@
+{
+  "checkedAt": "2026-07-30T09:11:30.287Z",
+  "manufacturer": "Kia",
+  "model": "Ceed",
+  "requestedYear": "2022-2025",
+  "generation": "third generation CD facelift",
+  "chassisCode": "CD",
+  "market": "Europe",
+  "referenceUrl": "https://www.kia.com/uk/new-cars/ceed/",
+  "finalUrl": "https://www.kia.com/uk/new-cars/xceed/",
+  "httpStatus": 200,
+  "officialDomain": "www.kia.com",
+  "confirmedBodyCues": [
+    "CRITICAL: exactly the 2022-2025 facelift front, never the pre-facelift four-ice-cube headlamp",
+    "CRITICAL: three distinct arrowhead-shaped LED daytime-running-light modules inside each slim headlamp, not four round or square lamps",
+    "third-generation CD five-door hatchback body",
+    "facelift slim tiger-nose grille",
+    "three-arrow LED daytime-running-light signature inside each headlamp",
+    "facelift GT-Line bumper and current Kia wordmark"
+  ],
+  "attempts": [
+    {
+      "url": "https://www.kia.com/uk/new-cars/ceed/",
+      "finalUrl": "https://www.kia.com/uk/new-cars/xceed/",
+      "httpStatus": 200,
+      "status": "confirmed"
+    }
+  ]
+}

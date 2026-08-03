@@ -1,0 +1,22 @@
+# Build
+.next/
+node_modules/
+*.tsbuildinfo
+
+# Temp
+tmp/
+
+# Logs
+*.log
+
+# Local env
+.env
+.env.local
+.env.production.local
+
+# AI generator
+catalog-generator/backups/
+catalog-generator/outputs/raw/
+catalog-generator/outputs/rejected/
+# Legacy source images
+reference/car-source-images/

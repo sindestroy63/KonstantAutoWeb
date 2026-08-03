@@ -1,0 +1,80 @@
+{
+  "checkedAt": "2026-07-29T09:54:14.219Z",
+  "modelId": "hyundai-i30",
+  "file": "catalog-generator\\outputs\\batch-01-hyundai-i30-pd-second-facelift.webp",
+  "deterministicPass": true,
+  "analysis": {
+    "width": 1600,
+    "height": 1000,
+    "backgroundCornerRgb": [
+      178.2,
+      178.2,
+      177.2
+    ],
+    "backgroundCornerLuminance": 177.9,
+    "backgroundCornerNeutralityDelta": 1,
+    "foregroundBounds": {
+      "minX": 138,
+      "maxX": 1464,
+      "minY": 226,
+      "maxY": 832
+    },
+    "foregroundWidthPercent": 82.9,
+    "horizonPercent": 83.3
+  },
+  "checks": {
+    "dimensions": {
+      "status": "pass",
+      "actual": "1600x1000"
+    },
+    "format": {
+      "status": "pass",
+      "actual": "webp"
+    },
+    "aspectRatio": {
+      "status": "pass",
+      "actual": 1.6
+    },
+    "background": {
+      "status": "pass",
+      "actualRgb": [
+        178.2,
+        178.2,
+        177.2
+      ],
+      "luminance": 177.9,
+      "neutralityDelta": 1
+    },
+    "scale": {
+      "status": "pass",
+      "actualPercent": 82.9,
+      "targetPercent": "78-84",
+      "tolerancePercent": "74-88"
+    },
+    "horizon": {
+      "status": "pass",
+      "actualPercent": 83.3,
+      "tolerancePercent": "72-93"
+    },
+    "exactlyOneVehicle": {
+      "status": "pending",
+      "method": "manual-or-vision-adapter"
+    },
+    "noPeople": {
+      "status": "pending",
+      "method": "manual-or-vision-adapter"
+    },
+    "noText": {
+      "status": "pending",
+      "method": "manual-or-vision-adapter"
+    },
+    "noWatermark": {
+      "status": "pending",
+      "method": "manual-or-vision-adapter"
+    },
+    "generationIdentity": {
+      "status": "pending",
+      "method": "owner-review"
+    }
+  }
+}

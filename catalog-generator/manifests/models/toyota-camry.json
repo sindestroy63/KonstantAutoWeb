@@ -1,0 +1,40 @@
+{
+  "id": "toyota-camry",
+  "catalogSlug": "toyota_camry",
+  "manufacturer": "Toyota",
+  "model": "Camry",
+  "generation": "ninth generation",
+  "chassisCode": "XV80",
+  "years": "2025-2026",
+  "facelift": "current original XV80 production design",
+  "market": "North America",
+  "body": "four-door midsize sedan",
+  "trim": "XSE",
+  "paint": "Supersonic Red with black roof",
+  "identityCues": [
+    "thin upper LED headlamps",
+    "hammerhead-inspired lighting graphic",
+    "broad lower grille",
+    "current XSE sport bumper"
+  ],
+  "modelExclusions": [
+    "XV70",
+    "2018-2024 Camry",
+    "old wide headlamps",
+    "XV70 and XV80 mixture",
+    "Corolla",
+    "Crown"
+  ],
+  "referenceUrls": [
+    "https://pressroom.toyota.com/vehicle/2026-toyota-camry/"
+  ],
+  "outputFilename": "toyota-camry-2026-xv80.webp",
+  "status": "production",
+  "approved": true,
+  "production": {
+    "batchId": "pilot-v3-2026-07-28T12-20-46-652",
+    "file": "public\\images\\catalog\\toyota-camry.webp",
+    "sha256": "bca210e30d88055fd543033439178053c350930c91cd1ab7566f715061c6753c",
+    "promotedAt": "2026-07-28T12:25:59.187Z"
+  }
+}

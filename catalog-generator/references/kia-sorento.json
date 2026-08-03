@@ -1,0 +1,27 @@
+{
+  "checkedAt": "2026-07-28T11:59:41.477Z",
+  "manufacturer": "Kia",
+  "model": "Sorento",
+  "requestedYear": "2025-2026",
+  "generation": "fourth generation MQ4 facelift",
+  "chassisCode": "MQ4 facelift",
+  "market": "North America",
+  "referenceUrl": "https://www.kiamedia.com/us/en/models/sorento/2026",
+  "finalUrl": "https://www.kiamedia.com/us/en/models/sorento/2026",
+  "httpStatus": 200,
+  "officialDomain": "www.kiamedia.com",
+  "confirmedBodyCues": [
+    "vertical front headlamp modules",
+    "Star Map lighting signature",
+    "current facelift grille",
+    "X-Line bumper"
+  ],
+  "attempts": [
+    {
+      "url": "https://www.kiamedia.com/us/en/models/sorento/2026",
+      "finalUrl": "https://www.kiamedia.com/us/en/models/sorento/2026",
+      "httpStatus": 200,
+      "status": "confirmed"
+    }
+  ]
+}

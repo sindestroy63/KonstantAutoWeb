@@ -1,0 +1,27 @@
+{
+  "checkedAt": "2026-07-30T09:58:32.326Z",
+  "manufacturer": "Nissan",
+  "model": "Navara",
+  "requestedYear": "2021-2025",
+  "generation": "third generation D23 facelift",
+  "chassisCode": "D23",
+  "market": "Asia / Middle East",
+  "referenceUrl": "https://en.nissan-dubai.com/vehicles/new/navara.html",
+  "finalUrl": "https://en.nissan-dubai.com/vehicles/new/urvan.html",
+  "httpStatus": 200,
+  "officialDomain": "en.nissan-dubai.com",
+  "confirmedBodyCues": [
+    "facelift D23 double-cab pickup body",
+    "large interlock-style grille",
+    "facelift squared C-shaped LED headlamps",
+    "correct separate cargo bed, four doors and Nissan badge"
+  ],
+  "attempts": [
+    {
+      "url": "https://en.nissan-dubai.com/vehicles/new/navara.html",
+      "finalUrl": "https://en.nissan-dubai.com/vehicles/new/urvan.html",
+      "httpStatus": 200,
+      "status": "confirmed"
+    }
+  ]
+}

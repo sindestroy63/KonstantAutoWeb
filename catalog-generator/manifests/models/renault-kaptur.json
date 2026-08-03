@@ -1,0 +1,24 @@
+{
+  "id": "renault-kaptur",
+  "catalogSlug": "renault_kaptur",
+  "manufacturer": "Renault",
+  "model": "Kaptur",
+  "generation": "TODO: official current generation",
+  "chassisCode": "TODO",
+  "years": "TODO",
+  "facelift": "TODO",
+  "market": "TODO",
+  "body": "Кроссовер",
+  "trim": "TODO",
+  "paint": "factory production color",
+  "identityCues": [],
+  "modelExclusions": [
+    "previous generation",
+    "concept",
+    "fantasy design"
+  ],
+  "referenceUrls": [],
+  "outputFilename": "renault-kaptur.webp",
+  "status": "draft",
+  "approved": false
+}

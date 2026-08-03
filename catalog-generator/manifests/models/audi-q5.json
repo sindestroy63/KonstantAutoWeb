@@ -1,0 +1,42 @@
+{
+  "id": "audi-q5",
+  "catalogSlug": "audi_q5",
+  "manufacturer": "Audi",
+  "model": "Q5",
+  "generation": "third generation GU",
+  "chassisCode": "GU",
+  "years": "2025-2026",
+  "facelift": "all-new third generation",
+  "market": "Europe",
+  "body": "five-door compact luxury crossover SUV",
+  "trim": "S line 45 TFSI quattro",
+  "paint": "Tambora Gray Metallic",
+  "identityCues": [
+    "third-generation GU Q5 body",
+    "new slim segmented LED headlamps",
+    "wide new-generation singleframe grille",
+    "sculpted S line lower bumper and taut rear-quarter surfacing"
+  ],
+  "modelExclusions": [
+    "second-generation FY Q5",
+    "first-generation 8R Q5",
+    "Audi Q6 e-tron",
+    "Audi Q7",
+    "Sportback body",
+    "concept",
+    "fantasy design"
+  ],
+  "referenceUrls": [
+    "https://www.audi-mediacenter.com/en/the-new-audi-q5-suv-16204"
+  ],
+  "fallbackReferenceUrls": [
+    "https://en.wikipedia.org/wiki/Audi_Q5",
+    "https://www.autoevolution.com/cars/audi-q5.html"
+  ],
+  "referenceQuality": "secondary-confirmed",
+  "confidenceLevel": "high",
+  "outputFilename": "audi-q5.webp",
+  "status": "production",
+  "approved": true,
+  "approvalStatus": "production-approved"
+}

@@ -1,0 +1,24 @@
+{
+  "id": "porsche-macan",
+  "catalogSlug": "porsche_macan",
+  "manufacturer": "Porsche",
+  "model": "Macan",
+  "generation": "TODO: official current generation",
+  "chassisCode": "TODO",
+  "years": "TODO",
+  "facelift": "TODO",
+  "market": "TODO",
+  "body": "Кроссовер",
+  "trim": "TODO",
+  "paint": "factory production color",
+  "identityCues": [],
+  "modelExclusions": [
+    "previous generation",
+    "concept",
+    "fantasy design"
+  ],
+  "referenceUrls": [],
+  "outputFilename": "porsche-macan.webp",
+  "status": "draft",
+  "approved": false
+}

@@ -1,0 +1,41 @@
+{
+  "id": "honda-cr-v",
+  "catalogSlug": "honda_crv",
+  "manufacturer": "Honda",
+  "model": "CR-V",
+  "generation": "sixth generation RS",
+  "chassisCode": "RS3/RS4/RS5/RS6",
+  "years": "2023-2026",
+  "facelift": "current sixth-generation production specification",
+  "market": "North America",
+  "body": "five-door compact crossover",
+  "trim": "Sport Touring Hybrid",
+  "paint": "Canyon River Blue metallic",
+  "identityCues": [
+    "sixth-generation RS CR-V body",
+    "wide upright black mesh grille",
+    "slim rectangular LED headlamps",
+    "clean current bumper and accurate Honda H badge"
+  ],
+  "modelExclusions": [
+    "fifth-generation RW CR-V",
+    "Honda HR-V",
+    "Honda Pilot",
+    "China-market Breeze",
+    "previous curved headlamps",
+    "mixed fifth/sixth generation"
+  ],
+  "referenceUrls": [
+    "https://automobiles.honda.com/cr-v"
+  ],
+  "fallbackReferenceUrls": [
+    "https://en.wikipedia.org/wiki/Honda_CR-V",
+    "https://www.caranddriver.com/honda/cr-v"
+  ],
+  "referenceQuality": "secondary-confirmed",
+  "confidenceLevel": "high",
+  "outputFilename": "honda-crv.webp",
+  "status": "production",
+  "approved": true,
+  "approvalStatus": "production-approved"
+}

@@ -1,0 +1,29 @@
+{
+  "checkedAt": "2026-07-30T10:29:56.042Z",
+  "manufacturer": "Volkswagen",
+  "model": "Touareg",
+  "requestedYear": "2024-2026",
+  "generation": "third generation CR facelift",
+  "chassisCode": "CR",
+  "market": "Europe",
+  "referenceUrl": "https://www.volkswagen-newsroom.com/en/the-new-touareg-2023-15998",
+  "fallbackReferenceUrls": [
+    "https://en.wikipedia.org/wiki/Volkswagen_Touareg",
+    "https://www.autoevolution.com/cars/volkswagen-touareg.html"
+  ],
+  "referenceQuality": "secondary-confirmed",
+  "confirmedBodyCues": [
+    "third-generation CR SUV proportions",
+    "facelift IQ.LIGHT HD matrix headlamps",
+    "full-width light strip across the upper grille",
+    "wide lower R-Line bumper and correct Volkswagen badge"
+  ],
+  "attempts": [
+    {
+      "url": "https://www.volkswagen-newsroom.com/en/the-new-touareg-2023-15998",
+      "finalUrl": "https://www.volkswagen-newsroom.com/en/the-new-touareg-2023-15998",
+      "httpStatus": 404,
+      "status": "http-error"
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "id": "geely-coolray",
+  "catalogSlug": "geely_coolray",
+  "manufacturer": "Geely",
+  "model": "Coolray",
+  "generation": "first generation SX11 major facelift",
+  "chassisCode": "SX11 / BMA",
+  "years": "2023-2026",
+  "facelift": "New Coolray major facelift",
+  "market": "China / CIS",
+  "body": "five-door subcompact crossover",
+  "trim": "Flagship",
+  "paint": "Satin Silver metallic",
+  "identityCues": [
+    "CRITICAL: authentic current Geely shield badge with its segmented internal pattern, never a diamond-shaped or unrelated Chinese-brand badge",
+    "CRITICAL: exact 2023-2026 New Coolray SX11 production body and greenhouse",
+    "current New Coolray SX11 body",
+    "wide frameless-style dark mesh grille",
+    "very slim angular LED headlamps",
+    "sporty three-part lower bumper and compact crossover proportions"
+  ],
+  "modelExclusions": [
+    "the rejected attempt with a diamond badge and another manufacturer's SUV body",
+    "Changan CS55 Plus",
+    "Chery or Omoda body",
+    "pre-facelift Coolray",
+    "Geely Atlas",
+    "Geely Binyue L future replacement",
+    "Proton X50",
+    "concept body",
+    "aftermarket sports kit"
+  ],
+  "referenceUrls": [
+    "https://www.geely-motors.com/model/coolray/"
+  ],
+  "fallbackReferenceUrls": [
+    "https://global.geely.com/en/models/coolray",
+    "https://en.wikipedia.org/wiki/Geely_Binyue"
+  ],
+  "referenceQuality": "secondary-confirmed",
+  "confidenceLevel": "high",
+  "outputFilename": "geely-coolray.webp",
+  "status": "qa",
+  "approved": false
+}

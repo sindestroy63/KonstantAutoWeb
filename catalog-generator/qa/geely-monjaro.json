@@ -1,0 +1,83 @@
+{
+  "checkedAt": "2026-07-30T09:30:47.406Z",
+  "modelId": "geely-monjaro",
+  "file": "catalog-generator\\outputs\\geely-monjaro.webp",
+  "deterministicPass": true,
+  "analysis": {
+    "width": 1600,
+    "height": 1000,
+    "backgroundCornerRgb": [
+      181.6,
+      181.2,
+      181.9
+    ],
+    "backgroundCornerLuminance": 181.6,
+    "backgroundCornerNeutralityDelta": 0.7,
+    "foregroundBounds": {
+      "minX": 182,
+      "maxX": 1454,
+      "minY": 228,
+      "maxY": 818
+    },
+    "foregroundWidthPercent": 79.6,
+    "horizonPercent": 81.9
+  },
+  "checks": {
+    "dimensions": {
+      "status": "pass",
+      "actual": "1600x1000"
+    },
+    "format": {
+      "status": "pass",
+      "actual": "webp"
+    },
+    "aspectRatio": {
+      "status": "pass",
+      "actual": 1.6
+    },
+    "background": {
+      "status": "pass",
+      "actualRgb": [
+        181.6,
+        181.2,
+        181.9
+      ],
+      "luminance": 181.6,
+      "neutralityDelta": 0.7
+    },
+    "scale": {
+      "status": "pass",
+      "actualPercent": 79.6,
+      "targetPercent": "78-84",
+      "tolerancePercent": "74-88"
+    },
+    "horizon": {
+      "status": "pass",
+      "actualPercent": 81.9,
+      "tolerancePercent": "72-93"
+    },
+    "exactlyOneVehicle": {
+      "status": "pass",
+      "method": "agent-visual-review"
+    },
+    "noPeople": {
+      "status": "pass",
+      "method": "agent-visual-review"
+    },
+    "noText": {
+      "status": "pass",
+      "method": "agent-visual-review"
+    },
+    "noWatermark": {
+      "status": "pass",
+      "method": "agent-visual-review"
+    },
+    "generationIdentity": {
+      "status": "approved",
+      "method": "agent-visual-review"
+    }
+  },
+  "semanticQa": "approved",
+  "generationQa": "approved",
+  "finalStatus": "production-approved"
+}

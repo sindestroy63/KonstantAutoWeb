@@ -1,0 +1,27 @@
+{
+  "checkedAt": "2026-07-30T09:57:22.954Z",
+  "manufacturer": "Honda",
+  "model": "Fit",
+  "requestedYear": "2023-2026",
+  "generation": "fourth generation GR/GS facelift",
+  "chassisCode": "GR1-GR8 / GS4-GS7",
+  "market": "Japan",
+  "referenceUrl": "https://www.honda.co.jp/Fit/",
+  "finalUrl": "https://www.honda.co.jp/Fit/",
+  "httpStatus": 200,
+  "officialDomain": "www.honda.co.jp",
+  "confirmedBodyCues": [
+    "fourth-generation Fit tall five-door hatchback body",
+    "facelift clean small grille",
+    "large rounded LED headlamps",
+    "short hood, expansive windshield and accurate Honda badge"
+  ],
+  "attempts": [
+    {
+      "url": "https://www.honda.co.jp/Fit/",
+      "finalUrl": "https://www.honda.co.jp/Fit/",
+      "httpStatus": 200,
+      "status": "confirmed"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+Use case: product-mockup. Asset type: identity-critical automotive catalog photograph.
+Manufacturer: Kia. Model: Optima. Model years: 2019-2020.
+Generation: fourth generation JF facelift. Chassis code: JF. Facelift status: 2018 facelift, final Optima-branded production specification.
+Regional specification: North America / Korea. Body style: four-door midsize sedan. Trim: EX. Paint: Horizon Blue metallic.
+Exact production identity cues: fourth-generation JF sedan body; facelift slim tiger-nose grille; swept headlamps with four-point lower LED detail; final Optima production bumper and period-correct oval Kia badge.
+Official manufacturer reference confirms: fourth-generation JF sedan body; facelift slim tiger-nose grille; swept headlamps with four-point lower LED detail; final Optima production bumper and period-correct oval Kia badge.
+Hard model exclusions: Kia K5 DL3; third-generation TF Optima; pre-facelift JF; Kia Forte; Kia Stinger; current Kia wordmark; fictional new Optima generation.
+Brand exclusions: old generation; concept car; fantasy design; CGI look; tuning; oversized wheels; aftermarket bumper; wrong logo; old headlights; cropped vehicle; watermark; Kia Optima substitution; wrong Kia model; pre-facelift lighting; old oval Kia logo.
+Realistic serial-production vehicle, front three-quarter view, nose pointing right. Camera height 1.1-1.3 metres, 70-90 mm full-frame equivalent lens, minimal perspective distortion.
+Entire vehicle fully visible, including both bumpers, roof, doors, wheels and tires. Vehicle occupies 78-84 percent of image width. Wheels straight, matching, and resting on one visual baseline.
+Neutral seamless light-gray studio cyclorama, soft diffused catalog lighting, restrained contact shadow beneath the tires, low reflection intensity, consistent horizon and scale.
+Exactly one car. No environment, people, other vehicles, text, watermark, dealer plate, readable license, concepts, invented lighting, modified badges, extra doors, handles or pillars, malformed wheels or mixed body panels.
+Depict the exact named serial-production model year, generation, chassis and body. Never substitute a previous generation or blend generations. Prioritize production identity over generic attractiveness.

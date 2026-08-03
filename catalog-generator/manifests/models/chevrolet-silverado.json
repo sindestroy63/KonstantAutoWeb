@@ -1,0 +1,45 @@
+{
+  "id": "chevrolet-silverado",
+  "catalogSlug": "chevrolet_silverado",
+  "manufacturer": "Chevrolet",
+  "model": "Silverado",
+  "generation": "fourth generation T1XX facelift",
+  "chassisCode": "T1XX",
+  "years": "2022-2026",
+  "facelift": "2022 facelift",
+  "market": "North America",
+  "body": "four-door Crew Cab full-size pickup",
+  "trim": "High Country",
+  "paint": "Lakeshore Blue Metallic",
+  "identityCues": [
+    "facelift T1XX Crew Cab pickup body",
+    "thin upper LED running lights with lower main lamps",
+    "wide High Country grille with Chevrolet bowtie",
+    "four full doors and separate cargo bed"
+  ],
+  "modelExclusions": [
+    "pre-facelift 2019-2021 Silverado",
+    "third-generation K2XX Silverado",
+    "GMC Sierra",
+    "Colorado",
+    "single cab",
+    "ZR2 body kit",
+    "concept",
+    "fantasy design",
+    "readable High Country lettering",
+    "readable 6.2L badge text",
+    "any readable trim or engine text"
+  ],
+  "referenceUrls": [
+    "https://www.chevrolet.com/trucks/silverado/1500"
+  ],
+  "fallbackReferenceUrls": [
+    "https://en.wikipedia.org/wiki/Chevrolet_Silverado#Fourth_generation_(2019)",
+    "https://www.autoevolution.com/cars/chevrolet-silverado.html"
+  ],
+  "referenceQuality": "secondary-confirmed",
+  "confidenceLevel": "high",
+  "outputFilename": "chevrolet-silverado.webp",
+  "status": "qa",
+  "approved": false
+}

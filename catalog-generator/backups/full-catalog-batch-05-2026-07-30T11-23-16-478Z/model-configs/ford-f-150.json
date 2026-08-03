@@ -1,0 +1,41 @@
+{
+  "id": "ford-f-150",
+  "catalogSlug": "ford_f150",
+  "manufacturer": "Ford",
+  "model": "F-150",
+  "generation": "fourteenth generation P702 facelift",
+  "chassisCode": "P702",
+  "years": "2024-2026",
+  "facelift": "2024 model-year facelift",
+  "market": "North America",
+  "body": "four-door SuperCrew full-size pickup",
+  "trim": "Lariat",
+  "paint": "Antimatter Blue Metallic",
+  "identityCues": [
+    "facelift P702 SuperCrew full-size pickup body",
+    "revised C-clamp LED headlamps",
+    "large rectangular Lariat grille",
+    "four full doors and separate full-size cargo bed"
+  ],
+  "modelExclusions": [
+    "pre-facelift 2021-2023 F-150",
+    "thirteenth-generation F-150",
+    "Ford Ranger",
+    "F-150 Raptor or Lightning",
+    "single cab",
+    "concept",
+    "fantasy design"
+  ],
+  "referenceUrls": [
+    "https://www.ford.com/trucks/f150/"
+  ],
+  "fallbackReferenceUrls": [
+    "https://en.wikipedia.org/wiki/Ford_F-Series_(fourteenth_generation)",
+    "https://www.autoevolution.com/cars/ford-f-150.html"
+  ],
+  "referenceQuality": "secondary-confirmed",
+  "confidenceLevel": "high",
+  "outputFilename": "ford-f-150.webp",
+  "status": "qa",
+  "approved": false
+}

@@ -1,0 +1,39 @@
+{
+  "id": "chevrolet-trax",
+  "catalogSlug": "chevrolet_trax",
+  "manufacturer": "Chevrolet",
+  "model": "Trax",
+  "generation": "second generation VSS-F",
+  "chassisCode": "VSS-F",
+  "years": "2024-2026",
+  "facelift": "current all-new generation",
+  "market": "North America",
+  "body": "five-door subcompact crossover SUV",
+  "trim": "2RS",
+  "paint": "Cacti Green",
+  "identityCues": [
+    "second-generation low wide Trax crossover body",
+    "thin upper LED DRLs and lower main lamps",
+    "wide black 2RS grille",
+    "longer wheelbase and coupe-like rear quarter"
+  ],
+  "modelExclusions": [
+    "first-generation Gamma II Trax",
+    "Chevrolet Trailblazer",
+    "Chevrolet Equinox",
+    "concept",
+    "fantasy design"
+  ],
+  "referenceUrls": [
+    "https://www.chevrolet.com/suvs/trax"
+  ],
+  "fallbackReferenceUrls": [
+    "https://en.wikipedia.org/wiki/Chevrolet_Trax",
+    "https://www.autoevolution.com/cars/chevrolet-trax.html"
+  ],
+  "referenceQuality": "secondary-confirmed",
+  "confidenceLevel": "high",
+  "outputFilename": "chevrolet-trax.webp",
+  "status": "qa",
+  "approved": false
+}

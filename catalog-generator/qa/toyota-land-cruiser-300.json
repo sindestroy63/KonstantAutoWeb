@@ -1,0 +1,87 @@
+{
+  "checkedAt": "2026-07-28T12:20:17.819Z",
+  "modelId": "toyota-land-cruiser-300",
+  "file": "catalog-generator\\outputs\\toyota-land-cruiser-300.webp",
+  "deterministicPass": true,
+  "analysis": {
+    "width": 1600,
+    "height": 1000,
+    "backgroundCornerRgb": [
+      196.5,
+      196.6,
+      195.6
+    ],
+    "backgroundCornerLuminance": 196.2,
+    "backgroundCornerNeutralityDelta": 1,
+    "foregroundBounds": {
+      "minX": 122,
+      "maxX": 1490,
+      "minY": 196,
+      "maxY": 834
+    },
+    "foregroundWidthPercent": 85.6,
+    "horizonPercent": 83.5
+  },
+  "checks": {
+    "dimensions": {
+      "status": "pass",
+      "actual": "1600x1000"
+    },
+    "format": {
+      "status": "pass",
+      "actual": "webp"
+    },
+    "aspectRatio": {
+      "status": "pass",
+      "actual": 1.6
+    },
+    "background": {
+      "status": "pass",
+      "actualRgb": [
+        196.5,
+        196.6,
+        195.6
+      ],
+      "luminance": 196.2,
+      "neutralityDelta": 1
+    },
+    "scale": {
+      "status": "pass",
+      "actualPercent": 85.6,
+      "targetPercent": "78-84",
+      "tolerancePercent": "74-88"
+    },
+    "horizon": {
+      "status": "pass",
+      "actualPercent": 83.5,
+      "tolerancePercent": "72-93"
+    },
+    "exactlyOneVehicle": {
+      "status": "pass",
+      "method": "final-visual-review"
+    },
+    "noPeople": {
+      "status": "pass",
+      "method": "final-visual-review"
+    },
+    "noText": {
+      "status": "pass",
+      "method": "final-visual-review",
+      "note": "No promotional, overlay, watermark or dealer text; authentic vehicle badges are acceptable."
+    },
+    "noWatermark": {
+      "status": "pass",
+      "method": "final-visual-review"
+    },
+    "generationIdentity": {
+      "status": "pass",
+      "method": "final-visual-review"
+    }
+  },
+  "visualGenerationMatch": "approved",
+  "semanticQa": "approved",
+  "generationQa": "approved",
+  "suspectedPreviousGeneration": false,
+  "suspectedMixedGeneration": false,
+  "issues": []
+}

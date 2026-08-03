@@ -1,0 +1,83 @@
+{
+  "checkedAt": "2026-07-30T09:00:10.300Z",
+  "modelId": "geely-atlas",
+  "file": "catalog-generator\\outputs\\geely-atlas.webp",
+  "deterministicPass": true,
+  "analysis": {
+    "width": 1600,
+    "height": 1000,
+    "backgroundCornerRgb": [
+      187.2,
+      188.1,
+      190.3
+    ],
+    "backgroundCornerLuminance": 188.5,
+    "backgroundCornerNeutralityDelta": 3.2,
+    "foregroundBounds": {
+      "minX": 170,
+      "maxX": 1394,
+      "minY": 216,
+      "maxY": 858
+    },
+    "foregroundWidthPercent": 76.6,
+    "horizonPercent": 85.9
+  },
+  "checks": {
+    "dimensions": {
+      "status": "pass",
+      "actual": "1600x1000"
+    },
+    "format": {
+      "status": "pass",
+      "actual": "webp"
+    },
+    "aspectRatio": {
+      "status": "pass",
+      "actual": 1.6
+    },
+    "background": {
+      "status": "pass",
+      "actualRgb": [
+        187.2,
+        188.1,
+        190.3
+      ],
+      "luminance": 188.5,
+      "neutralityDelta": 3.2
+    },
+    "scale": {
+      "status": "pass",
+      "actualPercent": 76.6,
+      "targetPercent": "78-84",
+      "tolerancePercent": "74-88"
+    },
+    "horizon": {
+      "status": "pass",
+      "actualPercent": 85.9,
+      "tolerancePercent": "72-93"
+    },
+    "exactlyOneVehicle": {
+      "status": "pass",
+      "method": "agent-visual-review"
+    },
+    "noPeople": {
+      "status": "pass",
+      "method": "agent-visual-review"
+    },
+    "noText": {
+      "status": "pass",
+      "method": "agent-visual-review"
+    },
+    "noWatermark": {
+      "status": "pass",
+      "method": "agent-visual-review"
+    },
+    "generationIdentity": {
+      "status": "approved",
+      "method": "agent-visual-review"
+    }
+  },
+  "semanticQa": "approved",
+  "generationQa": "approved",
+  "finalStatus": "production-approved"
+}

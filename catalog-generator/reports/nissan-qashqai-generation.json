@@ -1,0 +1,40 @@
+{
+  "generatedAt": "2026-07-30T09:49:40.442Z",
+  "modelId": "nissan-qashqai",
+  "manufacturer": "Nissan",
+  "model": "Qashqai",
+  "apiRequestCount": 1,
+  "infrastructureRetries": 0,
+  "infrastructureDiagnostics": [
+    {
+      "requestIndex": 0,
+      "httpStatus": 200,
+      "responseFormat": "json"
+    }
+  ],
+  "requestedYears": "2024-2026",
+  "requestedGeneration": "third generation J12 facelift",
+  "requestedChassisCode": "J12",
+  "modelUsed": "gpt-image-2",
+  "generationMode": "text-generation",
+  "endpoint": "https://vibecode.moe/v1/images/generations",
+  "referenceUrl": "https://www.nissan.co.uk/vehicles/new-vehicles/qashqai.html",
+  "referenceImageUrl": null,
+  "apiStatus": 200,
+  "downloadStatus": 200,
+  "contentType": "image/png",
+  "sourceUrl": "https://file7.aitohumanize.com/file/362abda7c68a4e809fe80c5788996765.png",
+  "rawFile": "catalog-generator\\outputs\\raw\\nissan-qashqai.png",
+  "generatedFile": "catalog-generator\\outputs\\nissan-qashqai.webp",
+  "rawMetadata": {
+    "format": "png",
+    "width": 1536,
+    "height": 1024
+  },
+  "outputMetadata": {
+    "format": "webp",
+    "width": 1600,
+    "height": 1000
+  },
+  "promptFile": "catalog-generator\\prompts\\nissan-qashqai.txt"
+}

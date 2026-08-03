@@ -1,0 +1,27 @@
+{
+  "checkedAt": "2026-07-30T09:43:43.837Z",
+  "manufacturer": "Honda",
+  "model": "Civic",
+  "requestedYear": "2025-2026",
+  "generation": "eleventh generation FE facelift",
+  "chassisCode": "FE1",
+  "market": "North America",
+  "referenceUrl": "https://automobiles.honda.com/civic-sedan",
+  "finalUrl": "https://automobiles.honda.com/civic-sedan",
+  "httpStatus": 200,
+  "officialDomain": "automobiles.honda.com",
+  "confirmedBodyCues": [
+    "eleventh-generation FE sedan body",
+    "2025 facelift darker honeycomb upper grille",
+    "slim horizontal LED headlamps",
+    "facelift lower bumper and accurate Honda H badge"
+  ],
+  "attempts": [
+    {
+      "url": "https://automobiles.honda.com/civic-sedan",
+      "finalUrl": "https://automobiles.honda.com/civic-sedan",
+      "httpStatus": 200,
+      "status": "confirmed"
+    }
+  ]
+}

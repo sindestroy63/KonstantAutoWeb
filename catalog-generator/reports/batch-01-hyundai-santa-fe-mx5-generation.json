@@ -1,0 +1,30 @@
+{
+  "generatedAt": "2026-07-29T09:49:19.828Z",
+  "modelId": "hyundai-santa-fe",
+  "manufacturer": "Hyundai",
+  "model": "Santa Fe",
+  "apiRequestCount": 1,
+  "requestedYears": "2024-2026",
+  "requestedGeneration": "fifth generation MX5",
+  "requestedChassisCode": "MX5",
+  "modelUsed": "gpt-image-2",
+  "endpoint": "https://vibecode.moe/v1/images/generations",
+  "referenceUrl": "https://www.hyundaiusa.com/us/en/vehicles/santa-fe",
+  "apiStatus": 200,
+  "downloadStatus": 200,
+  "contentType": "image/png",
+  "sourceUrl": "https://file6.aitohumanize.com/file/7f12b34ae78046448ce91409fecdc99a.png",
+  "rawFile": "catalog-generator\\outputs\\raw\\batch-01-hyundai-santa-fe-mx5.png",
+  "generatedFile": "catalog-generator\\outputs\\batch-01-hyundai-santa-fe-mx5.webp",
+  "rawMetadata": {
+    "format": "png",
+    "width": 1536,
+    "height": 1024
+  },
+  "outputMetadata": {
+    "format": "webp",
+    "width": 1600,
+    "height": 1000
+  },
+  "promptFile": "catalog-generator\\prompts\\hyundai-santa-fe.txt"
+}

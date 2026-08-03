@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "konstant-auto-bot",
+  "private_key_id": "1e2100dee69145cbb5c576e230317355b34905e2",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQDIoMEQh3yXyCsm\nCgskq2uirTWvCsEyl3jFapKFUqqwdgK1+BSPsDrl9JRw8NfIE61G4O9G2nS5NZ5c\ngI248vM84MrufcZUSuzr3h3AZUR77wFT5jAlD+qRxgS7ZJUGQHdYE3XY5pZm1AkK\nnnlWe7xNqDUMOI2N5XmCyUyMqvI5q1tBN395JhuVr1UIGAJdF81MSZ6e++WLYHvJ\njBqCC4vTrLqJh3CSpgynMLP+MsInFueHwR6Jlo1suwHPNEWW2cgW6EEQ2wVUdThY\nukVc+nmVHmDzoKC6pyD+SMKLUiN3Wvz91pcCP+wz5NqLgw5b4sn5XjTS1y5++Zda\nSjcv5kMRAgMBAAECggEAAg6K2ChpbbVswtGyykwTGQp5TMt5jlMY9v4oFSOTMiat\nka/CxzPVcL7UiEFh1vBjtACxl0p9TJpI/rYHLeyYs4iy7+W8cygG/IaNC8hF/tbF\nDtcC6phajWbILOMjt3oQ9ydQ65m2lESLeK9F+23ekPW+4HqScfBWsfFuHlmQzOhJ\nCmlvcjNLXdpSLcm1HI1OC7YDaHLYsyGq0q4bK9AozVpqmWxUmn1HIxJHDKXEQmxI\nyiuHGdmhc7QezZPpBdmTA8L5lzi2F4betodSH6sGIm05k/vJN7XUkJUC647J/X2R\nATK8EQwFPnt+MRzWUyyCgs2jE3efGQRZ6Gg5Bydr2QKBgQDvm/1ur3AtaMp03NLV\nMM4rk7h1nt0EUYR3euyE1+BgDDm2a1DS06llLM3RCtpucD3JG3kX06kFKUr67882\n7jwOw7DZz06d2yNBGHWRDMnfX6mqytR0Chut4ccNAISaXS+NAh7pwrfa4ASdc580\nM+8p81TvSP3ZISoqZLLaZthbWQKBgQDWWiBywSQp2DxCw9Fua20sK1Ppt61HQN0h\nLh7a/nyqgx1+lTbwfynB36z/RSUFAiGTOVdm6v4KEKOClQOSfSR3nQsqaHDNsBtX\nKif5bPLPGDfjkIkJrz2RiAV+pgOTMCb2VgYpcyCCTMjJdc0cHdKAO1K2VEmdhIDq\ndKkOoJcGeQKBgQDK8x9IH0Uu0TGapmfVt48JjgeRaMvfmoRPB0lKg+dCs1g20NMW\nn709OyPhSgYVwPA0ZRa+PcNN4dnmjjS/XC52ev5SnqsCPdiwjF0YTPK4RrjZNw+Y\nce9b6n7E3olyjjd2gjNY4FsGAvUlwAc7GjobGEX6n6KTxOmIGt766l2bkQKBgQCg\nwveTGUgGGicX68UnC2rVtak5oIhU6FDwkaaSmErnl26HgWGy/axTu24EBde96dtE\nj7z9c0EUS2ZWiWwkcbbn/uBg7fOsUGgw920DpLJ2n7NK+RvOJ6AFhf6Y/emwemy+\nU8ZLUA0RrITqk29Bpxw5EET4ej675KTLMrOYRNkAAQKBgF1DQJ9oq3byEOl0F6vv\njFvBAWwMJf1WpAnx7pQ3jVztkVoDYprDxZGo0j/RR9K0Eon78CpnRtlZ1JqrmsVQ\nJl9qH/F+uEfZQmo63L7Shao/s/MdYTK+1VKfOYC/ATg4DSa7UEuSUMDOKAyFcUWn\nGP77qRnHLYaoQHQ7EHoiDfBC\n-----END PRIVATE KEY-----\n",
+  "client_email": "konstant-bot@konstant-auto-bot.iam.gserviceaccount.com",
+  "client_id": "112616882575769574528",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/konstant-bot%40konstant-auto-bot.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}

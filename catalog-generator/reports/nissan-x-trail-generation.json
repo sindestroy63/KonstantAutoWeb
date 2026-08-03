@@ -1,0 +1,40 @@
+{
+  "generatedAt": "2026-07-30T09:50:25.219Z",
+  "modelId": "nissan-x-trail",
+  "manufacturer": "Nissan",
+  "model": "X-Trail",
+  "apiRequestCount": 1,
+  "infrastructureRetries": 0,
+  "infrastructureDiagnostics": [
+    {
+      "requestIndex": 0,
+      "httpStatus": 200,
+      "responseFormat": "json"
+    }
+  ],
+  "requestedYears": "2022-2026",
+  "requestedGeneration": "fourth generation T33",
+  "requestedChassisCode": "T33",
+  "modelUsed": "gpt-image-2",
+  "generationMode": "text-generation",
+  "endpoint": "https://vibecode.moe/v1/images/generations",
+  "referenceUrl": "https://www.nissan.co.uk/vehicles/new-vehicles/x-trail.html",
+  "referenceImageUrl": null,
+  "apiStatus": 200,
+  "downloadStatus": 200,
+  "contentType": "image/png",
+  "sourceUrl": "https://file6.aitohumanize.com/file/67eabaf4f1374d4786e77a8a028d0184.png",
+  "rawFile": "catalog-generator\\outputs\\raw\\nissan-x-trail.png",
+  "generatedFile": "catalog-generator\\outputs\\nissan-x-trail.webp",
+  "rawMetadata": {
+    "format": "png",
+    "width": 1536,
+    "height": 1024
+  },
+  "outputMetadata": {
+    "format": "webp",
+    "width": 1600,
+    "height": 1000
+  },
+  "promptFile": "catalog-generator\\prompts\\nissan-x-trail.txt"
+}

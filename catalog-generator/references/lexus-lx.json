@@ -1,0 +1,27 @@
+{
+  "checkedAt": "2026-07-30T11:55:47.607Z",
+  "manufacturer": "Lexus",
+  "model": "LX",
+  "requestedYear": "2025-2026",
+  "generation": "fourth generation J310 facelift",
+  "chassisCode": "J310",
+  "market": "Middle East / North America",
+  "referenceUrl": "https://www.lexus.com/models/LX",
+  "finalUrl": "https://www.lexus.com/models/LX",
+  "httpStatus": 200,
+  "officialDomain": "www.lexus.com",
+  "confirmedBodyCues": [
+    "fourth-generation J310 full-size SUV body",
+    "large spindle grille with horizontal dark mesh",
+    "triple-projector slim LED headlamps",
+    "upright Land Cruiser 300-derived proportions with Lexus bodywork"
+  ],
+  "attempts": [
+    {
+      "url": "https://www.lexus.com/models/LX",
+      "finalUrl": "https://www.lexus.com/models/LX",
+      "httpStatus": 200,
+      "status": "confirmed"
+    }
+  ]
+}

@@ -1,0 +1,83 @@
+{
+  "checkedAt": "2026-07-30T09:30:47.614Z",
+  "modelId": "haval-f7",
+  "file": "catalog-generator\\outputs\\haval-f7.webp",
+  "deterministicPass": true,
+  "analysis": {
+    "width": 1600,
+    "height": 1000,
+    "backgroundCornerRgb": [
+      201.2,
+      201,
+      201.8
+    ],
+    "backgroundCornerLuminance": 201.3,
+    "backgroundCornerNeutralityDelta": 0.7,
+    "foregroundBounds": {
+      "minX": 118,
+      "maxX": 1452,
+      "minY": 226,
+      "maxY": 906
+    },
+    "foregroundWidthPercent": 83.4,
+    "horizonPercent": 90.7
+  },
+  "checks": {
+    "dimensions": {
+      "status": "pass",
+      "actual": "1600x1000"
+    },
+    "format": {
+      "status": "pass",
+      "actual": "webp"
+    },
+    "aspectRatio": {
+      "status": "pass",
+      "actual": 1.6
+    },
+    "background": {
+      "status": "pass",
+      "actualRgb": [
+        201.2,
+        201,
+        201.8
+      ],
+      "luminance": 201.3,
+      "neutralityDelta": 0.7
+    },
+    "scale": {
+      "status": "pass",
+      "actualPercent": 83.4,
+      "targetPercent": "78-84",
+      "tolerancePercent": "74-88"
+    },
+    "horizon": {
+      "status": "pass",
+      "actualPercent": 90.7,
+      "tolerancePercent": "72-93"
+    },
+    "exactlyOneVehicle": {
+      "status": "pass",
+      "method": "agent-visual-review"
+    },
+    "noPeople": {
+      "status": "pass",
+      "method": "agent-visual-review"
+    },
+    "noText": {
+      "status": "pass",
+      "method": "agent-visual-review"
+    },
+    "noWatermark": {
+      "status": "pass",
+      "method": "agent-visual-review"
+    },
+    "generationIdentity": {
+      "status": "approved",
+      "method": "agent-visual-review"
+    }
+  },
+  "semanticQa": "approved",
+  "generationQa": "approved",
+  "finalStatus": "production-approved"
+}

@@ -1,0 +1,17 @@
+{
+  "batch": 3,
+  "reviewedAt": "2026-07-30T10:02:00.000Z",
+  "reviewMethod": "agent visual review against resolved identity cues and manufacturer/secondary references",
+  "entries": [
+    {"modelId":"honda-civic","status":"approved","generationQa":"approved","semanticQa":"approved","attempts":1,"issues":[]},
+    {"modelId":"honda-cr-v","status":"approved","generationQa":"approved","semanticQa":"approved","attempts":1,"issues":["Neutral studio background received deterministic luminance normalization."]},
+    {"modelId":"honda-pilot","status":"approved","generationQa":"approved","semanticQa":"approved","attempts":1,"issues":[]},
+    {"modelId":"honda-fit","status":"approved","generationQa":"approved","semanticQa":"approved","attempts":2,"issues":["Attempt 1 rejected for readable FIT plate text; directed retry removed it."]},
+    {"modelId":"honda-accord","status":"approved","generationQa":"approved","semanticQa":"approved","attempts":1,"issues":[]},
+    {"modelId":"nissan-qashqai","status":"approved","generationQa":"approved","semanticQa":"approved","attempts":1,"issues":[]},
+    {"modelId":"nissan-x-trail","status":"approved","generationQa":"approved","semanticQa":"approved","attempts":1,"issues":[]},
+    {"modelId":"nissan-patrol","status":"approved","generationQa":"approved","semanticQa":"approved","attempts":1,"issues":[]},
+    {"modelId":"nissan-navara","status":"approved","generationQa":"approved","semanticQa":"approved","attempts":2,"issues":["Attempt 1 rejected for readable PRO-4X bed text; directed retry removed it."]},
+    {"modelId":"nissan-leaf","status":"approved","generationQa":"approved","semanticQa":"approved","attempts":1,"issues":[]}
+  ]
+}

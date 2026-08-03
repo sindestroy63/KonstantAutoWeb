@@ -1,0 +1,83 @@
+{
+  "checkedAt": "2026-07-30T11:11:07.431Z",
+  "modelId": "ford-escape",
+  "file": "catalog-generator\\outputs\\ford-escape.webp",
+  "deterministicPass": true,
+  "analysis": {
+    "width": 1600,
+    "height": 1000,
+    "backgroundCornerRgb": [
+      199.3,
+      199.1,
+      199.5
+    ],
+    "backgroundCornerLuminance": 199.3,
+    "backgroundCornerNeutralityDelta": 0.4,
+    "foregroundBounds": {
+      "minX": 154,
+      "maxX": 1434,
+      "minY": 244,
+      "maxY": 896
+    },
+    "foregroundWidthPercent": 80.1,
+    "horizonPercent": 89.7
+  },
+  "checks": {
+    "dimensions": {
+      "status": "pass",
+      "actual": "1600x1000"
+    },
+    "format": {
+      "status": "pass",
+      "actual": "webp"
+    },
+    "aspectRatio": {
+      "status": "pass",
+      "actual": 1.6
+    },
+    "background": {
+      "status": "pass",
+      "actualRgb": [
+        199.3,
+        199.1,
+        199.5
+      ],
+      "luminance": 199.3,
+      "neutralityDelta": 0.4
+    },
+    "scale": {
+      "status": "pass",
+      "actualPercent": 80.1,
+      "targetPercent": "78-84",
+      "tolerancePercent": "74-88"
+    },
+    "horizon": {
+      "status": "pass",
+      "actualPercent": 89.7,
+      "tolerancePercent": "72-93"
+    },
+    "exactlyOneVehicle": {
+      "status": "pass",
+      "method": "agent-visual-review"
+    },
+    "noPeople": {
+      "status": "pass",
+      "method": "agent-visual-review"
+    },
+    "noText": {
+      "status": "pass",
+      "method": "agent-visual-review"
+    },
+    "noWatermark": {
+      "status": "pass",
+      "method": "agent-visual-review"
+    },
+    "generationIdentity": {
+      "status": "approved",
+      "method": "agent-visual-review"
+    }
+  },
+  "semanticQa": "approved",
+  "generationQa": "approved",
+  "finalStatus": "production-approved"
+}

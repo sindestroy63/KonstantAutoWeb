@@ -1,0 +1,40 @@
+{
+  "generatedAt": "2026-07-30T09:24:55.492Z",
+  "modelId": "haval-jolion",
+  "manufacturer": "Haval",
+  "model": "Jolion",
+  "apiRequestCount": 1,
+  "infrastructureRetries": 0,
+  "infrastructureDiagnostics": [
+    {
+      "requestIndex": 0,
+      "httpStatus": 200,
+      "responseFormat": "json"
+    }
+  ],
+  "requestedYears": "2024-2026",
+  "requestedGeneration": "first generation A01 current facelift",
+  "requestedChassisCode": "A01 / L.E.M.O.N. platform",
+  "modelUsed": "gpt-image-2",
+  "generationMode": "text-generation",
+  "endpoint": "https://vibecode.moe/v1/images/generations",
+  "referenceUrl": "https://haval.ru/models/haval-jolion/",
+  "referenceImageUrl": null,
+  "apiStatus": 200,
+  "downloadStatus": 200,
+  "contentType": "image/png",
+  "sourceUrl": "https://file8.aitohumanize.com/file/409cbe9c6d674eea8aad96a80a110eb5.png",
+  "rawFile": "catalog-generator\\outputs\\raw\\haval-jolion.png",
+  "generatedFile": "catalog-generator\\outputs\\haval-jolion.webp",
+  "rawMetadata": {
+    "format": "png",
+    "width": 1536,
+    "height": 1024
+  },
+  "outputMetadata": {
+    "format": "webp",
+    "width": 1600,
+    "height": 1000
+  },
+  "promptFile": "catalog-generator\\prompts\\haval-jolion.txt"
+}

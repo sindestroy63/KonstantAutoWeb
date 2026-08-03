@@ -1,0 +1,25 @@
+{
+  "completedAt": "2026-07-28T11:56:46.577Z",
+  "model": "gpt-image-2",
+  "changed": [
+    {
+      "modelId": "bmw-3-series",
+      "target": "tmp\\generated-catalog-pilot-v2\\bmw-3-series-g20-lci.webp",
+      "metadata": {
+        "width": 1600,
+        "height": 1000,
+        "format": "webp"
+      }
+    },
+    {
+      "modelId": "bmw-x5",
+      "target": "tmp\\generated-catalog-pilot-v2\\bmw-x5-g05-lci.webp",
+      "metadata": {
+        "width": 1600,
+        "height": 1000,
+        "format": "webp"
+      }
+    }
+  ],
+  "productionChanged": false
+}

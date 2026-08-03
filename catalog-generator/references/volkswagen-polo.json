@@ -1,0 +1,29 @@
+{
+  "checkedAt": "2026-07-30T10:27:24.371Z",
+  "manufacturer": "Volkswagen",
+  "model": "Polo",
+  "requestedYear": "2024-2026",
+  "generation": "current Polo Sedan AW/MQB A0 specification",
+  "chassisCode": "AW / MQB A0",
+  "market": "South Africa",
+  "referenceUrl": "https://www.vw.co.za/en/models/polo-sedan.html",
+  "fallbackReferenceUrls": [
+    "https://en.wikipedia.org/wiki/Volkswagen_Virtus",
+    "https://www.autoevolution.com/cars/volkswagen-virtus.html"
+  ],
+  "referenceQuality": "secondary-confirmed",
+  "confirmedBodyCues": [
+    "current MQB A0 Polo Sedan four-door body",
+    "slim Volkswagen headlamps joined visually to narrow grille",
+    "wide lower bumper intake",
+    "separate sedan trunk and correct Volkswagen roundel"
+  ],
+  "attempts": [
+    {
+      "url": "https://www.vw.co.za/en/models/polo-sedan.html",
+      "finalUrl": "https://www.vw.co.za/en/models/polo-sedan.html",
+      "httpStatus": 404,
+      "status": "http-error"
+    }
+  ]
+}

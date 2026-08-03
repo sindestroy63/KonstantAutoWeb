@@ -1,0 +1,45 @@
+{
+  "id": "bmw-x3",
+  "catalogSlug": "bmw_x3",
+  "manufacturer": "BMW",
+  "model": "X3",
+  "generation": "fourth generation G45",
+  "chassisCode": "G45",
+  "years": "2025-2026",
+  "facelift": "first current G45 production specification, not G01 facelift",
+  "market": "Europe / UK",
+  "body": "five-door compact luxury SUV",
+  "trim": "X3 30 xDrive standard production trim",
+  "paint": "Dune Grey metallic",
+  "identityCues": [
+    "CRITICAL G45 check: four flush rectangular door handles integrated nearly level with the doors, never conventional protruding pull handles",
+    "CRITICAL G45 check: compact angular production headlights with paired overlapping L-shaped daytime-running-light elements, not the larger G01 lamp shape",
+    "current monolithic G45 body surfacing",
+    "compact current-generation headlamps with the G45 light signature",
+    "BMW kidney grille with the production vertical and diagonal internal-bar pattern",
+    "current G45 standard production front bumper and OEM wheels",
+    "flush-fitting current G45 door handles rather than protruding G01 handles",
+    "clean monolithic G45 side surfacing with the correct fourth-generation greenhouse"
+  ],
+  "modelExclusions": [
+    "the rejected attempt with obvious conventional protruding pull door handles and G01-like headlamp geometry",
+    "G01 or any previous-generation X3 body",
+    "G01 body combined with a G45 grille",
+    "conventional protruding G01 door handles",
+    "kidney grille containing vertical bars only without the required G45 diagonal pattern",
+    "BMW X1",
+    "BMW X5",
+    "BMW XM",
+    "Neue Klasse iX3 cues",
+    "concept details, oversized grille or fictional lighting"
+  ],
+  "referenceUrls": [
+    "https://www.press.bmwgroup.com/global/article/detail/T0442377EN/the-new-bmw-x3"
+  ],
+  "officialMediaUrls": [
+    "https://mediapool.bmwgroup.com/cache/P9/202406/P90554821/P90554821-the-new-bmw-x3-family-shot-06-2024-2250px.jpg"
+  ],
+  "outputFilename": "batch-01-bmw-x3-g45.webp",
+  "status": "qa",
+  "approved": false
+}

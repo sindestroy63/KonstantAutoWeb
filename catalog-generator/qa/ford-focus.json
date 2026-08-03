@@ -1,0 +1,83 @@
+{
+  "checkedAt": "2026-07-30T11:11:06.728Z",
+  "modelId": "ford-focus",
+  "file": "catalog-generator\\outputs\\ford-focus.webp",
+  "deterministicPass": true,
+  "analysis": {
+    "width": 1600,
+    "height": 1000,
+    "backgroundCornerRgb": [
+      195.6,
+      195.4,
+      195.2
+    ],
+    "backgroundCornerLuminance": 195.4,
+    "backgroundCornerNeutralityDelta": 0.5,
+    "foregroundBounds": {
+      "minX": 124,
+      "maxX": 1442,
+      "minY": 210,
+      "maxY": 890
+    },
+    "foregroundWidthPercent": 82.4,
+    "horizonPercent": 89.1
+  },
+  "checks": {
+    "dimensions": {
+      "status": "pass",
+      "actual": "1600x1000"
+    },
+    "format": {
+      "status": "pass",
+      "actual": "webp"
+    },
+    "aspectRatio": {
+      "status": "pass",
+      "actual": 1.6
+    },
+    "background": {
+      "status": "pass",
+      "actualRgb": [
+        195.6,
+        195.4,
+        195.2
+      ],
+      "luminance": 195.4,
+      "neutralityDelta": 0.5
+    },
+    "scale": {
+      "status": "pass",
+      "actualPercent": 82.4,
+      "targetPercent": "78-84",
+      "tolerancePercent": "74-88"
+    },
+    "horizon": {
+      "status": "pass",
+      "actualPercent": 89.1,
+      "tolerancePercent": "72-93"
+    },
+    "exactlyOneVehicle": {
+      "status": "pass",
+      "method": "agent-visual-review"
+    },
+    "noPeople": {
+      "status": "pass",
+      "method": "agent-visual-review"
+    },
+    "noText": {
+      "status": "pass",
+      "method": "agent-visual-review"
+    },
+    "noWatermark": {
+      "status": "pass",
+      "method": "agent-visual-review"
+    },
+    "generationIdentity": {
+      "status": "approved",
+      "method": "agent-visual-review"
+    }
+  },
+  "semanticQa": "approved",
+  "generationQa": "approved",
+  "finalStatus": "production-approved"
+}

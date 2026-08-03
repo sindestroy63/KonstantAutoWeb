@@ -1,0 +1,159 @@
+{
+  "completedAt": "2026-07-28T12:25:59.202Z",
+  "batchId": "pilot-v3-2026-07-28T12-20-46-652",
+  "promotedModels": 11,
+  "excludedModels": [
+    {
+      "manufacturer": "BMW",
+      "model": "X3",
+      "status": "needs-review",
+      "reason": "Lower central bumper insert is unusually simplified and does not confidently match the production G45 trim detail."
+    }
+  ],
+  "gitCommitCreated": false,
+  "carsJson": {
+    "path": "data\\cars.json",
+    "changed": false,
+    "sha256": "0cde230d2e016bfcb306c6e4ef29e7914c8a6012cf99110f8c66583fbb9a04ae"
+  },
+  "bmwX3": {
+    "path": "public\\images\\catalog\\bmw-x3.webp",
+    "changed": false,
+    "sha256": "ae27e32203631f7beb6f308979e41f3ed5fccea687e3112422b1457c49bbf580"
+  },
+  "manifest": {
+    "path": "public\\images\\catalog\\manifest.json",
+    "modelCount": 11,
+    "sha256": "37ac67bc85e5a989c7015d4753e6ad9c5c67c5d78624572836e93f884d793a04"
+  },
+  "verification": [
+    {
+      "model": "BMW 3 Series",
+      "productionFile": "public\\images\\catalog\\bmw-3-series.webp",
+      "expectedSha256": "f47489ef83def0e75227230dee839c9bd02c2bc12a64bde816a7d00a6179505a",
+      "actualSha256": "f47489ef83def0e75227230dee839c9bd02c2bc12a64bde816a7d00a6179505a",
+      "backupFile": "catalog-generator\\backups\\pilot-v3-2026-07-28T12-20-46-652\\bmw-3-series.webp",
+      "backupSha256": "c6be05d5e69d11f0e5c89b45d23e5e97fa4f69aeb4b32175db21f82b05b044fd"
+    },
+    {
+      "model": "BMW X5",
+      "productionFile": "public\\images\\catalog\\bmw-x5.webp",
+      "expectedSha256": "d8e5f4f92a39761fea3a13e3a266e98fb57addf3a5a5f21963b6c0663be4eafa",
+      "actualSha256": "d8e5f4f92a39761fea3a13e3a266e98fb57addf3a5a5f21963b6c0663be4eafa",
+      "backupFile": "catalog-generator\\backups\\pilot-v3-2026-07-28T12-20-46-652\\bmw-x5.webp",
+      "backupSha256": "8fc2071a495b97fd3dee828a02f51959fef20c0b57d71e5234d2624a43a2952c"
+    },
+    {
+      "model": "Kia K5",
+      "productionFile": "public\\images\\catalog\\kia-k5.webp",
+      "expectedSha256": "cce9af2ee45534da8570e1f4aa7c1b06c594ead452088b0e287158ee0360b0b6",
+      "actualSha256": "cce9af2ee45534da8570e1f4aa7c1b06c594ead452088b0e287158ee0360b0b6",
+      "backupFile": "catalog-generator\\backups\\pilot-v3-2026-07-28T12-20-46-652\\kia-k5.webp",
+      "backupSha256": "6f1a4822012c0583efbe088250e4de1242e9df17246b45699610ead9143ac893"
+    },
+    {
+      "model": "Kia Sorento",
+      "productionFile": "public\\images\\catalog\\kia-sorento.webp",
+      "expectedSha256": "4e073460f246ae9121527d5c4cd098dd3b0527caa3353695d27f8284cedf4688",
+      "actualSha256": "4e073460f246ae9121527d5c4cd098dd3b0527caa3353695d27f8284cedf4688",
+      "backupFile": "catalog-generator\\backups\\pilot-v3-2026-07-28T12-20-46-652\\kia-sorento.webp",
+      "backupSha256": "c537256a049365b3f1e515d05c63489ba3c3c13676d352292109971333cbadc5"
+    },
+    {
+      "model": "Lexus RX",
+      "productionFile": "public\\images\\catalog\\lexus-rx.webp",
+      "expectedSha256": "851bfad1df32fa5fab5fdfc0594ca170e40c42d6ef76d72c808b17ceb137eb7f",
+      "actualSha256": "851bfad1df32fa5fab5fdfc0594ca170e40c42d6ef76d72c808b17ceb137eb7f",
+      "backupFile": "catalog-generator\\backups\\pilot-v3-2026-07-28T12-20-46-652\\lexus-rx.webp",
+      "backupSha256": "a79bcc47c67bf59ace0fcf68466e3396129e2eaa9d3f1412ba3cd9769717191d"
+    },
+    {
+      "model": "Toyota Camry",
+      "productionFile": "public\\images\\catalog\\toyota-camry.webp",
+      "expectedSha256": "bca210e30d88055fd543033439178053c350930c91cd1ab7566f715061c6753c",
+      "actualSha256": "bca210e30d88055fd543033439178053c350930c91cd1ab7566f715061c6753c",
+      "backupFile": "catalog-generator\\backups\\pilot-v3-2026-07-28T12-20-46-652\\toyota-camry.webp",
+      "backupSha256": "7dd963f94eca9743307cf5bd119c528ffa243ff40a95a17a970a8b5049e925fa"
+    },
+    {
+      "model": "Toyota Corolla",
+      "productionFile": "public\\images\\catalog\\toyota-corolla.webp",
+      "expectedSha256": "ca8fe1db543fd78d13ec86c33bf66e7d0e7430afb4aeae8173bd876ec11d4c34",
+      "actualSha256": "ca8fe1db543fd78d13ec86c33bf66e7d0e7430afb4aeae8173bd876ec11d4c34",
+      "backupFile": "catalog-generator\\backups\\pilot-v3-2026-07-28T12-20-46-652\\toyota-corolla.webp",
+      "backupSha256": "dfa6dd00afe7e9c89eded7fc1a30679c5f47555970da4d95d5b4062a5c28a40a"
+    },
+    {
+      "model": "Toyota Hilux",
+      "productionFile": "public\\images\\catalog\\toyota-hilux.webp",
+      "expectedSha256": "6c13090e7446af15006c4ab5acc4092add3426dff41006f666b62a8a5efd855c",
+      "actualSha256": "6c13090e7446af15006c4ab5acc4092add3426dff41006f666b62a8a5efd855c",
+      "backupFile": "catalog-generator\\backups\\pilot-v3-2026-07-28T12-20-46-652\\toyota-hilux.webp",
+      "backupSha256": "43c98b353f2435388db8f34ee9d2aa33aca79b918407b1e3928fed862bae4810"
+    },
+    {
+      "model": "Toyota Land Cruiser 300",
+      "productionFile": "public\\images\\catalog\\toyota-land-cruiser.webp",
+      "expectedSha256": "455c9987a54340184e6930ac5d02d0beb33fcf6909ab47c508935daa8c76b49d",
+      "actualSha256": "455c9987a54340184e6930ac5d02d0beb33fcf6909ab47c508935daa8c76b49d",
+      "backupFile": "catalog-generator\\backups\\pilot-v3-2026-07-28T12-20-46-652\\toyota-land-cruiser.webp",
+      "backupSha256": "b3aea5bdc9ec7e1c22c6e120fc2bb718e2acd258525779af43c33c7c3aa8089a"
+    },
+    {
+      "model": "Toyota RAV4",
+      "productionFile": "public\\images\\catalog\\toyota-rav4.webp",
+      "expectedSha256": "6f109def418fc095dc5da9372bd383451a59a733b93b981815e5494a1a09b64c",
+      "actualSha256": "6f109def418fc095dc5da9372bd383451a59a733b93b981815e5494a1a09b64c",
+      "backupFile": "catalog-generator\\backups\\pilot-v3-2026-07-28T12-20-46-652\\toyota-rav4.webp",
+      "backupSha256": "9f46892a150e283b219a5b693663fd2ae26b11df4921a4ea76dc7a216740870a"
+    },
+    {
+      "model": "Toyota Yaris",
+      "productionFile": "public\\images\\catalog\\toyota-yaris.webp",
+      "expectedSha256": "11c3b15e9144551e616933aee11ba71e713b8494e643871c1fe650c907dd548d",
+      "actualSha256": "11c3b15e9144551e616933aee11ba71e713b8494e643871c1fe650c907dd548d",
+      "backupFile": "catalog-generator\\backups\\pilot-v3-2026-07-28T12-20-46-652\\toyota-yaris.webp",
+      "backupSha256": "debc7fae11d691d6994ca5911158a0611444fcd6810af3a7ff243f2c00badfeb"
+    }
+  ],
+  "actuallyChangedProductionFiles": [
+    "public\\images\\catalog\\bmw-3-series.webp",
+    "public\\images\\catalog\\bmw-x5.webp",
+    "public\\images\\catalog\\kia-k5.webp",
+    "public\\images\\catalog\\kia-sorento.webp",
+    "public\\images\\catalog\\lexus-rx.webp",
+    "public\\images\\catalog\\toyota-camry.webp",
+    "public\\images\\catalog\\toyota-corolla.webp",
+    "public\\images\\catalog\\toyota-hilux.webp",
+    "public\\images\\catalog\\toyota-land-cruiser.webp",
+    "public\\images\\catalog\\toyota-rav4.webp",
+    "public\\images\\catalog\\toyota-yaris.webp",
+    "public\\images\\catalog\\manifest.json"
+  ],
+  "createdBackupFiles": [
+    "catalog-generator\\backups\\pilot-v3-2026-07-28T12-20-46-652\\bmw-3-series.webp",
+    "catalog-generator\\backups\\pilot-v3-2026-07-28T12-20-46-652\\bmw-x5.webp",
+    "catalog-generator\\backups\\pilot-v3-2026-07-28T12-20-46-652\\kia-k5.webp",
+    "catalog-generator\\backups\\pilot-v3-2026-07-28T12-20-46-652\\kia-sorento.webp",
+    "catalog-generator\\backups\\pilot-v3-2026-07-28T12-20-46-652\\lexus-rx.webp",
+    "catalog-generator\\backups\\pilot-v3-2026-07-28T12-20-46-652\\toyota-camry.webp",
+    "catalog-generator\\backups\\pilot-v3-2026-07-28T12-20-46-652\\toyota-corolla.webp",
+    "catalog-generator\\backups\\pilot-v3-2026-07-28T12-20-46-652\\toyota-hilux.webp",
+    "catalog-generator\\backups\\pilot-v3-2026-07-28T12-20-46-652\\toyota-land-cruiser.webp",
+    "catalog-generator\\backups\\pilot-v3-2026-07-28T12-20-46-652\\toyota-rav4.webp",
+    "catalog-generator\\backups\\pilot-v3-2026-07-28T12-20-46-652\\toyota-yaris.webp"
+  ],
+  "changedModelConfigs": [
+    "catalog-generator\\manifests\\models\\bmw-3-series.json",
+    "catalog-generator\\manifests\\models\\bmw-x5.json",
+    "catalog-generator\\manifests\\models\\kia-k5.json",
+    "catalog-generator\\manifests\\models\\kia-sorento.json",
+    "catalog-generator\\manifests\\models\\lexus-rx.json",
+    "catalog-generator\\manifests\\models\\toyota-camry.json",
+    "catalog-generator\\manifests\\models\\toyota-corolla.json",
+    "catalog-generator\\manifests\\models\\toyota-hilux.json",
+    "catalog-generator\\manifests\\models\\toyota-land-cruiser-300.json",
+    "catalog-generator\\manifests\\models\\toyota-rav4.json",
+    "catalog-generator\\manifests\\models\\toyota-yaris.json"
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "id": "mazda-cx-9",
+  "catalogSlug": "mazda_cx9",
+  "manufacturer": "Mazda",
+  "model": "CX-9",
+  "generation": "second generation TC final production specification",
+  "chassisCode": "TC",
+  "years": "2023 final model year",
+  "facelift": "final post-2021 production specification",
+  "market": "North America",
+  "body": "five-door three-row midsize crossover SUV",
+  "trim": "Grand Touring",
+  "paint": "Machine Gray Metallic",
+  "identityCues": [
+    "second-generation TC three-row crossover body",
+    "wide Mazda shield grille with chrome wing surround",
+    "slim horizontal LED headlamps",
+    "long roof and distinct rear quarter window"
+  ],
+  "modelExclusions": [
+    "first-generation TB CX-9",
+    "Mazda CX-90",
+    "Mazda CX-8",
+    "concept",
+    "fantasy design"
+  ],
+  "referenceUrls": [
+    "https://news.mazdausa.com/2022-08-30-2023-Mazda-CX-9-Pricing-and-Packaging"
+  ],
+  "fallbackReferenceUrls": [
+    "https://en.wikipedia.org/wiki/Mazda_CX-9"
+  ],
+  "referenceQuality": "official-archive",
+  "confidenceLevel": "high",
+  "outputFilename": "mazda-cx-9.webp",
+  "status": "production",
+  "approved": true,
+  "approvalStatus": "production-approved"
+}

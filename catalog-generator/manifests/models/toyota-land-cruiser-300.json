@@ -1,0 +1,41 @@
+{
+  "id": "toyota-land-cruiser-300",
+  "catalogSlug": "toyota_land_cruiser",
+  "manufacturer": "Toyota",
+  "model": "Land Cruiser 300",
+  "generation": "J300 generation",
+  "chassisCode": "J300",
+  "years": "2025-2026",
+  "facelift": "current J300 production specification",
+  "market": "Middle East / UAE",
+  "body": "full-size five-door body-on-frame SUV",
+  "trim": "VX-R",
+  "paint": "Precious White Pearl",
+  "identityCues": [
+    "full-size J300 proportions",
+    "large horizontal multi-bar grille",
+    "modern rectangular headlamps attached to grille",
+    "current VX-R bumper"
+  ],
+  "modelExclusions": [
+    "Land Cruiser 250",
+    "Prado",
+    "J250",
+    "First Edition",
+    "retro design",
+    "round headlamps",
+    "TOYOTA wordmark grille"
+  ],
+  "referenceUrls": [
+    "https://www.toyota.ae/en/new-cars/land-cruiser/"
+  ],
+  "outputFilename": "toyota-land-cruiser-300.webp",
+  "status": "production",
+  "approved": true,
+  "production": {
+    "batchId": "pilot-v3-2026-07-28T12-20-46-652",
+    "file": "public\\images\\catalog\\toyota-land-cruiser.webp",
+    "sha256": "455c9987a54340184e6930ac5d02d0beb33fcf6909ab47c508935daa8c76b49d",
+    "promotedAt": "2026-07-28T12:25:59.189Z"
+  }
+}

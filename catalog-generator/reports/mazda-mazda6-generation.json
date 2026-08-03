@@ -1,0 +1,40 @@
+{
+  "generatedAt": "2026-07-30T10:22:25.977Z",
+  "modelId": "mazda-mazda6",
+  "manufacturer": "Mazda",
+  "model": "Mazda6",
+  "apiRequestCount": 1,
+  "infrastructureRetries": 0,
+  "infrastructureDiagnostics": [
+    {
+      "requestIndex": 0,
+      "httpStatus": 200,
+      "responseFormat": "json"
+    }
+  ],
+  "requestedYears": "2023-2024 final production specification",
+  "requestedGeneration": "third generation GJ/GL final facelift",
+  "requestedChassisCode": "GJ / GL",
+  "modelUsed": "gpt-image-2",
+  "generationMode": "text-generation",
+  "endpoint": "https://vibecode.moe/v1/images/generations",
+  "referenceUrl": "https://www.mazda.com.au/cars/mazda6/",
+  "referenceImageUrl": null,
+  "apiStatus": 200,
+  "downloadStatus": 200,
+  "contentType": "image/png",
+  "sourceUrl": "https://file7.aitohumanize.com/file/781e3ffe494a42adb44634595c2791ce.png",
+  "rawFile": "catalog-generator\\outputs\\raw\\mazda-mazda6.png",
+  "generatedFile": "catalog-generator\\outputs\\mazda-mazda6.webp",
+  "rawMetadata": {
+    "format": "png",
+    "width": 1536,
+    "height": 1024
+  },
+  "outputMetadata": {
+    "format": "webp",
+    "width": 1600,
+    "height": 1000
+  },
+  "promptFile": "catalog-generator\\prompts\\mazda-mazda6.txt"
+}

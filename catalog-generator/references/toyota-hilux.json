@@ -1,0 +1,27 @@
+{
+  "checkedAt": "2026-07-28T11:59:46.039Z",
+  "manufacturer": "Toyota",
+  "model": "Hilux",
+  "requestedYear": "2025-2026",
+  "generation": "eighth generation current facelift",
+  "chassisCode": "AN120/AN130",
+  "market": "Middle East / UAE",
+  "referenceUrl": "https://www.toyota.ae/en/new-cars/hilux/",
+  "finalUrl": "https://www.toyota.ae/en/new-cars/hilux/",
+  "httpStatus": 200,
+  "officialDomain": "www.toyota.ae",
+  "confirmedBodyCues": [
+    "current Hilux Adventure face",
+    "wide dark grille",
+    "angular current headlamps",
+    "complete cargo bed visible"
+  ],
+  "attempts": [
+    {
+      "url": "https://www.toyota.ae/en/new-cars/hilux/",
+      "finalUrl": "https://www.toyota.ae/en/new-cars/hilux/",
+      "httpStatus": 200,
+      "status": "confirmed"
+    }
+  ]
+}

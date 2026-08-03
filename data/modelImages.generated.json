@@ -1,0 +1,266 @@
+{
+  "toyota_land_cruiser": {
+    "src": "/images/catalog/models/toyota-land-cruiser.webp",
+    "alt": "Toyota Land Cruiser",
+    "fit": "contain",
+    "position": "50% 50%"
+  },
+  "toyota_rav4": {
+    "src": "/images/catalog/models/toyota-rav4.webp",
+    "alt": "Toyota RAV4",
+    "fit": "contain",
+    "position": "50% 50%"
+  },
+  "toyota_camry": {
+    "src": "/images/catalog/models/toyota-camry.webp",
+    "alt": "Toyota Camry",
+    "fit": "contain",
+    "position": "50% 50%"
+  },
+  "toyota_hilux": {
+    "src": "/images/catalog/models/toyota-hilux.webp",
+    "alt": "Toyota Hilux",
+    "fit": "contain",
+    "position": "50% 50%"
+  },
+  "tank_500": {
+    "src": "/images/catalog/models/tank-500.webp",
+    "alt": "Tank 500",
+    "fit": "contain",
+    "position": "50% 50%"
+  },
+  "toyota_camry_2": {
+    "src": "/images/catalog/models/toyota-camry-2.webp",
+    "alt": "Toyota Camry Hybrid",
+    "fit": "contain",
+    "position": "50% 50%"
+  },
+  "toyota_corolla": {
+    "src": "/images/catalog/models/toyota-corolla.webp",
+    "alt": "Toyota Corolla",
+    "fit": "contain",
+    "position": "50% 50%"
+  },
+  "toyota_yaris": {
+    "src": "/images/catalog/models/toyota-yaris.webp",
+    "alt": "Toyota Yaris",
+    "fit": "contain",
+    "position": "50% 50%"
+  },
+  "bmw_x3": {
+    "src": "/images/catalog/models/bmw-x3.webp",
+    "alt": "BMW X3",
+    "fit": "contain",
+    "position": "50% 50%"
+  },
+  "bmw_x5": {
+    "src": "/images/catalog/models/bmw-x5.webp",
+    "alt": "BMW X5",
+    "fit": "contain",
+    "position": "50% 50%"
+  },
+  "hyundai_tucson": {
+    "src": "/images/catalog/models/hyundai-tucson.webp",
+    "alt": "Hyundai Tucson",
+    "fit": "contain",
+    "position": "50% 50%"
+  },
+  "geely_atlas": {
+    "src": "/images/catalog/models/geely-atlas.webp",
+    "alt": "Geely Atlas",
+    "fit": "contain",
+    "position": "50% 50%"
+  },
+  "geely_coolray": {
+    "src": "/images/catalog/models/geely-coolray.webp",
+    "alt": "Geely Coolray",
+    "fit": "contain",
+    "position": "50% 50%"
+  },
+  "geely_monjaro": {
+    "src": "/images/catalog/models/geely-monjaro.webp",
+    "alt": "Geely Monjaro",
+    "fit": "contain",
+    "position": "50% 50%"
+  },
+  "mercedes_gle": {
+    "src": "/images/catalog/models/mercedes-gle.webp",
+    "alt": "Mercedes-Benz GLE",
+    "fit": "contain",
+    "position": "50% 50%"
+  },
+  "mercedes_a_class": {
+    "src": "/images/catalog/models/mercedes-a-class.webp",
+    "alt": "Mercedes-Benz A-Class",
+    "fit": "contain",
+    "position": "50% 50%"
+  },
+  "honda_civic": {
+    "src": "/images/catalog/models/honda-civic.webp",
+    "alt": "Honda Civic",
+    "fit": "contain",
+    "position": "50% 50%"
+  },
+  "nissan_patrol": {
+    "src": "/images/catalog/models/nissan-patrol.webp",
+    "alt": "Nissan Patrol",
+    "fit": "contain",
+    "position": "50% 50%"
+  },
+  "nissan_leaf": {
+    "src": "/images/catalog/models/nissan-leaf.webp",
+    "alt": "Nissan Leaf",
+    "fit": "contain",
+    "position": "50% 50%"
+  },
+  "volkswagen_touareg": {
+    "src": "/images/catalog/models/volkswagen-touareg.webp",
+    "alt": "Volkswagen Touareg",
+    "fit": "contain",
+    "position": "50% 50%"
+  },
+  "volkswagen_tiguan": {
+    "src": "/images/catalog/models/volkswagen-tiguan.webp",
+    "alt": "Volkswagen Tiguan",
+    "fit": "contain",
+    "position": "50% 50%"
+  },
+  "volkswagen_passat": {
+    "src": "/images/catalog/models/volkswagen-passat.webp",
+    "alt": "Volkswagen Passat",
+    "fit": "contain",
+    "position": "50% 50%"
+  },
+  "ford_explorer": {
+    "src": "/images/catalog/models/ford-explorer.webp",
+    "alt": "Ford Explorer",
+    "fit": "contain",
+    "position": "50% 50%"
+  },
+  "ford_ranger": {
+    "src": "/images/catalog/models/ford-ranger.webp",
+    "alt": "Ford Ranger",
+    "fit": "contain",
+    "position": "50% 50%"
+  },
+  "lexus_nx": {
+    "src": "/images/catalog/models/lexus-nx.webp",
+    "alt": "Lexus NX",
+    "fit": "contain",
+    "position": "50% 50%"
+  },
+  "lexus_rx": {
+    "src": "/images/catalog/models/lexus-rx.webp",
+    "alt": "Lexus RX",
+    "fit": "contain",
+    "position": "50% 50%"
+  },
+  "lexus_lx": {
+    "src": "/images/catalog/models/lexus-lx.webp",
+    "alt": "Lexus LX",
+    "fit": "contain",
+    "position": "50% 50%"
+  },
+  "jac_j7": {
+    "src": "/images/catalog/models/jac-j7.webp",
+    "alt": "JAC J7",
+    "fit": "contain",
+    "position": "50% 50%"
+  },
+  "dongfeng_ax7": {
+    "src": "/images/catalog/models/dongfeng-ax7.webp",
+    "alt": "Dongfeng AX7",
+    "fit": "contain",
+    "position": "50% 50%"
+  },
+  "bmw_5_series": {
+    "src": "/images/catalog/models/bmw-5-series.webp",
+    "alt": "BMW 5 Series",
+    "fit": "contain",
+    "position": "50% 50%"
+  },
+  "bmw_x1": {
+    "src": "/images/catalog/models/bmw-x1.webp",
+    "alt": "BMW X1",
+    "fit": "contain",
+    "position": "50% 50%"
+  },
+  "bmw_x7": {
+    "src": "/images/catalog/models/bmw-x7.webp",
+    "alt": "BMW X7",
+    "fit": "contain",
+    "position": "50% 50%"
+  },
+  "jeep_grand_cherokee": {
+    "src": "/images/catalog/models/jeep-grand-cherokee.webp",
+    "alt": "Jeep Grand Cherokee",
+    "fit": "contain",
+    "position": "50% 50%"
+  },
+  "jeep_compass": {
+    "src": "/images/catalog/models/jeep-compass.webp",
+    "alt": "Jeep Compass",
+    "fit": "contain",
+    "position": "50% 50%"
+  },
+  "volvo_xc60": {
+    "src": "/images/catalog/models/volvo-xc60.webp",
+    "alt": "Volvo XC60",
+    "fit": "contain",
+    "position": "50% 50%"
+  },
+  "volvo_xc90": {
+    "src": "/images/catalog/models/volvo-xc90.webp",
+    "alt": "Volvo XC90",
+    "fit": "contain",
+    "position": "50% 50%"
+  },
+  "skoda_octavia": {
+    "src": "/images/catalog/models/skoda-octavia.webp",
+    "alt": "Skoda Octavia",
+    "fit": "contain",
+    "position": "50% 50%"
+  },
+  "skoda_kodiaq": {
+    "src": "/images/catalog/models/skoda-kodiaq.webp",
+    "alt": "Skoda Kodiaq",
+    "fit": "contain",
+    "position": "50% 50%"
+  },
+  "renault_kaptur": {
+    "src": "/images/catalog/models/renault-kaptur.webp",
+    "alt": "Renault Kaptur",
+    "fit": "contain",
+    "position": "50% 50%"
+  },
+  "renault_sandero": {
+    "src": "/images/catalog/models/renault-sandero.webp",
+    "alt": "Renault Sandero",
+    "fit": "contain",
+    "position": "50% 50%"
+  },
+  "peugeot_308": {
+    "src": "/images/catalog/models/peugeot-308.webp",
+    "alt": "Peugeot 308",
+    "fit": "contain",
+    "position": "50% 50%"
+  },
+  "dodge_rampage": {
+    "src": "/images/catalog/models/dodge-rampage.webp",
+    "alt": "Dodge Rampage",
+    "fit": "contain",
+    "position": "50% 50%"
+  },
+  "omoda_s5": {
+    "src": "/images/catalog/models/omoda-s5.webp",
+    "alt": "Omoda S5",
+    "fit": "contain",
+    "position": "50% 50%"
+  },
+  "faw_besturn": {
+    "src": "/images/catalog/models/faw-besturn.webp",
+    "alt": "FAW Besturn",
+    "fit": "contain",
+    "position": "50% 50%"
+  }
+}

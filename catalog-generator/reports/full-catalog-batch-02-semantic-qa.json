@@ -1,0 +1,17 @@
+{
+  "batch": 2,
+  "reviewedAt": "2026-07-30T09:35:00.000Z",
+  "reviewMethod": "agent visual review against resolved identity cues and manufacturer/secondary references",
+  "entries": [
+    {"modelId":"geely-monjaro","status":"approved","generationQa":"approved","semanticQa":"approved","attempts":1,"issues":[]},
+    {"modelId":"haval-f7","status":"approved","generationQa":"approved","semanticQa":"approved","attempts":1,"issues":[]},
+    {"modelId":"haval-jolion","status":"approved","generationQa":"approved","semanticQa":"approved","attempts":1,"issues":[]},
+    {"modelId":"haval-h6","status":"approved","generationQa":"approved","semanticQa":"approved","attempts":2,"issues":[]},
+    {"modelId":"haval-f7x","status":"approved","generationQa":"approved","semanticQa":"approved","attempts":1,"issues":[]},
+    {"modelId":"haval-m6","status":"approved","generationQa":"approved","semanticQa":"approved","attempts":1,"issues":[]},
+    {"modelId":"mercedes-benz-c-class","status":"approved","generationQa":"approved","semanticQa":"approved","attempts":1,"issues":[]},
+    {"modelId":"mercedes-benz-glc","status":"approved","generationQa":"approved","semanticQa":"approved","attempts":1,"issues":[]},
+    {"modelId":"mercedes-benz-gle","status":"approved","generationQa":"approved","semanticQa":"approved","attempts":1,"issues":[]},
+    {"modelId":"mercedes-benz-a-class","status":"approved","generationQa":"approved","semanticQa":"approved","attempts":1,"issues":[]}
+  ]
+}

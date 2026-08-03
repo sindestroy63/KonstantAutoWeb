@@ -1,0 +1,27 @@
+{
+  "checkedAt": "2026-07-30T07:07:59.907Z",
+  "manufacturer": "Hyundai",
+  "model": "Solaris",
+  "requestedYear": "2020-2022",
+  "generation": "second generation HCr facelift",
+  "chassisCode": "HCr",
+  "market": "Russia / CIS",
+  "referenceUrl": "https://www.hyundai.com/worldwide/en/cars/accent",
+  "finalUrl": "https://www.hyundai.com/worldwide/en/cars/accent/highlights",
+  "httpStatus": 200,
+  "officialDomain": "www.hyundai.com",
+  "confirmedBodyCues": [
+    "second-generation HCr sedan body",
+    "2020 facelift wide dark mesh grille",
+    "facelift swept-back headlamps with angular lower edge",
+    "correct Hyundai H badge and compact sedan proportions"
+  ],
+  "attempts": [
+    {
+      "url": "https://www.hyundai.com/worldwide/en/cars/accent",
+      "finalUrl": "https://www.hyundai.com/worldwide/en/cars/accent/highlights",
+      "httpStatus": 200,
+      "status": "confirmed"
+    }
+  ]
+}

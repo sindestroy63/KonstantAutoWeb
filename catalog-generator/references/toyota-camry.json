@@ -1,0 +1,27 @@
+{
+  "checkedAt": "2026-07-28T11:59:43.382Z",
+  "manufacturer": "Toyota",
+  "model": "Camry",
+  "requestedYear": "2025-2026",
+  "generation": "ninth generation",
+  "chassisCode": "XV80",
+  "market": "North America",
+  "referenceUrl": "https://pressroom.toyota.com/vehicle/2026-toyota-camry/",
+  "finalUrl": "https://pressroom.toyota.com/vehicle/2026-toyota-camry/",
+  "httpStatus": 200,
+  "officialDomain": "pressroom.toyota.com",
+  "confirmedBodyCues": [
+    "thin upper LED headlamps",
+    "hammerhead-inspired lighting graphic",
+    "broad lower grille",
+    "current XSE sport bumper"
+  ],
+  "attempts": [
+    {
+      "url": "https://pressroom.toyota.com/vehicle/2026-toyota-camry/",
+      "finalUrl": "https://pressroom.toyota.com/vehicle/2026-toyota-camry/",
+      "httpStatus": 200,
+      "status": "confirmed"
+    }
+  ]
+}

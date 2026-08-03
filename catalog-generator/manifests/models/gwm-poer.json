@@ -1,0 +1,24 @@
+{
+  "id": "gwm-poer",
+  "catalogSlug": "gwm_poer",
+  "manufacturer": "GWM",
+  "model": "Poer",
+  "generation": "TODO: official current generation",
+  "chassisCode": "TODO",
+  "years": "TODO",
+  "facelift": "TODO",
+  "market": "TODO",
+  "body": "Пикап",
+  "trim": "TODO",
+  "paint": "factory production color",
+  "identityCues": [],
+  "modelExclusions": [
+    "previous generation",
+    "concept",
+    "fantasy design"
+  ],
+  "referenceUrls": [],
+  "outputFilename": "gwm-poer.webp",
+  "status": "draft",
+  "approved": false
+}

@@ -1,0 +1,40 @@
+{
+  "generatedAt": "2026-07-30T11:56:32.608Z",
+  "modelId": "lexus-lx",
+  "manufacturer": "Lexus",
+  "model": "LX",
+  "apiRequestCount": 1,
+  "infrastructureRetries": 0,
+  "infrastructureDiagnostics": [
+    {
+      "requestIndex": 0,
+      "httpStatus": 200,
+      "responseFormat": "json"
+    }
+  ],
+  "requestedYears": "2025-2026",
+  "requestedGeneration": "fourth generation J310 facelift",
+  "requestedChassisCode": "J310",
+  "modelUsed": "gpt-image-2",
+  "generationMode": "text-generation",
+  "endpoint": "https://vibecode.moe/v1/images/generations",
+  "referenceUrl": "https://www.lexus.com/models/LX",
+  "referenceImageUrl": null,
+  "apiStatus": 200,
+  "downloadStatus": 200,
+  "contentType": "image/png",
+  "sourceUrl": "https://file3.aitohumanize.com/file/ca10e0811fc845d6abd71d1be2f9dd43.png",
+  "rawFile": "catalog-generator\\outputs\\raw\\lexus-lx.png",
+  "generatedFile": "catalog-generator\\outputs\\lexus-lx.webp",
+  "rawMetadata": {
+    "format": "png",
+    "width": 1536,
+    "height": 1024
+  },
+  "outputMetadata": {
+    "format": "webp",
+    "width": 1600,
+    "height": 1000
+  },
+  "promptFile": "catalog-generator\\prompts\\lexus-lx.txt"
+}

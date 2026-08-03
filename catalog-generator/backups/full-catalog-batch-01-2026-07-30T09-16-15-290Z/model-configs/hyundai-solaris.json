@@ -1,0 +1,41 @@
+{
+  "id": "hyundai-solaris",
+  "catalogSlug": "hyundai_solaris",
+  "manufacturer": "Hyundai",
+  "model": "Solaris",
+  "generation": "second generation HCr facelift",
+  "chassisCode": "HCr",
+  "years": "2020-2022",
+  "facelift": "2020 facelift, latest Hyundai-manufactured Solaris specification",
+  "market": "Russia / CIS",
+  "body": "four-door compact sedan",
+  "trim": "Elegance",
+  "paint": "Typhoon Silver metallic",
+  "identityCues": [
+    "second-generation HCr sedan body",
+    "2020 facelift wide dark mesh grille",
+    "facelift swept-back headlamps with angular lower edge",
+    "correct Hyundai H badge and compact sedan proportions"
+  ],
+  "modelExclusions": [
+    "first-generation Solaris RB",
+    "pre-facelift HCr",
+    "AGR Solaris HS",
+    "Hyundai Accent hatchback",
+    "Elantra",
+    "Kia Rio",
+    "fictional current Hyundai Solaris successor"
+  ],
+  "referenceUrls": [
+    "https://www.hyundai.com/worldwide/en/cars/accent"
+  ],
+  "fallbackReferenceUrls": [
+    "https://en.wikipedia.org/wiki/Hyundai_Accent",
+    "https://www.autoevolution.com/cars/hyundai-solaris-2020.html"
+  ],
+  "referenceQuality": "secondary-confirmed",
+  "confidenceLevel": "medium-high",
+  "outputFilename": "hyundai-solaris.webp",
+  "status": "qa",
+  "approved": false
+}

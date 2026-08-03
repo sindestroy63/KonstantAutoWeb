@@ -1,0 +1,27 @@
+{
+  "checkedAt": "2026-07-30T11:52:51.614Z",
+  "manufacturer": "Chevrolet",
+  "model": "Equinox",
+  "requestedYear": "2025-2026",
+  "generation": "fourth generation 2025",
+  "chassisCode": "D2XX successor platform",
+  "market": "North America",
+  "referenceUrl": "https://www.chevrolet.com/suvs/equinox",
+  "finalUrl": "https://www.chevrolet.com/suvs/equinox",
+  "httpStatus": 200,
+  "officialDomain": "www.chevrolet.com",
+  "confirmedBodyCues": [
+    "all-new fourth-generation boxier Equinox body",
+    "split front lighting with thin upper DRLs",
+    "wide rectangular RS grille",
+    "distinctive squared wheel arches and floating rear pillar"
+  ],
+  "attempts": [
+    {
+      "url": "https://www.chevrolet.com/suvs/equinox",
+      "finalUrl": "https://www.chevrolet.com/suvs/equinox",
+      "httpStatus": 200,
+      "status": "confirmed"
+    }
+  ]
+}

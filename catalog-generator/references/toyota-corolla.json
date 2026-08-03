@@ -1,0 +1,27 @@
+{
+  "checkedAt": "2026-07-28T11:59:43.699Z",
+  "manufacturer": "Toyota",
+  "model": "Corolla",
+  "requestedYear": "2025-2026",
+  "generation": "E210 facelift",
+  "chassisCode": "E210",
+  "market": "North America",
+  "referenceUrl": "https://www.toyota.com/corolla/",
+  "finalUrl": "https://www.toyota.com/corolla/",
+  "httpStatus": 200,
+  "officialDomain": "www.toyota.com",
+  "confirmedBodyCues": [
+    "slim swept LED headlamps",
+    "narrow upper grille",
+    "broad lower trapezoidal grille",
+    "compact E210 sedan proportions"
+  ],
+  "attempts": [
+    {
+      "url": "https://www.toyota.com/corolla/",
+      "finalUrl": "https://www.toyota.com/corolla/",
+      "httpStatus": 200,
+      "status": "confirmed"
+    }
+  ]
+}

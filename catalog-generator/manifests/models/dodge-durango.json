@@ -1,0 +1,24 @@
+{
+  "id": "dodge-durango",
+  "catalogSlug": "dodge_durango",
+  "manufacturer": "Dodge",
+  "model": "Durango",
+  "generation": "TODO: official current generation",
+  "chassisCode": "TODO",
+  "years": "TODO",
+  "facelift": "TODO",
+  "market": "TODO",
+  "body": "Внедорожник",
+  "trim": "TODO",
+  "paint": "factory production color",
+  "identityCues": [],
+  "modelExclusions": [
+    "previous generation",
+    "concept",
+    "fantasy design"
+  ],
+  "referenceUrls": [],
+  "outputFilename": "dodge-durango.webp",
+  "status": "draft",
+  "approved": false
+}

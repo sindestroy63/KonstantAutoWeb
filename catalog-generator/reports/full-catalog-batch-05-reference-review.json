@@ -1,0 +1,383 @@
+{
+  "batch": 5,
+  "reviewedAt": "2026-07-30T10:49:57.200Z",
+  "entries": [
+    {
+      "modelId": "audi-a4",
+      "manufacturer": "Audi",
+      "model": "A4",
+      "generation": "fifth generation B9 facelift final production specification",
+      "modelYears": "2023-2024 final model years",
+      "chassisCode": "B9 / 8W",
+      "market": "Europe",
+      "body": "four-door compact executive sedan",
+      "trim": "S line 40 TFSI",
+      "facelift": "2019 facelift",
+      "mustHave": [
+        "B9 facelift A4 sedan body",
+        "facelift angular LED headlamps",
+        "wide singleframe grille with honeycomb texture",
+        "separate sedan trunk and restrained S line bumper"
+      ],
+      "mustNotHave": [
+        "pre-facelift B9 A4",
+        "B8 A4",
+        "new Audi A5 B10",
+        "A4 Avant",
+        "Audi A6",
+        "concept",
+        "fantasy design"
+      ],
+      "officialReferenceUrls": [
+        "https://www.audi-mediacenter.com/en/audi-a4-sedan-14817"
+      ],
+      "fallbackReferenceUrls": [
+        "https://en.wikipedia.org/wiki/Audi_A4#B9",
+        "https://www.autoevolution.com/cars/audi-a4.html"
+      ],
+      "resolvedReferenceUrl": "https://www.audi-mediacenter.com/en/audi-a4-sedan-14817",
+      "referenceQuality": "secondary-confirmed",
+      "confidenceLevel": "high",
+      "status": "reference-approved"
+    },
+    {
+      "modelId": "audi-q5",
+      "manufacturer": "Audi",
+      "model": "Q5",
+      "generation": "third generation GU",
+      "modelYears": "2025-2026",
+      "chassisCode": "GU",
+      "market": "Europe",
+      "body": "five-door compact luxury crossover SUV",
+      "trim": "S line 45 TFSI quattro",
+      "facelift": "all-new third generation",
+      "mustHave": [
+        "third-generation GU Q5 body",
+        "new slim segmented LED headlamps",
+        "wide new-generation singleframe grille",
+        "sculpted S line lower bumper and taut rear-quarter surfacing"
+      ],
+      "mustNotHave": [
+        "second-generation FY Q5",
+        "first-generation 8R Q5",
+        "Audi Q6 e-tron",
+        "Audi Q7",
+        "Sportback body",
+        "concept",
+        "fantasy design"
+      ],
+      "officialReferenceUrls": [
+        "https://www.audi-mediacenter.com/en/the-new-audi-q5-suv-16204"
+      ],
+      "fallbackReferenceUrls": [
+        "https://en.wikipedia.org/wiki/Audi_Q5",
+        "https://www.autoevolution.com/cars/audi-q5.html"
+      ],
+      "resolvedReferenceUrl": "https://www.audi-mediacenter.com/en/the-new-audi-q5-suv-16204",
+      "referenceQuality": "secondary-confirmed",
+      "confidenceLevel": "high",
+      "status": "reference-approved"
+    },
+    {
+      "modelId": "audi-q7",
+      "manufacturer": "Audi",
+      "model": "Q7",
+      "generation": "second generation 4M second facelift",
+      "modelYears": "2024-2026",
+      "chassisCode": "4M",
+      "market": "Europe",
+      "body": "five-door three-row luxury SUV",
+      "trim": "S line 55 TFSI quattro",
+      "facelift": "2024 second facelift",
+      "mustHave": [
+        "large second-generation 4M three-row SUV body",
+        "2024 facelift customizable-signature LED headlamps",
+        "revised octagonal singleframe grille",
+        "new vertical outer bumper intakes"
+      ],
+      "mustNotHave": [
+        "pre-facelift Q7",
+        "first facelift 2020 Q7",
+        "first-generation 4L Q7",
+        "Audi Q8",
+        "Audi Q5",
+        "concept",
+        "fantasy design"
+      ],
+      "officialReferenceUrls": [
+        "https://www.audi-mediacenter.com/en/the-new-audi-q7-15826"
+      ],
+      "fallbackReferenceUrls": [
+        "https://en.wikipedia.org/wiki/Audi_Q7",
+        "https://www.autoevolution.com/cars/audi-q7.html"
+      ],
+      "resolvedReferenceUrl": "https://www.audi-mediacenter.com/en/the-new-audi-q7-15826",
+      "referenceQuality": "secondary-confirmed",
+      "confidenceLevel": "high",
+      "status": "reference-approved"
+    },
+    {
+      "modelId": "audi-a3",
+      "manufacturer": "Audi",
+      "model": "A3",
+      "generation": "fourth generation 8Y facelift",
+      "modelYears": "2025-2026",
+      "chassisCode": "8Y",
+      "market": "Europe",
+      "body": "five-door compact Sportback hatchback",
+      "trim": "S line 35 TFSI",
+      "facelift": "2024 facelift",
+      "mustHave": [
+        "facelift 8Y A3 Sportback five-door body",
+        "flatter wider singleframe grille",
+        "new selectable-signature LED headlamps",
+        "revised angular S line bumper"
+      ],
+      "mustNotHave": [
+        "pre-facelift 8Y A3",
+        "third-generation 8V A3",
+        "A3 sedan",
+        "Audi S3 or RS3 body kit",
+        "concept",
+        "fantasy design"
+      ],
+      "officialReferenceUrls": [
+        "https://www.audi-mediacenter.com/en/the-new-audi-a3-15887"
+      ],
+      "fallbackReferenceUrls": [
+        "https://en.wikipedia.org/wiki/Audi_A3#Fourth_generation_(Typ_8Y;_2020)",
+        "https://www.autoevolution.com/cars/audi-a3-sportback.html"
+      ],
+      "resolvedReferenceUrl": "https://www.audi-mediacenter.com/en/the-new-audi-a3-15887",
+      "referenceQuality": "secondary-confirmed",
+      "confidenceLevel": "high",
+      "status": "reference-approved"
+    },
+    {
+      "modelId": "audi-a6",
+      "manufacturer": "Audi",
+      "model": "A6",
+      "generation": "sixth generation C9",
+      "modelYears": "2026",
+      "chassisCode": "C9",
+      "market": "Europe",
+      "body": "four-door executive sedan",
+      "trim": "S line TFSI quattro",
+      "facelift": "all-new sixth generation",
+      "mustHave": [
+        "all-new C9 A6 sedan body",
+        "very slim segmented LED headlamps",
+        "wide low singleframe grille",
+        "new flush door handles and sculpted S line bumper"
+      ],
+      "mustNotHave": [
+        "fifth-generation C8 A6",
+        "Audi A7",
+        "A6 Avant",
+        "A6 e-tron",
+        "Audi A5",
+        "concept",
+        "fantasy design"
+      ],
+      "officialReferenceUrls": [
+        "https://www.audi-mediacenter.com/en/the-new-audi-a6-sedan-16621"
+      ],
+      "fallbackReferenceUrls": [
+        "https://en.wikipedia.org/wiki/Audi_A6",
+        "https://www.autoevolution.com/cars/audi-a6.html"
+      ],
+      "resolvedReferenceUrl": "https://www.audi-mediacenter.com/en/the-new-audi-a6-sedan-16621",
+      "referenceQuality": "secondary-confirmed",
+      "confidenceLevel": "high",
+      "status": "reference-approved"
+    },
+    {
+      "modelId": "ford-focus",
+      "manufacturer": "Ford",
+      "model": "Focus",
+      "generation": "fourth generation C519 facelift final production specification",
+      "modelYears": "2022-2025 final model years",
+      "chassisCode": "C519",
+      "market": "Europe",
+      "body": "five-door compact hatchback",
+      "trim": "ST-Line X",
+      "facelift": "2021 facelift",
+      "mustHave": [
+        "facelift fourth-generation five-door Focus body",
+        "slimmer LED headlamps",
+        "larger Ford-badge-in-grille front design",
+        "ST-Line lower bumper without full ST body kit"
+      ],
+      "mustNotHave": [
+        "pre-facelift fourth-generation Focus",
+        "third-generation C346 Focus",
+        "Focus sedan",
+        "Ford Fiesta",
+        "Focus ST or RS body kit",
+        "concept",
+        "fantasy design"
+      ],
+      "officialReferenceUrls": [
+        "https://www.ford.co.uk/cars/focus"
+      ],
+      "fallbackReferenceUrls": [
+        "https://en.wikipedia.org/wiki/Ford_Focus_(fourth_generation)",
+        "https://www.autoevolution.com/cars/ford-focus.html"
+      ],
+      "resolvedReferenceUrl": "https://www.ford.co.uk/cars/focus",
+      "referenceQuality": "secondary-confirmed",
+      "confidenceLevel": "high",
+      "status": "reference-approved"
+    },
+    {
+      "modelId": "ford-explorer",
+      "manufacturer": "Ford",
+      "model": "Explorer",
+      "generation": "sixth generation U625 facelift",
+      "modelYears": "2025-2026",
+      "chassisCode": "U625",
+      "market": "North America",
+      "body": "five-door three-row midsize SUV",
+      "trim": "ST-Line",
+      "facelift": "2025 model-year facelift",
+      "mustHave": [
+        "facelift U625 three-row SUV body",
+        "wider rectangular grille",
+        "new slim LED headlamps",
+        "revised front bumper and correct long Explorer proportions"
+      ],
+      "mustNotHave": [
+        "pre-facelift U625 Explorer",
+        "fifth-generation U502 Explorer",
+        "European electric Explorer",
+        "Ford Expedition",
+        "concept",
+        "fantasy design"
+      ],
+      "officialReferenceUrls": [
+        "https://www.ford.com/suvs/explorer/"
+      ],
+      "fallbackReferenceUrls": [
+        "https://en.wikipedia.org/wiki/Ford_Explorer#Sixth_generation_(U625;_2020)",
+        "https://www.autoevolution.com/cars/ford-explorer.html"
+      ],
+      "resolvedReferenceUrl": "https://www.ford.com/suvs/explorer/",
+      "referenceQuality": "secondary-confirmed",
+      "confidenceLevel": "high",
+      "status": "reference-approved"
+    },
+    {
+      "modelId": "ford-ranger",
+      "manufacturer": "Ford",
+      "model": "Ranger",
+      "generation": "fifth generation P703",
+      "modelYears": "2023-2026",
+      "chassisCode": "P703",
+      "market": "Europe / Australia",
+      "body": "four-door double-cab midsize pickup",
+      "trim": "Wildtrak",
+      "facelift": "current all-new generation",
+      "mustHave": [
+        "P703 double-cab pickup body",
+        "signature C-clamp LED headlamps",
+        "wide rectangular grille with central Ford oval",
+        "separate cargo bed and four full doors"
+      ],
+      "mustNotHave": [
+        "previous-generation T6/P375 Ranger",
+        "Ford F-150",
+        "Ford Maverick",
+        "Ranger Raptor body kit",
+        "single cab",
+        "concept",
+        "fantasy design"
+      ],
+      "officialReferenceUrls": [
+        "https://www.ford.co.uk/vans-and-pickups/ranger"
+      ],
+      "fallbackReferenceUrls": [
+        "https://en.wikipedia.org/wiki/Ford_Ranger_(T6)#Second_generation_(P703;_2022)",
+        "https://www.autoevolution.com/cars/ford-ranger.html"
+      ],
+      "resolvedReferenceUrl": "https://www.ford.co.uk/vans-and-pickups/ranger",
+      "referenceQuality": "secondary-confirmed",
+      "confidenceLevel": "high",
+      "status": "reference-approved"
+    },
+    {
+      "modelId": "ford-f-150",
+      "manufacturer": "Ford",
+      "model": "F-150",
+      "generation": "fourteenth generation P702 facelift",
+      "modelYears": "2024-2026",
+      "chassisCode": "P702",
+      "market": "North America",
+      "body": "four-door SuperCrew full-size pickup",
+      "trim": "Lariat",
+      "facelift": "2024 model-year facelift",
+      "mustHave": [
+        "facelift P702 SuperCrew full-size pickup body",
+        "revised C-clamp LED headlamps",
+        "large rectangular Lariat grille",
+        "four full doors and separate full-size cargo bed"
+      ],
+      "mustNotHave": [
+        "pre-facelift 2021-2023 F-150",
+        "thirteenth-generation F-150",
+        "Ford Ranger",
+        "F-150 Raptor or Lightning",
+        "single cab",
+        "concept",
+        "fantasy design"
+      ],
+      "officialReferenceUrls": [
+        "https://www.ford.com/trucks/f150/"
+      ],
+      "fallbackReferenceUrls": [
+        "https://en.wikipedia.org/wiki/Ford_F-Series_(fourteenth_generation)",
+        "https://www.autoevolution.com/cars/ford-f-150.html"
+      ],
+      "resolvedReferenceUrl": "https://www.ford.com/trucks/f150/",
+      "referenceQuality": "secondary-confirmed",
+      "confidenceLevel": "high",
+      "status": "reference-approved"
+    },
+    {
+      "modelId": "ford-escape",
+      "manufacturer": "Ford",
+      "model": "Escape",
+      "generation": "fourth generation CX482 facelift",
+      "modelYears": "2023-2025 final production specification",
+      "chassisCode": "CX482",
+      "market": "North America",
+      "body": "five-door compact crossover SUV",
+      "trim": "ST-Line Select",
+      "facelift": "2023 model-year facelift",
+      "mustHave": [
+        "facelift CX482 compact crossover body",
+        "full-width upper LED light bar",
+        "revised trapezoidal grille with Ford badge",
+        "slim headlamps and accurate Escape proportions"
+      ],
+      "mustNotHave": [
+        "pre-facelift 2020-2022 Escape",
+        "third-generation Escape",
+        "Ford Kuga pre-facelift",
+        "Ford Explorer",
+        "concept",
+        "fantasy design"
+      ],
+      "officialReferenceUrls": [
+        "https://www.ford.com/suvs-crossovers/escape/"
+      ],
+      "fallbackReferenceUrls": [
+        "https://en.wikipedia.org/wiki/Ford_Escape#Fourth_generation_(2020)",
+        "https://www.autoevolution.com/cars/ford-escape.html"
+      ],
+      "resolvedReferenceUrl": "https://www.ford.com/suvs-crossovers/escape/",
+      "referenceQuality": "secondary-confirmed",
+      "confidenceLevel": "high",
+      "status": "reference-approved"
+    }
+  ]
+}

@@ -1,0 +1,83 @@
+{
+  "checkedAt": "2026-07-30T09:00:08.835Z",
+  "modelId": "bmw-x3",
+  "file": "catalog-generator\\outputs\\batch-01-bmw-x3-g45.webp",
+  "deterministicPass": true,
+  "analysis": {
+    "width": 1600,
+    "height": 1000,
+    "backgroundCornerRgb": [
+      188.9,
+      188.9,
+      187.4
+    ],
+    "backgroundCornerLuminance": 188.4,
+    "backgroundCornerNeutralityDelta": 1.5,
+    "foregroundBounds": {
+      "minX": 162,
+      "maxX": 1410,
+      "minY": 268,
+      "maxY": 904
+    },
+    "foregroundWidthPercent": 78.1,
+    "horizonPercent": 90.5
+  },
+  "checks": {
+    "dimensions": {
+      "status": "pass",
+      "actual": "1600x1000"
+    },
+    "format": {
+      "status": "pass",
+      "actual": "webp"
+    },
+    "aspectRatio": {
+      "status": "pass",
+      "actual": 1.6
+    },
+    "background": {
+      "status": "pass",
+      "actualRgb": [
+        188.9,
+        188.9,
+        187.4
+      ],
+      "luminance": 188.4,
+      "neutralityDelta": 1.5
+    },
+    "scale": {
+      "status": "pass",
+      "actualPercent": 78.1,
+      "targetPercent": "78-84",
+      "tolerancePercent": "74-88"
+    },
+    "horizon": {
+      "status": "pass",
+      "actualPercent": 90.5,
+      "tolerancePercent": "72-93"
+    },
+    "exactlyOneVehicle": {
+      "status": "pass",
+      "method": "agent-visual-review"
+    },
+    "noPeople": {
+      "status": "pass",
+      "method": "agent-visual-review"
+    },
+    "noText": {
+      "status": "pass",
+      "method": "agent-visual-review"
+    },
+    "noWatermark": {
+      "status": "pass",
+      "method": "agent-visual-review"
+    },
+    "generationIdentity": {
+      "status": "approved",
+      "method": "agent-visual-review"
+    }
+  },
+  "semanticQa": "approved",
+  "generationQa": "approved",
+  "finalStatus": "production-approved"
+}

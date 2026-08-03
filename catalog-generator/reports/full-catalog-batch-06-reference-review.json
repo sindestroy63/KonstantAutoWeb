@@ -1,0 +1,379 @@
+{
+  "batch": 6,
+  "reviewedAt": "2026-07-30T11:43:45.234Z",
+  "entries": [
+    {
+      "modelId": "chevrolet-cruze",
+      "manufacturer": "Chevrolet",
+      "model": "Cruze",
+      "generation": "second generation D2LC facelift final production specification",
+      "modelYears": "2019-2023 final model years",
+      "chassisCode": "D2LC",
+      "market": "China / South America",
+      "body": "four-door compact sedan",
+      "trim": "Premier",
+      "facelift": "2019 facelift",
+      "mustHave": [
+        "facelift second-generation Cruze sedan body",
+        "slim swept headlamps",
+        "dual-port Chevrolet grille",
+        "four doors and separate compact sedan trunk"
+      ],
+      "mustNotHave": [
+        "first-generation J300 Cruze",
+        "pre-facelift second generation",
+        "Chevrolet Onix",
+        "Chevrolet Malibu",
+        "hatchback",
+        "concept",
+        "fantasy design"
+      ],
+      "officialReferenceUrls": [
+        "https://media.chevrolet.com/media/cn/en/chevrolet/vehicles/cruze.html"
+      ],
+      "fallbackReferenceUrls": [
+        "https://en.wikipedia.org/wiki/Chevrolet_Cruze",
+        "https://www.autoevolution.com/cars/chevrolet-cruze.html"
+      ],
+      "resolvedReferenceUrl": "https://media.chevrolet.com/media/cn/en/chevrolet/vehicles/cruze.html",
+      "referenceQuality": "secondary-confirmed",
+      "confidenceLevel": "high",
+      "status": "reference-approved"
+    },
+    {
+      "modelId": "chevrolet-tahoe",
+      "manufacturer": "Chevrolet",
+      "model": "Tahoe",
+      "generation": "fifth generation GMT1YC facelift",
+      "modelYears": "2025-2026",
+      "chassisCode": "GMT1YC",
+      "market": "North America",
+      "body": "five-door full-size three-row SUV",
+      "trim": "High Country",
+      "facelift": "2025 model-year facelift",
+      "mustHave": [
+        "facelift fifth-generation full-size Tahoe body",
+        "new split lighting with thin upper DRLs",
+        "large revised High Country grille",
+        "long three-row body and upright rear quarter"
+      ],
+      "mustNotHave": [
+        "pre-facelift 2021-2024 Tahoe",
+        "fourth-generation K2UC Tahoe",
+        "Chevrolet Suburban",
+        "GMC Yukon",
+        "Chevrolet Traverse",
+        "concept",
+        "fantasy design"
+      ],
+      "officialReferenceUrls": [
+        "https://www.chevrolet.com/suvs/tahoe"
+      ],
+      "fallbackReferenceUrls": [
+        "https://en.wikipedia.org/wiki/Chevrolet_Tahoe",
+        "https://www.autoevolution.com/cars/chevrolet-tahoe.html"
+      ],
+      "resolvedReferenceUrl": "https://www.chevrolet.com/suvs/tahoe",
+      "referenceQuality": "secondary-confirmed",
+      "confidenceLevel": "high",
+      "status": "reference-approved"
+    },
+    {
+      "modelId": "chevrolet-silverado",
+      "manufacturer": "Chevrolet",
+      "model": "Silverado",
+      "generation": "fourth generation T1XX facelift",
+      "modelYears": "2022-2026",
+      "chassisCode": "T1XX",
+      "market": "North America",
+      "body": "four-door Crew Cab full-size pickup",
+      "trim": "High Country",
+      "facelift": "2022 facelift",
+      "mustHave": [
+        "facelift T1XX Crew Cab pickup body",
+        "thin upper LED running lights with lower main lamps",
+        "wide High Country grille with Chevrolet bowtie",
+        "four full doors and separate cargo bed"
+      ],
+      "mustNotHave": [
+        "pre-facelift 2019-2021 Silverado",
+        "third-generation K2XX Silverado",
+        "GMC Sierra",
+        "Colorado",
+        "single cab",
+        "ZR2 body kit",
+        "concept",
+        "fantasy design"
+      ],
+      "officialReferenceUrls": [
+        "https://www.chevrolet.com/trucks/silverado/1500"
+      ],
+      "fallbackReferenceUrls": [
+        "https://en.wikipedia.org/wiki/Chevrolet_Silverado#Fourth_generation_(2019)",
+        "https://www.autoevolution.com/cars/chevrolet-silverado.html"
+      ],
+      "resolvedReferenceUrl": "https://www.chevrolet.com/trucks/silverado/1500",
+      "referenceQuality": "secondary-confirmed",
+      "confidenceLevel": "high",
+      "status": "reference-approved"
+    },
+    {
+      "modelId": "chevrolet-trax",
+      "manufacturer": "Chevrolet",
+      "model": "Trax",
+      "generation": "second generation VSS-F",
+      "modelYears": "2024-2026",
+      "chassisCode": "VSS-F",
+      "market": "North America",
+      "body": "five-door subcompact crossover SUV",
+      "trim": "2RS",
+      "facelift": "current all-new generation",
+      "mustHave": [
+        "second-generation low wide Trax crossover body",
+        "thin upper LED DRLs and lower main lamps",
+        "wide black 2RS grille",
+        "longer wheelbase and coupe-like rear quarter"
+      ],
+      "mustNotHave": [
+        "first-generation Gamma II Trax",
+        "Chevrolet Trailblazer",
+        "Chevrolet Equinox",
+        "concept",
+        "fantasy design"
+      ],
+      "officialReferenceUrls": [
+        "https://www.chevrolet.com/suvs/trax"
+      ],
+      "fallbackReferenceUrls": [
+        "https://en.wikipedia.org/wiki/Chevrolet_Trax",
+        "https://www.autoevolution.com/cars/chevrolet-trax.html"
+      ],
+      "resolvedReferenceUrl": "https://www.chevrolet.com/suvs/trax",
+      "referenceQuality": "secondary-confirmed",
+      "confidenceLevel": "high",
+      "status": "reference-approved"
+    },
+    {
+      "modelId": "chevrolet-equinox",
+      "manufacturer": "Chevrolet",
+      "model": "Equinox",
+      "generation": "fourth generation 2025",
+      "modelYears": "2025-2026",
+      "chassisCode": "D2XX successor platform",
+      "market": "North America",
+      "body": "five-door compact crossover SUV",
+      "trim": "RS",
+      "facelift": "all-new fourth generation",
+      "mustHave": [
+        "all-new fourth-generation boxier Equinox body",
+        "split front lighting with thin upper DRLs",
+        "wide rectangular RS grille",
+        "distinctive squared wheel arches and floating rear pillar"
+      ],
+      "mustNotHave": [
+        "third-generation Equinox",
+        "Equinox EV",
+        "Chevrolet Trax",
+        "Chevrolet Blazer",
+        "concept",
+        "fantasy design"
+      ],
+      "officialReferenceUrls": [
+        "https://www.chevrolet.com/suvs/equinox"
+      ],
+      "fallbackReferenceUrls": [
+        "https://en.wikipedia.org/wiki/Chevrolet_Equinox",
+        "https://www.autoevolution.com/cars/chevrolet-equinox.html"
+      ],
+      "resolvedReferenceUrl": "https://www.chevrolet.com/suvs/equinox",
+      "referenceQuality": "secondary-confirmed",
+      "confidenceLevel": "high",
+      "status": "reference-approved"
+    },
+    {
+      "modelId": "lexus-es",
+      "manufacturer": "Lexus",
+      "model": "ES",
+      "generation": "eighth generation 2026",
+      "modelYears": "2026",
+      "chassisCode": "not publicly confirmed",
+      "market": "Global / China",
+      "body": "four-door executive sedan",
+      "trim": "ES 300h",
+      "facelift": "all-new eighth generation",
+      "mustHave": [
+        "all-new eighth-generation 2026 ES sedan body",
+        "very slim L-signature LED headlamps",
+        "new spindle-body front without the old large framed spindle grille",
+        "long modern fastback-like sedan roofline"
+      ],
+      "mustNotHave": [
+        "seventh-generation XZ10 ES",
+        "pre-2026 ES spindle grille",
+        "Lexus LS",
+        "Lexus IS",
+        "ES electric model charging details",
+        "concept",
+        "fantasy design"
+      ],
+      "officialReferenceUrls": [
+        "https://global.toyota/en/newsroom/lexus/42637790.html"
+      ],
+      "fallbackReferenceUrls": [
+        "https://en.wikipedia.org/wiki/Lexus_ES",
+        "https://www.autoevolution.com/cars/lexus-es.html"
+      ],
+      "resolvedReferenceUrl": "https://global.toyota/en/newsroom/lexus/42637790.html",
+      "referenceQuality": "secondary-confirmed",
+      "confidenceLevel": "medium-high",
+      "status": "reference-approved"
+    },
+    {
+      "modelId": "lexus-nx",
+      "manufacturer": "Lexus",
+      "model": "NX",
+      "generation": "second generation AZ20",
+      "modelYears": "2022-2026",
+      "chassisCode": "AZ20",
+      "market": "North America / Europe",
+      "body": "five-door compact luxury crossover SUV",
+      "trim": "NX 350h F Sport",
+      "facelift": "current production specification",
+      "mustHave": [
+        "second-generation AZ20 NX body",
+        "slim L-shaped LED headlamps",
+        "large integrated spindle grille",
+        "sharp rear-quarter surfacing and compact SUV proportions"
+      ],
+      "mustNotHave": [
+        "first-generation AZ10 NX",
+        "Lexus RX",
+        "Lexus RZ",
+        "concept",
+        "fantasy design"
+      ],
+      "officialReferenceUrls": [
+        "https://www.lexus.com/models/NX"
+      ],
+      "fallbackReferenceUrls": [
+        "https://en.wikipedia.org/wiki/Lexus_NX",
+        "https://www.autoevolution.com/cars/lexus-nx.html"
+      ],
+      "resolvedReferenceUrl": "https://www.lexus.com/models/NX",
+      "referenceQuality": "secondary-confirmed",
+      "confidenceLevel": "high",
+      "status": "reference-approved"
+    },
+    {
+      "modelId": "lexus-lx",
+      "manufacturer": "Lexus",
+      "model": "LX",
+      "generation": "fourth generation J310 facelift",
+      "modelYears": "2025-2026",
+      "chassisCode": "J310",
+      "market": "Middle East / North America",
+      "body": "five-door full-size luxury SUV",
+      "trim": "LX 600 F Sport",
+      "facelift": "2025 specification with LX 700h updates",
+      "mustHave": [
+        "fourth-generation J310 full-size SUV body",
+        "large spindle grille with horizontal dark mesh",
+        "triple-projector slim LED headlamps",
+        "upright Land Cruiser 300-derived proportions with Lexus bodywork"
+      ],
+      "mustNotHave": [
+        "third-generation J200 LX",
+        "Toyota Land Cruiser 300 grille",
+        "Lexus GX",
+        "Lexus RX",
+        "concept",
+        "fantasy design"
+      ],
+      "officialReferenceUrls": [
+        "https://www.lexus.com/models/LX"
+      ],
+      "fallbackReferenceUrls": [
+        "https://en.wikipedia.org/wiki/Lexus_LX",
+        "https://www.autoevolution.com/cars/lexus-lx.html"
+      ],
+      "resolvedReferenceUrl": "https://www.lexus.com/models/LX",
+      "referenceQuality": "secondary-confirmed",
+      "confidenceLevel": "high",
+      "status": "reference-approved"
+    },
+    {
+      "modelId": "lexus-ct",
+      "manufacturer": "Lexus",
+      "model": "CT",
+      "generation": "first generation ZWA10 final facelift",
+      "modelYears": "2018-2022 final production specification",
+      "chassisCode": "ZWA10",
+      "market": "Europe / Japan",
+      "body": "five-door compact luxury hatchback",
+      "trim": "CT 200h F Sport",
+      "facelift": "2017 second facelift",
+      "mustHave": [
+        "ZWA10 five-door compact hatchback body",
+        "second-facelift spindle grille",
+        "revised arrowhead LED headlamps",
+        "short hatchback rear and low compact stance"
+      ],
+      "mustNotHave": [
+        "pre-facelift Lexus CT",
+        "Lexus UX",
+        "Toyota Corolla",
+        "sedan body",
+        "concept",
+        "fantasy design"
+      ],
+      "officialReferenceUrls": [
+        "https://global.toyota/en/newsroom/lexus/24066854.html"
+      ],
+      "fallbackReferenceUrls": [
+        "https://en.wikipedia.org/wiki/Lexus_CT",
+        "https://www.autoevolution.com/cars/lexus-ct.html"
+      ],
+      "resolvedReferenceUrl": "https://global.toyota/en/newsroom/lexus/24066854.html",
+      "referenceQuality": "secondary-confirmed",
+      "confidenceLevel": "high",
+      "status": "reference-approved"
+    },
+    {
+      "modelId": "chery-tiggo",
+      "manufacturer": "Chery",
+      "model": "Tiggo (Tiggo 4 Pro)",
+      "generation": "Tiggo 4 Pro facelift",
+      "modelYears": "2024-2026",
+      "chassisCode": "T17",
+      "market": "Global / Russia",
+      "body": "five-door subcompact crossover SUV",
+      "trim": "Ultimate",
+      "facelift": "current facelift",
+      "mustHave": [
+        "current Tiggo 4 Pro compact crossover body",
+        "facelift slim LED headlamps",
+        "large diamond-pattern grille with centered Chery badge",
+        "short upright subcompact SUV proportions"
+      ],
+      "mustNotHave": [
+        "Chery Tiggo 7",
+        "Chery Tiggo 8",
+        "old Tiggo 3",
+        "Chery Omoda",
+        "concept",
+        "fantasy design"
+      ],
+      "officialReferenceUrls": [
+        "https://www.cheryinternational.com/pc/models/tiggo/tiggo4pro/index.shtml"
+      ],
+      "fallbackReferenceUrls": [
+        "https://en.wikipedia.org/wiki/Chery_Tiggo_3x",
+        "https://www.autoevolution.com/cars/chery-tiggo-4-pro.html"
+      ],
+      "resolvedReferenceUrl": "https://www.cheryinternational.com/pc/models/tiggo/tiggo4pro/index.shtml",
+      "referenceQuality": "secondary-confirmed",
+      "confidenceLevel": "medium-high",
+      "status": "reference-approved"
+    }
+  ]
+}

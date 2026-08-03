@@ -1,0 +1,24 @@
+{
+  "id": "kia-carnival",
+  "catalogSlug": "kia_carnival",
+  "manufacturer": "Kia",
+  "model": "Carnival",
+  "generation": "TODO: official current generation",
+  "chassisCode": "TODO",
+  "years": "TODO",
+  "facelift": "TODO",
+  "market": "TODO",
+  "body": "Кроссовер",
+  "trim": "TODO",
+  "paint": "factory production color",
+  "identityCues": [],
+  "modelExclusions": [
+    "previous generation",
+    "concept",
+    "fantasy design"
+  ],
+  "referenceUrls": [],
+  "outputFilename": "kia-carnival.webp",
+  "status": "draft",
+  "approved": false
+}

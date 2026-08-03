@@ -1,0 +1,41 @@
+{
+  "id": "mercedes-benz-glc",
+  "catalogSlug": "mercedes_glc",
+  "manufacturer": "Mercedes-Benz",
+  "model": "GLC",
+  "generation": "second generation X254",
+  "chassisCode": "X254",
+  "years": "2023-2026",
+  "facelift": "current pre-facelift second-generation production model",
+  "market": "Europe",
+  "body": "five-door compact luxury crossover",
+  "trim": "GLC 300 4MATIC AMG Line",
+  "paint": "High-Tech Silver metallic",
+  "identityCues": [
+    "X254 standard SUV body, not coupe",
+    "slim swept LED headlamps",
+    "star-pattern AMG Line grille with central Mercedes star",
+    "current X254 bumper and flush integrated body surfacing"
+  ],
+  "modelExclusions": [
+    "first-generation X253",
+    "GLC Coupe C254",
+    "GLE",
+    "GLB",
+    "Mercedes EQC",
+    "AMG 63 extreme body",
+    "mixed X253/X254"
+  ],
+  "referenceUrls": [
+    "https://www.mercedes-benz.com/en/vehicles/passenger-cars/glc/"
+  ],
+  "fallbackReferenceUrls": [
+    "https://en.wikipedia.org/wiki/Mercedes-Benz_GLC",
+    "https://www.caranddriver.com/mercedes-benz/glc-class"
+  ],
+  "referenceQuality": "secondary-confirmed",
+  "confidenceLevel": "high",
+  "outputFilename": "mercedes-glc.webp",
+  "status": "qa",
+  "approved": false
+}

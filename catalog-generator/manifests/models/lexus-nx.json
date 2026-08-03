@@ -1,0 +1,39 @@
+{
+  "id": "lexus-nx",
+  "catalogSlug": "lexus_nx",
+  "manufacturer": "Lexus",
+  "model": "NX",
+  "generation": "second generation AZ20",
+  "chassisCode": "AZ20",
+  "years": "2022-2026",
+  "facelift": "current production specification",
+  "market": "North America / Europe",
+  "body": "five-door compact luxury crossover SUV",
+  "trim": "NX 350h F Sport",
+  "paint": "Nori Green Pearl",
+  "identityCues": [
+    "second-generation AZ20 NX body",
+    "slim L-shaped LED headlamps",
+    "large integrated spindle grille",
+    "sharp rear-quarter surfacing and compact SUV proportions"
+  ],
+  "modelExclusions": [
+    "first-generation AZ10 NX",
+    "Lexus RX",
+    "Lexus RZ",
+    "concept",
+    "fantasy design"
+  ],
+  "referenceUrls": [
+    "https://www.lexus.com/models/NX"
+  ],
+  "fallbackReferenceUrls": [
+    "https://en.wikipedia.org/wiki/Lexus_NX",
+    "https://www.autoevolution.com/cars/lexus-nx.html"
+  ],
+  "referenceQuality": "secondary-confirmed",
+  "confidenceLevel": "high",
+  "outputFilename": "lexus-nx.webp",
+  "status": "qa",
+  "approved": false
+}

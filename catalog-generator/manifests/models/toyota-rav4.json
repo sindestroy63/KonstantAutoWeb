@@ -1,0 +1,40 @@
+{
+  "id": "toyota-rav4",
+  "catalogSlug": "toyota_rav4",
+  "manufacturer": "Toyota",
+  "model": "RAV4",
+  "generation": "sixth generation",
+  "chassisCode": "2026 sixth-generation production body",
+  "years": "2026",
+  "facelift": "first production version, not an XA50 facelift",
+  "market": "North America",
+  "body": "five-door compact crossover SUV",
+  "trim": "Woodland",
+  "paint": "Urban Rock gray-green",
+  "identityCues": [
+    "C-shaped hammerhead-inspired front lighting",
+    "slim upper lamps",
+    "angular sixth-generation face",
+    "squared Woodland bumper"
+  ],
+  "modelExclusions": [
+    "XA50",
+    "2019-2025 RAV4",
+    "previous trapezoidal front fascia",
+    "XA50 body",
+    "4Runner",
+    "Corolla Cross"
+  ],
+  "referenceUrls": [
+    "https://pressroom.toyota.com/vehicle/2026-toyota-rav4/"
+  ],
+  "outputFilename": "toyota-rav4-2026.webp",
+  "status": "production",
+  "approved": true,
+  "production": {
+    "batchId": "pilot-v3-2026-07-28T12-20-46-652",
+    "file": "public\\images\\catalog\\toyota-rav4.webp",
+    "sha256": "6f109def418fc095dc5da9372bd383451a59a733b93b981815e5494a1a09b64c",
+    "promotedAt": "2026-07-28T12:25:59.190Z"
+  }
+}

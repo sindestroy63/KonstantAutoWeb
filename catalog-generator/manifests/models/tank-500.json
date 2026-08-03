@@ -1,0 +1,24 @@
+{
+  "id": "tank-500",
+  "catalogSlug": "tank_500",
+  "manufacturer": "Tank",
+  "model": "500",
+  "generation": "TODO: official current generation",
+  "chassisCode": "TODO",
+  "years": "TODO",
+  "facelift": "TODO",
+  "market": "TODO",
+  "body": "Внедорожник",
+  "trim": "TODO",
+  "paint": "factory production color",
+  "identityCues": [],
+  "modelExclusions": [
+    "previous generation",
+    "concept",
+    "fantasy design"
+  ],
+  "referenceUrls": [],
+  "outputFilename": "tank-500.webp",
+  "status": "draft",
+  "approved": false
+}

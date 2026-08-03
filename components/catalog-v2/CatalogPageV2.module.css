@@ -1,0 +1,13 @@
+.page { min-height: 100%; background: var(--ka-v2-color-canvas); }
+.content { padding-block: var(--ka-v2-space-8) var(--ka-v2-layout-section); }
+.hero { display: grid; gap: var(--ka-v2-space-4); margin-bottom: var(--ka-v2-space-8); border-bottom: var(--ka-v2-field-border-width) solid var(--ka-v2-color-border); padding-bottom: var(--ka-v2-space-8); }
+.titleGroup { display: grid; gap: var(--ka-v2-space-3); }
+.copy { max-width: var(--ka-v2-layout-reading); }
+.skeletonFilters { height: var(--ka-v2-skeleton-filter-height); margin-bottom: var(--ka-v2-space-8); border-radius: var(--ka-v2-radius-md); background: var(--ka-v2-color-surface-muted); }
+.skeletonGrid { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, var(--ka-v2-grid-standard)), 1fr)); gap: var(--ka-v2-space-5); }
+.skeletonCard { aspect-ratio: var(--ka-v2-image-editorial); border-radius: var(--ka-v2-radius-md); background: var(--ka-v2-color-surface-muted); }
+
+@media (min-width: 48rem) {
+  .content { padding-top: var(--ka-v2-space-10); }
+  .hero { grid-template-columns: minmax(0, 1fr) minmax(0, var(--ka-v2-layout-reading)); align-items: end; }
+}

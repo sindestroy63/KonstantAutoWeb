@@ -1,0 +1,40 @@
+{
+  "generatedAt": "2026-07-30T08:59:19.176Z",
+  "modelId": "geely-tugella",
+  "manufacturer": "Geely",
+  "model": "Tugella",
+  "apiRequestCount": 1,
+  "infrastructureRetries": 0,
+  "infrastructureDiagnostics": [
+    {
+      "requestIndex": 0,
+      "httpStatus": 200,
+      "responseFormat": "json"
+    }
+  ],
+  "requestedYears": "2022-2025",
+  "requestedGeneration": "first generation FY11 current facelift",
+  "requestedChassisCode": "FY11 / CMA",
+  "modelUsed": "gpt-image-2",
+  "generationMode": "text-generation",
+  "endpoint": "https://vibecode.moe/v1/images/generations",
+  "referenceUrl": "https://www.geely-motors.com/model/tugella/",
+  "referenceImageUrl": null,
+  "apiStatus": 200,
+  "downloadStatus": 200,
+  "contentType": "image/png",
+  "sourceUrl": "https://file8.aitohumanize.com/file/2d39abe49f8d4c35a8e09f728ef8687b.png",
+  "rawFile": "catalog-generator\\outputs\\raw\\geely-tugella.png",
+  "generatedFile": "catalog-generator\\outputs\\geely-tugella.webp",
+  "rawMetadata": {
+    "format": "png",
+    "width": 1536,
+    "height": 1024
+  },
+  "outputMetadata": {
+    "format": "webp",
+    "width": 1600,
+    "height": 1000
+  },
+  "promptFile": "catalog-generator\\prompts\\geely-tugella.txt"
+}

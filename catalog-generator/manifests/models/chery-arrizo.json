@@ -1,0 +1,24 @@
+{
+  "id": "chery-arrizo",
+  "catalogSlug": "chery_arrizo",
+  "manufacturer": "Chery",
+  "model": "Arrizo",
+  "generation": "TODO: official current generation",
+  "chassisCode": "TODO",
+  "years": "TODO",
+  "facelift": "TODO",
+  "market": "TODO",
+  "body": "Седан",
+  "trim": "TODO",
+  "paint": "factory production color",
+  "identityCues": [],
+  "modelExclusions": [
+    "previous generation",
+    "concept",
+    "fantasy design"
+  ],
+  "referenceUrls": [],
+  "outputFilename": "chery-arrizo.webp",
+  "status": "draft",
+  "approved": false
+}

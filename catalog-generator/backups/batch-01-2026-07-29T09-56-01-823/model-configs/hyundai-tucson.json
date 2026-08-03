@@ -1,0 +1,39 @@
+{
+  "id": "hyundai-tucson",
+  "catalogSlug": "hyundai_tucson",
+  "manufacturer": "Hyundai",
+  "model": "Tucson",
+  "generation": "fourth generation NX4",
+  "chassisCode": "NX4",
+  "years": "2025-2026",
+  "facelift": "current 2025-2026 production facelift",
+  "market": "North America",
+  "body": "five-door compact SUV",
+  "trim": "SEL Premium",
+  "paint": "Shimmering Silver metallic",
+  "identityCues": [
+    "2025-2026 NX4 facelift body and front fascia",
+    "revised parametric grille with integrated daytime-running-light elements",
+    "facelift grille uses fewer, larger rectangular geometric cells rather than the old dense triangular jewel pattern",
+    "four large rectangular hidden-light DRL elements on each side integrated into the facelift grille",
+    "separate low-mounted headlamp modules",
+    "current wider bumper and skid-plate treatment"
+  ],
+  "modelExclusions": [
+    "pre-facelift 2022-2024 NX4 front end",
+    "dense pre-facelift triangular parametric-jewel grille and DRL pattern",
+    "multiple thin horizontal lamp strips across the grille",
+    "third-generation TL Tucson",
+    "Hyundai Santa Fe",
+    "Hyundai Creta",
+    "Hyundai Palisade",
+    "full-width light bar or fictional lamps",
+    "mixed generations"
+  ],
+  "referenceUrls": [
+    "https://www.hyundaiusa.com/us/en/vehicles/tucson"
+  ],
+  "outputFilename": "batch-01-hyundai-tucson-nx4-facelift.webp",
+  "status": "qa",
+  "approved": false
+}

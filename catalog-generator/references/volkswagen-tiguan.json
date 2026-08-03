@@ -1,0 +1,29 @@
+{
+  "checkedAt": "2026-07-30T10:28:17.113Z",
+  "manufacturer": "Volkswagen",
+  "model": "Tiguan",
+  "requestedYear": "2024-2026",
+  "generation": "third generation",
+  "chassisCode": "CT1",
+  "market": "Europe",
+  "referenceUrl": "https://www.volkswagen-newsroom.com/en/the-new-tiguan-2024-17744",
+  "fallbackReferenceUrls": [
+    "https://en.wikipedia.org/wiki/Volkswagen_Tiguan",
+    "https://www.autoevolution.com/cars/volkswagen-tiguan.html"
+  ],
+  "referenceQuality": "secondary-confirmed",
+  "confirmedBodyCues": [
+    "third-generation CT1 rounded crossover body",
+    "slim upper LED light bar and headlamps",
+    "large lower grille opening",
+    "smooth closed upper nose with centered Volkswagen badge"
+  ],
+  "attempts": [
+    {
+      "url": "https://www.volkswagen-newsroom.com/en/the-new-tiguan-2024-17744",
+      "finalUrl": "https://www.volkswagen-newsroom.com/en/the-new-tiguan-2024-17744",
+      "httpStatus": 404,
+      "status": "http-error"
+    }
+  ]
+}

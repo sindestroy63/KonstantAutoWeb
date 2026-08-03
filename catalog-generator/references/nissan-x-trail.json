@@ -1,0 +1,27 @@
+{
+  "checkedAt": "2026-07-30T09:49:41.287Z",
+  "manufacturer": "Nissan",
+  "model": "X-Trail",
+  "requestedYear": "2022-2026",
+  "generation": "fourth generation T33",
+  "chassisCode": "T33",
+  "market": "Europe / Japan",
+  "referenceUrl": "https://www.nissan.co.uk/vehicles/new-vehicles/x-trail.html",
+  "finalUrl": "https://www.nissan.co.uk/cf/vehicles/new-vehicles/x-trail",
+  "httpStatus": 200,
+  "officialDomain": "www.nissan.co.uk",
+  "confirmedBodyCues": [
+    "fourth-generation T33 body",
+    "split-level headlights with thin upper DRLs",
+    "large current V-motion grille",
+    "upright three-row-capable crossover proportions and Nissan badge"
+  ],
+  "attempts": [
+    {
+      "url": "https://www.nissan.co.uk/vehicles/new-vehicles/x-trail.html",
+      "finalUrl": "https://www.nissan.co.uk/cf/vehicles/new-vehicles/x-trail",
+      "httpStatus": 200,
+      "status": "confirmed"
+    }
+  ]
+}

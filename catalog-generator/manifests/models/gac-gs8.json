@@ -1,0 +1,24 @@
+{
+  "id": "gac-gs8",
+  "catalogSlug": "gac_gs8",
+  "manufacturer": "GAC",
+  "model": "GS8",
+  "generation": "TODO: official current generation",
+  "chassisCode": "TODO",
+  "years": "TODO",
+  "facelift": "TODO",
+  "market": "TODO",
+  "body": "Кроссовер",
+  "trim": "TODO",
+  "paint": "factory production color",
+  "identityCues": [],
+  "modelExclusions": [
+    "previous generation",
+    "concept",
+    "fantasy design"
+  ],
+  "referenceUrls": [],
+  "outputFilename": "gac-gs8.webp",
+  "status": "draft",
+  "approved": false
+}

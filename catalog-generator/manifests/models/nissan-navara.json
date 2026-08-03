@@ -1,0 +1,44 @@
+{
+  "id": "nissan-navara",
+  "catalogSlug": "nissan_navara",
+  "manufacturer": "Nissan",
+  "model": "Navara",
+  "generation": "third generation D23 facelift",
+  "chassisCode": "D23",
+  "years": "2021-2025",
+  "facelift": "2020 facelift current marketed specification",
+  "market": "Asia / Middle East",
+  "body": "four-door double-cab midsize pickup",
+  "trim": "PRO-4X",
+  "paint": "Forged Metallic Copper",
+  "identityCues": [
+    "facelift D23 double-cab pickup body",
+    "large interlock-style grille",
+    "facelift squared C-shaped LED headlamps",
+    "correct separate cargo bed, four doors and Nissan badge"
+  ],
+  "modelExclusions": [
+    "pre-facelift D23",
+    "Nissan Frontier D41",
+    "Nissan Titan",
+    "Toyota Hilux",
+    "single cab",
+    "fictional next Navara",
+    "bed merged into SUV body",
+    "PRO-4X lettering on the cargo bed or anywhere in the image",
+    "readable trim or model-name text"
+  ],
+  "referenceUrls": [
+    "https://en.nissan-dubai.com/vehicles/new/navara.html"
+  ],
+  "fallbackReferenceUrls": [
+    "https://en.wikipedia.org/wiki/Nissan_Navara",
+    "https://www.autoevolution.com/cars/nissan-navara.html"
+  ],
+  "referenceQuality": "secondary-confirmed",
+  "confidenceLevel": "high",
+  "outputFilename": "nissan-navara.webp",
+  "status": "production",
+  "approved": true,
+  "approvalStatus": "production-approved"
+}

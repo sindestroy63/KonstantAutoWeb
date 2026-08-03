@@ -1,0 +1,27 @@
+{
+  "checkedAt": "2026-07-28T11:59:40.943Z",
+  "manufacturer": "Kia",
+  "model": "K5",
+  "requestedYear": "2025-2026",
+  "generation": "DL3 facelift",
+  "chassisCode": "DL3 facelift",
+  "market": "North America",
+  "referenceUrl": "https://www.kiamedia.com/us/en/models/k5/2026",
+  "finalUrl": "https://www.kiamedia.com/us/en/models/k5/2026",
+  "httpStatus": 200,
+  "officialDomain": "www.kiamedia.com",
+  "confirmedBodyCues": [
+    "Star Map front lighting",
+    "current facelift bumper",
+    "current grille",
+    "facelift fastback body"
+  ],
+  "attempts": [
+    {
+      "url": "https://www.kiamedia.com/us/en/models/k5/2026",
+      "finalUrl": "https://www.kiamedia.com/us/en/models/k5/2026",
+      "httpStatus": 200,
+      "status": "confirmed"
+    }
+  ]
+}

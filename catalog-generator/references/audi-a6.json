@@ -1,0 +1,29 @@
+{
+  "checkedAt": "2026-07-30T10:58:35.283Z",
+  "manufacturer": "Audi",
+  "model": "A6",
+  "requestedYear": "2026",
+  "generation": "sixth generation C9",
+  "chassisCode": "C9",
+  "market": "Europe",
+  "referenceUrl": "https://www.audi-mediacenter.com/en/the-new-audi-a6-sedan-16621",
+  "fallbackReferenceUrls": [
+    "https://en.wikipedia.org/wiki/Audi_A6",
+    "https://www.autoevolution.com/cars/audi-a6.html"
+  ],
+  "referenceQuality": "secondary-confirmed",
+  "confirmedBodyCues": [
+    "all-new C9 A6 sedan body",
+    "very slim segmented LED headlamps",
+    "wide low singleframe grille",
+    "new flush door handles and sculpted S line bumper"
+  ],
+  "attempts": [
+    {
+      "url": "https://www.audi-mediacenter.com/en/the-new-audi-a6-sedan-16621",
+      "finalUrl": "https://www.audi.com/en/the-new-audi-a6-sedan-16621",
+      "httpStatus": 404,
+      "status": "http-error"
+    }
+  ]
+}

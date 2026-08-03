@@ -1,0 +1,29 @@
+{
+  "generatedAt": "2026-07-28T11:42:59.958Z",
+  "modelId": "bmw-3-series",
+  "manufacturer": "BMW",
+  "model": "3 Series",
+  "requestedYears": "2025-2026",
+  "requestedGeneration": "G20 LCI current second-update specification",
+  "requestedChassisCode": "G20 LCI",
+  "modelUsed": "gpt-image-2",
+  "endpoint": "https://vibecode.moe/v1/images/generations",
+  "referenceUrl": "https://www.press.bmwgroup.com/usa/article/detail/T0453931EN_US/the-2026-bmw-m340i-xdrive-50-jahre-edition",
+  "apiStatus": 200,
+  "downloadStatus": 200,
+  "contentType": "image/png",
+  "sourceUrl": "https://file6.aitohumanize.com/file/ea6d9937a018457ea6e9e5ca42b8d738.png",
+  "rawFile": "catalog-generator\\outputs\\raw\\bmw-3-series.png",
+  "generatedFile": "catalog-generator\\outputs\\bmw-3-series-g20-lci.webp",
+  "rawMetadata": {
+    "format": "png",
+    "width": 1536,
+    "height": 1024
+  },
+  "outputMetadata": {
+    "format": "webp",
+    "width": 1600,
+    "height": 1000
+  },
+  "promptFile": "catalog-generator\\prompts\\bmw-3-series.txt"
+}

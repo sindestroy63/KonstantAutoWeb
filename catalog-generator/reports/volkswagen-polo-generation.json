@@ -1,0 +1,40 @@
+{
+  "generatedAt": "2026-07-30T10:28:16.456Z",
+  "modelId": "volkswagen-polo",
+  "manufacturer": "Volkswagen",
+  "model": "Polo",
+  "apiRequestCount": 1,
+  "infrastructureRetries": 0,
+  "infrastructureDiagnostics": [
+    {
+      "requestIndex": 0,
+      "httpStatus": 200,
+      "responseFormat": "json"
+    }
+  ],
+  "requestedYears": "2024-2026",
+  "requestedGeneration": "current Polo Sedan AW/MQB A0 specification",
+  "requestedChassisCode": "AW / MQB A0",
+  "modelUsed": "gpt-image-2",
+  "generationMode": "text-generation",
+  "endpoint": "https://vibecode.moe/v1/images/generations",
+  "referenceUrl": "https://www.vw.co.za/en/models/polo-sedan.html",
+  "referenceImageUrl": null,
+  "apiStatus": 200,
+  "downloadStatus": 200,
+  "contentType": "image/png",
+  "sourceUrl": "https://file8.aitohumanize.com/file/759900a9887f4e85bf3fb44ef0920c6c.png",
+  "rawFile": "catalog-generator\\outputs\\raw\\volkswagen-polo.png",
+  "generatedFile": "catalog-generator\\outputs\\volkswagen-polo.webp",
+  "rawMetadata": {
+    "format": "png",
+    "width": 1536,
+    "height": 1024
+  },
+  "outputMetadata": {
+    "format": "webp",
+    "width": 1600,
+    "height": 1000
+  },
+  "promptFile": "catalog-generator\\prompts\\volkswagen-polo.txt"
+}

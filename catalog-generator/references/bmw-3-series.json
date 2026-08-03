@@ -1,0 +1,27 @@
+{
+  "checkedAt": "2026-07-28T11:59:39.056Z",
+  "manufacturer": "BMW",
+  "model": "3 Series",
+  "requestedYear": "2025-2026",
+  "generation": "G20 LCI current second-update specification",
+  "chassisCode": "G20 LCI",
+  "market": "Europe",
+  "referenceUrl": "https://www.press.bmwgroup.com/usa/article/detail/T0453931EN_US/the-2026-bmw-m340i-xdrive-50-jahre-edition",
+  "finalUrl": "https://www.press.bmwgroup.com/usa/article/detail/T0453931EN_US/the-2026-bmw-m340i-xdrive-50-jahre-edition",
+  "httpStatus": 200,
+  "officialDomain": "www.press.bmwgroup.com",
+  "confirmedBodyCues": [
+    "current 2025-2026 LCI headlights with a smooth uninterrupted lower outer contour and no notch",
+    "two inverted-L arrow LED daytime-running-light elements in each lamp",
+    "compact horizontal kidney grilles",
+    "current M Sport lower bumper with angular side intakes"
+  ],
+  "attempts": [
+    {
+      "url": "https://www.press.bmwgroup.com/usa/article/detail/T0453931EN_US/the-2026-bmw-m340i-xdrive-50-jahre-edition",
+      "finalUrl": "https://www.press.bmwgroup.com/usa/article/detail/T0453931EN_US/the-2026-bmw-m340i-xdrive-50-jahre-edition",
+      "httpStatus": 200,
+      "status": "confirmed"
+    }
+  ]
+}

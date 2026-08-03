@@ -1,0 +1,45 @@
+{
+  "generatedAt": "2026-07-30T10:57:37.984Z",
+  "modelId": "audi-q7",
+  "manufacturer": "Audi",
+  "model": "Q7",
+  "apiRequestCount": 1,
+  "infrastructureRetries": 1,
+  "infrastructureDiagnostics": [
+    {
+      "requestIndex": 0,
+      "httpStatus": 502,
+      "responseFormat": "json"
+    },
+    {
+      "requestIndex": 1,
+      "httpStatus": 200,
+      "responseFormat": "json"
+    }
+  ],
+  "requestedYears": "2024-2026",
+  "requestedGeneration": "second generation 4M second facelift",
+  "requestedChassisCode": "4M",
+  "modelUsed": "gpt-image-2",
+  "generationMode": "text-generation",
+  "endpoint": "https://vibecode.moe/v1/images/generations",
+  "referenceUrl": "https://www.audi-mediacenter.com/en/the-new-audi-q7-15826",
+  "referenceImageUrl": null,
+  "apiStatus": 200,
+  "downloadStatus": 200,
+  "contentType": "image/png",
+  "sourceUrl": "https://file7.aitohumanize.com/file/0959b4a847a34880a13ccc5f197a1422.png",
+  "rawFile": "catalog-generator\\outputs\\raw\\audi-q7.png",
+  "generatedFile": "catalog-generator\\outputs\\audi-q7.webp",
+  "rawMetadata": {
+    "format": "png",
+    "width": 1536,
+    "height": 1024
+  },
+  "outputMetadata": {
+    "format": "webp",
+    "width": 1600,
+    "height": 1000
+  },
+  "promptFile": "catalog-generator\\prompts\\audi-q7.txt"
+}
